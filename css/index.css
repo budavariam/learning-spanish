@@ -15,6 +15,8 @@
   --text-color: var(--color-gray-90);
   --text-color-link: #082840;
   --text-color-link-visited: #17050F;
+  --text-color-strong: rgb(255, 132, 0);
+  --text-color-em: rgb(146, 75, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +24,8 @@
     --color-gray-20: #e0e0e0;
     --color-gray-50: #C0C0C0;
     --color-gray-90: #dad8d8;
+    --text-color-strong: rgb(255, 132, 0);
+    --text-color-em: rgb(255, 188, 117);
 
     /* --text-color is assigned to --color-gray-_ above */
     --text-color-link: rgba(255, 255, 255, 0.84);
@@ -83,10 +87,12 @@ header:after {
 
 table {
   margin: 1em 0;
+  border-collapse: collapse;
 }
 table td,
 table th {
-  padding-right: 1em;
+  border: 1px solid var(--text-color);
+  padding: 3px 1em 3px 3px;
 }
 
 pre,
@@ -253,4 +259,12 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+strong {
+  color: var(--text-color-strong)
+}
+
+em {
+  color: var(--text-color-em)
 }
