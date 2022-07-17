@@ -1,10 +1,14 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Rólam
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: Rólam
   order: 3
 ---
 
-I am a person that writes stuff.
+Szia!
+
+Budavári Mátyás vagyok, fél évet éltem Alicantében csekély spanyol tudással, majd elhatárroztam, hogy jobban megtanulom a nyelvet.
+
+Erre az oldalra gyűjtök jegyzeteket melyek segíthetnek nekem a későbbi felidézésben, illetve a gyakorlásban.
