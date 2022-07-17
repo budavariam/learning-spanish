@@ -1,0 +1,26 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Learning Spanish",
+  "language": "hu",
+  "home_page_url": "https://budavariam.github.io/learning-spanish/",
+  "feed_url": "https://budavariam.github.io/learning-spanish/feed/feed.json",
+  "description": "Bolyongásaim a spanyol nyelv rejtelmeiben",
+  "author": {
+    "name": "Budavári Mátyás",
+    "url": "https://budavariam.github.io/learning-spanish/about-me/"
+  },
+  "items": [{
+      "id": "https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA2/",
+      "url": "https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA2/",
+      "title": "Cosmopolitan Nyelviskola A2 kurzus elindult",
+      "content_html": "<p>Hello!</p>\n<p>Kíváncsian várom mit tartogat ez a kurzus.</p>\n<p>Colores 2-es könyvet be is szereztem.</p>\n",
+      "date_published": "2022-06-27T00:00:00Z"
+    },{
+      "id": "https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA1/",
+      "url": "https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA1/",
+      "title": "Cosmopolitan Nyelviskola A1 kurzus elindult",
+      "content_html": "<p>Hello!</p>\n<p>Kíváncsian várom mit tartogat ez a kurzus.</p>\n<p>Colores 1-es könyvet be is szereztem.</p>\n",
+      "date_published": "2022-02-01T00:00:00Z"
+    }
+  ]
+}

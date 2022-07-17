@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Learning Spanish</title>
+	<subtitle>Bolyongásaim a spanyol nyelv rejtelmeiben</subtitle>
+	
+	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
+	<link href="https://budavariam.github.io/learning-spanish/"/>
+	<updated>2022-06-27T00:00:00Z</updated>
+	<id>https://budavariam.github.io/learning-spanish/</id>
+	<author>
+		<name>Budavári Mátyás</name>
+		<email>budavariam@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>Cosmopolitan Nyelviskola A2 kurzus elindult</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA2/"/>
+		<updated>2022-06-27T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA2/</id>
+		<content type="html">&lt;p&gt;Hello!&lt;/p&gt;
+&lt;p&gt;Kíváncsian várom mit tartogat ez a kurzus.&lt;/p&gt;
+&lt;p&gt;Colores 2-es könyvet be is szereztem.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cosmopolitan Nyelviskola A1 kurzus elindult</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA1/"/>
+		<updated>2022-02-01T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseA1/</id>
+		<content type="html">&lt;p&gt;Hello!&lt;/p&gt;
+&lt;p&gt;Kíváncsian várom mit tartogat ez a kurzus.&lt;/p&gt;
+&lt;p&gt;Colores 1-es könyvet be is szereztem.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
