@@ -1,21 +1,21 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Learning Spanish",
+  "url": "https://budavariam.github.io/learning-spanish/",
+  "language": "hu",
+  "description": "Bolyongásaim a spanyol nyelv rejtelmeiben",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Bolyongásaim a spanyol nyelv rejtelmeiben",
     "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "path": "/learning-spanish/feed/feed.xml",
+    "id": "https://budavariam.github.io/learning-spanish/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://budavariam.github.io/learning-spanish/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Budavári Mátyás",
+    "email": "budavariam@gmail.com",
+    "url": "https://budavariam.github.io/learning-spanish/about-me/"
   }
 }
