@@ -9,6 +9,6 @@ layout: layouts/post.njk
 
 Hello!
 
-Kíváncsian várom mit tartogat ez a kurzus.
+Kíváncsian várom mit tartogat ez a kurzus a [Cosmopolitan Lingua nyelviskola](https://www.cosmopolitan-lingua.hu/tanfolyam/spanyol-nyelvtanfolyam) szervezésében.
 
-Colores 2-es könyvet be is szereztem.
+[Colores 2](https://moly.hu/konyvek/nagy-erika-seres-krisztina-ana-orenga-portoles-colores-spanyol-nyelvkonyv-2)-es könyvet be is szereztem.

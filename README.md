@@ -1,4 +1,11 @@
-# eleventy-base-blog
+# Learning Spanish
+
+My journey on learning spanish.
+The posts and the site is currently only in hungarian.
+
+[DEMO](https://budavariam.github.io/learning-spanish/)
+
+## Base starter info
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
 

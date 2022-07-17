@@ -5,6 +5,7 @@ date: 2022-07-17
 tags:
   - nyelvtan
   - igeidő
+  - múlt
 layout: layouts/post.njk
 ---
 
@@ -12,13 +13,14 @@ layout: layouts/post.njk
 
 Az igék 3 csoporjára amik nem rendhagyóak:
 
-&nbsp; |-ar | -er | -ir
+&nbsp; | -ar | -er | -ir
 ----|----|----|----
 &nbsp;|hablar| comer|vivir
 yo|habl**é**|com**í**|viv**í**
 tú|habl**aste**|com**iste**|viv**iste**
 él/ella/usted|habl**ó**|com**ió**|viv**ió**
 nosotros/nosotras |habl**amos**|com**emos**|viv**imos**
+vosotros|habl**asteis**|com**isteis**|viv**isteis**
 ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
 
 ## Mikor használjuk
