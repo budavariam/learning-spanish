@@ -3,7 +3,7 @@ title: Cosmopolitan Nyelviskola A2 kurzus elindult
 description: Elkezdtem egy új kurzust
 date: 2022-06-27
 tags:
-  - full-course
+  - kurzus
 layout: layouts/post.njk
 ---
 

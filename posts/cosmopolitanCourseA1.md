@@ -3,7 +3,7 @@ title: Cosmopolitan Nyelviskola A1 kurzus elindult
 description: Elkezdtem egy új kurzust
 date: 2022-02-01
 tags:
-  - full-course
+  - kurzus
 layout: layouts/post.njk
 ---
 

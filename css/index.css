@@ -24,10 +24,10 @@
     --color-gray-90: #dad8d8;
 
     /* --text-color is assigned to --color-gray-_ above */
-    --text-color-link: #1493fb;
-    --text-color-link-visited: #868686;
+    --text-color-link: rgba(255, 255, 255, 0.84);
+    --text-color-link-visited: rgba(255, 255, 255, 0.84);
 
-    --background-color: #15202b;
+    --background-color: #1d1e20;
   }
 }
 
