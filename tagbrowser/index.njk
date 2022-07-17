@@ -1,0 +1,16 @@
+---
+layout: layouts/post.njk
+title: Címkék
+templateClass: tmpl-post
+eleventyNavigation:
+  key: Címkék
+  order: 3
+---
+
+<ul>
+{% for tag in collections.tagList %}
+<li>  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="tag">{{ tag | title }}</a>
+  </li>
+{% endfor %}
+</ul>

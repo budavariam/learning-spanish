@@ -4,6 +4,11 @@ eleventyNavigation:
   key: Kezdőlap
   order: 1
 ---
+
+Hasznos linkek:
+<a href="https://www.wordreference.com/conj/esverbs.aspx" target="_blank">Spanyol ragozás</a>
+<a href="http://szotar.avw.hu/" target="_blank">SZTE közösségi fejlesztésű szótára</a>
+
 {% set maxPosts = collections.posts.length | min(100) %}
 <h1>Legutóbbi {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} poszt{% endif %}</h1>
 

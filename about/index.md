@@ -4,12 +4,12 @@ title: Rólam
 templateClass: tmpl-post
 eleventyNavigation:
   key: Rólam
-  order: 3
+  order: 4
 ---
 
 Szia!
 
-Budavári Mátyás vagyok, fél évet éltem Alicantében csekély spanyol tudással, majd elhatárroztam, hogy jobban megtanulom a nyelvet.
+Budavári Mátyás vagyok, fél évet éltem Alicantében csekély spanyol tudással, majd elhatároztam, hogy jobban megtanulom a nyelvet.
 
 Erre az oldalra gyűjtök jegyzeteket melyek segíthetnek nekem a későbbi felidézésben, illetve a gyakorlásban.
 
