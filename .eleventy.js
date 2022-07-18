@@ -1,4 +1,5 @@
 const fs = require("fs");
+const csvParse = require("csv-parse/sync");
 
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
@@ -58,6 +59,14 @@ module.exports = function(eleventyConfig) {
     });
 
     return filterTagList([...tagSet]);
+  });
+
+  eleventyConfig.addDataExtension("csv", (contents) => {
+    const records = csvParse.parse(contents, {
+      columns: true,
+      skip_empty_lines: true,
+    });
+    return records;
   });
 
   // Customize Markdown library and settings:
