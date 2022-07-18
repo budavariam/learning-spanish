@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Szia!
 
-[Budavári Mátyás](https://budavariam.github.io/?utm_source=learning-spanish-blog&utm_medium=referral&utm_campaign=learning-spanish) vagyok, az egyetem után éltem [Alicantében](https://en.wikipedia.org/wiki/Alicante) programozó gyakornokként. Akkor a csekély spanyol tudásom eelég volt a munkához és a mindennapi élethez, viszont később elhatároztam, hogy jobban megtanulom a nyelvet.
+[Budavári Mátyás](https://budavariam.github.io/?utm_source=learning-spanish-blog&utm_medium=referral&utm_campaign=learning-spanish) vagyok, az egyetem után éltem [Alicantében](https://en.wikipedia.org/wiki/Alicante) programozó gyakornokként. Akkor a csekély spanyol tudásom elég volt a munkához és a mindennapi élethez, viszont később elhatároztam, hogy jobban megtanulom a nyelvet.
 
 Erre az oldalra gyűjtök jegyzeteket melyek segíthetnek nekem a későbbi felidézésben, illetve a gyakorlásban.
 

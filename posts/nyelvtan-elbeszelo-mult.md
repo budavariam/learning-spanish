@@ -55,13 +55,13 @@ ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
 andar| **anduv-** | -e, -iste, -o,-imos, -isteis, -**ie**ron
 estar| **estuv-** | &nbsp;
 tener| **tuv-** | &nbsp;
-hacer| **hic-**/**hiz-** | hace, hiciste, hi**zo, hicimos, hicisteis, hicieron
 querer| **quis-** | &nbsp;
 venir| **vin-** | &nbsp;
 haber| **hub-** | &nbsp;
 poner| **pus-** | &nbsp;
 poder| **pud-** | &nbsp;
 saber| **sup-** | &nbsp;
+hacer| **hic-**/**hiz-** | hace, hiciste, hi**z**o, hicimos, hicisteis, hicieron
 decir| **dij-** | -e, -iste, -o,-imos, -isteis, -**e**ron
 traducir| **traduj-** | &nbsp;
 conducir|**conduj-** | &nbsp;
