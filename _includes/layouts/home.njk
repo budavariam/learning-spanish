@@ -3,12 +3,3 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 {{ content | safe }}
-
-{{ mydata | log }}
-{% for row in mydata %}
-    {{ row | log }}
-    {{ row.title }}
-    {{ row.author }}
-    {{ row.rating }}
-    {{ row.status }}
-{% endfor %}
