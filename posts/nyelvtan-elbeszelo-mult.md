@@ -44,6 +44,7 @@ ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
   haber|hube|hubiste|hubo|hubimos|hubisteis|hubieron
   elegir|elegí|elegiste|el**i**gió|elegimos|elegisteis|el**i**gieron
   dar|di|diste|dio|dimos|disteis|dieron
+  ver|vi|viste|vio|vimos|visteis|vieron
 
 - hay&rarr;hubo
 - *elegir*-hez hasonló `-ir` végű tőhangváltó igék: *pedir, despedir, reírse, seguir, servir, vestirse* illetve *divertirse, herirse, preferir, sentir*.
