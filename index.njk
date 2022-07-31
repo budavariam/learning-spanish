@@ -5,9 +5,15 @@ eleventyNavigation:
   order: 1
 ---
 
-Hasznos linkek:
-<a href="https://www.wordreference.com/conj/esverbs.aspx" target="_blank">Spanyol ragozás</a>
-<a href="http://szotar.avw.hu/" target="_blank">SZTE közösségi fejlesztésű szótára</a>
+<h2>Hasznos linkek</h2>
+
+<ul>
+<li><a href="https://www.wordreference.com/conj/esverbs.aspx" target="_blank">Spanyol ragozás szótár</a></li>
+<li><a href="http://szotar.avw.hu/" target="_blank">SZTE közösségi fejlesztésű Spanyol-Magyar szótára</a></li>
+<li><a href="https://podcast.duolingo.com/spanish" target="_blank">Duolingo Spanyol podcast angol kontextussal</a></li>
+<li><a href="https://podcast.duolingo.com/ingles-espanol" target="_blank">Duolingo Angol podcast spanyoloknak visszafelé tanuláshoz</a></li>
+<li><a href="https://www.languagereactor.com/" target="_blank">Netflix/Youtube nyelvtanulás segítő alkalmazás</a></li>
+</ul>
 
 {% set maxPosts = collections.posts.length | min(100) %}
 <h1>Legutóbbi {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} poszt{% endif %}</h1>
