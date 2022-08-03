@@ -27,10 +27,10 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 - A múltban szokásos, rendszeresen **ismétlődő** cselekmény kifejezése
 - Személyek, tárgya, helyzetek múltbéli **leírása**, történet hátteránek bemutatása
-- Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mmondjuk meg konkrétan mikor történt, hosszan tartó történés kifejezése
-- A múltban folyamatban folyamatban levő egy eseményt (*Pretérito Imperfecto*) egy másik esemény megszakítja (*Pretérito Indefinido*)
+- Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mondjuk meg konkrétan mikor történt, **hosszan tartó történés** kifejezése
+- A múltban folyamatban levő eseményt (*Pretérito Imperfecto*) egy másik esemény megszakítja (*Pretérito Indefinido*)
 
-> Hasonlít az angolból ismert Past continous-ra, illetve az ott használt `used to` szerkezetre.
+> Hasonlít az angolból ismert Past continuous-ra, illetve az angolban használt `used to` szerkezetre.
 
 ## Gyakran előforduló időhatározói
 
