@@ -16,7 +16,7 @@ eleventyNavigation:
 </ul>
 
 {% set maxPosts = collections.posts.length | min(100) %}
-<h1>Legutóbbi {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} poszt{% endif %}</h1>
+{# <h1>Legutóbbi {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} poszt{% endif %}</h1> #}
 
 {% set postslist = collections.posts | head(-100) %}
 {% set postslistCounter = collections.posts | length %}

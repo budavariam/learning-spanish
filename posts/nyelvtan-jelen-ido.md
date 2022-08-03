@@ -64,4 +64,4 @@ ser|soy|eres|es|somos|sois|son
 haber|he|has|ha/hay|hemos|habéis|han
 ir|voy|vas|va|vamos|vais|van
 oir|oigo|oyes|oye|oímos|oís|oyen
-  
+oler|huelo|hueles|huele|olemos|oléis|huelen
