@@ -25,12 +25,18 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 ## Mikor használjuk
 
-- Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mmondjuk meg konkrétan mikor történt
-- A múltban **ismétlődő** cselekmény kifejezésére, gyakoriság hangsúlyozása
-- Személyek, tárgya, helyzetek múltbéli **leírása**
-- A múltban folyamatban volt egy esemény (*Pretérito Imperfecto*), és azt egy mmásik esemény megszakítja (*Pretérito Indefinido*)
+- A múltban szokásos, rendszeresen **ismétlődő** cselekmény kifejezése
+- Személyek, tárgya, helyzetek múltbéli **leírása**, történet hátteránek bemutatása
+- Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mmondjuk meg konkrétan mikor történt, hosszan tartó történés kifejezése
+- A múltban folyamatban folyamatban levő egy eseményt (*Pretérito Imperfecto*) egy másik esemény megszakítja (*Pretérito Indefinido*)
 
 > Hasonlít az angolból ismert Past continous-ra, illetve az ott használt `used to` szerkezetre.
+
+## Gyakran előforduló időhatározói
+
+- antes, siempre, generalmente, con frecuencia
+- cada día, cada semana, todos los días
+- los lunes, etc.
 
 ## Rendhagyó igék
 
