@@ -17,7 +17,7 @@ layout: layouts/post.njk
 `3` tres|`13` **trece**|`32` treinta y dos|`300` trescientos
 `4` quatro|`14` **quatorce**|`40` quarenta|`400` cuatrocientos
 `5` cinco|`15` **quince** |`50` cinquenta|`500` **quinientos**
-`6` seis|`16` dieciséis|`60` sesenta|`600` seiscientos
+`6` seis|`16` diecis**é**is|`60` sesenta|`600` seiscientos
 `7` siete|`17` diecisiete|`70` setenta|`700` **setecientos**
 `8` ocho|`18` dieciocho|`80` ochenta|`800` ochocientos
 `9` nueve|`19` diecinueve|`90` noventa|`900` **novecientos**
@@ -29,7 +29,11 @@ layout: layouts/post.njk
 ### Tőszámnevek szabályai
 
 - 1-15-ig minden számnak külön neve van
-- 16-29-ig egybe írjuk őket `-y`-vel kapcsolva amit `-i`-nek írunk.
+- 16-29-ig egybe írjuk őket `-y`-vel kapcsolva amit `-i`-nek írunk. Bizonyos számok esetén a hangsúlyt külön jelöljük:
+  - 16 - diecis**é**is
+  - 22 - veintid**ó**s
+  - 23 - veintitr**é**s
+  - 26 - veintis**é**is
 - 31-99-ig töb szóból állnak közéjük `y` kötőszót teszünk
 - 100 többszöröseit egy szóba írjuk `-cientos/-cientas` többes szám összetételével képződnek
 - Az *uno* nőnemű alakja *una*, egyes számú hímnemű főnév előtt *un*-ra rövidül
