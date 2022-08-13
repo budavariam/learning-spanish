@@ -36,6 +36,7 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 - antes, siempre, generalmente, con frecuencia
 - cada día, cada semana, todos los días
+- por la mañana, etc.
 - los lunes, etc.
 
 ## Rendhagyó igék

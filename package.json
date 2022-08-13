@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "7.0.0",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "learning-spanish",
+  "version": "0.2.0",
+  "description": "My journey on learning spanish",
   "scripts": {
     "build": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'learning-spanish'",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
