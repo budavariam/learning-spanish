@@ -5,12 +5,211 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2022-08-03T00:00:00Z</updated>
+	<updated>2022-08-13T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Számnevek</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/szamok/"/>
+		<updated>2022-08-13T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/szamok/</id>
+		<content type="html">&lt;h2 id=&quot;toszamnevek&quot; tabindex=&quot;-1&quot;&gt;Tőszámnevek &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/szamok/#toszamnevek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;0-9&lt;/th&gt;
+&lt;th&gt;10-19&lt;/th&gt;
+&lt;th&gt;20-90&lt;/th&gt;
+&lt;th&gt;100-1000&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;0&lt;/code&gt; cero&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;10&lt;/code&gt; diez&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;20&lt;/code&gt; veinte&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;1&lt;/code&gt; uno&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;11&lt;/code&gt; &lt;strong&gt;once&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;21&lt;/code&gt; &lt;strong&gt;veintiuno&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;100&lt;/code&gt; ciento&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;2&lt;/code&gt; dos&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;12&lt;/code&gt; &lt;strong&gt;doce&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;30&lt;/code&gt; treinta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;200&lt;/code&gt; doscientos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;3&lt;/code&gt; tres&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;13&lt;/code&gt; &lt;strong&gt;trece&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;32&lt;/code&gt; treinta y dos&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;300&lt;/code&gt; trescientos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;4&lt;/code&gt; quatro&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;14&lt;/code&gt; &lt;strong&gt;quatorce&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;40&lt;/code&gt; quarenta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;400&lt;/code&gt; cuatrocientos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;5&lt;/code&gt; cinco&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;15&lt;/code&gt; &lt;strong&gt;quince&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;50&lt;/code&gt; cinquenta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;500&lt;/code&gt; &lt;strong&gt;quinientos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;6&lt;/code&gt; seis&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;16&lt;/code&gt; dieciséis&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;60&lt;/code&gt; sesenta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;600&lt;/code&gt; seiscientos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;7&lt;/code&gt; siete&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;17&lt;/code&gt; diecisiete&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;70&lt;/code&gt; setenta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;700&lt;/code&gt; &lt;strong&gt;setecientos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;8&lt;/code&gt; ocho&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;18&lt;/code&gt; dieciocho&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;80&lt;/code&gt; ochenta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;800&lt;/code&gt; ochocientos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;9&lt;/code&gt; nueve&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;19&lt;/code&gt; diecinueve&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;90&lt;/code&gt; noventa&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;900&lt;/code&gt; &lt;strong&gt;novecientos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;1 000&lt;/code&gt; mil&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1 000 000&lt;/code&gt; millón&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1 000 000 000&lt;/code&gt; mil millones, (millardo dél-am.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;toszamnevek-szabalyai&quot; tabindex=&quot;-1&quot;&gt;Tőszámnevek szabályai &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/szamok/#toszamnevek-szabalyai&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1-15-ig minden számnak külön neve van&lt;/li&gt;
+&lt;li&gt;16-29-ig egybe írjuk őket &lt;code&gt;-y&lt;/code&gt;-vel kapcsolva amit &lt;code&gt;-i&lt;/code&gt;-nek írunk.&lt;/li&gt;
+&lt;li&gt;31-99-ig töb szóból állnak közéjük &lt;code&gt;y&lt;/code&gt; kötőszót teszünk&lt;/li&gt;
+&lt;li&gt;100 többszöröseit egy szóba írjuk &lt;code&gt;-cientos/-cientas&lt;/code&gt; többes szám összetételével képződnek&lt;/li&gt;
+&lt;li&gt;Az &lt;em&gt;uno&lt;/em&gt; nőnemű alakja &lt;em&gt;una&lt;/em&gt;, egyes számú hímnemű főnév előtt &lt;em&gt;un&lt;/em&gt;-ra rövidül&lt;/li&gt;
+&lt;li&gt;A &lt;em&gt;ciento&lt;/em&gt; főnév vagy mmagasabbb számnév előtt &lt;em&gt;cien&lt;/em&gt;-re rövidül&lt;/li&gt;
+&lt;li&gt;A szóvégi &lt;code&gt;-z&lt;/code&gt; a diez szóban &lt;code&gt;-c&lt;/code&gt;-re változik&lt;/li&gt;
+&lt;li&gt;Tizedesvesszőt &lt;code&gt;coma&lt;/code&gt;-nak mondjuk a tizedestörtek esetén&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;sorszamnevek&quot; tabindex=&quot;-1&quot;&gt;Sorszámnevek &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/szamok/#sorszamnevek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;0-9&lt;/th&gt;
+&lt;th&gt;10-19&lt;/th&gt;
+&lt;th&gt;20-90&lt;/th&gt;
+&lt;th&gt;100-1000&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&lt;code&gt;10.&lt;/code&gt; décimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;20.&lt;/code&gt; vigésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;100.&lt;/code&gt; centésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;1.&lt;/code&gt; primero&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;11.&lt;/code&gt; undécimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;21.&lt;/code&gt; &lt;strong&gt;vigésimo primero&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;106.&lt;/code&gt; &lt;strong&gt;centésimo sexto&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;2.&lt;/code&gt; segundo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;12.&lt;/code&gt; duodécimo&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&lt;code&gt;200.&lt;/code&gt; duocentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;3.&lt;/code&gt; tercero&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;13.&lt;/code&gt; décimo tecero&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;30.&lt;/code&gt; trigésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;300.&lt;/code&gt; tricentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;4.&lt;/code&gt; cuarto&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;14.&lt;/code&gt; décimo cuarto&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;40.&lt;/code&gt; cuadragésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;400.&lt;/code&gt; cuadringentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;5.&lt;/code&gt; quinto&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;15.&lt;/code&gt; décimo quinto&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;50.&lt;/code&gt; quincuagésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;500.&lt;/code&gt; quingentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;6.&lt;/code&gt; sexto&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;16.&lt;/code&gt; décimo sexto&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;60.&lt;/code&gt; sexagésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;600.&lt;/code&gt; sexcentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;7.&lt;/code&gt; séptimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;17.&lt;/code&gt; décimo séptimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;70.&lt;/code&gt; septuagésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;700.&lt;/code&gt; septingentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;8.&lt;/code&gt; octavo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;18.&lt;/code&gt; décimo octavo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;80.&lt;/code&gt; octogésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;800.&lt;/code&gt; octingentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;9.&lt;/code&gt; noveno&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;19.&lt;/code&gt; décimo noveno&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;90.&lt;/code&gt; nonagésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;900&lt;/code&gt; noningentésimo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;1 000.&lt;/code&gt; milésimo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;1 000 000&lt;/code&gt; millonésimo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;último&lt;/code&gt;: utolsó&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;penúltimo&lt;/code&gt;: utolsó előtti&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;antepenúltimo&lt;/code&gt;: utolsó előtti előtti&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;sorszamnevek-szabalyai&quot; tabindex=&quot;-1&quot;&gt;Sorszámnevek szabályai &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/szamok/#sorszamnevek-szabalyai&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;primero&lt;/code&gt; és &lt;code&gt;tercero&lt;/code&gt; egyes számú hímnemű főnév előtt &lt;code&gt;primer&lt;/code&gt;-re és &lt;code&gt;tercer&lt;/code&gt;-re rövidül, összetett számok esetén is&lt;/li&gt;
+&lt;li&gt;végződések:
+&lt;ul&gt;
+&lt;li&gt;tizesek: &lt;code&gt;-gésimo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;százasok: &lt;code&gt;-centésimo&lt;/code&gt;/&lt;code&gt;-gentésimo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;nagyobb számok: &lt;code&gt;-ésimo&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;13-29. sorszámnevek egybe IS írhatóak&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Folyamatos múlt (Pretérito Imperfecto)</title>
