@@ -13,8 +13,6 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
-  // Copy `img/favicon/` to `_site/`
-  eleventyConfig.addPassthroughCopy({ "img/favicon": "/" });
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
