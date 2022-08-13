@@ -66,7 +66,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;6&lt;/code&gt; seis&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;16&lt;/code&gt; dieciséis&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;16&lt;/code&gt; diecis&lt;strong&gt;é&lt;/strong&gt;is&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;60&lt;/code&gt; sesenta&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;600&lt;/code&gt; seiscientos&lt;/td&gt;
 &lt;/tr&gt;
@@ -98,7 +98,14 @@
 &lt;h3 id=&quot;toszamnevek-szabalyai&quot; tabindex=&quot;-1&quot;&gt;Tőszámnevek szabályai &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/szamok/#toszamnevek-szabalyai&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;1-15-ig minden számnak külön neve van&lt;/li&gt;
-&lt;li&gt;16-29-ig egybe írjuk őket &lt;code&gt;-y&lt;/code&gt;-vel kapcsolva amit &lt;code&gt;-i&lt;/code&gt;-nek írunk.&lt;/li&gt;
+&lt;li&gt;16-29-ig egybe írjuk őket &lt;code&gt;-y&lt;/code&gt;-vel kapcsolva amit &lt;code&gt;-i&lt;/code&gt;-nek írunk. Bizonyos számok esetén a hangsúlyt külön jelöljük:
+&lt;ul&gt;
+&lt;li&gt;16 - diecis&lt;strong&gt;é&lt;/strong&gt;is&lt;/li&gt;
+&lt;li&gt;22 - veintid&lt;strong&gt;ó&lt;/strong&gt;s&lt;/li&gt;
+&lt;li&gt;23 - veintitr&lt;strong&gt;é&lt;/strong&gt;s&lt;/li&gt;
+&lt;li&gt;26 - veintis&lt;strong&gt;é&lt;/strong&gt;is&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;31-99-ig töb szóból állnak közéjük &lt;code&gt;y&lt;/code&gt; kötőszót teszünk&lt;/li&gt;
 &lt;li&gt;100 többszöröseit egy szóba írjuk &lt;code&gt;-cientos/-cientas&lt;/code&gt; többes szám összetételével képződnek&lt;/li&gt;
 &lt;li&gt;Az &lt;em&gt;uno&lt;/em&gt; nőnemű alakja &lt;em&gt;una&lt;/em&gt;, egyes számú hímnemű főnév előtt &lt;em&gt;un&lt;/em&gt;-ra rövidül&lt;/li&gt;
