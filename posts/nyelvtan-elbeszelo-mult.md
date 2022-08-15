@@ -62,7 +62,7 @@ haber| **hub-** | &nbsp;
 poner| **pus-** | &nbsp;
 poder| **pud-** | &nbsp;
 saber| **sup-** | &nbsp;
-hacer| **hic-**/**hiz-** | hace, hiciste, hi**z**o, hicimos, hicisteis, hicieron
+hacer| **hic-**/**hiz-** | hice, hiciste, hi**z**o, hicimos, hicisteis, hicieron
 decir| **dij-** | -e, -iste, -o,-imos, -isteis, -**e**ron
 traducir| **traduj-** | &nbsp;
 conducir|**conduj-** | &nbsp;
