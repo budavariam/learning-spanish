@@ -54,10 +54,10 @@ layout: layouts/post.njk
 `6.` sexto|`16.` décimo sexto|`60.` sexagésimo|`600.` sexcentésimo
 `7.` séptimo|`17.` décimo séptimo|`70.` septuagésimo|`700.` septingentésimo
 `8.` octavo|`18.` décimo octavo|`80.` octogésimo|`800.` octingentésimo
-`9.` noveno|`19.` décimo noveno|`90.` nonagésimo|`900` noningentésimo
+`9.` noveno|`19.` décimo noveno|`90.` nonagésimo|`900.` noningentésimo
 
 - `1 000.` milésimo
-- `1 000 000` millonésimo
+- `1 000 000.` millonésimo
 
 - `último`: utolsó
 - `penúltimo`: utolsó előtti
