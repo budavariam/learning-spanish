@@ -5,12 +5,133 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2022-08-13T00:00:00Z</updated>
+	<updated>2022-08-17T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Régmúlt (Pretérito Pluscuamperfecto)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/"/>
+		<updated>2022-08-17T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/</id>
+		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige &lt;a href=&quot;https://budavariam.github.io/posts/nyelvtan-folyamatos-mult/&quot;&gt;Imperfecto&lt;/a&gt; alakjából és az ige melléknévi igenévi alakjából alakjával (&lt;code&gt;participio&lt;/code&gt;) képezzük.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;haber&lt;/th&gt;
+&lt;th&gt;múlt idejű igenév&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;h&lt;strong&gt;abía&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;ar:&lt;strong&gt;-ado&lt;/strong&gt;, er:&lt;strong&gt;-ido&lt;/strong&gt;, ir:&lt;strong&gt;-ido&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;h&lt;strong&gt;abías&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;h&lt;strong&gt;abía&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;h&lt;strong&gt;abíamos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;h&lt;strong&gt;abíais&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;h&lt;strong&gt;abían&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A múlt egy adott pontjából &lt;em&gt;visszautalunk&lt;/em&gt; egy annál &lt;em&gt;hamarabb&lt;/em&gt; történt eseményre&lt;/li&gt;
+&lt;li&gt;Valami &lt;em&gt;első alkalommal&lt;/em&gt; történik, hangsúlyozzuk, hogy eddig még sosem történt ilyen&lt;/li&gt;
+&lt;li&gt;Szeretnénk kifejezni, hogy egy esemény egy másik után szerintünk &lt;em&gt;túl hamar&lt;/em&gt; történt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hasonlít az angolból ismert Past Perfectre&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;gyakran-elofordulo-idohatarozoi&quot; tabindex=&quot;-1&quot;&gt;Gyakran előforduló időhatározói &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/#gyakran-elofordulo-idohatarozoi&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;hoy&lt;/em&gt;: ma&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;esta (semana/mes/año/verano/tarde/noche/mañana)&lt;/em&gt;: még tartó intervallum&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;nunca, siempre, todavía&lt;/em&gt;: eddig így volt, később ez változhat&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ya, todavía, alguna vez&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;acaban de&lt;/em&gt;: nemrég, az imént, az előbb, most, épp most&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Megegyeznek a &lt;a href=&quot;https://budavariam.github.io/posts/nyelvtan-kozelmult/&quot;&gt;Pretérito Perfecto&lt;/a&gt;nál megismert rendhagyó alakokkal.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;&lt;code&gt;Participado pasado&lt;/code&gt; alak&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;abrir&lt;/td&gt;
+&lt;td&gt;abier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;escribir&lt;/td&gt;
+&lt;td&gt;escri&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;morir&lt;/td&gt;
+&lt;td&gt;muer&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;pues&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;romper&lt;/td&gt;
+&lt;td&gt;ro&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ver&lt;/td&gt;
+&lt;td&gt;vis&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;volver&lt;/td&gt;
+&lt;td&gt;vuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cubrir&lt;/td&gt;
+&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Továbbá pre&lt;strong&gt;decir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, des&lt;strong&gt;cubrir&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Számnevek</title>
