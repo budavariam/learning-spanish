@@ -17,6 +17,10 @@ templateClass: tmpl-post
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {%- if nextPost or previousPost %}
 <hr>
+{%- set githubUrl %}https://github.com/budavariam/learning-spanish/blob/main/{{ page.filePathStem }}.md{% endset %}
+<small>Van egy ötletem! Szeretnék <a href="{{ githubUrl }}" class="github-url">javítani ezen az oldalon</a> githubon keresztül!</small>
+<hr>
+
 <ul>
   {%- if nextPost %}<li>Következő: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
   {%- if previousPost %}<li>Előző: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
