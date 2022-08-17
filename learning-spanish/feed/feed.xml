@@ -295,7 +295,7 @@
 &lt;td&gt;&lt;code&gt;9.&lt;/code&gt; noveno&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;19.&lt;/code&gt; décimo noveno&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;90.&lt;/code&gt; nonagésimo&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;900&lt;/code&gt; noningentésimo&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;900.&lt;/code&gt; noningentésimo&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -304,7 +304,7 @@
 &lt;p&gt;&lt;code&gt;1 000.&lt;/code&gt; milésimo&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;1 000 000&lt;/code&gt; millonésimo&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1 000 000.&lt;/code&gt; millonésimo&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;último&lt;/code&gt;: utolsó&lt;/p&gt;
