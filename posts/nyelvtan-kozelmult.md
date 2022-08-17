@@ -6,6 +6,7 @@ tags:
   - nyelvtan
   - igeidő
   - múlt
+  - participio
 layout: layouts/post.njk
 ---
 
