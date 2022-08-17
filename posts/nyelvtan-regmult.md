@@ -31,14 +31,6 @@ ellos/ellas/ustedes|h**abían**|
 
 > Hasonlít az angolból ismert Past Perfectre
 
-## Gyakran előforduló időhatározói
-
-- *hoy*: ma
-- *esta (semana/mes/año/verano/tarde/noche/mañana)*: még tartó intervallum
-- *nunca, siempre, todavía*: eddig így volt, később ez változhat
-- *ya, todavía, alguna vez*
-- *acaban de*: nemrég, az imént, az előbb, most, épp most
-
 ## Rendhagyó igék
 
 Megegyeznek a [Pretérito Perfecto](/posts/nyelvtan-kozelmult/)nál megismert rendhagyó alakokkal.
