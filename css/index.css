@@ -265,6 +265,12 @@ strong {
   color: var(--text-color-strong)
 }
 
-em {
+em, code {
   color: var(--text-color-em)
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 0 14px;
+  border-inline-start: 3px solid var(--color-gray-20);
 }
