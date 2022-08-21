@@ -25,6 +25,8 @@ ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
 
 ## Mikor használjuk
 
+> Előreviszi a cselekményt, időben *folyamatosan halad előre*, mindig a *következő eseményt* mondja.
+
 - Lezárult időszak jelölésére
 - Behatárolt időszak jelölésére
 - Egyszeri, valamint meghatározott számú cselekvést vagy eseményt is kifejezhet

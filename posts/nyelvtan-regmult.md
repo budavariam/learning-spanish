@@ -25,6 +25,8 @@ ellos/ellas/ustedes|h**abían**|
 
 ## Mikor használjuk
 
+> Visszamegyünk egy *előző* eseményhez, melyet akkor még nem mondtunk, vagy még a történetünk előtt történt.
+
 - A múlt egy adott pontjából *visszautalunk* egy annál *hamarabb* történt eseményre
 - Valami *első alkalommal* történik, hangsúlyozzuk, hogy eddig még sosem történt ilyen
 - Szeretnénk kifejezni, hogy egy esemény egy másik után szerintünk *túl hamar* történt

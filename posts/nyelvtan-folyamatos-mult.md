@@ -25,6 +25,8 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 ## Mikor használjuk
 
+> A történet egy pontján *megállunk* és szétnézünk: ábrázoljuk a helyszínt, a jelenlevőket, elmondjuk az éppen zajló eseményeket.
+
 - A múltban szokásos, rendszeresen **ismétlődő** cselekmény kifejezése
 - Személyek, tárgya, helyzetek múltbéli **leírása**, történet hátteránek bemutatása
 - Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mondjuk meg konkrétan mikor történt, **hosszan tartó történés** kifejezése
