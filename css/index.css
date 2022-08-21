@@ -11,12 +11,13 @@
   --color-gray-90: #333;
 
   --background-color: #fff;
-
-  --text-color: #333;
+  
+  --text-color: var(--color-gray-90);
   --text-color-link: #082840;
   --text-color-link-visited: #17050F;
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(146, 75, 0);
+  --text-background-hover: var(--color-gray-20);
 }
 
 :root .dark-mode {
@@ -32,6 +33,7 @@
   --text-color-link-visited: rgba(255, 255, 255, 0.84);
   --text-color: #dad8d8;
   --background-color: #1d1e20;
+  --text-background-hover: #4a4a4a;
 }
 
 /* Global stylesheet */
@@ -220,7 +222,7 @@ a[href].post-tag:visited {
 }
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color: var(--color-gray-20);
+  background-color: var(--text-background-hover);
 }
 .postlist-item > .post-tag {
   align-self: center;
@@ -277,4 +279,5 @@ blockquote {
 
 #color-scheme-toggle {
   height: 15px;
+  cursor: pointer;
 }
