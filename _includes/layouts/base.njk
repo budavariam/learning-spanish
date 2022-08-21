@@ -25,6 +25,7 @@
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
+      <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
 
@@ -35,5 +36,14 @@
     <footer></footer>
 
     <!-- Current page: {{ page.url | url }} -->
+
+    <!-- capture the JS content as a Nunjucks variable -->
+    {% set js %}
+      {% include "preferred-color-scheme.js" %}
+    {% endset %}
+    <!-- feed it through our jsmin filter to minify -->
+    <script>
+      {{ js | jsmin | safe }}
+    </script>
   </body>
 </html>

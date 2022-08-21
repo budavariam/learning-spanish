@@ -8,6 +8,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const { minify } = require("terser");
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -60,6 +61,21 @@ module.exports = function(eleventyConfig) {
 
     return filterTagList([...tagSet]);
   });
+
+  eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
+    code,
+    callback
+  ) {
+    try {
+      const minified = await minify(code);
+      callback(null, minified.code);
+    } catch (err) {
+      console.error("Terser error: ", err);
+      // Fail gracefully.
+      callback(null, code);
+    }
+  });
+  
 
   eleventyConfig.addDataExtension("csv", (contents) => {
     const records = csvParse.parse(contents, {

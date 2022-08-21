@@ -11,30 +11,30 @@
   --color-gray-90: #333;
 
   --background-color: #fff;
-
+  
   --text-color: var(--color-gray-90);
   --text-color-link: #082840;
   --text-color-link-visited: #17050F;
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(146, 75, 0);
+  --text-background-hover: var(--color-gray-20);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-gray-20: #e0e0e0;
-    --color-gray-50: #C0C0C0;
-    --color-gray-90: #dad8d8;
-    --text-color-strong: rgb(255, 132, 0);
-    --text-color-em: rgb(255, 188, 117);
+:root .dark-mode {
+  /* dark mode variables */
+  --color-gray-20: #e0e0e0;
+  --color-gray-50: #C0C0C0;
+  --color-gray-90: #dad8d8;
+  --text-color-strong: rgb(255, 132, 0);
+  --text-color-em: rgb(255, 188, 117);
 
-    /* --text-color is assigned to --color-gray-_ above */
-    --text-color-link: rgba(255, 255, 255, 0.84);
-    --text-color-link-visited: rgba(255, 255, 255, 0.84);
-
-    --background-color: #1d1e20;
-  }
+  /* --text-color is assigned to --color-gray-_ above */
+  --text-color-link: rgba(255, 255, 255, 0.84);
+  --text-color-link-visited: rgba(255, 255, 255, 0.84);
+  --text-color: #dad8d8;
+  --background-color: #1d1e20;
+  --text-background-hover: #4a4a4a;
 }
-
 
 /* Global stylesheet */
 * {
@@ -45,9 +45,13 @@ html,
 body {
   padding: 0;
   margin: 0;
+}
+
+body {
   font-family: var(--font-family);
   color: var(--text-color);
   background-color: var(--background-color);
+  overscroll-behavior-y: none;
 }
 
 p:last-child {
@@ -218,7 +222,7 @@ a[href].post-tag:visited {
 }
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color: var(--color-gray-20);
+  background-color: var(--text-background-hover);
 }
 .postlist-item > .post-tag {
   align-self: center;
@@ -228,10 +232,8 @@ a[href].post-tag:focus {
 :root {
   --color-infobox: #ffc;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-infobox: #082840;
-  }
+:root .dark-mode {
+  --color-infobox: #082840;
 }
 
 .infobox {
@@ -273,4 +275,9 @@ blockquote {
   margin: 20px 0;
   padding: 0 14px;
   border-inline-start: 3px solid var(--color-gray-20);
+}
+
+#color-scheme-toggle {
+  height: 15px;
+  cursor: pointer;
 }
