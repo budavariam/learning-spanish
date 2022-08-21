@@ -22,6 +22,7 @@
         <li class="nav-item"><a href="/learning-spanish/tagbrowser/">Címkék</a></li>
         <li class="nav-item"><a href="/learning-spanish/szavak/">Szavak</a></li>
         <li class="nav-item"><a href="/learning-spanish/about/">Rólam</a></li>
+      <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
 
@@ -160,5 +161,12 @@
     <footer></footer>
 
     <!-- Current page: /learning-spanish/posts/nyelvtan-kozelmult/ -->
+
+    <!-- capture the JS content as a Nunjucks variable -->
+    
+    <!-- feed it through our jsmin filter to minify -->
+    <script>
+      !function(){const e=document.body,c=document.getElementById("color-scheme-toggle"),t="dark",a="light",l="color-scheme";c.addEventListener("click",(()=>{const o=e.classList.toggle("dark-mode"),r=o?t:a;localStorage.setItem(l,r),o?(c.src=c.src.replace(t,a),c.alt=c.alt.replace(t,a)):(c.src=c.src.replace(a,t),c.alt=c.alt.replace(a,t)),c.dispatchEvent(new CustomEvent("colorSchemeChanged",{detail:r}))})),function(){const e=matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches;let o=localStorage.getItem(l);o=!o&&e?t:o||a,o===t&&c.click()}()}();
+    </script>
   </body>
 </html>
