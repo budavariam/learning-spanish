@@ -17,6 +17,7 @@
   --text-color-link-visited: #17050F;
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(146, 75, 0);
+  --text-color-code: rgb(195, 101, 1);
   --text-background-hover: var(--color-gray-20);
 }
 
@@ -27,6 +28,7 @@
   --color-gray-90: #dad8d8;
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(255, 188, 117);
+  --text-color-code: rgb(253, 165, 71);
 
   /* --text-color is assigned to --color-gray-_ above */
   --text-color-link: rgba(255, 255, 255, 0.84);
@@ -267,8 +269,12 @@ strong {
   color: var(--text-color-strong)
 }
 
-em, code {
+em {
   color: var(--text-color-em)
+}
+
+code {
+  color: var(--text-color-code)
 }
 
 blockquote {
