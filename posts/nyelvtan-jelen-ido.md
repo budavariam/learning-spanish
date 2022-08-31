@@ -42,6 +42,7 @@ ellos/ellas/ustedes |habl**an**|com**en**|viv**en**
   **o&rarr;ue**|contar|c**ue**nto|c**ue**ntas|c**ue**nta|contamos|contáis|c**ue**ntan
   o&rarr;ue|mover|m**ue**vo|m**ue**ves|m**ue**ve|movemos|movéis|m**ue**ven
   o&rarr;ue|dormir|d**ue**rmo|d**ue**rmes|d**ue**rme|dormimos|dormís|d**ue**rmen
+  o&rarr;ue|soner|s**ue**lo|s**ue**les|s**ue**le|solemos|soléis|s**ue**len
   **e&rarr;i**|pedir|p**i**do|p**i**des|p**i**de|pedimos|pedís|p**i**den
   **i&rarr;y**|construir|constru**y**o|constru**y**es|constru**y**e|construimos|construís|constru**y**en
   **i&rarr;í**|ampliar|ampl**í**o|ampl**í**as|ampl**í**a|ampliamos|ampliáis|ampl**í**an
