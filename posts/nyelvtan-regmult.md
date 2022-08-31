@@ -12,7 +12,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-A **haber** segédige [Imperfecto](/posts/nyelvtan-folyamatos-mult/) alakjából és az ige melléknévi igenévi alakjából alakjával (`participio`) képezzük.
+A **haber** segédige [Imperfecto]({{'/posts/nyelvtan-folyamatos-mult/' | url }}) alakjából és az ige melléknévi igenévi alakjából alakjával (`participio`) képezzük.
 
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
@@ -35,7 +35,7 @@ ellos/ellas/ustedes|h**abían**|
 
 ## Rendhagyó igék
 
-Megegyeznek a [Pretérito Perfecto](/posts/nyelvtan-kozelmult/)nál megismert rendhagyó alakokkal.
+Megegyeznek a [Pretérito Perfecto]({{'/posts/nyelvtan-kozelmult/' | url}})nál megismert rendhagyó alakokkal.
 
 &nbsp;| `Participado pasado` alak
 ----|----

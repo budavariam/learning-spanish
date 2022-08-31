@@ -12,19 +12,6 @@ nervioso,ideges
 reglas,szabályok
 tráfico,forgalom
 
-család,padre,apa
-család,madre,anya
-család,hijo,fia
-család,hija,lánya
-család,hombre,férfi
-család,mujer,nő
-család,niña,kislány
-család,niño,kisfiú
-család,hermano,fiútestvér
-család,hermana,lánytestvér
-család,nieto,fiú unoka
-család,nieta,lány unoka
-
 
 rápido,gyorsan
 
@@ -155,12 +142,17 @@ a veces,néha
 de vez en cuando,alkalmanként
 oportunidad,lehetőség
 suelo,gyakran
-la mayoría de las veces,gyakran
+la mayorímiade las veces,gyakranugyanígy
 sobre todo,főleg
 tabla de skate,gördeszka
 cosiderar,megfontol
-espejo,tükör
-para colmo,ha még ez nem lenne elég
+espejo,tükörtehát
+confusión,zavar/félreértés
+aunque,habár/de
+por ejemplo,például
+muy abrigada,fel van öltözve
+agotada,
+sabroso,ízletes
 lío,kupi összevisszaság
 amante,szerető
 maravilla,csodás
@@ -215,3 +207,15 @@ intestina delgado,vékonybél
 intestina grueso,vastagbél
 cuerpo,test
 picaduras,csípések
+
+asímismo,ugyanígy
+enfadarse,megharagudni
+finalmente,végül
+por eso,ezért
+así,tehát
+confusión,zavar/félreértés
+aunque,habár/de
+por ejemplo,például
+muy abrigada,fel van öltözve
+agotada,
+sabroso,ízletes

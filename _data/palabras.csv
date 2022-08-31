@@ -12,6 +12,19 @@ szin,szürke,gris
 szin,zöld,verde
 ruha,aguja,varrni
 ruha,hilo,tű
-ruha,el,boton,gomb
+ruha,el boton,gomb
 ruha,tejer,kötni
 ruha,jersey,kötött pulcsi
+
+család,padre,apa
+család,madre,anya
+család,hijo,fia
+család,hija,lánya
+család,hombre,férfi
+család,mujer,nő
+család,niña,kislány
+család,niño,kisfiú
+család,hermano,fiútestvér
+család,hermana,lánytestvér
+család,nieto,fiú unoka
+család,nieta,lány unoka
