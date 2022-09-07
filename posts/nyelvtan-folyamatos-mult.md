@@ -48,3 +48,5 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 ir|iba|ibas|iba|**í**bamos|ibais|iban
 ser|era|eras|era|**é**ramos|ereais|eran
 ver|**ve**ía|**ve**ías|**ve**ía|**ve**íamos|**ve**íais|**ve**ían
+
+hay &rarr; había

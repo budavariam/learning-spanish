@@ -44,15 +44,15 @@ ellos/ellas/ustedes|h**an**|
 
 &nbsp;| `Participado pasado` alak
 ----|----
-decir|di**cho**
-hacer|he**cho**
 abrir|abier**to**
+cubrir|cubier**to**
+decir|di**cho**
 escribir|escri**to**
+hacer|he**cho**
 morir|muer**to**
 poner|pues**to**
 romper|ro**to**
 ver|vis**to**
 volver|vuel**to**
-cubrir|cubier**to**
 
-Továbbá pre**decir**, des**hacer**, d**escribir**, pro**poner**, de**volver**, des**cubrir**, stb. ugyanígy viselkedik.
+Továbbá des**cubrir**, pre**decir**, d**escribir**, des**hacer**, pro**poner**, de**volver**, stb. ugyanígy viselkedik.

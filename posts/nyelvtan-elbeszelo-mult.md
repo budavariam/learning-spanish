@@ -57,19 +57,19 @@ ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
 ----|----|----
 andar| **anduv-** | -e, -iste, -o,-imos, -isteis, -**ie**ron
 estar| **estuv-** | &nbsp;
-tener| **tuv-** | &nbsp;
-querer| **quis-** | &nbsp;
-venir| **vin-** | &nbsp;
 haber| **hub-** | &nbsp;
-poner| **pus-** | &nbsp;
 poder| **pud-** | &nbsp;
+poner| **pus-** | &nbsp;
+querer| **quis-** | &nbsp;
 saber| **sup-** | &nbsp;
+tener| **tuv-** | &nbsp;
+venir| **vin-** | &nbsp;
 hacer| **hic-**/**hiz-** | hice, hiciste, hi**z**o, hicimos, hicisteis, hicieron
 decir| **dij-** | -e, -iste, -o,-imos, -isteis, -**e**ron
-traducir| **traduj-** | &nbsp;
 conducir|**conduj-** | &nbsp;
 introducir|**introduj-** | &nbsp;
 producir|**produj-** | &nbsp;
+traducir| **traduj-** | &nbsp;
 traer| **traj-** | &nbsp;
 
 ### Egyéb rendhagyó viselkedés
