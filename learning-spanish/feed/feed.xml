@@ -458,6 +458,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;hay → había&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -624,28 +625,8 @@
 &lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;tener&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;tuv-&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;querer&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;quis-&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;venir&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;vin-&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;haber&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;hub-&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;poner&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;pus-&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -654,8 +635,28 @@
 &lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;pus-&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;querer&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;quis-&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;saber&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;sup-&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tener&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;tuv-&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;venir&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;vin-&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -667,11 +668,6 @@
 &lt;td&gt;decir&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;dij-&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;-e, -iste, -o,-imos, -isteis, -&lt;strong&gt;e&lt;/strong&gt;ron&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;traducir&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;traduj-&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;conducir&lt;/td&gt;
@@ -686,6 +682,11 @@
 &lt;tr&gt;
 &lt;td&gt;producir&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;produj-&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;traducir&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;traduj-&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt; &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1004,20 +1005,24 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;decir&lt;/td&gt;
-&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;hacer&lt;/td&gt;
-&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;abrir&lt;/td&gt;
 &lt;td&gt;abier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;cubrir&lt;/td&gt;
+&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;escribir&lt;/td&gt;
 &lt;td&gt;escri&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;morir&lt;/td&gt;
@@ -1039,13 +1044,9 @@
 &lt;td&gt;volver&lt;/td&gt;
 &lt;td&gt;vuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;cubrir&lt;/td&gt;
-&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Továbbá pre&lt;strong&gt;decir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, des&lt;strong&gt;cubrir&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
+&lt;p&gt;Továbbá des&lt;strong&gt;cubrir&lt;/strong&gt;, pre&lt;strong&gt;decir&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
 </content>
 	</entry>
 	
