@@ -5,12 +5,175 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2022-09-14T00:00:00Z</updated>
+	<updated>2022-09-27T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Felszólító mód (Imperativo)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-felszolito-mod/"/>
+		<updated>2022-09-27T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-felszolito-mod/</id>
+		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felszolito-mod/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Az igék 3 csoporjára amik nem rendhagyóak:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;-ar&lt;/th&gt;
+&lt;th&gt;-er&lt;/th&gt;
+&lt;th&gt;-ir&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;hablar&lt;/td&gt;
+&lt;td&gt;comer&lt;/td&gt;
+&lt;td&gt;vivir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;a&lt;/strong&gt; - no habl&lt;strong&gt;es&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;e&lt;/strong&gt; - no com&lt;strong&gt;as&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;e&lt;/strong&gt; - no viv&lt;strong&gt;as&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;e&lt;/strong&gt; - no habl&lt;strong&gt;e&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;a&lt;/strong&gt; - no com&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;a&lt;/strong&gt; - no viv&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;emos&lt;/strong&gt; - no habl&lt;strong&gt;emos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;amos&lt;/strong&gt; - no com&lt;strong&gt;amos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;amos&lt;/strong&gt; - no viv&lt;strong&gt;amos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;ad&lt;/strong&gt; - no habl&lt;strong&gt;éis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;ed&lt;/strong&gt; - no com&lt;strong&gt;áis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;id&lt;/strong&gt; - no viv&lt;strong&gt;áis&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;en&lt;/strong&gt; - no habl&lt;strong&gt;en&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;an&lt;/strong&gt; - no com&lt;strong&gt;an&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;an&lt;/strong&gt; - no viv&lt;strong&gt;an&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;E/1-ben nem értelmezett&lt;/li&gt;
+&lt;li&gt;E/2 esetén a &lt;a href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-jelen-ido/&quot;&gt;kijelentő mód&lt;/a&gt; E/3 alakjával történik&lt;/li&gt;
+&lt;li&gt;Felszólítás esetén a névmás az ige után azzal egybeírva szerepel&lt;/li&gt;
+&lt;li&gt;T/2 esetén a főnévi igenév &lt;code&gt;-r&lt;/code&gt; végét elhagyjuk, helyére &lt;code&gt;-d&lt;/code&gt;-t teszünk&lt;/li&gt;
+&lt;li&gt;T/2 esetén nincs rendhagyó viselkedés!&lt;/li&gt;
+&lt;li&gt;T/2 esetén visszaható igék esetén az ige &lt;code&gt;-d&lt;/code&gt; végződése kiesik (kivéve &lt;code&gt;irse&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felszolito-mod/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Felszólítunk valakit valamilyen cselekvésre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felszolito-mod/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;E/2&lt;/th&gt;
+&lt;th&gt;E/3&lt;/th&gt;
+&lt;th&gt;T/1&lt;/th&gt;
+&lt;th&gt;T/2&lt;/th&gt;
+&lt;th&gt;T/3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;cerrar&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ie&lt;/strong&gt;rra&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ie&lt;/strong&gt;rre&lt;/td&gt;
+&lt;td&gt;cerremos&lt;/td&gt;
+&lt;td&gt;cerrad&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ie&lt;/strong&gt;rren&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;di&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;dig&lt;/strong&gt;a&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;dig&lt;/strong&gt;amos&lt;/td&gt;
+&lt;td&gt;decid&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;dig&lt;/strong&gt;an&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;ha&lt;strong&gt;z&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;haga&lt;/td&gt;
+&lt;td&gt;hagamos&lt;/td&gt;
+&lt;td&gt;ha&lt;strong&gt;c&lt;/strong&gt;ed&lt;/td&gt;
+&lt;td&gt;hagan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ir&lt;/td&gt;
+&lt;td&gt;ve&lt;/td&gt;
+&lt;td&gt;vaya&lt;/td&gt;
+&lt;td&gt;vayamos&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vayan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;pon&lt;/td&gt;
+&lt;td&gt;ponga&lt;/td&gt;
+&lt;td&gt;pongamos&lt;/td&gt;
+&lt;td&gt;poned&lt;/td&gt;
+&lt;td&gt;pongan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;salir&lt;/td&gt;
+&lt;td&gt;sal&lt;/td&gt;
+&lt;td&gt;salga&lt;/td&gt;
+&lt;td&gt;salgamos&lt;/td&gt;
+&lt;td&gt;salid&lt;/td&gt;
+&lt;td&gt;salgan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ser&lt;/td&gt;
+&lt;td&gt;sé&lt;/td&gt;
+&lt;td&gt;sea&lt;/td&gt;
+&lt;td&gt;seamos&lt;/td&gt;
+&lt;td&gt;sed&lt;/td&gt;
+&lt;td&gt;sean&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tener&lt;/td&gt;
+&lt;td&gt;ten&lt;/td&gt;
+&lt;td&gt;tenga&lt;/td&gt;
+&lt;td&gt;tengamos&lt;/td&gt;
+&lt;td&gt;tened&lt;/td&gt;
+&lt;td&gt;tengan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;venir&lt;/td&gt;
+&lt;td&gt;ven&lt;/td&gt;
+&lt;td&gt;venga&lt;/td&gt;
+&lt;td&gt;vengamos&lt;/td&gt;
+&lt;td&gt;venid&lt;/td&gt;
+&lt;td&gt;vengan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Jövő idő (El futuro)</title>
