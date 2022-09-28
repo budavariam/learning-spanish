@@ -8,6 +8,7 @@
 :root {
   --color-gray-20: #e0e0e0;
   --color-gray-50: #C0C0C0;
+  --color-gray-80: #798dac;
   --color-gray-90: #333;
 
   --background-color: #fff;
@@ -19,12 +20,14 @@
   --text-color-em: rgb(146, 75, 0);
   --text-color-code: rgb(195, 101, 1);
   --text-background-hover: var(--color-gray-20);
+  --text-background: var(--color-gray-80);
 }
 
 :root .dark-mode {
   /* dark mode variables */
   --color-gray-20: #e0e0e0;
   --color-gray-50: #C0C0C0;
+  --color-gray-80: #798dac;
   --color-gray-90: #dad8d8;
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(255, 188, 117);
@@ -36,6 +39,7 @@
   --text-color: #dad8d8;
   --background-color: #1d1e20;
   --text-background-hover: #4a4a4a;
+  --text-background: var(--color-gray-80);
 }
 
 /* Global stylesheet */
