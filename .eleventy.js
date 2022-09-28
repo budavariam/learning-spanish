@@ -14,6 +14,10 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  // eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/webcomponent-crossword/build/webcomponent-crossword.js": "/assets/js/webcomponent-crossword.js"
+});
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
