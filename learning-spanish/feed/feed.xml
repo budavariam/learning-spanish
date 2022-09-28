@@ -5,12 +5,149 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2022-09-27T00:00:00Z</updated>
+	<updated>2022-09-28T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Feltételes mód jelen időben (Condicional)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-felteteteles-mod/"/>
+		<updated>2022-09-28T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-felteteteles-mod/</id>
+		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felteteteles-mod/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Az igék 3 csoporjára amik nem rendhagyóak csatoljuk az &lt;code&gt;azonos&lt;/code&gt; ragokat:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;-ar&lt;/th&gt;
+&lt;th&gt;-er&lt;/th&gt;
+&lt;th&gt;-ir&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;hablar&lt;/td&gt;
+&lt;td&gt;comer&lt;/td&gt;
+&lt;td&gt;vivir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;hablar&lt;strong&gt;ía&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comer&lt;strong&gt;ía&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivir&lt;strong&gt;ía&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;hablar&lt;strong&gt;ías&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comer&lt;strong&gt;ías&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivir&lt;strong&gt;ías&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;hablar&lt;strong&gt;ía&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comer&lt;strong&gt;ía&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivir&lt;strong&gt;ía&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;hablar&lt;strong&gt;íamos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comer&lt;strong&gt;íamos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivir&lt;strong&gt;íamos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;hablar&lt;strong&gt;íais&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comer&lt;strong&gt;íais&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivir&lt;strong&gt;íais&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;hablar&lt;strong&gt;ían&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comer&lt;strong&gt;ían&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivir&lt;strong&gt;ían&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felteteteles-mod/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;udvariasmeghívás&lt;/li&gt;
+&lt;li&gt;udvariasan kérni valamit&lt;/li&gt;
+&lt;li&gt;kívánságot kifejezni&lt;/li&gt;
+&lt;li&gt;javaslatot tenni&lt;/li&gt;
+&lt;li&gt;hipotézist vagy feltevést megfogalmazni&lt;/li&gt;
+&lt;li&gt;kétség vagy bizonytalanság pillanatnyi múltbeli kifejezése&lt;/li&gt;
+&lt;li&gt;a cselekvés kiindulópontjának a múltba helyezésével fejezze ki a jövővel kapcsolatos feltételezését&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felteteteles-mod/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;szotoevi-valtozasok&quot; tabindex=&quot;-1&quot;&gt;Szótövi változások &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-felteteteles-mod/#szotoevi-valtozasok&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hasonlóan a &lt;a href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-jovo-ido/&quot;&gt;jövő időhöz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;caber&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;cabr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;dir-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;haber (hay)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;habr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;har-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poder&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;podr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;pondr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;querer&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;querr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;saber&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;sabr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;salir&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;saldr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tener&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;tendr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;valer&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;valdr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;venir&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;vendr-&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Felszólító mód (Imperativo)</title>
