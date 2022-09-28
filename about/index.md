@@ -4,7 +4,7 @@ title: Rólam
 templateClass: tmpl-post
 eleventyNavigation:
   key: Rólam
-  order: 5
+  order: 6
 ---
 
 Szia!
