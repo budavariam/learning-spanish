@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Hogyan működik
 
-- Billentyűzeten az irány nyilakkal (&darr;, &rarr;, &larr; &uarr;) navigálhatsz a mezők között
+- Billentyűzeten az irány nyilakkal (&larr;, &darr;, &uarr;, &rarr;) navigálhatsz a mezők között
 - Minden mezőbe egy karakter kerülhet, kis és nagybetű ugyan annak számít
 - A rejtvény mellett megjelenik a magyar szó lista, amit be kell írnod spanyolul a megfelelő helyre.
 - Előfordulhatnak ékezetek illetve `ñ` betű is.
