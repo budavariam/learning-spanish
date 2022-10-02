@@ -291,3 +291,11 @@ blockquote {
   height: 15px;
   cursor: pointer;
 }
+
+webcomponent-crossword {
+  display: inline-block;
+}
+
+p:has(> webcomponent-crossword) {
+  max-width:100%;
+}
