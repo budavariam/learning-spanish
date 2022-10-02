@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 5
 ---
 
-<script src="{{ '/assets/js/webcomponent-crossword.js' | url }}"></script>
+<script src="{{ '/assets/js/webcomponent-crossword.js' | url }}" async="async"></script>
 
 <webcomponent-crossword></webcomponent-crossword>
 
