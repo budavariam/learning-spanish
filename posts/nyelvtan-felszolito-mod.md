@@ -4,7 +4,7 @@ description: Felszólító mód
 date: 2022-09-27
 tags:
   - nyelvtan
-  - felszólító mód
+  - igemód
 layout: layouts/post.njk
 ---
 

@@ -4,7 +4,7 @@ description: Feltételes mód jelen időben
 date: 2022-09-28
 tags:
   - nyelvtan
-  - feltételes mód
+  - igemód
   - jelen idő
 layout: layouts/post.njk
 ---
