@@ -8,6 +8,7 @@ eleventyNavigation:
 ---
 
 <script src="{{ '/assets/js/webcomponent-crossword.js' | url }}" async="async"></script>
+<!-- <script src="{{ '/js/webcomponent-crossword.js' | url }}" async="async">DEVELOPMENT</script> -->
 
 <webcomponent-crossword></webcomponent-crossword>
 
