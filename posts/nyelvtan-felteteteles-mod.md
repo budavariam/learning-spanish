@@ -5,7 +5,7 @@ date: 2022-09-28
 tags:
   - nyelvtan
   - igemód
-  - jelen idő
+  - jelen
 layout: layouts/post.njk
 ---
 

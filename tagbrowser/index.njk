@@ -7,10 +7,9 @@ eleventyNavigation:
   order: 3
 ---
 
-<ul>
-{% for tag in collections.tagList %}
-<li>  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag | title }}</a>
-  </li>
+<p>
+{% for tag in collections.tagList | sort %}
+{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag | title }}</a>
 {% endfor %}
-</ul>
+</p>
