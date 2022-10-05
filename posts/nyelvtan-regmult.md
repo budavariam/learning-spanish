@@ -51,3 +51,7 @@ volver|vuel**to**
 cubrir|cubier**to**
 
 Továbbá pre**decir**, des**hacer**, d**escribir**, pro**poner**, de**volver**, des**cubrir**, stb. ugyanígy viselkedik.
+
+## Gyakorló feladatok
+
+- [spanishunicorn](https://www.spanishunicorn.com/preterito-pluscuamperfecto-ejercicios/)

@@ -13,15 +13,15 @@ layout: layouts/post.njk
 
 Az igék 3 csoporjára amik nem rendhagyóak:
 
-&nbsp; | -ar | -er | -ir
+&nbsp;| -ar| -er| -ir
 ----|----|----|----
 &nbsp;|hablar| comer|vivir
 yo|habl**é**|com**í**|viv**í**
 tú|habl**aste**|com**iste**|viv**iste**
 él/ella/usted|habl**ó**|com**ió**|viv**ió**
-nosotros/nosotras |habl**amos**|com**emos**|viv**imos**
+nosotros/nosotras|habl**amos**|com**emos**|viv**imos**
 vosotros|habl**asteis**|com**isteis**|viv**isteis**
-ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
+ellos/ellas/ustedes|habl**aron**|com**ieron**|viv**ieron**
 
 ## Mikor használjuk
 
@@ -53,30 +53,30 @@ ellos/ellas/ustedes |habl**aron**|com**ieron**|viv**ieron**
   
 ### Szótövi változások
 
-&nbsp;| &nbsp; | &nbsp;|
+&nbsp;|&nbsp;|&nbsp;|
 ----|----|----
-andar| **anduv-** | -e, -iste, -o,-imos, -isteis, -**ie**ron
-estar| **estuv-** | &nbsp;
-haber| **hub-** | &nbsp;
-poder| **pud-** | &nbsp;
-poner| **pus-** | &nbsp;
-querer| **quis-** | &nbsp;
-saber| **sup-** | &nbsp;
-tener| **tuv-** | &nbsp;
-venir| **vin-** | &nbsp;
-hacer| **hic-**/**hiz-** | hice, hiciste, hi**z**o, hicimos, hicisteis, hicieron
-decir| **dij-** | -e, -iste, -o,-imos, -isteis, -**e**ron
-conducir|**conduj-** | &nbsp;
-introducir|**introduj-** | &nbsp;
-producir|**produj-** | &nbsp;
-traducir| **traduj-** | &nbsp;
-traer| **traj-** | &nbsp;
+andar|**anduv-**|-e, -iste, -o,-imos, -isteis, -**ie**ron
+estar|**estuv-**|&nbsp;
+haber|**hub-**|&nbsp;
+poder|**pud-**|&nbsp;
+poner|**pus-**|&nbsp;
+querer|**quis-**|&nbsp;
+saber|**sup-**|&nbsp;
+tener|**tuv-**|&nbsp;
+venir|**vin-**|&nbsp;
+hacer|**hic-**/**hiz-**|hice, hiciste, hi**z**o, hicimos, hicisteis, hicieron
+decir|**dij-**|-e, -iste, -o,-imos, -isteis, -**e**ron
+conducir|**conduj-**|&nbsp;
+introducir|**introduj-**|&nbsp;
+producir|**produj-**|&nbsp;
+traducir|**traduj-**|&nbsp;
+traer|**traj-**|&nbsp;
 
 ### Egyéb rendhagyó viselkedés
 
 - Diftongáló igék elvesztik ezt a tulajdonságukat ebben az igeidőben (e&rarr;ie, o&rarr;ue)
 
-  &nbsp;| E/1| E/2| E/3| T/1| T/2| T/3
+  &nbsp;|E/1|E/2|E/3|T/1|T/2|T/3
   ----|----|----|----|----|----|----
   volví|v**o**lví|v**o**lviste|v**o**lvió|volvimos|volvisteis|v**o**lvieron
 
@@ -84,10 +84,10 @@ traer| **traj-** | &nbsp;
 
   &nbsp;| E/1| E/2| E/3| T/1| T/2| T/3
   ----|----|----|----|----|----|----
-  dormir| dormí|dormiste|d**u**rmió|dormimos|dormisteis|d**u**rmieron
+  dormir|dormí|dormiste|d**u**rmió|dormimos|dormisteis|d**u**rmieron
   morir|morí|moriste|m**u**rió|morimos|moristeis|m**u**rieron
   mentir|mentí|mentiste|m**i**ntió|mentimos|mentisteis|m**i**ntieron
-  pedir| pedí|pediste|p**i**dió|pedimos|pedisteis|p**i**dieron
+  pedir|pedí|pediste|p**i**dió|pedimos|pedisteis|p**i**dieron
 
 - `Helyesírási változások` E/1, E/3 és T/3 esetén jelentkeznek
 
@@ -106,3 +106,7 @@ traer| **traj-** | &nbsp;
   construir|construí|construiste|constru**y**ó|construimos|construisteis|constru**y**eron
   oír|oí|oíste|o**y**ó|oímos|oísteis|o**y**eron
   leer|leí|leíste|le**y**ó|leímos|leísteis|le**y**eron
+
+### Gyakorló feladatok
+
+- [lingolia](https://espanol.lingolia.com/es/gramatica/tiempos/preterito-indefinido/ejercicios)

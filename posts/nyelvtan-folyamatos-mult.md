@@ -30,6 +30,7 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 - A múltban szokásos, rendszeresen **ismétlődő** cselekmény kifejezése
 - Személyek, tárgya, helyzetek múltbéli **leírása**, történet hátteránek bemutatása
 - Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mondjuk meg konkrétan mikor történt, **hosszan tartó történés** kifejezése
+- A múltban több esemény (*Pretérito Imperfecto*) történik párhuzamosan
 - A múltban folyamatban levő eseményt (*Pretérito Imperfecto*) egy másik esemény megszakítja (*Pretérito Indefinido*)
 
 > Hasonlít az angolból ismert Past continuous-ra, illetve az angolban használt `used to` szerkezetre.
@@ -50,3 +51,7 @@ ser|era|eras|era|**é**ramos|ereais|eran
 ver|**ve**ía|**ve**ías|**ve**ía|**ve**íamos|**ve**íais|**ve**ían
 
 hay &rarr; había
+
+## Gyakorló feladatok
+
+- [spanishunicorn](https://www.spanishunicorn.com/ejercicios-de-gramatica-preterito-imperfecto/)

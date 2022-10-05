@@ -14,7 +14,7 @@ layout: layouts/post.njk
 
 Az igék 3 csoporjára amik nem rendhagyóak. Az -ar, -er, -ir végződést elhagyjuk és -ando/-iendo/-iendo végződést írunk a helyére.
 
-főnévi igenév | gerundio
+főnévi igenév|gerundio
 ----|----
 hablar|habl**ando**
 comer|com**iendo**

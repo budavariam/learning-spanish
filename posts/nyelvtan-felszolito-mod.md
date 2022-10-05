@@ -12,7 +12,7 @@ layout: layouts/post.njk
 
 Az igék 3 csoporjára amik nem rendhagyóak:
 
-&nbsp; | -ar | -er | -ir
+&nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar| comer|vivir
 yo|-|-|-

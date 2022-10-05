@@ -13,9 +13,9 @@ layout: layouts/post.njk
 
 Az igék 3 csoporjára amik nem rendhagyóak:
 
-&nbsp; | -ar | -er | -ir
+&nbsp;|-ar |-er |-ir
 ----|----|----|----
-&nbsp;|hablar| comer|vivir
+&nbsp;|hablar|comer|vivir
 yo|habl**o**|com**o**|viv**o**
 tú|habl**as**|com**es**|viv**es**
 él/ella/usted|habl**a**|com**e**|viv**e**
@@ -34,7 +34,7 @@ ellos/ellas/ustedes |habl**an**|com**en**|viv**en**
 
 ### Verbos Botas
 
-  csoport| ige | E/1| E/2| E/3| T/1| T/2| T/3
+  csoport|ige|E/1|E/2|E/3|T/1|T/2|T/3
   ----|----|----|----|----|----|----|----
   **e&rarr;ie**|pensar|p**ie**nso|p**ie**nsas|p**ie**nsa|pensamos|pensáis|p**ie**nsan
   e&rarr;ie|querer|qu**ie**ro|qu**ie**res|qu**ie**re|queremos|queréis|qu**ie**ren
@@ -50,7 +50,7 @@ ellos/ellas/ustedes |habl**an**|com**en**|viv**en**
   
 ### Első személyben változó
 
-  csoport| ige | E/1| E/2| E/3| T/1| T/2| T/3
+  csoport|ige|E/1|E/2|E/3|T/1|T/2|T/3
   ----|----|----|----|----|----|----|----
   **c&rarr;zc**|conocer|cono**zc**o|conoces|conoce|conocemos|conocéis|conocen
   c&rarr;zc|traducir|tradu**zc**o|traduces|traduce|traducimos|traducís|traducen
@@ -59,10 +59,10 @@ ellos/ellas/ustedes |habl**an**|com**en**|viv**en**
 
 ### Egyéb rendhagyó igék
 
-&nbsp;| E/1| E/2| E/3| T/1| T/2| T/3
+&nbsp;|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----
-ser|soy|eres|es|somos|sois|son
 haber|he|has|ha/hay|hemos|habéis|han
 ir|voy|vas|va|vamos|vais|van
 oir|oigo|oyes|oye|oímos|oís|oyen
 oler|huelo|hueles|huele|olemos|oléis|huelen
+ser|soy|eres|es|somos|sois|son

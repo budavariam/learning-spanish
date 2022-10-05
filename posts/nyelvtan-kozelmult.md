@@ -42,7 +42,7 @@ ellos/ellas/ustedes|h**an**|
 
 ## Rendhagyó igék
 
-&nbsp;| `Participado pasado` alak
+&nbsp;|`Participado pasado` alak
 ----|----
 abrir|abier**to**
 cubrir|cubier**to**
@@ -56,3 +56,7 @@ ver|vis**to**
 volver|vuel**to**
 
 Továbbá des**cubrir**, pre**decir**, d**escribir**, des**hacer**, pro**poner**, de**volver**, stb. ugyanígy viselkedik.
+
+## Gyakorló feladatok
+
+- [spanishunicorn](https://www.spanishunicorn.com/test-de-preterito-perfecto/)

@@ -25,7 +25,7 @@ ellos/ellas/ustedes|hablar**ían**|comer**ían**|vivir**ían**
 
 ## Mikor használjuk
 
-- udvariasmeghívás
+- udvarias meghívás
 - udvariasan kérni valamit
 - kívánságot kifejezni
 - javaslatot tenni

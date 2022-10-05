@@ -13,7 +13,7 @@ layout: layouts/post.njk
 
 Az igék 3 csoporjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
 
-&nbsp; | -ar | -er | -ir
+&nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar|comer|vivir
 yo|hablar**é**|comer**é**|vivir**é**
@@ -44,7 +44,7 @@ ellos/ellas/ustedes|hablar**án**|comer**án**|vivir**án**
 
 ### Szótövi változások
 
-&nbsp;| &nbsp;
+&nbsp;|&nbsp;
 ----|----
 caber|**cabr-**
 decir|**dir-**
