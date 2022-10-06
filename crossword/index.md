@@ -12,7 +12,10 @@ eleventyNavigation:
 
 <!-- upgrade: npm install --save webcomponent-crossword@X.X.X -->
 
-<webcomponent-crossword characters="ñ,á,é,í,ó,ú,¿,?,¡,!"></webcomponent-crossword>
+<webcomponent-crossword
+  characters="ñ,á,é,í,ó,ú,¿,?,¡,!"
+  href="{{ '/public/spanish-hungarian.json' | url }}">
+</webcomponent-crossword>
 
 ## Hogyan működik
 
