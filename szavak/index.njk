@@ -7,21 +7,7 @@ eleventyNavigation:
   order: 4
 ---
 
-<table>
-  <thead>
-    <tr>
-      <th>Téma</th>
-      <th>Magyar</th>
-      <th>Spanyol</th>
-    </tr>
-  </thead>
-  <tbody>
-{%- for row in palabras %}
-  <tr>
-    <td>{{ row.tema }}</td>
-    <td>{{ row.magyar }}</td>
-    <td>{{ row.spanyol }}</td>
-  </tr>
-{%- endfor %}
-  </tbody>
-</table>
+<script type="module" src="{{ '/assets/js/webcomponent-wordlist.js' | url }}" async="async"></script>
+
+<webcomponent-wordlist>
+</webcomponent-wordlist>
