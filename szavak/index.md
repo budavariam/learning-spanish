@@ -9,5 +9,5 @@ eleventyNavigation:
 
 <script type="module" src="{{ '/assets/js/webcomponent-wordlist.js' | url }}" async="async"></script>
 
-<webcomponent-wordlist>
+<webcomponent-wordlist href="{{ '/public/spanish-hungarian.json' | url }}">
 </webcomponent-wordlist>
