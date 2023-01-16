@@ -66,7 +66,7 @@ e&rarr;ie|querer|qu**ie**ra|qu**ie**ras|qu**ie**ra|queramos|queráis|qu**ie**ran
 > az `-ir`-végű igéknél T/1, T/2-ben az `-e`, `-i`-re változik
 
 ige|E/1|E/2|E/3|T/1|T/2|T/3
-----|----|----|----|----|----|----|----
+----|----|----|----|----|----|----
 sentir|s**ie**nta|s**ie**ntas|s**ie**nta|s**i**ntamos|s**i**ntáis|s**ie**ntan
 
 > az `-ir`-végű igéknél amikben a szótő `-e`, `-i`-re változna, minden alakja a kijelentő mód E/1éből képződik, *mind rendhagyó*
