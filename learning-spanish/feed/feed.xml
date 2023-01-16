@@ -5,12 +5,294 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2022-09-28T00:00:00Z</updated>
+	<updated>2023-01-16T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Kötőmód Jelen időben (Subjuntivo)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/"/>
+		<updated>2023-01-16T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/</id>
+		<content type="html">&lt;p&gt;A magyar nyelvben &amp;quot;hivatalosan&amp;quot; nincs kötőmód, azonban előfordul ez a szerkezet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;felszólítás: &lt;em&gt;Felszólított, (hogy) menjünk haza.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;kötőmód: &lt;em&gt;Megengedte, hogy hazamenjünk.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Az igék 3 csoporjára amik nem rendhagyóak csatoljuk az &lt;code&gt;azonos&lt;/code&gt; ragokat:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;-ar&lt;/th&gt;
+&lt;th&gt;-er&lt;/th&gt;
+&lt;th&gt;-ir&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;hablar&lt;/td&gt;
+&lt;td&gt;comer&lt;/td&gt;
+&lt;td&gt;vivir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;e&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;es&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;as&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;as&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;á&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;amos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;emos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;amos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;éis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;áis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;áis&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;habl&lt;strong&gt;en&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;com&lt;strong&gt;an&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;viv&lt;strong&gt;an&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A végződések magánhangzói kicserélődnek a jelen időhöz képest&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jelent vagy jövőt fejez ki&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;szotoevi-valtozasok&quot; tabindex=&quot;-1&quot;&gt;Szótövi változások &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/#szotoevi-valtozasok&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A kötőmód jelen idejének minden személyét a &lt;strong&gt;kijelentő mód E/1-éből&lt;/strong&gt; képezzük a &lt;code&gt;-o&lt;/code&gt; végződés kötőódbeli végződésének helyettesítésével&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Infinitivo&lt;/th&gt;
+&lt;th&gt;E/1 jelen&lt;/th&gt;
+&lt;th&gt;E/1 kötőmód&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;tener&lt;/td&gt;
+&lt;td&gt;tengo&lt;/td&gt;
+&lt;td&gt;teng&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;venir&lt;/td&gt;
+&lt;td&gt;vengo&lt;/td&gt;
+&lt;td&gt;veng&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;pongo&lt;/td&gt;
+&lt;td&gt;pong&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;hago&lt;/td&gt;
+&lt;td&gt;hag&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pedir&lt;/td&gt;
+&lt;td&gt;pido&lt;/td&gt;
+&lt;td&gt;pid&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;crecer&lt;/td&gt;
+&lt;td&gt;crezco&lt;/td&gt;
+&lt;td&gt;crezc&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;construir&lt;/td&gt;
+&lt;td&gt;construyo&lt;/td&gt;
+&lt;td&gt;construy&lt;strong&gt;a&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;verbos-botas&quot; tabindex=&quot;-1&quot;&gt;Verbos Botas &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/#verbos-botas&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A szótőbeli magánhangzó kettőshangzóvá változása ugyanúgy bekövetkezik, mint kijelentő módban. (kivéve T/1, T/2).&lt;/p&gt;
+&lt;p&gt;Hangsúly változására ugyanez érvényes.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;csoport&lt;/th&gt;
+&lt;th&gt;ige&lt;/th&gt;
+&lt;th&gt;E/1&lt;/th&gt;
+&lt;th&gt;E/2&lt;/th&gt;
+&lt;th&gt;E/3&lt;/th&gt;
+&lt;th&gt;T/1&lt;/th&gt;
+&lt;th&gt;T/2&lt;/th&gt;
+&lt;th&gt;T/3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;o→ue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;contar&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ue&lt;/strong&gt;nte&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ue&lt;/strong&gt;ntes&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ue&lt;/strong&gt;nte&lt;/td&gt;
+&lt;td&gt;contemos&lt;/td&gt;
+&lt;td&gt;contéis&lt;/td&gt;
+&lt;td&gt;c&lt;strong&gt;ue&lt;/strong&gt;nten&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;e→ie&lt;/td&gt;
+&lt;td&gt;querer&lt;/td&gt;
+&lt;td&gt;qu&lt;strong&gt;ie&lt;/strong&gt;ra&lt;/td&gt;
+&lt;td&gt;qu&lt;strong&gt;ie&lt;/strong&gt;ras&lt;/td&gt;
+&lt;td&gt;qu&lt;strong&gt;ie&lt;/strong&gt;ra&lt;/td&gt;
+&lt;td&gt;queramos&lt;/td&gt;
+&lt;td&gt;queráis&lt;/td&gt;
+&lt;td&gt;qu&lt;strong&gt;ie&lt;/strong&gt;ran&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;u→ú&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;actuar&lt;/td&gt;
+&lt;td&gt;act&lt;strong&gt;ú&lt;/strong&gt;e&lt;/td&gt;
+&lt;td&gt;act&lt;strong&gt;ú&lt;/strong&gt;es&lt;/td&gt;
+&lt;td&gt;act&lt;strong&gt;ú&lt;/strong&gt;e&lt;/td&gt;
+&lt;td&gt;actuemos&lt;/td&gt;
+&lt;td&gt;actuéis&lt;/td&gt;
+&lt;td&gt;act&lt;strong&gt;ú&lt;/strong&gt;en&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;az &lt;code&gt;-ir&lt;/code&gt;-végű igéknél T/1, T/2-ben az &lt;code&gt;-e&lt;/code&gt;, &lt;code&gt;-i&lt;/code&gt;-re változik&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ige|E/1|E/2|E/3|T/1|T/2|T/3
+----|----|----|----|----|----|----|----
+sentir|s&lt;strong&gt;ie&lt;/strong&gt;nta|s&lt;strong&gt;ie&lt;/strong&gt;ntas|s&lt;strong&gt;ie&lt;/strong&gt;nta|s&lt;strong&gt;i&lt;/strong&gt;ntamos|s&lt;strong&gt;i&lt;/strong&gt;ntáis|s&lt;strong&gt;ie&lt;/strong&gt;ntan&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;az &lt;code&gt;-ir&lt;/code&gt;-végű igéknél amikben a szótő &lt;code&gt;-e&lt;/code&gt;, &lt;code&gt;-i&lt;/code&gt;-re változna, minden alakja a kijelentő mód E/1éből képződik, &lt;em&gt;mind rendhagyó&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;csoport&lt;/th&gt;
+&lt;th&gt;ige&lt;/th&gt;
+&lt;th&gt;E/1&lt;/th&gt;
+&lt;th&gt;E/2&lt;/th&gt;
+&lt;th&gt;E/3&lt;/th&gt;
+&lt;th&gt;T/1&lt;/th&gt;
+&lt;th&gt;T/2&lt;/th&gt;
+&lt;th&gt;T/3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;e→i&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;pedir&lt;/td&gt;
+&lt;td&gt;p&lt;strong&gt;i&lt;/strong&gt;da&lt;/td&gt;
+&lt;td&gt;p&lt;strong&gt;i&lt;/strong&gt;das&lt;/td&gt;
+&lt;td&gt;p&lt;strong&gt;i&lt;/strong&gt;da&lt;/td&gt;
+&lt;td&gt;p&lt;strong&gt;i&lt;/strong&gt;damos&lt;/td&gt;
+&lt;td&gt;p&lt;strong&gt;i&lt;/strong&gt;dáis&lt;/td&gt;
+&lt;td&gt;p&lt;strong&gt;i&lt;/strong&gt;dan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;egyeb-rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Egyéb rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-jelen/#egyeb-rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;E/1&lt;/th&gt;
+&lt;th&gt;E/2&lt;/th&gt;
+&lt;th&gt;E/3&lt;/th&gt;
+&lt;th&gt;T/1&lt;/th&gt;
+&lt;th&gt;T/2&lt;/th&gt;
+&lt;th&gt;T/3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;caber&lt;/td&gt;
+&lt;td&gt;quepa&lt;/td&gt;
+&lt;td&gt;quepas&lt;/td&gt;
+&lt;td&gt;quepa&lt;/td&gt;
+&lt;td&gt;quepamos&lt;/td&gt;
+&lt;td&gt;quepáis&lt;/td&gt;
+&lt;td&gt;quepan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;haber&lt;/td&gt;
+&lt;td&gt;haya&lt;/td&gt;
+&lt;td&gt;hayas&lt;/td&gt;
+&lt;td&gt;haya&lt;/td&gt;
+&lt;td&gt;hayamos&lt;/td&gt;
+&lt;td&gt;hayáis&lt;/td&gt;
+&lt;td&gt;hayan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ir&lt;/td&gt;
+&lt;td&gt;vaya&lt;/td&gt;
+&lt;td&gt;vayas&lt;/td&gt;
+&lt;td&gt;vaya&lt;/td&gt;
+&lt;td&gt;vayamos&lt;/td&gt;
+&lt;td&gt;vayais&lt;/td&gt;
+&lt;td&gt;vayan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;saber&lt;/td&gt;
+&lt;td&gt;sepa&lt;/td&gt;
+&lt;td&gt;sepas&lt;/td&gt;
+&lt;td&gt;sepa&lt;/td&gt;
+&lt;td&gt;sepamos&lt;/td&gt;
+&lt;td&gt;sepáis&lt;/td&gt;
+&lt;td&gt;sepan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ser&lt;/td&gt;
+&lt;td&gt;sea&lt;/td&gt;
+&lt;td&gt;seas&lt;/td&gt;
+&lt;td&gt;sea&lt;/td&gt;
+&lt;td&gt;seamos&lt;/td&gt;
+&lt;td&gt;seais&lt;/td&gt;
+&lt;td&gt;sean&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cosmopolitan Nyelviskola B1 kurzus elindult</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseB1/"/>
+		<updated>2023-01-16T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/cosmopolitanCourseB1/</id>
+		<content type="html">&lt;p&gt;Hello!&lt;/p&gt;
+&lt;p&gt;Kíváncsian várom mit tartogat ez a kurzus a &lt;a href=&quot;https://www.cosmopolitan-lingua.hu/tanfolyam/spanyol-nyelvtanfolyam&quot;&gt;Cosmopolitan Lingua nyelviskola&lt;/a&gt; szervezésében.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://moly.hu/konyvek/nagy-erika-seres-krisztina-ana-orenga-portoles-colores-spanyol-nyelvkonyv-2&quot;&gt;Colores 2&lt;/a&gt;-es könyvet be is szereztem.&lt;/p&gt;
+&lt;p&gt;Ez a kurzus a kötő módra fog koncentrálni, a szókincsem fejlődését várom tőle.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Feltételes mód jelen időben (Condicional)</title>
