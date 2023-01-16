@@ -186,9 +186,30 @@
 &lt;blockquote&gt;
 &lt;p&gt;az &lt;code&gt;-ir&lt;/code&gt;-végű igéknél T/1, T/2-ben az &lt;code&gt;-e&lt;/code&gt;, &lt;code&gt;-i&lt;/code&gt;-re változik&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;ige|E/1|E/2|E/3|T/1|T/2|T/3
-----|----|----|----|----|----|----|----
-sentir|s&lt;strong&gt;ie&lt;/strong&gt;nta|s&lt;strong&gt;ie&lt;/strong&gt;ntas|s&lt;strong&gt;ie&lt;/strong&gt;nta|s&lt;strong&gt;i&lt;/strong&gt;ntamos|s&lt;strong&gt;i&lt;/strong&gt;ntáis|s&lt;strong&gt;ie&lt;/strong&gt;ntan&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ige&lt;/th&gt;
+&lt;th&gt;E/1&lt;/th&gt;
+&lt;th&gt;E/2&lt;/th&gt;
+&lt;th&gt;E/3&lt;/th&gt;
+&lt;th&gt;T/1&lt;/th&gt;
+&lt;th&gt;T/2&lt;/th&gt;
+&lt;th&gt;T/3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;sentir&lt;/td&gt;
+&lt;td&gt;s&lt;strong&gt;ie&lt;/strong&gt;nta&lt;/td&gt;
+&lt;td&gt;s&lt;strong&gt;ie&lt;/strong&gt;ntas&lt;/td&gt;
+&lt;td&gt;s&lt;strong&gt;ie&lt;/strong&gt;nta&lt;/td&gt;
+&lt;td&gt;s&lt;strong&gt;i&lt;/strong&gt;ntamos&lt;/td&gt;
+&lt;td&gt;s&lt;strong&gt;i&lt;/strong&gt;ntáis&lt;/td&gt;
+&lt;td&gt;s&lt;strong&gt;ie&lt;/strong&gt;ntan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;az &lt;code&gt;-ir&lt;/code&gt;-végű igéknél amikben a szótő &lt;code&gt;-e&lt;/code&gt;, &lt;code&gt;-i&lt;/code&gt;-re változna, minden alakja a kijelentő mód E/1éből képződik, &lt;em&gt;mind rendhagyó&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
