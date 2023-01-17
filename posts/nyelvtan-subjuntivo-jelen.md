@@ -79,7 +79,9 @@ csoport|ige|E/1|E/2|E/3|T/1|T/2|T/3
 
 &nbsp;|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----
+dar|dé|des|dé|demos|deis|den
 caber|quepa|quepas|quepa|quepamos|quepáis|quepan
+estar|esté|estés|esté|estemos|estéis|estén
 haber|haya|hayas|haya|hayamos|hayáis|hayan
 ir|vaya|vayas|vaya|vayamos|vayais|vayan
 saber|sepa|sepas|sepa|sepamos|sepáis|sepan
