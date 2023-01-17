@@ -33,23 +33,40 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
 
 ## Mikor használjuk
 
-- Jelent vagy jövőt fejez ki
+- A kötőmód egy ragozási forma
+- Felszólító módban (T/1 és a 2 magázó) illetve az összes tiltó alakban
+- Az *ojalá* után
+- `kifejezés` + que + kötőmód. ahol a `kifejezés` a következők szerint lehet:
+  - **kérés, kívánság**: aconsejar, decir, desear, pedir, proponer, querer, ordenar
+  - **szükségesség**: es importante, es necesario, es preciso, es urgente, ya es hora de
+  - **értékítélet**: está bien, está mal, es mejor, es lógico, es natural, qué bien, qué pena
+  - **valószínúség**: es posible, es imposible, es probable, puede (ser)
+- Bizonytalanság kifejezésére
 
 ## Rendhagyó igék
 
 ### Szótövi változások
 
-A kötőmód jelen idejének minden személyét a **kijelentő mód E/1-éből** képezzük a `-o` végződés kötőódbeli végződésének helyettesítésével
+A kötőmód jelen idejének minden személyét a **kijelentő mód E/1-éből** képezzük a `-o` végződés kötőmódbeli végződésének helyettesítésével
 
 Infinitivo|E/1 jelen|E/1 kötőmód
 ----|----|----
-tener|tengo|teng**a**
-venir|vengo|veng**a**
-poner|pongo|pong**a**
-hacer|hago|hag**a**
-pedir|pido|pid**a**
-crecer|crezco|crezc**a**
 construir|construyo|construy**a**
+crecer|crezco|crezc**a**
+conocer|conozco|conozc**a**
+hacer|hago|hag**a**
+oír|oigo|oig**a**
+pedir|pido|pid**a**
+poner|pongo|pong**a**
+reír|río|rí**a**
+salir|salgo|salg**a**
+seguir|sigo|sig**a**
+tener|tengo|teng**a**
+traducir|traduzco|traduzc**a**
+traer|traigo|traig**a**
+venir|vengo|veng**a**
+vestir|visto|vist**a**
+ver|veo|ve**a**
 
 ### Verbos Botas
 
@@ -86,3 +103,5 @@ haber|haya|hayas|haya|hayamos|hayáis|hayan
 ir|vaya|vayas|vaya|vayamos|vayais|vayan
 saber|sepa|sepas|sepa|sepamos|sepáis|sepan
 ser|sea|seas|sea|seamos|seais|sean
+
+- hay&rarr;haya
