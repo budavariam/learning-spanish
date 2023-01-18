@@ -299,3 +299,7 @@ webcomponent-crossword {
 p:has(> webcomponent-crossword) {
   max-width:100%;
 }
+
+p:has(> webcomponent-word-matcher) {
+  max-width:100%;
+}
