@@ -77,7 +77,7 @@ Hangsúly változására ugyanez érvényes.
 csoport|ige|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----|----
 **o&rarr;ue**|contar|c**ue**nte|c**ue**ntes|c**ue**nte|contemos|contéis|c**ue**nten
-e&rarr;ie|querer|qu**ie**ra|qu**ie**ras|qu**ie**ra|queramos|queráis|qu**ie**ran
+**e&rarr;ie**|querer|qu**ie**ra|qu**ie**ras|qu**ie**ra|queramos|queráis|qu**ie**ran
 **u&rarr;ú**|actuar|act**ú**e|act**ú**es|act**ú**e|actuemos|actuéis|act**ú**en
 
 > az `-ir`-végű igéknél T/1, T/2-ben az `-e`, `-i`-re változik
