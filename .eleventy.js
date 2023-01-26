@@ -9,12 +9,14 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { minify } = require("terser");
+const { cache } = require('eleventy-plugin-workbox');
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy("manifest.json");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/webcomponent-crossword/build/webcomponent-crossword.js": "/assets/js/webcomponent-crossword.js",
     "./node_modules/webcomponent-wordlist/webcomponent-wordlist.bundled.js": "/assets/js/webcomponent-wordlist.js",
@@ -25,6 +27,32 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(cache)//, {
+	/**
+	 * Options that will be passed to
+	 * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
+	 */
+	// generateSWOptions?: GenerateSWConfig;
+	/**
+	 * Directory inside _output_ folder to be used as place for
+	 * service worker.
+	 */
+	// publicDirectory?: string;
+	/**
+	 * Scope for service worker.
+	 * Default `/`.
+	 */
+	// scope?: string;
+	/**
+	 * Tells if plugin should generate service worker.
+	 * Useful for situations when there is a need to test service worker,
+	 * especially in development process.
+	 *
+	 * By default, it is enabled if `NODE_ENV === 'production'`.
+	 */
+	// enabled?: boolean;
+	//});
+
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");

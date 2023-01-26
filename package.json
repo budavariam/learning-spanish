@@ -37,5 +37,10 @@
     "webcomponent-crossword": "0.0.13",
     "webcomponent-word-matcher": "0.0.3",
     "webcomponent-wordlist": "0.0.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "eleventy-plugin-workbox": "^1.4.0",
+    "workbox-build": "^6.5.4"
   }
 }
