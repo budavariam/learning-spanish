@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(cache)//, {
+  eleventyConfig.addPlugin(cache, {
 	/**
 	 * Options that will be passed to
 	 * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
 	 * Scope for service worker.
 	 * Default `/`.
 	 */
-	// scope?: string;
+	scope: "./"
 	/**
 	 * Tells if plugin should generate service worker.
 	 * Useful for situations when there is a need to test service worker,
@@ -51,7 +51,7 @@ module.exports = function (eleventyConfig) {
 	 * By default, it is enabled if `NODE_ENV === 'production'`.
 	 */
 	// enabled?: boolean;
-	//});
+	});
 
 
   eleventyConfig.addFilter("readableDate", dateObj => {
