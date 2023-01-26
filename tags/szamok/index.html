@@ -13,13 +13,21 @@
     <title>Learning Spanish számok</title>
     <meta name="description" content="Bolyongásaim a spanyol nyelv rejtelmeiben">
 
+    <link rel="manifest" href="/manifest.json" />
     <link rel="stylesheet" href="/learning-spanish/css/index.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-diff.css">
     <link rel="alternate" href="/learning-spanish/learning-spanish/feed/feed.xml" type="application/atom+xml" title="Learning Spanish">
     <link rel="alternate" href="/learning-spanish/feed/feed.json" type="application/json" title="Learning Spanish">
     <link rel="icon" type="image/x-icon" href="/learning-spanish/img/favicon/favicon.ico">
-  </head>
+  <!-- Register service worker for PWA offline mode support. -->
+      <script>
+        if ("serviceWorker" in window.navigator) {
+          window.addEventListener("load", () =>
+            window.navigator.serviceWorker.register("/service-worker.js", { scope: "/" }),
+          );
+        }
+      </script></head>
   <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB9Q2MT"
@@ -71,5 +79,15 @@
     <script>
       !function(){const e=document.body,c=document.getElementById("color-scheme-toggle"),t="dark",a="light",l="color-scheme";c.addEventListener("click",(()=>{const o=e.classList.toggle("dark-mode"),r=o?t:a;localStorage.setItem(l,r),o?(c.src=c.src.replace(t,a),c.alt=c.alt.replace(t,a)):(c.src=c.src.replace(a,t),c.alt=c.alt.replace(a,t)),c.dispatchEvent(new CustomEvent("colorSchemeChanged",{detail:r}))})),function(){const e=matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches;let o=localStorage.getItem(l);o=!o&&e?t:o||a,o===t&&c.click()}()}();
     </script>
+    <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then(function() {
+          console.log("ServiceWorker has been registered!");
+        })
+        .catch(console.error);
+    }
+  </script>
   </body>
 </html>
