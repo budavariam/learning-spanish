@@ -1,6 +1,6 @@
 {
     "name": "Learning Spanish",
-    "short_name": "budavariam.github.io/learning-spanish",
+    "short_name": "budavariam.github.io/learning-spanish/",
     "icons": [
       {
         "src": "/learning-spanish/public/spain-flag-icon.png",
@@ -13,8 +13,8 @@
         "type": "image/png"
       }
     ],
-    "theme_color": "#ec407a",
-    "background_color": "#ec407a",
+    "theme_color": "#d04649",
+    "background_color": "#d04649",
     "display": "standalone",
-    "start_url": "/"
+    "start_url": "/learning-spanish/"
   }
