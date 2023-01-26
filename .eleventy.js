@@ -32,7 +32,11 @@ module.exports = function (eleventyConfig) {
 	 * Options that will be passed to
 	 * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
 	 */
-	// generateSWOptions?: GenerateSWConfig;
+	generateSWOptions: {
+    modifyURLPrefix: {
+      '': '/learning-spanish/',
+    },
+  },
 	/**
 	 * Directory inside _output_ folder to be used as place for
 	 * service worker.
