@@ -1,867 +1,8874 @@
 [
-{"src":"cuándo?","dst":"mikor?"},
-{"src":"cantidad","dst":"mennyiség"},
-{"src":"dígame.","dst":"1. halló! 2. mondja csak!"},
-{"src":"fauna","dst":"állatvilág, fauna"},
-{"src":"cataluña","dst":"katalónia"},
-{"src":"costa","dst":"part"},
-{"src":"detalle","dst":"részlet"},
-{"src":"caldo","dst":"húsleves"},
-{"src":"debajo","dst":"alul, alá"},
-{"src":"cuñado","dst":"sógor,-nő"},
-{"src":"caja","dst":"1. doboz 2. pénztár"},
-{"src":"despacho","dst":"dolgozószoba"},
-{"src":"amigo","dst":"barát,nő"},
-{"src":"diario","dst":"napló"},
-{"src":"artículo","dst":"1. cikk (áru, újság) 2. névelő"},
-{"src":"aceituna","dst":"olajbogyó"},
-{"src":"cambio","dst":"váltás csere"},
-{"src":"borde","dst":"határ"},
-{"src":"construir","dst":"épít"},
-{"src":"chuleta","dst":"karaj"},
-{"src":"cazo","dst":"nyeles lábas"},
-{"src":"dinero","dst":"pénz"},
-{"src":"artes","dst":"művészetek"},
-{"src":"aceite","dst":"olaj"},
-{"src":"cada","dst":"minden egyes"},
-{"src":"deletrear","dst":"betűz"},
-{"src":"andaluz","dst":"andalúziai"},
-{"src":"abanico","dst":"legyező"},
-{"src":"dama","dst":"hölgy"},
-{"src":"compañero","dst":"társ"},
-{"src":"alimento","dst":"élelmiszer"},
-{"src":"conocer","dst":"ismer, megismer"},
-{"src":"adivinar","dst":"kitalál, rájön"},
-{"src":"clima","dst":"klíma,éghajlat"},
-{"src":"comparación","dst":"összehasonlítás"},
-{"src":"característica","dst":"jelleg, jellegzetesség, jellemvonás"},
-{"src":"camino","dst":"út"},
-{"src":"almmendra","dst":"mandula"},
-{"src":"cerrar","dst":"bezár"},
-{"src":"bolsillo","dst":"zseb"},
-{"src":"bocacalle","dst":"keresztutca"},
-{"src":"café","dst":"kávé"},
-{"src":"agresivo","dst":"erőszakos, agresszív"},
-{"src":"difícil","dst":"nehéz"},
-{"src":"arbolado","dst":"fásított"},
-{"src":"católico","dst":"katolikus"},
-{"src":"jazz","dst":"dzsessz"},
-{"src":"cucharadita","dst":"teáskanálnyi"},
-{"src":"manera","dst":"mód"},
-{"src":"cumpleaños","dst":"születésnap"},
-{"src":"cerámica","dst":"kerámia"},
-{"src":"dieta","dst":"diéta"},
-{"src":"huevo","dst":"tojás"},
-{"src":"infinitivo","dst":"főnévi igenév"},
-{"src":"agotador","dst":"kimerítő"},
-{"src":"acuerdo","dst":"egyetértés"},
-{"src":"inmueble","dst":"ingatlan"},
-{"src":"diccionario","dst":"szótár"},
-{"src":"hogar","dst":"otthon, háztartás"},
-{"src":"hoja","dst":"1. falevél 2. papírlap"},
-{"src":"cadena","dst":"lánc"},
-{"src":"adecuado","dst":"odaillő"},
-{"src":"humo","dst":"füst"},
-{"src":"cocción","dst":"főzés, sütés"},
-{"src":"india","dst":"india"},
-{"src":"calor","dst":"hő,meleg,melegség"},
-{"src":"cálido","dst":"meleg"},
-{"src":"incómodo","dst":"kényelmetlen"},
-{"src":"horno","dst":"sütő"},
-{"src":"higiene","dst":"higiénia"},
-{"src":"hijo","dst":"fia, lánya"},
-{"src":"caerse","dst":"leesik"},
-{"src":"alfombra","dst":"szőnyeg"},
-{"src":"elitista","dst":"előkelő,elit"},
-{"src":"interesante","dst":"érdekes"},
-{"src":"indiscreto","dst":"indiszkrét"},
-{"src":"domingo","dst":"vasárnap"},
-{"src":"josé","dst":"józsef"},
-{"src":"inundación","dst":"áradás"},
-{"src":"conventirse","dst":"alakul"},
-{"src":"estantería","dst":"polc"},
-{"src":"hipermercado","dst":"hipermarket"},
-{"src":"industrial","dst":"ipari"},
-{"src":"expresión","dst":"kifejezés"},
-{"src":"cómo?","dst":"1. hogyan? 2. milyen?"},
-{"src":"especie","dst":"faj, fajta"},
-{"src":"junto","dst":"vmi mellett"},
-{"src":"ahora","dst":"most"},
-{"src":"bosque","dst":"erdő"},
-{"src":"húngaro","dst":"magyar"},
-{"src":"abundante","dst":"bőséges"},
-{"src":"cajero","dst":"pénztáros"},
-{"src":"endulzar","dst":"édesít"},
-{"src":"hospital","dst":"kórház"},
-{"src":"ánimo","dst":"lélek"},
-{"src":"cambiar","dst":"1. vált cserél, változtat 2. átszáll járműre"},
-{"src":"entre","dst":"között, közé"},
-{"src":"conveniente","dst":"megfelelő"},
-{"src":"estallar","dst":"1. robban 2. robbant"},
-{"src":"callejero","dst":"utcai"},
-{"src":"escena","dst":"jelenet"},
-{"src":"deber","dst":"lecke"},
-{"src":"especialmente","dst":"különlegesen"},
-{"src":"impresionante","dst":"lenyűgöző"},
-{"src":"general","dst":"általános"},
-{"src":"gasolinera","dst":"benzinkút"},
-{"src":"geografía","dst":"földrajz"},
-{"src":"cuidar","dst":"vigyáz"},
-{"src":"bocadillo","dst":"szendvics"},
-{"src":"febrero","dst":"február"},
-{"src":"innovador","dst":"újító"},
-{"src":"completar","dst":"kiegészít"},
-{"src":"intención","dst":"szándék"},
-{"src":"derretir","dst":"olvaszt"},
-{"src":"fruta","dst":"gyümölcs"},
-{"src":"infante","dst":"infáns, infánsnő"},
-{"src":"chorizo","dst":"kolbász"},
-{"src":"marido","dst":"férj"},
-{"src":"estómago","dst":"gyomor"},
-{"src":"factura","dst":"számla"},
-{"src":"fondo","dst":"vminek az alja, feneke"},
-{"src":"forma","dst":"alak, forma"},
-{"src":"barrio","dst":"városrész,negyed"},
-{"src":"attracción","dst":"vonzás, vonzerő, attrakció, látványosság"},
-{"src":"galleta","dst":"keksz"},
-{"src":"inundar","dst":"elönt"},
-{"src":"dulces","dst":"édesség"},
-{"src":"maravilloso","dst":"csodálatos"},
-{"src":"demasiado","dst":"túl sok"},
-{"src":"falso","dst":"hamis"},
-{"src":"grado","dst":"1. fok, fokozat 2. osztály, évfolyam"},
-{"src":"hipopótamo","dst":"viziló"},
-{"src":"marruecos","dst":"marokkó"},
-{"src":"archipiélago","dst":"szigetcsoport"},
-{"src":"diario","dst":"napi, mindennapi"},
-{"src":"flor","dst":"virág"},
-{"src":"media","dst":"átlag"},
-{"src":"escuchar","dst":"hallgat"},
-{"src":"esquiador","dst":"síelő"},
-{"src":"derecho","dst":"jobb"},
-{"src":"este","dst":"kelet"},
-{"src":"dormirse","dst":"elalszik"},
-{"src":"chocolatina","dst":"kis szelet csololádé"},
-{"src":"fuera","dst":"kint, kívül"},
-{"src":"compra","dst":"vásárlás"},
-{"src":"atrás","dst":"hátul, hátra"},
-{"src":"mencionar","dst":"megemlít"},
-{"src":"mansión","dst":"előkelő ház"},
-{"src":"cuidarse","dst":"vigyáz magára"},
-{"src":"hungría","dst":"magyarország"},
-{"src":"barco","dst":"hajó"},
-{"src":"compromiso","dst":"megegyezés"},
-{"src":"formar","dst":"alakít"},
-{"src":"chipirón","dst":"kis tintahal"},
-{"src":"época","dst":"korszak"},
-{"src":"esquiar","dst":"síel"},
-{"src":"brillar","dst":"csillog, ragyog, süt (a nap)"},
-{"src":"fundación","dst":"alapítás"},
-{"src":"elevado","dst":"kiemelkedően magas"},
-{"src":"aproximadamente","dst":"megközelítőleg"},
-{"src":"castañuelas","dst":"kasztanyetta"},
-{"src":"colón","dst":"kolumbusz"},
-{"src":"boda","dst":"esküvő"},
-{"src":"mascota","dst":"kedvenc háziállat"},
-{"src":"mellizos","dst":"ikrek"},
-{"src":"jefe","dst":"főnök"},
-{"src":"indio","dst":"indián"},
-{"src":"impedir","dst":"megakadályoz"},
-{"src":"magnifico","dst":"kiváló, kitűnő"},
-{"src":"fantástico","dst":"fantasztikus"},
-{"src":"abono","dst":"bérlet"},
-{"src":"abreviación","dst":"rövidítés"},
-{"src":"crecida","dst":"áradás"},
-{"src":"hacer","dst":"csinál"},
-{"src":"informática","dst":"számítástechnika"},
-{"src":"canario","dst":"kanári"},
-{"src":"calefacción","dst":"fűtés"},
-{"src":"almorzar","dst":"ebédel"},
-{"src":"gotear","dst":"1. csöpög, 2. csepereg"},
-{"src":"aparcamiento","dst":"parkolóhely"},
-{"src":"casa","dst":"ház, lakás"},
-{"src":"importante","dst":"fontos"},
-{"src":"como","dst":"mint, -ként, ahogy"},
-{"src":"agricultura","dst":"mezőgazdaság"},
-{"src":"ciencia","dst":"tudomány"},
-{"src":"identificar","dst":"azonosít"},
-{"src":"dirección","dst":"1. irány 2. lakcím"},
-{"src":"huerto","dst":"gyümölcsös, veteményeskert"},
-{"src":"acompañar","dst":"elkísér"},
-{"src":"camiseta","dst":"póló"},
-{"src":"indígena","dst":"indián őslakos"},
-{"src":"mediodía","dst":"dél"},
-{"src":"marinero","dst":"tengerész"},
-{"src":"isla","dst":"sziget"},
-{"src":"buscar","dst":"(meg)keres"},
-{"src":"gallego","dst":"gallíciai"},
-{"src":"compañía","dst":"társaság"},
-{"src":"cabeza","dst":"fej"},
-{"src":"airbag","dst":"légzsák"},
-{"src":"carnicería","dst":"húsbolt, hentesbolt"},
-{"src":"habitante","dst":"lakos"},
-{"src":"escalera","dst":"lépcső"},
-{"src":"conductor","dst":"autóvezető, sofőr"},
-{"src":"enero","dst":"január"},
-{"src":"hora","dst":"óra"},
-{"src":"fatal","dst":"1. végzetes, fatális 2. rémes"},
-{"src":"holanda","dst":"hollandia"},
-{"src":"deporte","dst":"sport"},
-{"src":"actividad","dst":"1.tevékenység 2. aktivitás"},
-{"src":"barra","dst":"bárpult"},
-{"src":"entrar","dst":"belép, bemegy"},
-{"src":"acontecimiento","dst":"esemény, történés"},
-{"src":"gustar","dst":"1. tetszik, 2. szeret"},
-{"src":"efectivo","dst":"készpénz"},
-{"src":"cargo","dst":"1. teher 2. beosztás"},
-{"src":"balonmano","dst":"kézilabda"},
-{"src":"divertido","dst":"szórakoztató"},
-{"src":"ma(g)dalena","dst":"teasütemény"},
-{"src":"frío","dst":"hideg"},
-{"src":"medida","dst":"1. mérték, mértékegység 2. intézkedés"},
-{"src":"curso","dst":"tanfolyam, kurzus"},
-{"src":"cien","dst":"száz"},
-{"src":"dormitorio","dst":"hálószoba"},
-{"src":"espada","dst":"kard"},
-{"src":"llegar","dst":"érkezik"},
-{"src":"atrevido","dst":"merész"},
-{"src":"circulación","dst":"közlekedés"},
-{"src":"insportable","dst":"elviselhetetlen, kibírhatatlan"},
-{"src":"cuál?","dst":"melyik"},
-{"src":"cultural","dst":"kulturális"},
-{"src":"lejos","dst":"messze"},
-{"src":"enviar","dst":"elküld"},
-{"src":"chili","dst":"paprikaféle (csili)"},
-{"src":"animal","dst":"állat"},
-{"src":"destino","dst":"1. végzet, sors 2. uticél"},
-{"src":"gusto","dst":"ízlés"},
-{"src":"internacionalmente","dst":"nemzetközileg"},
-{"src":"escalope","dst":"rántott szelet"},
-{"src":"cruzar","dst":"keresztez,keresztülmegy"},
-{"src":"girar","dst":"(be)fordul, kanyarodik"},
-{"src":"gato","dst":"macska"},
-{"src":"animarse","dst":"megelevenedik, felélénkül"},
-{"src":"amor","dst":"szeretet,szerelem"},
-{"src":"generalmente","dst":"általában"},
-{"src":"fábrica","dst":"gyár"},
-{"src":"hervir","dst":"forral, forr"},
-{"src":"espacio","dst":"tér, űr, hely"},
-{"src":"amable","dst":"kedves"},
-{"src":"biología","dst":"biológia"},
-{"src":"guarnición","dst":"köret"},
-{"src":"melón","dst":"sárgadinnye"},
-{"src":"flan","dst":"étel puding karamella öntettel"},
-{"src":"intriga","dst":"ármány, cselszövés, fondorlat"},
-{"src":"blanco","dst":"fehér"},
-{"src":"aire","dst":"levegő"},
-{"src":"conseguir","dst":"1. megszerez 2. elér"},
-{"src":"madrugada","dst":"hajnal"},
-{"src":"danubio","dst":"duna"},
-{"src":"dibujito","dst":"kis rajz"},
-{"src":"desastre","dst":"katasztrófa, szerencsétlenség"},
-{"src":"ferrocarril","dst":"vasút"},
-{"src":"endivia","dst":"endívia (növény)"},
-{"src":"apartamento","dst":"lakás"},
-{"src":"cosmográfia","dst":"kozmográfia, a világegyetem leírása"},
-{"src":"escayolado","dst":"begipszelt"},
-{"src":"empresa","dst":"vállalat"},
-{"src":"concha","dst":"kagyló"},
-{"src":"feria","dst":"vásár"},
-{"src":"gente","dst":"emberek"},
-{"src":"lavar","dst":"mos, mosogat"},
-{"src":"kilómetro","dst":"kilométer"},
-{"src":"instrucción","dst":"utasítás"},
-{"src":"esquina","dst":"sarok (utcáé)"},
-{"src":"allí","dst":"ott"},
-{"src":"desear","dst":"óhajt, kíván"},
-{"src":"cortina","dst":"függöny"},
-{"src":"bacalao","dst":"tőkehal"},
-{"src":"cántaro","dst":"korsó"},
-{"src":"cerca","dst":"közel"},
-{"src":"general","dst":"tábornok"},
-{"src":"conocerse","dst":"összeismerkedik valakivel"},
-{"src":"aluminio","dst":"alumínium"},
-{"src":"árbol","dst":"fa"},
-{"src":"abrir","dst":"kinyit,nyílik"},
-{"src":"galicia","dst":"gallícia"},
-{"src":"barba","dst":"szakáll"},
-{"src":"internet","dst":"internet"},
-{"src":"ensalada","dst":"saláta"},
-{"src":"caluroso","dst":"meleg"},
-{"src":"asignatura","dst":"tantárgy"},
-{"src":"delante","dst":"elöl, előre"},
-{"src":"atraer","dst":"vonz"},
-{"src":"capital","dst":"főváros"},
-{"src":"descansar","dst":"pihen"},
-{"src":"italiano","dst":"olasz"},
-{"src":"aquí","dst":"itt"},
-{"src":"ciclismo","dst":"kerékpársport, biciklizés"},
-{"src":"cámara","dst":"kamera"},
-{"src":"jamón","dst":"sonka"},
-{"src":"locutor","dst":"bemondó(nő)"},
-{"src":"madre","dst":"anya"},
-{"src":"base","dst":"alap"},
-{"src":"amante","dst":"szerető, kedvelő"},
-{"src":"encantar","dst":"elbűvöl, lenyűgöz"},
-{"src":"mayo","dst":"május"},
-{"src":"mediano","dst":"közepes"},
-{"src":"antiguo","dst":"régi"},
-{"src":"céntrico","dst":"központi"},
-{"src":"filete","dst":"filé"},
-{"src":"conquistador","dst":"1. hódító 2. konkvisztádor"},
-{"src":"cortar","dst":"(el/le/össze)vág"},
-{"src":"espátula","dst":"keverőlapát"},
-{"src":"bollo","dst":"kalács"},
-{"src":"llenarse","dst":"megtelik"},
-{"src":"cocina","dst":"konyha"},
-{"src":"bueno","dst":"jó"},
-{"src":"limón","dst":"citrom"},
-{"src":"especialidad","dst":"különlegesség, specialitás"},
-{"src":"hispanidad","dst":"spanyol nyelvű kultúrák közössége"},
-{"src":"cuarto","dst":"negyedik"},
-{"src":"baile","dst":"1. tánc 2. bál"},
-{"src":"horrible","dst":"rettenetes"},
-{"src":"inútil","dst":"fölösleges, szükségtelen"},
-{"src":"arroz","dst":"rizs"},
-{"src":"hablar","dst":"beszél"},
-{"src":"definitivamente","dst":"véglegesen"},
-{"src":"horario","dst":"1. menetrend, órarend 2. nyitvatartás"},
-{"src":"comida","dst":"étel, étkezés, ebéd"},
-{"src":"casero","dst":"házi"},
-{"src":"cuenta","dst":"számla"},
-{"src":"chino","dst":"kínai"},
-{"src":"chicle","dst":"rágógumi"},
-{"src":"indias","dst":"amerika régies neve"},
-{"src":"marcar","dst":"1. jelöl 2. telefonszámot beüt, tárcsáz"},
-{"src":"educación","dst":"nevelés, neveltség"},
-{"src":"fecha","dst":"dátum"},
-{"src":"maleta","dst":"bőrönd"},
-{"src":"cocinar","dst":"főz"},
-{"src":"interés","dst":"érdek, érdeklődés"},
-{"src":"madera","dst":"fa(anyag)"},
-{"src":"martes","dst":"kedd"},
-{"src":"húmedo","dst":"nedves, nyirkos"},
-{"src":"caliente","dst":"meleg"},
-{"src":"apoderarse","dst":"hatalmába kerít"},
-{"src":"limitar","dst":"határos vmivel"},
-{"src":"ella","dst":"ő"},
-{"src":"medicamento","dst":"gyógyszer"},
-{"src":"idioma","dst":"nyelv"},
-{"src":"cama","dst":"ágy"},
-{"src":"hombre","dst":"ember,férfi"},
-{"src":"guía","dst":"idegenvezető"},
-{"src":"alcachofa","dst":"articsóka"},
-{"src":"histórico","dst":"történelmi"},
-{"src":"concurso","dst":"pályázat"},
-{"src":"haber","dst":"segédige önálló jelentés nélkül (ld. hay)"},
-{"src":"contener","dst":"tartalmaz"},
-{"src":"euro","dst":"euró"},
-{"src":"festividad","dst":"ünnepség"},
-{"src":"diseño","dst":"formatervezés, design"},
-{"src":"farmacia","dst":"gyógyszertár"},
-{"src":"catedral","dst":"katedrális"},
-{"src":"armadura","dst":"páncél"},
-{"src":"internacional","dst":"nemzetközi"},
-{"src":"bañar","dst":"fürdet"},
-{"src":"ascensor","dst":"felvonó, lift"},
-{"src":"abuelo","dst":"nagyapa,nagyanya"},
-{"src":"latino","dst":"latin"},
-{"src":"helado","dst":"fagylalt"},
-{"src":"loro","dst":"papagáj"},
-{"src":"industria","dst":"ipar"},
-{"src":"cantábrico","dst":"kantábriai"},
-{"src":"esperar","dst":"vár, remél"},
-{"src":"alto","dst":"magas"},
-{"src":"décimo","dst":"tizedik"},
-{"src":"lechuga","dst":"fejessaláta"},
-{"src":"casar","dst":"házasít, férjhez ad"},
-{"src":"además","dst":"ráadásul"},
-{"src":"alternativo","dst":"alternatív"},
-{"src":"declarar","dst":"kinyilvánít"},
-{"src":"gasolina","dst":"benzin"},
-{"src":"ancho","dst":"széles"},
-{"src":"capitán","dst":"kapitány"},
-{"src":"informático","dst":"számítástechnikai"},
-{"src":"levantarse","dst":"felkel"},
-{"src":"consultar","dst":"megnéz"},
-{"src":"mazapán","dst":"marcipán"},
-{"src":"cielo","dst":"égbolt, menny"},
-{"src":"correos","dst":"posta"},
-{"src":"bailar","dst":"táncol"},
-{"src":"introducir","dst":"bevezet"},
-{"src":"bici(cleta)","dst":"bicikli"},
-{"src":"chaqueta","dst":"zakó"},
-{"src":"jueves","dst":"csütörtök"},
-{"src":"castillo","dst":"vár,kastély"},
-{"src":"asqueroso","dst":"undorító, visszataszító, gusztustalan"},
-{"src":"fumar","dst":"dohányzik"},
-{"src":"describir","dst":"leír, jellemez"},
-{"src":"herirse","dst":"megsebesül"},
-{"src":"lado","dst":"oldal"},
-{"src":"familia","dst":"család"},
-{"src":"doblar","dst":"1. befordul 2. megkettőz"},
-{"src":"atractivo","dst":"vonzó"},
-{"src":"acordarse","dst":"emlékszik"},
-{"src":"herir","dst":"megsebesít"},
-{"src":"cordero","dst":"bárány"},
-{"src":"expedición","dst":"expedíció"},
-{"src":"fuerte","dst":"erős"},
-{"src":"convento","dst":"zárda"},
-{"src":"chocolate","dst":"csokoládé, kakaó"},
-{"src":"componerse","dst":"áll valamiből"},
-{"src":"apóstol","dst":"apostol"},
-{"src":"bastidora","dst":"habverő"},
-{"src":"avenida","dst":"sugárút"},
-{"src":"aventura","dst":"kaland"},
-{"src":"exactamente","dst":"pontosan"},
-{"src":"hámster","dst":"hörcsög"},
-{"src":"estación","dst":"1. állomás 2. évszak"},
-{"src":"abrazo","dst":"ölelés"},
-{"src":"anímate!","dst":"rajta!"},
-{"src":"caramelo","dst":"cukorka"},
-{"src":"completo","dst":"teljes"},
-{"src":"esto","dst":"ez"},
-{"src":"agotado","dst":"kimerült"},
-{"src":"inglaterra","dst":"anglia"},
-{"src":"conectar","dst":"hozzákapcsol, összeköt"},
-{"src":"helar","dst":"fagy"},
-{"src":"futuro","dst":"jövő"},
-{"src":"frío","dst":"hideg"},
-{"src":"duda","dst":"kétség, kétely"},
-{"src":"bádminton","dst":"tollaslabda"},
-{"src":"bien","dst":"jól"},
-{"src":"heladería","dst":"fagylaltozó"},
-{"src":"comprar","dst":"vesz,vásárol"},
-{"src":"frontón","dst":"baszk fallabda"},
-{"src":"hacía","dst":"felé"},
-{"src":"chufa","dst":"horchata alapanyaga (földimandula)"},
-{"src":"bañarse","dst":"megfürdik"},
-{"src":"gastronomía","dst":"konyhaművészet, gasztronómia"},
-{"src":"armario","dst":"szekrény"},
-{"src":"luchar","dst":"harcol"},
-{"src":"dónde?","dst":"hol?"},
-{"src":"elegante","dst":"elegáns"},
-{"src":"lluvia","dst":"eső"},
-{"src":"comercial","dst":"kereskedelmi"},
-{"src":"frontera","dst":"határ"},
-{"src":"degustación","dst":"kóstoló"},
-{"src":"flamenco","dst":"andalúziai ének és tánc"},
-{"src":"humanidades","dst":"humán tárgyak"},
-{"src":"información","dst":"információ, adat"},
-{"src":"despertarse","dst":"fölébred"},
-{"src":"medio","dst":"eszköz"},
-{"src":"guardería","dst":"óvoda"},
-{"src":"hermano","dst":"testvér"},
-{"src":"bajo","dst":"alatt"},
-{"src":"escaparate","dst":"kirakat"},
-{"src":"finalmente","dst":"végül"},
-{"src":"fiambre","dst":"hidegtál, felvágott"},
-{"src":"diciembre","dst":"december"},
-{"src":"derrotar","dst":"lever (lázadást)"},
-{"src":"contar","dst":"1. elmond, elmesél 2. számol"},
-{"src":"después","dst":"utána, azután"},
-{"src":"estupendamente","dst":"remekül"},
-{"src":"ideal","dst":"ideális, eszményi"},
-{"src":"lámpara","dst":"lámpa"},
-{"src":"lectura","dst":"olvasás, olvasmány"},
-{"src":"desde","dst":"-tól, -től (időben és térben), óta"},
-{"src":"hispanohablante","dst":"spanyolnyelvű"},
-{"src":"enorme","dst":"hatalmas"},
-{"src":"durar","dst":"tart vmeddig"},
-{"src":"gramática","dst":"nyelvtan"},
-{"src":"calle","dst":"utca, út"},
-{"src":"azúcar","dst":"cukor"},
-{"src":"cansar","dst":"fáraszt"},
-{"src":"consejo","dst":"tanács"},
-{"src":"figura","dst":"alak"},
-{"src":"caro","dst":"drága"},
-{"src":"entregar","dst":"átad, odaad"},
-{"src":"cenar","dst":"vacsorázik"},
-{"src":"futuro","dst":"jövő, jövőbeli"},
-{"src":"hola","dst":"szia"},
-{"src":"chico","dst":"fiú, lány"},
-{"src":"blando","dst":"puha, lágy"},
-{"src":"incluir","dst":"magában foglal, beleért"},
-{"src":"azteca","dst":"azték"},
-{"src":"autopista","dst":"autopálya"},
-{"src":"jubilado","dst":"nyugdíjas"},
-{"src":"lejano","dst":"távoli"},
-{"src":"latinoamérica","dst":"latinamerika"},
-{"src":"azafrán","dst":"sáfrány"},
-{"src":"griego","dst":"görög"},
-{"src":"levadura","dst":"élesztő"},
-{"src":"agencia","dst":"ügynökség"},
-{"src":"fascinar","dst":"lenyűgöz"},
-{"src":"científico","dst":"tudós"},
-{"src":"almuerzo","dst":"ebéd"},
-{"src":"doble","dst":"dupla, kettős"},
-{"src":"local","dst":"helyiség"},
-{"src":"aerolínea","dst":"légitársaság"},
-{"src":"londres","dst":"london"},
-{"src":"ecuatoriano","dst":"ecuadori"},
-{"src":"editar","dst":"kiad (kiadó)"},
-{"src":"fiesta","dst":"ünnepség, buli"},
-{"src":"encontrarse","dst":"1. találkozik 2. található"},
-{"src":"centígrado","dst":"ld. grado"},
-{"src":"calidad","dst":"minőség"},
-{"src":"hielo","dst":"jég"},
-{"src":"agosto","dst":"augusztus"},
-{"src":"género","dst":"műfaj"},
-{"src":"letra","dst":"betű"},
-{"src":"charlar","dst":"beszélget"},
-{"src":"clasificar","dst":"osztályoz, csoportosít"},
-{"src":"aconsejar","dst":"tanácsol, ajánl, javasol"},
-{"src":"imperativo","dst":"felszólító mód"},
-{"src":"intelectual","dst":"értelmiségi"},
-{"src":"lamentablemente","dst":"sajnos"},
-{"src":"cosa","dst":"dolog"},
-{"src":"autocar","dst":"távolsági busz"},
-{"src":"gobierno","dst":"kormány, kormányzás"},
-{"src":"instituto","dst":"1. intézet 2. gimnázium"},
-{"src":"lavandería","dst":"mosoda"},
-{"src":"corte","dst":"szabás,szabászat"},
-{"src":"heredero","dst":"örökös"},
-{"src":"idea","dst":"ötlet, elképzelés"},
-{"src":"horchata","dst":"valenciai üdítőital chufából készül"},
-{"src":"dormir","dst":"alszik"},
-{"src":"lavaplatos","dst":"mosogatógép"},
-{"src":"lamentar","dst":"sajnál"},
-{"src":"creer","dst":"hisz"},
-{"src":"apellido","dst":"vezetléknév"},
-{"src":"bigote","dst":"bajusz"},
-{"src":"incaico","dst":"inka"},
-{"src":"mantel","dst":"terítő, abrosz"},
-{"src":"desplegar","dst":"szétnyit, kihajt (pl legyezőt)"},
-{"src":"luego","dst":"aztán"},
-{"src":"cerdo","dst":"disznó, sertés"},
-{"src":"cena","dst":"vacsora"},
-{"src":"delgado","dst":"vékony"},
-{"src":"fenomental","dst":"nagyszerű"},
-{"src":"llover","dst":"esik"},
-{"src":"hambre","dst":"éhség"},
-{"src":"eléctrico","dst":"elektromos"},
-{"src":"imposible","dst":"lehetetlen"},
-{"src":"butaca","dst":"fotel"},
-{"src":"carabela","dst":"karavella"},
-{"src":"deportista","dst":"sportoló"},
-{"src":"lata","dst":"konzervdoboz"},
-{"src":"hispanoamerica","dst":"spanyol-amerika"},
-{"src":"albergue","dst":"szállás"},
-{"src":"espárrago","dst":"spárga (zöldség)"},
-{"src":"éste","dst":"ez"},
-{"src":"departamento","dst":"osztály,áruház"},
-{"src":"mariscos","dst":"ehető tengeri állatok"},
-{"src":"enseñar","dst":"tanít"},
-{"src":"colosal","dst":"hatalmas, kolosszális"},
-{"src":"frutería","dst":"gyümölcsbolt"},
-{"src":"chalé","dst":"villa, nyaraló"},
-{"src":"docena","dst":"tucat"},
-{"src":"evacuar","dst":"kitelepít, kiürít, evakuál"},
-{"src":"intercontinental","dst":"földrészek közötti"},
-{"src":"cóktel","dst":"koktél"},
-{"src":"doctor","dst":"doktor(nő)"},
-{"src":"exportar","dst":"exportál"},
-{"src":"entrevista","dst":"interjú"},
-{"src":"divorciado","dst":"elvált"},
-{"src":"anunciar","dst":"1. bejelent 2. hirdet"},
-{"src":"honor","dst":"1. becsület 2. megtiszteltetés"},
-{"src":"complicado","dst":"bonyolult, komplikált"},
-{"src":"alquilar","dst":"1.bérbe ad 2. kibérel"},
-{"src":"carácter","dst":"természet,jellem"},
-{"src":"avión","dst":"repülőgép"},
-{"src":"estrella","dst":"csillag, sztár"},
-{"src":"diálogo","dst":"párbeszéd, dialógus"},
-{"src":"correspondiente","dst":"megfelelő"},
-{"src":"joya","dst":"ékszer"},
-{"src":"botella","dst":"üveg, palack"},
-{"src":"caer","dst":"elesik"},
-{"src":"julio","dst":"július"},
-{"src":"lavabo","dst":"mosdó, wc"},
-{"src":"componer","dst":"alkot,komponál"},
-{"src":"ejemplo","dst":"példa"},
-{"src":"ganar","dst":"nyer, győz"},
-{"src":"final","dst":"vminek a vége"},
-{"src":"antes","dst":"előbb"},
-{"src":"carpintero","dst":"asztalos"},
-{"src":"andes","dst":"andok"},
-{"src":"generoso","dst":"nagylelkű"},
-{"src":"granizado","dst":"shake, jégkása"},
-{"src":"artista","dst":"művész"},
-{"src":"comer","dst":"eszik, ebédel"},
-{"src":"inscripción","dst":"beiratkozás"},
-{"src":"humanidad","dst":"emberiség"},
-{"src":"civilización","dst":"civilizáció"},
-{"src":"mapa","dst":"térkép"},
-{"src":"autobús","dst":"autóbusz"},
-{"src":"audaz","dst":"merész, vakmerő"},
-{"src":"lugar","dst":"hely"},
-{"src":"margarina","dst":"margarin"},
-{"src":"cuando","dst":"amikor"},
-{"src":"empanado","dst":"panírozott, rántott"},
-{"src":"finlandia","dst":"finnország"},
-{"src":"futbolista","dst":"focista"},
-{"src":"hallar","dst":"talál"},
-{"src":"director","dst":"igazgató(nő)"},
-{"src":"examen","dst":"vizsga, vizsgálat"},
-{"src":"asturiano","dst":"asturiasból való, asztúriai"},
-{"src":"centro","dst":"központ, középpont"},
-{"src":"bajar","dst":"leszáll"},
-{"src":"belleza","dst":"szépség"},
-{"src":"andalucía","dst":"andalúzia"},
-{"src":"estado","dst":"1. állapot 2. állam"},
-{"src":"escritorio","dst":"íróasztal"},
-{"src":"gallina","dst":"tyúk"},
-{"src":"casarse","dst":"megházasodik"},
-{"src":"leer","dst":"olvas"},
-{"src":"excursión","dst":"kirándulás"},
-{"src":"clásico","dst":"klasszikus"},
-{"src":"ejercicio","dst":"gyakorlat, testgyakorlat"},
-{"src":"americano","dst":"amerikai"},
-{"src":"acción","dst":"1. cselekvés, cselekedet 2. hatás"},
-{"src":"favorito","dst":"kedvelt"},
-{"src":"decir","dst":"mond"},
-{"src":"familiar","dst":"családtag"},
-{"src":"localización","dst":"elhelyezkedés, fekvés (lakásé, épületé)"},
-{"src":"historia","dst":"1. történelem 2. történet"},
-{"src":"contradecir","dst":"ellentmond"},
-{"src":"gazpacho","dst":"hideg zöldségleves"},
-{"src":"entrada","dst":"bejárat"},
-{"src":"cuadro","dst":"1. kép 2. táblázat"},
-{"src":"llevar","dst":"1. visz, cipel 2. visel (ruhát)"},
-{"src":"maravilla","dst":"csoda"},
-{"src":"ecuador","dst":"1. egyenlítői 2. ecuador"},
-{"src":"caballo","dst":"ló"},
-{"src":"desayunar","dst":"reggelizik"},
-{"src":"existir","dst":"létezik"},
-{"src":"encontrar","dst":"talál"},
-{"src":"hallarse","dst":"elhelyezkedik, található"},
-{"src":"incorporar","dst":"beletesz,beleilleszt"},
-{"src":"aspecto","dst":"arculat, külalak, megjelenési forma"},
-{"src":"despertar","dst":"(föl)ébreszt"},
-{"src":"hierro","dst":"vas"},
-{"src":"imperio","dst":"birodalom"},
-{"src":"durante","dst":"alatt (időben)"},
-{"src":"echar","dst":"1. önt, szór 2. eldob, kidob"},
-{"src":"averiguar","dst":"kiderít,utánajár"},
-{"src":"actualmente","dst":"jelenleg"},
-{"src":"alemania","dst":"németország"},
-{"src":"entusiasmado","dst":"lelkes"},
-{"src":"escribir","dst":"ír"},
-{"src":"atasco","dst":"közlekedési dugó"},
-{"src":"floristería","dst":"virágüzlet"},
-{"src":"adiós.","dst":"isten áldjon!"},
-{"src":"crema","dst":"krém"},
-{"src":"antillas","dst":"antillák"},
-{"src":"chimenea","dst":"1. kémény 2. kandalló"},
-{"src":"luminoso","dst":"fényes, világos"},
-{"src":"extranjero","dst":"külföldi"},
-{"src":"aburrido","dst":"unalmas"},
-{"src":"grecia","dst":"görögország"},
-{"src":"caseta","dst":"vásári sátor"},
-{"src":"dedo","dst":"ujj"},
-{"src":"excesivo","dst":"túlzott"},
-{"src":"cortado","dst":"fekete kávé kevés tejjel"},
-{"src":"estilo","dst":"stílus"},
-{"src":"editorial","dst":"kiadó"},
-{"src":"estupendo","dst":"remek"},
-{"src":"desayuno","dst":"reggeli"},
-{"src":"juvenil","dst":"ifjúsági"},
-{"src":"billete","dst":"jegy"},
-{"src":"bastante","dst":"elég(gé)"},
-{"src":"conventir","dst":"alakít"},
-{"src":"estar","dst":"van (vhol)"},
-{"src":"apretar","dst":"szorít"},
-{"src":"calendario","dst":"naptár"},
-{"src":"banco","dst":"1. pad 2. bank"},
-{"src":"frecuencia","dst":"gyakoriság"},
-{"src":"manzana","dst":"alma"},
-{"src":"dibujo","dst":"rajz"},
-{"src":"gimnasio","dst":"tornaterem"},
-{"src":"armada","dst":"hajóhad"},
-{"src":"caballero","dst":"lovag"},
-{"src":"batir","dst":"felver (habot, tojást)"},
-{"src":"bajo","dst":"alacsony"},
-{"src":"ataque","dst":"támadás"},
-{"src":"equivalente","dst":"1. egyenértékű 2. megfelelő"},
-{"src":"lunes","dst":"hétfő"},
-{"src":"chiste","dst":"vicc"},
-{"src":"cine","dst":"mozi"},
-{"src":"bolsa","dst":"zacskó,zsák"},
-{"src":"gafas","dst":"szemüveg"},
-{"src":"cebolla","dst":"hagyma"},
-{"src":"estanco","dst":"trafik"},
-{"src":"medio","dst":"fél"},
-{"src":"diferente","dst":"különböző"},
-{"src":"invierno","dst":"tél"},
-{"src":"deseo","dst":"kívánság, óhaj"},
-{"src":"europeo","dst":"európai"},
-{"src":"encima","dst":"fölül, fölülre"},
-{"src":"figurar","dst":"szerepel (szövegben)"},
-{"src":"conquistar","dst":"meghódít"},
-{"src":"económico","dst":"gazdasági"},
-{"src":"calcetines","dst":"zokni"},
-{"src":"bebida","dst":"ital"},
-{"src":"constitucional","dst":"alkotmányos"},
-{"src":"grupo","dst":"csoport"},
-{"src":"besugo","dst":"tengeri dubrincs (haléféle)"},
-{"src":"italia","dst":"olaszország"},
-{"src":"gallo","dst":"kakas"},
-{"src":"izquierdo","dst":"bal"},
-{"src":"cucharada","dst":"evőkanálnyi"},
-{"src":"entonces","dst":"akkor"},
-{"src":"chubasco","dst":"záporeső"},
-{"src":"acostar","dst":"lefektet"},
-{"src":"celebrar","dst":"ünnepel"},
-{"src":"automóvil","dst":"kocsi"},
-{"src":"club","dst":"klub"},
-{"src":"escoger","dst":"kiválaszt"},
-{"src":"gamba","dst":"rák"},
-{"src":"biblioteca","dst":"könyvtár"},
-{"src":"felicitar","dst":"(fel)köszönt, gratulál"},
-{"src":"aunque","dst":"noha, ámbár"},
-{"src":"fritura","dst":"serpenyőben sült"},
-{"src":"antipático","dst":"ellenszenves, antipatikus"},
-{"src":"fila","dst":"sor"},
-{"src":"legumbre","dst":"hüvelyes zöldség"},
-{"src":"entrenamiento","dst":"edzés"},
-{"src":"especial","dst":"különleges"},
-{"src":"lujo","dst":"luxus"},
-{"src":"inglés","dst":"angol"},
-{"src":"asco","dst":"undorító dolog, gusztustalanság"},
-{"src":"donde","dst":"ahol"},
-{"src":"curioso","dst":"kíváncsi"},
-{"src":"física","dst":"fizika"},
-{"src":"desventaja","dst":"hátrány"},
-{"src":"constitución","dst":"alkotmány"},
-{"src":"gramo","dst":"gramm"},
-{"src":"ducharse","dst":"zuhanyozik"},
-{"src":"dorado","dst":"arany színű"},
-{"src":"deber","dst":"kell"},
-{"src":"anterior","dst":"előző"},
-{"src":"folleto","dst":"prospektus"},
-{"src":"exterior","dst":"külső"},
-{"src":"coger","dst":"1. fog, megfog 2. járműre száll"},
-{"src":"genealógico","dst":"származási"},
-{"src":"aéreo","dst":"légi"},
-{"src":"evitar","dst":"elkerül, kikerül"},
-{"src":"detrás","dst":"hátul, mögé"},
-{"src":"fotógrafo","dst":"fényképész"},
-{"src":"epifanía","dst":"vízkereszt (jan 6.)"},
-{"src":"ciudad","dst":"város"},
-{"src":"jarra","dst":"kancsó"},
-{"src":"agradable","dst":"kellemes"},
-{"src":"comedor","dst":"étkező"},
-{"src":"artesanía","dst":"kézműipar, kézművesség"},
-{"src":"confortable","dst":"kényelmes"},
-{"src":"frase","dst":"mondat"},
-{"src":"árabe","dst":"arab"},
-{"src":"distribución","dst":"elosztás"},
-{"src":"coche","dst":"kocsi, autó"},
-{"src":"duro","dst":"kemény"},
-{"src":"entonación","dst":"intonáció, hangsúlyozás"},
-{"src":"arte","dst":"művészet"},
-{"src":"juguetería","dst":"játékbolt"},
-{"src":"definir","dst":"meghatároz"},
-{"src":"jabón","dst":"szappan"},
-{"src":"autonómico","dst":"autonóm"},
-{"src":"exagerar","dst":"túloz"},
-{"src":"lindar","dst":"határos vmivel"},
-{"src":"llave","dst":"kulcs"},
-{"src":"jaguar","dst":"jaguár"},
-{"src":"libre","dst":"szabad"},
-{"src":"circo","dst":"cirkusz"},
-{"src":"algo","dst":"vmi"},
-{"src":"exposición","dst":"kiállítás"},
-{"src":"dedicar","dst":"vminek szán, szentel"},
-{"src":"conocido","dst":"ismert"},
-{"src":"dedicarse","dst":"vminek szenteli magát, vmivel foglalkozik"},
-{"src":"cosmético","dst":"kozmetikum"},
-{"src":"matar","dst":"megöl"},
-{"src":"lomo","dst":"bélszín, vesepecsenye"},
-{"src":"cristóbal","dst":"kristóf"},
-{"src":"largo","dst":"hosszú"},
-{"src":"enfermedad","dst":"betegség"},
-{"src":"juguete","dst":"játékszer"},
-{"src":"exótico","dst":"egzotikus"},
-{"src":"fundar","dst":"alapít"},
-{"src":"estudiar","dst":"tanul"},
-{"src":"catalán","dst":"katalán"},
-{"src":"ingrediente","dst":"hozzávaló"},
-{"src":"azulejo","dst":"csempe"},
-{"src":"cereales","dst":"müzli"},
-{"src":"jugador","dst":"játékos"},
-{"src":"comedia","dst":"vígjáték"},
-{"src":"escuela","dst":"iskola"},
-{"src":"calamar","dst":"tintahal"},
-{"src":"bomba","dst":"bomba"},
-{"src":"bulevar","dst":"körút"},
-{"src":"cajita","dst":"kis doboz, dobozka"},
-{"src":"berenjena","dst":"padlizsán"},
-{"src":"melocotón","dst":"őszibarack"},
-{"src":"apetecer","dst":"kíván, kedve van"},
-{"src":"jugar","dst":"játszik"},
-{"src":"jersey","dst":"pulóver"},
-{"src":"extenso","dst":"kiterjedt, terjedelmes"},
-{"src":"flora","dst":"növényvilág, flóra"},
-{"src":"campeonato","dst":"bajnokság"},
-{"src":"acostarse","dst":"lefekszik"},
-{"src":"gracias","dst":"1. köszönöm, 2. köszönet"},
-{"src":"contra","dst":"ellen"},
-{"src":"llevarse","dst":"magával visz, elvisz"},
-{"src":"abuelos","dst":"nagyszülők"},
-{"src":"dejar","dst":"1. hagy (vhol) 2. enged"},
-{"src":"animar","dst":"lelkesít, bátorít, biztat"},
-{"src":"lisboa","dst":"lisszabon"},
-{"src":"levantar","dst":"fölemel"},
-{"src":"junio","dst":"június"},
-{"src":"añadir","dst":"hozzátesz,hozzáad"},
-{"src":"intruso","dst":"1. betolakodó 2. kakukktojás"},
-{"src":"funcionar","dst":"működik"},
-{"src":"cero","dst":"nulla"},
-{"src":"literatura","dst":"irodalom"},
-{"src":"arrestar","dst":"letartóztat"},
-{"src":"alcóholico","dst":"szeszes, alkoholos"},
-{"src":"escocia","dst":"skócia"},
-{"src":"abril","dst":"április"},
-{"src":"chachachá","dst":"csacsacsa tánc"},
-{"src":"acordar","dst":"emlékeztet"},
-{"src":"isabel","dst":"izabella, erzsébet"},
-{"src":"llenar","dst":"megtölt"},
-{"src":"gigante","dst":"óriás, óriási"},
-{"src":"esponjoso","dst":"szivacsos, habos"},
-{"src":"kilogramo","dst":"kilogramm"},
-{"src":"afeitarse","dst":"borotválkozik"},
-{"src":"expo","dst":"világkiállítás (1992 sevilla)"},
-{"src":"llamar","dst":"hív"},
-{"src":"activamente","dst":"aktívan"},
-{"src":"cuarto","dst":"szoba"},
-{"src":"comunidad","dst":"közösség"},
-{"src":"hablador","dst":"beszédes"},
-{"src":"continuo","dst":"folyamatos"},
-{"src":"afueras","dst":"külső kerületek"},
-{"src":"columna","dst":"oszlop"},
-{"src":"importancia","dst":"jelentőség"},
-{"src":"marroquí","dst":"marokkói"},
-{"src":"embargo","dst":"embargó kereskedelmi tilalom"},
-{"src":"claro","dst":"világos"},
-{"src":"ligero","dst":"könnyű"},
-{"src":"maya","dst":"maja"},
-{"src":"carne","dst":"hús"},
-{"src":"lavarse","dst":"mosakszik, megmosdik"},
-{"src":"marca","dst":"márka"},
-{"src":"llamarse","dst":"vhogy hívják"},
-{"src":"marzo","dst":"március"},
-{"src":"fernando","dst":"ferdinánd, nándor"},
-{"src":"elección","dst":"választás"},
-{"src":"administrativo","dst":"1. közigazgatási 2. adminisztratív"},
-{"src":"adivinanza","dst":"találós kérdés"},
-{"src":"lista","dst":"lista"},
-{"src":"afeitar","dst":"borotvál"},
-{"src":"matemáticas","dst":"matematika"},
-{"src":"equipo","dst":"csapat"},
-{"src":"acabar","dst":"befejez"},
-{"src":"litro","dst":"liter"},
-{"src":"habitación","dst":"(lakó)szoba"},
-{"src":"abierto","dst":"nyitott, nyílt"},
-{"src":"clase","dst":"osztály"}
+  {
+    "src": "circunstancia",
+    "dst": "körülmény"
+  },
+  {
+    "src": "galicia",
+    "dst": "gallícia"
+  },
+  {
+    "src": "miércoles",
+    "dst": "szerda"
+  },
+  {
+    "src": "mencionar",
+    "dst": "megemlít"
+  },
+  {
+    "src": "inundar",
+    "dst": "elönt"
+  },
+  {
+    "src": "inmaculada concepción",
+    "dst": "szeplőtelen fogantatás"
+  },
+  {
+    "src": "ingrediente",
+    "dst": "hozzávaló"
+  },
+  {
+    "src": "marca",
+    "dst": "márka"
+  },
+  {
+    "src": "por un lado",
+    "dst": "egyfelől"
+  },
+  {
+    "src": "de maravilla",
+    "dst": "csodálatosan"
+  },
+  {
+    "src": "mochila",
+    "dst": "hátizsák"
+  },
+  {
+    "src": "qué lata!",
+    "dst": "de fárasztó, de unalmas"
+  },
+  {
+    "src": "inútil",
+    "dst": "fölösleges, szükségtelen"
+  },
+  {
+    "src": "madrugada",
+    "dst": "hajnal"
+  },
+  {
+    "src": "latino",
+    "dst": "latin"
+  },
+  {
+    "src": "martes",
+    "dst": "kedd"
+  },
+  {
+    "src": "ir a pie",
+    "dst": "gyalog megy"
+  },
+  {
+    "src": "felicitar",
+    "dst": "(fel)köszönt, gratulál"
+  },
+  {
+    "src": "endulzar",
+    "dst": "édesít"
+  },
+  {
+    "src": "estallar",
+    "dst": "1. robban 2. robbant"
+  },
+  {
+    "src": "internacional",
+    "dst": "nemzetközi"
+  },
+  {
+    "src": "elegante",
+    "dst": "elegáns"
+  },
+  {
+    "src": "escuela",
+    "dst": "iskola"
+  },
+  {
+    "src": "entrar",
+    "dst": "belép, bemegy"
+  },
+  {
+    "src": "fernando",
+    "dst": "ferdinánd, nándor"
+  },
+  {
+    "src": "medida",
+    "dst": "1. mérték, mértékegység 2. intézkedés"
+  },
+  {
+    "src": "espátula",
+    "dst": "keverőlapát"
+  },
+  {
+    "src": "farmacia",
+    "dst": "gyógyszertár"
+  },
+  {
+    "src": "interés",
+    "dst": "érdek, érdeklődés"
+  },
+  {
+    "src": "meseta",
+    "dst": "fennsík"
+  },
+  {
+    "src": "estanco",
+    "dst": "trafik"
+  },
+  {
+    "src": "a menudo",
+    "dst": "gyakran"
+  },
+  {
+    "src": "favorito",
+    "dst": "kedvelt"
+  },
+  {
+    "src": "miedo",
+    "dst": "félelem"
+  },
+  {
+    "src": "lectura",
+    "dst": "olvasás, olvasmány"
+  },
+  {
+    "src": "elevado",
+    "dst": "kiemelkedően magas"
+  },
+  {
+    "src": "escalope",
+    "dst": "rántott szelet"
+  },
+  {
+    "src": "filete",
+    "dst": "filé"
+  },
+  {
+    "src": "antes",
+    "dst": "előbb"
+  },
+  {
+    "src": "carnicería",
+    "dst": "húsbolt, hentesbolt"
+  },
+  {
+    "src": "elitista",
+    "dst": "előkelő,elit"
+  },
+  {
+    "src": "bastante",
+    "dst": "elég(gé)"
+  },
+  {
+    "src": "mirada",
+    "dst": "tekintet"
+  },
+  {
+    "src": "autocar",
+    "dst": "távolsági busz"
+  },
+  {
+    "src": "llover",
+    "dst": "esik"
+  },
+  {
+    "src": "éste",
+    "dst": "ez"
+  },
+  {
+    "src": "mi amor",
+    "dst": "drágaságom"
+  },
+  {
+    "src": "amigo",
+    "dst": "barát,nő"
+  },
+  {
+    "src": "atasco",
+    "dst": "közlekedési dugó"
+  },
+  {
+    "src": "americano",
+    "dst": "amerikai"
+  },
+  {
+    "src": "melón",
+    "dst": "sárgadinnye"
+  },
+  {
+    "src": "amor",
+    "dst": "szeretet,szerelem"
+  },
+  {
+    "src": "litro",
+    "dst": "liter"
+  },
+  {
+    "src": "cuándo?",
+    "dst": "mikor?"
+  },
+  {
+    "src": "amante",
+    "dst": "szerető, kedvelő"
+  },
+  {
+    "src": "autopista",
+    "dst": "autopálya"
+  },
+  {
+    "src": "dedo",
+    "dst": "ujj"
+  },
+  {
+    "src": "mientras",
+    "dst": "közben, miközben, mialatt"
+  },
+  {
+    "src": "aparcamiento",
+    "dst": "parkolóhely"
+  },
+  {
+    "src": "cóktel",
+    "dst": "koktél"
+  },
+  {
+    "src": "jugador",
+    "dst": "játékos"
+  },
+  {
+    "src": "miembro",
+    "dst": "tag"
+  },
+  {
+    "src": "característica",
+    "dst": "jelleg, jellegzetesség, jellemvonás"
+  },
+  {
+    "src": "antiguo",
+    "dst": "régi"
+  },
+  {
+    "src": "empanado",
+    "dst": "panírozott, rántott"
+  },
+  {
+    "src": "apoderarse",
+    "dst": "hatalmába kerít"
+  },
+  {
+    "src": "lejos de",
+    "dst": "vmitől messze"
+  },
+  {
+    "src": "paisaje",
+    "dst": "táj, látkép"
+  },
+  {
+    "src": "océano",
+    "dst": "óceán"
+  },
+  {
+    "src": "de lujo",
+    "dst": "luxus-"
+  },
+  {
+    "src": "península",
+    "dst": "félsziget"
+  },
+  {
+    "src": "salsa",
+    "dst": "1 . szósz, mártás 2. salsa (karibi tánc)"
+  },
+  {
+    "src": "plato",
+    "dst": "1.  tányér 2. tál, étel"
+  },
+  {
+    "src": "corrida de toros",
+    "dst": "bikaviadal"
+  },
+  {
+    "src": "paseo",
+    "dst": "sétány"
+  },
+  {
+    "src": "clasificar",
+    "dst": "osztályoz, csoportosít"
+  },
+  {
+    "src": "constitucional",
+    "dst": "alkotmányos"
+  },
+  {
+    "src": "cámara de video",
+    "dst": "videókamera"
+  },
+  {
+    "src": "juegos olímpicos",
+    "dst": "olimpiai játékok"
+  },
+  {
+    "src": "lista de precios",
+    "dst": "árjegyzék"
+  },
+  {
+    "src": "menos mal",
+    "dst": "még szerencse!"
+  },
+  {
+    "src": "punto",
+    "dst": "pont"
+  },
+  {
+    "src": "pena",
+    "dst": "bánat, szomorúság"
+  },
+  {
+    "src": "olímpico",
+    "dst": "olimpiai"
+  },
+  {
+    "src": "género",
+    "dst": "műfaj"
+  },
+  {
+    "src": "preguntar",
+    "dst": "kérdez"
+  },
+  {
+    "src": "complicado",
+    "dst": "bonyolult, komplikált"
+  },
+  {
+    "src": "pila",
+    "dst": "elem"
+  },
+  {
+    "src": "católico",
+    "dst": "katolikus"
+  },
+  {
+    "src": "expo",
+    "dst": "világkiállítás (1992 sevilla)"
+  },
+  {
+    "src": "pero",
+    "dst": "de"
+  },
+  {
+    "src": "fumar",
+    "dst": "dohányzik"
+  },
+  {
+    "src": "intelectual",
+    "dst": "értelmiségi"
+  },
+  {
+    "src": "frío",
+    "dst": "hideg"
+  },
+  {
+    "src": "perfumería",
+    "dst": "illatszerbolt"
+  },
+  {
+    "src": "metro",
+    "dst": "1. méter 2. metro"
+  },
+  {
+    "src": "para",
+    "dst": "-nak, -nek, részére, számára"
+  },
+  {
+    "src": "lomo",
+    "dst": "bélszín, vesepecsenye"
+  },
+  {
+    "src": "futuro",
+    "dst": "jövő"
+  },
+  {
+    "src": "hora punta / las horas punta",
+    "dst": "csúcsforgalom"
+  },
+  {
+    "src": "escaparate",
+    "dst": "kirakat"
+  },
+  {
+    "src": "pared",
+    "dst": "fal"
+  },
+  {
+    "src": "jueves",
+    "dst": "csütörtök"
+  },
+  {
+    "src": "ligero",
+    "dst": "könnyű"
+  },
+  {
+    "src": "mixto",
+    "dst": "vegyes, kevert"
+  },
+  {
+    "src": "promover",
+    "dst": "előmozdít"
+  },
+  {
+    "src": "llevarse",
+    "dst": "magával visz, elvisz"
+  },
+  {
+    "src": "fuera",
+    "dst": "kint, kívül"
+  },
+  {
+    "src": "preferido",
+    "dst": "kedvelt, kedvenc"
+  },
+  {
+    "src": "internet",
+    "dst": "internet"
+  },
+  {
+    "src": "pájaro",
+    "dst": "madár"
+  },
+  {
+    "src": "no tengo ni idea",
+    "dst": "fogalmam sincs"
+  },
+  {
+    "src": "intención",
+    "dst": "szándék"
+  },
+  {
+    "src": "príncipe",
+    "dst": "herceg, hercegnő"
+  },
+  {
+    "src": "otro",
+    "dst": "másik"
+  },
+  {
+    "src": "factura oficial",
+    "dst": "áfás számla"
+  },
+  {
+    "src": "número",
+    "dst": "szám"
+  },
+  {
+    "src": "cuarto",
+    "dst": "szoba"
+  },
+  {
+    "src": "surtido",
+    "dst": "választék"
+  },
+  {
+    "src": "paella",
+    "dst": "zöldséges, húsos, halas rizsétel"
+  },
+  {
+    "src": "quedarse con",
+    "dst": "vmit választ, vmi mellett marad"
+  },
+  {
+    "src": "ordenación",
+    "dst": "rendezés, rendbetétel"
+  },
+  {
+    "src": "vino tinto",
+    "dst": "vörösbor"
+  },
+  {
+    "src": "sabio",
+    "dst": "bölcs, tudós"
+  },
+  {
+    "src": "ahora mismo",
+    "dst": "most rögtön"
+  },
+  {
+    "src": "perder",
+    "dst": "elveszít, veszít"
+  },
+  {
+    "src": "rústico",
+    "dst": "rusztikus"
+  },
+  {
+    "src": "helado",
+    "dst": "fagylalt"
+  },
+  {
+    "src": "relación",
+    "dst": "kapcsolat"
+  },
+  {
+    "src": "tarjeta",
+    "dst": "kártya"
+  },
+  {
+    "src": "puesto",
+    "dst": "stand, árus"
+  },
+  {
+    "src": "distribución",
+    "dst": "elosztás"
+  },
+  {
+    "src": "quena",
+    "dst": "pánsíp"
+  },
+  {
+    "src": "naranja",
+    "dst": "narancs"
+  },
+  {
+    "src": "mediano",
+    "dst": "közepes"
+  },
+  {
+    "src": "suspender",
+    "dst": "megbuktat"
+  },
+  {
+    "src": "nacimiento",
+    "dst": "születés"
+  },
+  {
+    "src": "fallas",
+    "dst": "márciusi ünnep valenciában"
+  },
+  {
+    "src": "comida",
+    "dst": "étel, étkezés, ebéd"
+  },
+  {
+    "src": "parcela",
+    "dst": "telek"
+  },
+  {
+    "src": "chicle",
+    "dst": "rágógumi"
+  },
+  {
+    "src": "árbol genealógico",
+    "dst": "családfa"
+  },
+  {
+    "src": "factura",
+    "dst": "számla"
+  },
+  {
+    "src": "ordenador",
+    "dst": "számítógép"
+  },
+  {
+    "src": "reaccionar",
+    "dst": "reagál"
+  },
+  {
+    "src": "autobús",
+    "dst": "autóbusz"
+  },
+  {
+    "src": "mellizos",
+    "dst": "ikrek"
+  },
+  {
+    "src": "innovador",
+    "dst": "újító"
+  },
+  {
+    "src": "originalmente",
+    "dst": "eredetileg"
+  },
+  {
+    "src": "escoger",
+    "dst": "kiválaszt"
+  },
+  {
+    "src": "parada",
+    "dst": "megálló"
+  },
+  {
+    "src": "febrero",
+    "dst": "február"
+  },
+  {
+    "src": "qué va!",
+    "dst": "dehogyis!"
+  },
+  {
+    "src": "fecha",
+    "dst": "dátum"
+  },
+  {
+    "src": "izquierdo",
+    "dst": "bal"
+  },
+  {
+    "src": "largo",
+    "dst": "hosszú"
+  },
+  {
+    "src": "mansión",
+    "dst": "előkelő ház"
+  },
+  {
+    "src": "huerto",
+    "dst": "gyümölcsös, veteményeskert"
+  },
+  {
+    "src": "carne picada",
+    "dst": "darált hús"
+  },
+  {
+    "src": "premio",
+    "dst": "díj"
+  },
+  {
+    "src": "insportable",
+    "dst": "elviselhetetlen, kibírhatatlan"
+  },
+  {
+    "src": "caro",
+    "dst": "drága"
+  },
+  {
+    "src": "antillas",
+    "dst": "antillák"
+  },
+  {
+    "src": "responder",
+    "dst": "válaszol, felel"
+  },
+  {
+    "src": "merienda",
+    "dst": "uzsonna"
+  },
+  {
+    "src": "interesante",
+    "dst": "érdekes"
+  },
+  {
+    "src": "después",
+    "dst": "utána, azután"
+  },
+  {
+    "src": "ella",
+    "dst": "ő"
+  },
+  {
+    "src": "perder el autibús",
+    "dst": "lekési a buszt"
+  },
+  {
+    "src": "no te preocupes.",
+    "dst": "ne aggódj! ne izgulj!"
+  },
+  {
+    "src": "fascinar",
+    "dst": "lenyűgöz"
+  },
+  {
+    "src": "rincón",
+    "dst": "sarok (szobáé)"
+  },
+  {
+    "src": "realización",
+    "dst": "megvalósítás"
+  },
+  {
+    "src": "resultar",
+    "dst": "1 . bizonyul vmilyennek 2. adódik 3. sikerül"
+  },
+  {
+    "src": "cordero",
+    "dst": "bárány"
+  },
+  {
+    "src": "lejano",
+    "dst": "távoli"
+  },
+  {
+    "src": "tener miedo",
+    "dst": "vki fél vmitől"
+  },
+  {
+    "src": "ciencias naturales",
+    "dst": "természettudomány"
+  },
+  {
+    "src": "frente a",
+    "dst": "szemben vmivel"
+  },
+  {
+    "src": "para cuándo?",
+    "dst": "mikorra?"
+  },
+  {
+    "src": "residencia",
+    "dst": "lakhely"
+  },
+  {
+    "src": "encontrar",
+    "dst": "talál"
+  },
+  {
+    "src": "salir",
+    "dst": "1 . kimegy, elmegy 2. indul (járat)"
+  },
+  {
+    "src": "carpintero",
+    "dst": "asztalos"
+  },
+  {
+    "src": "flan",
+    "dst": "étel puding karamella öntettel"
+  },
+  {
+    "src": "taller",
+    "dst": "mühely"
+  },
+  {
+    "src": "teoría",
+    "dst": "elmélet"
+  },
+  {
+    "src": "orilla",
+    "dst": "part"
+  },
+  {
+    "src": "lechuga",
+    "dst": "fejessaláta"
+  },
+  {
+    "src": "entrevista",
+    "dst": "interjú"
+  },
+  {
+    "src": "bañarse",
+    "dst": "megfürdik"
+  },
+  {
+    "src": "publicidad",
+    "dst": "1. nyilvánosság 2. hirdetés, reklám"
+  },
+  {
+    "src": "media pensión",
+    "dst": "félpanzió"
+  },
+  {
+    "src": "atrás",
+    "dst": "hátul, hátra"
+  },
+  {
+    "src": "ganar",
+    "dst": "nyer, győz"
+  },
+  {
+    "src": "belleza",
+    "dst": "szépség"
+  },
+  {
+    "src": "pesado",
+    "dst": "nehéz, súlyos"
+  },
+  {
+    "src": "para + főnévi igenév",
+    "dst": "azért, hogy"
+  },
+  {
+    "src": "cuál?",
+    "dst": "melyik"
+  },
+  {
+    "src": "a mediodía",
+    "dst": "délben"
+  },
+  {
+    "src": "menos",
+    "dst": "1. kevesebb 2. mínusz"
+  },
+  {
+    "src": "oficina",
+    "dst": "iroda, hivatal"
+  },
+  {
+    "src": "antipático",
+    "dst": "ellenszenves, antipatikus"
+  },
+  {
+    "src": "campeonato",
+    "dst": "bajnoksag"
+  },
+  {
+    "src": "a lo largo de",
+    "dst": "vmi mentén"
+  },
+  {
+    "src": "volver",
+    "dst": "visszamegy"
+  },
+  {
+    "src": "columna",
+    "dst": "oszlop"
+  },
+  {
+    "src": "contener",
+    "dst": "tartalmaz"
+  },
+  {
+    "src": "quemar",
+    "dst": "eléget"
+  },
+  {
+    "src": "quinto",
+    "dst": "ötödik"
+  },
+  {
+    "src": "cava",
+    "dst": "(spanyol) pezsgő"
+  },
+  {
+    "src": "fiambre",
+    "dst": "hidegtál, felvágott"
+  },
+  {
+    "src": "aguileña",
+    "dst": "hajlott, sas- (pl. orr)"
+  },
+  {
+    "src": "honor",
+    "dst": "1. becsület 2. megtiszteltetés"
+  },
+  {
+    "src": "levantarse",
+    "dst": "felkel"
+  },
+  {
+    "src": "blando",
+    "dst": "puha, lágy"
+  },
+  {
+    "src": "ampolla",
+    "dst": "vízholyag"
+  },
+  {
+    "src": "vestido",
+    "dst": "ruha"
+  },
+  {
+    "src": "¡qué asco!",
+    "dst": "undorító!"
+  },
+  {
+    "src": "abrir",
+    "dst": "kinyit,nyílik"
+  },
+  {
+    "src": "andaluz",
+    "dst": "andalúziai"
+  },
+  {
+    "src": "comedor",
+    "dst": "étkező"
+  },
+  {
+    "src": "amable",
+    "dst": "kedves"
+  },
+  {
+    "src": "barba",
+    "dst": "szakáll"
+  },
+  {
+    "src": "chipirón",
+    "dst": "kis tintahal"
+  },
+  {
+    "src": "juvenil",
+    "dst": "ifjúsági"
+  },
+  {
+    "src": "durante",
+    "dst": "alatt (időben)"
+  },
+  {
+    "src": "frío",
+    "dst": "hideg"
+  },
+  {
+    "src": "azúcar",
+    "dst": "cukor"
+  },
+  {
+    "src": "centro",
+    "dst": "központ, középpont"
+  },
+  {
+    "src": "chuchería",
+    "dst": "1. csecsebecse 2. nassolni való"
+  },
+  {
+    "src": "celo",
+    "dst": "feltékenység"
+  },
+  {
+    "src": "la habana",
+    "dst": "havanna"
+  },
+  {
+    "src": "armonizar",
+    "dst": "összhangban áll, harmonizál"
+  },
+  {
+    "src": "este",
+    "dst": "kelet"
+  },
+  {
+    "src": "herir",
+    "dst": "megsebesít"
+  },
+  {
+    "src": "parcialmente",
+    "dst": "részlegesen"
+  },
+  {
+    "src": "berenjena",
+    "dst": "padlizsán"
+  },
+  {
+    "src": "educación",
+    "dst": "nevelés, neveltség"
+  },
+  {
+    "src": "carbón",
+    "dst": "szén"
+  },
+  {
+    "src": "cicatriz",
+    "dst": "heg, sebhely"
+  },
+  {
+    "src": "despejado cielo",
+    "dst": "derült égbolt"
+  },
+  {
+    "src": "aluminio",
+    "dst": "alumínium"
+  },
+  {
+    "src": "docena",
+    "dst": "tucat"
+  },
+  {
+    "src": "taquillero",
+    "dst": "1. jegypénztáros 2. kasszasiker"
+  },
+  {
+    "src": "tampoco",
+    "dst": "sem"
+  },
+  {
+    "src": "quitar",
+    "dst": "elvesz"
+  },
+  {
+    "src": "religioso",
+    "dst": "vallásos"
+  },
+  {
+    "src": "tratar de",
+    "dst": "szól vmiről"
+  },
+  {
+    "src": "raqueta",
+    "dst": "ütő"
+  },
+  {
+    "src": "detalle",
+    "dst": "részlet"
+  },
+  {
+    "src": "andar",
+    "dst": "megy, jár"
+  },
+  {
+    "src": "deber",
+    "dst": "lecke"
+  },
+  {
+    "src": "caja",
+    "dst": "1. doboz 2. kassza"
+  },
+  {
+    "src": "guardería",
+    "dst": "óvoda"
+  },
+  {
+    "src": "equivalente",
+    "dst": "1. egyenértékű 2. megfelelő"
+  },
+  {
+    "src": "apellido",
+    "dst": "vezetléknév"
+  },
+  {
+    "src": "residir",
+    "dst": "lakik vhol"
+  },
+  {
+    "src": "servilleta",
+    "dst": "szalvéta"
+  },
+  {
+    "src": "incómodo",
+    "dst": "kényelmetlen"
+  },
+  {
+    "src": "apreciar",
+    "dst": "értékel"
+  },
+  {
+    "src": "amistad",
+    "dst": "barátság"
+  },
+  {
+    "src": "antigüedad",
+    "dst": "régiség"
+  },
+  {
+    "src": "dinero",
+    "dst": "pénz"
+  },
+  {
+    "src": "chocolatería",
+    "dst": "csokizó (ahol forró csokit lehet inni)"
+  },
+  {
+    "src": "probar",
+    "dst": "1. (meg/fel/ki)próbál 2. kóstol"
+  },
+  {
+    "src": "anterior",
+    "dst": "előző"
+  },
+  {
+    "src": "manzana",
+    "dst": "alma"
+  },
+  {
+    "src": "alto",
+    "dst": "magas"
+  },
+  {
+    "src": "merendar",
+    "dst": "uzsonnázik"
+  },
+  {
+    "src": "pensar",
+    "dst": "gondol, gondolkodik"
+  },
+  {
+    "src": "policia",
+    "dst": "rendőr"
+  },
+  {
+    "src": "cineasta",
+    "dst": "filmes"
+  },
+  {
+    "src": "adivinar",
+    "dst": "kitalál, rájön"
+  },
+  {
+    "src": "diferente",
+    "dst": "különböző"
+  },
+  {
+    "src": "base",
+    "dst": "alap"
+  },
+  {
+    "src": "componer",
+    "dst": "alkot,komponál"
+  },
+  {
+    "src": "servir",
+    "dst": "(föl/ki)szolgál"
+  },
+  {
+    "src": "cántaro",
+    "dst": "korsó"
+  },
+  {
+    "src": "bendito",
+    "dst": "áldott, szentelt"
+  },
+  {
+    "src": "pálido",
+    "dst": "sápadt"
+  },
+  {
+    "src": "siete",
+    "dst": "hét"
+  },
+  {
+    "src": "estilo",
+    "dst": "stílus"
+  },
+  {
+    "src": "también",
+    "dst": "is, szintén"
+  },
+  {
+    "src": "país",
+    "dst": "ország"
+  },
+  {
+    "src": "claro que si",
+    "dst": "hát persze"
+  },
+  {
+    "src": "floristería",
+    "dst": "virágüzlet"
+  },
+  {
+    "src": "derrotar",
+    "dst": "lever (lázadást)"
+  },
+  {
+    "src": "camiseta",
+    "dst": "póló"
+  },
+  {
+    "src": "beis",
+    "dst": "bézs"
+  },
+  {
+    "src": "rumba",
+    "dst": "rumba (kubai eredetű tánc)"
+  },
+  {
+    "src": "cuidarse",
+    "dst": "vigyáz magára"
+  },
+  {
+    "src": "llenar",
+    "dst": "megtölt"
+  },
+  {
+    "src": "mascota",
+    "dst": "kedvenc háziállat"
+  },
+  {
+    "src": "tarde",
+    "dst": "délután"
+  },
+  {
+    "src": "nueve",
+    "dst": "kilenc"
+  },
+  {
+    "src": "batido",
+    "dst": "turmix"
+  },
+  {
+    "src": "casa",
+    "dst": "ház, lakás"
+  },
+  {
+    "src": "naturalmente",
+    "dst": "természetesen"
+  },
+  {
+    "src": "turrón",
+    "dst": "mandulás-mézes édesség (főként karácsonykor eszik)"
+  },
+  {
+    "src": "aéreo",
+    "dst": "légi"
+  },
+  {
+    "src": "matar",
+    "dst": "megöl"
+  },
+  {
+    "src": "hacer dieta",
+    "dst": "diétázik"
+  },
+  {
+    "src": "ciencia",
+    "dst": "tudomány"
+  },
+  {
+    "src": "cambio",
+    "dst": "1. csere 2. változás"
+  },
+  {
+    "src": "mina",
+    "dst": "bánya"
+  },
+  {
+    "src": "millón",
+    "dst": "millió"
+  },
+  {
+    "src": "abreviación",
+    "dst": "rövidítés"
+  },
+  {
+    "src": "inglés",
+    "dst": "angol"
+  },
+  {
+    "src": "representar",
+    "dst": "bemutat, eljátszik"
+  },
+  {
+    "src": "ternera",
+    "dst": "borjú"
+  },
+  {
+    "src": "ochocientos",
+    "dst": "nyolcszáz"
+  },
+  {
+    "src": "sandía",
+    "dst": "görögdinnye"
+  },
+  {
+    "src": "usar",
+    "dst": "használ"
+  },
+  {
+    "src": "bocadillo",
+    "dst": "szendvics"
+  },
+  {
+    "src": "avería",
+    "dst": "rongalódás, defekt"
+  },
+  {
+    "src": "organizar",
+    "dst": "szervez, rendez"
+  },
+  {
+    "src": "cómo?",
+    "dst": "1. hogyan? 2. milyen?"
+  },
+  {
+    "src": "tonelada",
+    "dst": "tonna"
+  },
+  {
+    "src": "exposición",
+    "dst": "kiállítás"
+  },
+  {
+    "src": "europeo",
+    "dst": "európai"
+  },
+  {
+    "src": "cocción",
+    "dst": "főzés, sütés"
+  },
+  {
+    "src": "callejero",
+    "dst": "utcai"
+  },
+  {
+    "src": "castizo",
+    "dst": "igazi, tősgyökeres"
+  },
+  {
+    "src": "ser amante de",
+    "dst": "odavan vmiért"
+  },
+  {
+    "src": "económico",
+    "dst": "gazdasági"
+  },
+  {
+    "src": "tienda",
+    "dst": "üzlet, bolt"
+  },
+  {
+    "src": "coger",
+    "dst": "1. fog, megfog 2. járműre száll"
+  },
+  {
+    "src": "camino",
+    "dst": "út"
+  },
+  {
+    "src": "castigar",
+    "dst": "(meg)bűntet"
+  },
+  {
+    "src": "año nuevo",
+    "dst": "újév"
+  },
+  {
+    "src": "nombre",
+    "dst": "név, keresztnév"
+  },
+  {
+    "src": "definir",
+    "dst": "meghatároz"
+  },
+  {
+    "src": "autopista",
+    "dst": "autópálya"
+  },
+  {
+    "src": "domingo",
+    "dst": "vasárnap"
+  },
+  {
+    "src": "meter",
+    "dst": "tesz, rak"
+  },
+  {
+    "src": "quién?",
+    "dst": "ki?"
+  },
+  {
+    "src": "metal",
+    "dst": "fém"
+  },
+  {
+    "src": "hasta el sábado",
+    "dst": "a szombati viszontlátásra"
+  },
+  {
+    "src": "carabela",
+    "dst": "karavella"
+  },
+  {
+    "src": "semáforo",
+    "dst": "közlekedési lámpa"
+  },
+  {
+    "src": "científico",
+    "dst": "tudós"
+  },
+  {
+    "src": "levadura",
+    "dst": "élesztő"
+  },
+  {
+    "src": "semejante",
+    "dst": "hasonló"
+  },
+  {
+    "src": "introducir",
+    "dst": "bevezet"
+  },
+  {
+    "src": "caso",
+    "dst": "eset"
+  },
+  {
+    "src": "vale.",
+    "dst": "rendben."
+  },
+  {
+    "src": "baba",
+    "dst": "nyál"
+  },
+  {
+    "src": "apendicitis",
+    "dst": "vakbélgyulladas"
+  },
+  {
+    "src": "especialmente",
+    "dst": "különlegesen"
+  },
+  {
+    "src": "conocerse",
+    "dst": "összeismerkedik valakivel"
+  },
+  {
+    "src": "por fin",
+    "dst": "végre, végül"
+  },
+  {
+    "src": "carnaval",
+    "dst": "farsang, karnevál"
+  },
+  {
+    "src": "desastre",
+    "dst": "katasztrófa, szerencsétlenség"
+  },
+  {
+    "src": "short",
+    "dst": "rövidnadrág"
+  },
+  {
+    "src": "comedia",
+    "dst": "vígjáték"
+  },
+  {
+    "src": "verdadero",
+    "dst": "igazi, valós, valódi"
+  },
+  {
+    "src": "alrededor de",
+    "dst": "vmi körül"
+  },
+  {
+    "src": "acostarse",
+    "dst": "lefekszik"
+  },
+  {
+    "src": "escena",
+    "dst": "jelenet"
+  },
+  {
+    "src": "paraguas",
+    "dst": "esernyő"
+  },
+  {
+    "src": "tercer",
+    "dst": "harmadik"
+  },
+  {
+    "src": "raqueta de tenis",
+    "dst": "teniszütő"
+  },
+  {
+    "src": "minuto",
+    "dst": "perc"
+  },
+  {
+    "src": "aconsejar",
+    "dst": "tanácsol, ajánl, javasol"
+  },
+  {
+    "src": "conocer",
+    "dst": "ismer, megismer"
+  },
+  {
+    "src": "pardo",
+    "dst": "barna"
+  },
+  {
+    "src": "arisco",
+    "dst": "mogorva"
+  },
+  {
+    "src": "vecino",
+    "dst": "szomszéd"
+  },
+  {
+    "src": "cancha",
+    "dst": "sportpálya"
+  },
+  {
+    "src": "octubre",
+    "dst": "október"
+  },
+  {
+    "src": "centro comercial",
+    "dst": "bevásárlóközpont"
+  },
+  {
+    "src": "centígrado",
+    "dst": "ld. grado"
+  },
+  {
+    "src": "tiempo",
+    "dst": "idő"
+  },
+  {
+    "src": "adiós.",
+    "dst": "isten áldjon!"
+  },
+  {
+    "src": "oficial",
+    "dst": "hivatalos"
+  },
+  {
+    "src": "doblar",
+    "dst": "1. befordul 2. megkettőz"
+  },
+  {
+    "src": "aire",
+    "dst": "levegő"
+  },
+  {
+    "src": "estómago",
+    "dst": "gyomor"
+  },
+  {
+    "src": "valenciano",
+    "dst": "valencia városából való, valenciai"
+  },
+  {
+    "src": "apetecer",
+    "dst": "kíván, kedve van"
+  },
+  {
+    "src": "describir",
+    "dst": "leír, jellemez"
+  },
+  {
+    "src": "almohada",
+    "dst": "párna"
+  },
+  {
+    "src": "caballo",
+    "dst": "ló"
+  },
+  {
+    "src": "gustar",
+    "dst": "1. tetszik, 2. szeret"
+  },
+  {
+    "src": "sino",
+    "dst": "hanem"
+  },
+  {
+    "src": "figura",
+    "dst": "alak"
+  },
+  {
+    "src": "vegetal",
+    "dst": "1 . növényi 2. zöldség"
+  },
+  {
+    "src": "margarina",
+    "dst": "margarin"
+  },
+  {
+    "src": "bañar",
+    "dst": "fürdet"
+  },
+  {
+    "src": "vestir",
+    "dst": "öltöztet"
+  },
+  {
+    "src": "gramática",
+    "dst": "nyelvtan"
+  },
+  {
+    "src": "sobre todo",
+    "dst": "főleg, főként"
+  },
+  {
+    "src": "papelería",
+    "dst": "papírüzlet"
+  },
+  {
+    "src": "cultural",
+    "dst": "kulturális"
+  },
+  {
+    "src": "separar",
+    "dst": "elválaszt, szétválaszt, elkülönít"
+  },
+  {
+    "src": "dormirse",
+    "dst": "elalszik"
+  },
+  {
+    "src": "diario",
+    "dst": "napi, mindennapi"
+  },
+  {
+    "src": "perro",
+    "dst": "kutya"
+  },
+  {
+    "src": "tele",
+    "dst": "tévé"
+  },
+  {
+    "src": "fauna",
+    "dst": "állatvilág, fauna"
+  },
+  {
+    "src": "mismo",
+    "dst": "ugyanaz, ugyanolyan"
+  },
+  {
+    "src": "caldo",
+    "dst": "húsleves"
+  },
+  {
+    "src": "diálogo",
+    "dst": "párbeszéd, dialógus"
+  },
+  {
+    "src": "nariz",
+    "dst": "orr"
+  },
+  {
+    "src": "animal",
+    "dst": "állat"
+  },
+  {
+    "src": "loro",
+    "dst": "papagáj"
+  },
+  {
+    "src": "ciclismo",
+    "dst": "kerékpározás"
+  },
+  {
+    "src": "dieta",
+    "dst": "diéta"
+  },
+  {
+    "src": "sustantivo",
+    "dst": "főnév"
+  },
+  {
+    "src": "quiosco",
+    "dst": "kioszk, pavilon"
+  },
+  {
+    "src": "paja",
+    "dst": "szalma"
+  },
+  {
+    "src": "se le cae la baba",
+    "dst": "csorog a nyála"
+  },
+  {
+    "src": "entonación",
+    "dst": "intonáció, hangsúlyozás"
+  },
+  {
+    "src": "baloncesto",
+    "dst": "kosárlabda"
+  },
+  {
+    "src": "carrera",
+    "dst": "1. pálya, karrier 2. futás"
+  },
+  {
+    "src": "número ordinal",
+    "dst": "sorszám"
+  },
+  {
+    "src": "chulo",
+    "dst": "klassz (diáknyelv)"
+  },
+  {
+    "src": "sacar un billete",
+    "dst": "jegyet vált"
+  },
+  {
+    "src": "gastronomía",
+    "dst": "konyhaművészet, gasztronómia"
+  },
+  {
+    "src": "generoso",
+    "dst": "nagylelkű"
+  },
+  {
+    "src": "bomba",
+    "dst": "bomba"
+  },
+  {
+    "src": "cumpleaños",
+    "dst": "születésnap"
+  },
+  {
+    "src": "balonvolea",
+    "dst": "röplabda"
+  },
+  {
+    "src": "café",
+    "dst": "kávé"
+  },
+  {
+    "src": "callejero",
+    "dst": "utcai"
+  },
+  {
+    "src": "en el extranjero",
+    "dst": "külföldön"
+  },
+  {
+    "src": "secretario",
+    "dst": "titkár, titkárnő"
+  },
+  {
+    "src": "auscultar",
+    "dst": "meghallgat (orvos)"
+  },
+  {
+    "src": "acontecimiento",
+    "dst": "esemény, történés"
+  },
+  {
+    "src": "cantidad",
+    "dst": "mennyiség"
+  },
+  {
+    "src": "cortina",
+    "dst": "függöny"
+  },
+  {
+    "src": "sartén",
+    "dst": "serpenyő"
+  },
+  {
+    "src": "humanidades",
+    "dst": "humán tárgyak"
+  },
+  {
+    "src": "plancha",
+    "dst": "vasaló"
+  },
+  {
+    "src": "canoa",
+    "dst": "kenu, kenuzás"
+  },
+  {
+    "src": "vitrina",
+    "dst": "vitrin, kirakat"
+  },
+  {
+    "src": "acné",
+    "dst": "pattanás"
+  },
+  {
+    "src": "nube",
+    "dst": "felhő"
+  },
+  {
+    "src": "melocotón",
+    "dst": "őszibarack"
+  },
+  {
+    "src": "calefacción",
+    "dst": "fűtés"
+  },
+  {
+    "src": "mercado",
+    "dst": "piac"
+  },
+  {
+    "src": "hombre",
+    "dst": "ember,férfi"
+  },
+  {
+    "src": "reyes católicos",
+    "dst": "katolikus királyok"
+  },
+  {
+    "src": "panadería",
+    "dst": "pékség"
+  },
+  {
+    "src": "vosotros",
+    "dst": "ti"
+  },
+  {
+    "src": "futuro",
+    "dst": "jövő, jövőbeli"
+  },
+  {
+    "src": "empresa",
+    "dst": "vállalat"
+  },
+  {
+    "src": "trasladarse",
+    "dst": "elköltözik"
+  },
+  {
+    "src": "milímetro",
+    "dst": "milliméter"
+  },
+  {
+    "src": "casco",
+    "dst": "sisak"
+  },
+  {
+    "src": "astronauta",
+    "dst": "űrhajós"
+  },
+  {
+    "src": "chato",
+    "dst": "pisze"
+  },
+  {
+    "src": "conectar",
+    "dst": "hozzákapcsol, összeköt"
+  },
+  {
+    "src": "fila",
+    "dst": "sor"
+  },
+  {
+    "src": "hámster",
+    "dst": "hörcsög"
+  },
+  {
+    "src": "campeonato",
+    "dst": "bajnokság"
+  },
+  {
+    "src": "alternativo",
+    "dst": "alternatív"
+  },
+  {
+    "src": "casarse",
+    "dst": "megházasodik"
+  },
+  {
+    "src": "azafrán",
+    "dst": "sáfrány"
+  },
+  {
+    "src": "por ejemplo",
+    "dst": "például"
+  },
+  {
+    "src": "inglaterra",
+    "dst": "anglia"
+  },
+  {
+    "src": "país vasco",
+    "dst": "baszkföld"
+  },
+  {
+    "src": "sabroso",
+    "dst": "ízletes, finom"
+  },
+  {
+    "src": "aconsejar",
+    "dst": "tanácsol"
+  },
+  {
+    "src": "fenomental",
+    "dst": "nagyszerű"
+  },
+  {
+    "src": "latinoamérica",
+    "dst": "latinamerika"
+  },
+  {
+    "src": "zapatos",
+    "dst": "cipő"
+  },
+  {
+    "src": "acceso",
+    "dst": "hozzáférés, eljutás, elérés"
+  },
+  {
+    "src": "ciclismo",
+    "dst": "kerékpársport, biciklizés"
+  },
+  {
+    "src": "industria",
+    "dst": "ipar"
+  },
+  {
+    "src": "título",
+    "dst": "cím, titulus"
+  },
+  {
+    "src": "sin embargo",
+    "dst": "azonban"
+  },
+  {
+    "src": "rubio",
+    "dst": "szőke"
+  },
+  {
+    "src": "dejar",
+    "dst": "1. hagy (vhol) 2. enged"
+  },
+  {
+    "src": "general",
+    "dst": "általános"
+  },
+  {
+    "src": "otoño",
+    "dst": "ősz"
+  },
+  {
+    "src": "el camino",
+    "dst": "a santiago de compostelába vezető zarándokút"
+  },
+  {
+    "src": "abuelos",
+    "dst": "nagyszülők"
+  },
+  {
+    "src": "expedición",
+    "dst": "expedíció"
+  },
+  {
+    "src": "londres",
+    "dst": "london"
+  },
+  {
+    "src": "temporada",
+    "dst": "szezon"
+  },
+  {
+    "src": "llevar una vida regular",
+    "dst": "rendszeres életet él"
+  },
+  {
+    "src": "lluvia",
+    "dst": "eső"
+  },
+  {
+    "src": "ganar terrano",
+    "dst": "teret nyer"
+  },
+  {
+    "src": "adecuado",
+    "dst": "odaillő"
+  },
+  {
+    "src": "mezclar",
+    "dst": "összekever"
+  },
+  {
+    "src": "guarnición",
+    "dst": "köret"
+  },
+  {
+    "src": "pertenecer",
+    "dst": "tartózkodik vhol"
+  },
+  {
+    "src": "atropellar",
+    "dst": "elüt, elgázol"
+  },
+  {
+    "src": "proyecto",
+    "dst": "terv, elképzelés"
+  },
+  {
+    "src": "chimenea",
+    "dst": "1. kémény 2. kandalló"
+  },
+  {
+    "src": "setiembre",
+    "dst": "szeptember"
+  },
+  {
+    "src": "meseta central",
+    "dst": "mezeta"
+  },
+  {
+    "src": "bici(cleta)",
+    "dst": "bicikli"
+  },
+  {
+    "src": "reunirse",
+    "dst": "összegyűlik"
+  },
+  {
+    "src": "clásico",
+    "dst": "klasszikus"
+  },
+  {
+    "src": "cortado",
+    "dst": "fekete kávé kevés tejjel"
+  },
+  {
+    "src": "adaptar",
+    "dst": "hozzáigazít"
+  },
+  {
+    "src": "paracaídas",
+    "dst": "ejtőernyő"
+  },
+  {
+    "src": "conquistar",
+    "dst": "meghódít"
+  },
+  {
+    "src": "desplegar",
+    "dst": "szétnyit, kihajt (pl legyezőt)"
+  },
+  {
+    "src": "respuesta",
+    "dst": "válasz, felelet"
+  },
+  {
+    "src": "caja",
+    "dst": "1. doboz 2. pénztár"
+  },
+  {
+    "src": "en absoluto",
+    "dst": "egyáltalán nem"
+  },
+  {
+    "src": "compra",
+    "dst": "vásárlás"
+  },
+  {
+    "src": "menos que",
+    "dst": "kevésbé mint"
+  },
+  {
+    "src": "agricultura",
+    "dst": "mezőgazdaság"
+  },
+  {
+    "src": "actualmente",
+    "dst": "jelenleg"
+  },
+  {
+    "src": "por otro lado",
+    "dst": "másfelől"
+  },
+  {
+    "src": "importancia",
+    "dst": "jelentőség"
+  },
+  {
+    "src": "airbag",
+    "dst": "légzsák"
+  },
+  {
+    "src": "a ciegas",
+    "dst": "látatlanban, vaktában"
+  },
+  {
+    "src": "tal vez",
+    "dst": "talán"
+  },
+  {
+    "src": "belén",
+    "dst": "betlehem (karácsonyi)"
+  },
+  {
+    "src": "utilizar",
+    "dst": "használ, hasznosít"
+  },
+  {
+    "src": "hombre de negocio",
+    "dst": "üzletember"
+  },
+  {
+    "src": "obtener",
+    "dst": "kap, megszerez"
+  },
+  {
+    "src": "butaca",
+    "dst": "fotel"
+  },
+  {
+    "src": "editar",
+    "dst": "kiad (kiadó)"
+  },
+  {
+    "src": "dedicarse",
+    "dst": "vminek szenteli magát, vmivel foglalkozik"
+  },
+  {
+    "src": "través",
+    "dst": "utazik"
+  },
+  {
+    "src": "andalucía",
+    "dst": "andalúzia"
+  },
+  {
+    "src": "cartel",
+    "dst": "műsorplakát"
+  },
+  {
+    "src": "tener un compromiso",
+    "dst": "elígérkezik"
+  },
+  {
+    "src": "bastidora",
+    "dst": "habverő"
+  },
+  {
+    "src": "televisor",
+    "dst": "tévé"
+  },
+  {
+    "src": "alto",
+    "dst": "megállás, stop"
+  },
+  {
+    "src": "transporte público",
+    "dst": "tömegközlekedés"
+  },
+  {
+    "src": "forma",
+    "dst": "alak, forma"
+  },
+  {
+    "src": "legumbre",
+    "dst": "hüvelyes zöldség"
+  },
+  {
+    "src": "antónimo",
+    "dst": "ellentétes értelmű"
+  },
+  {
+    "src": "gallo",
+    "dst": "kakas"
+  },
+  {
+    "src": "nieve",
+    "dst": "hó"
+  },
+  {
+    "src": "evacuar",
+    "dst": "kitelepít, kiürít, evakuál"
+  },
+  {
+    "src": "centro comercial",
+    "dst": "bevásárló központ"
+  },
+  {
+    "src": "chaqueta",
+    "dst": "zakó"
+  },
+  {
+    "src": "culpa",
+    "dst": "vétség, vétek, hiba, bűn"
+  },
+  {
+    "src": "primer",
+    "dst": "első"
+  },
+  {
+    "src": "césped",
+    "dst": "gyep, fű"
+  },
+  {
+    "src": "ubicar",
+    "dst": "elhelyez"
+  },
+  {
+    "src": "oriental",
+    "dst": "keleti"
+  },
+  {
+    "src": "vencer",
+    "dst": "legyőz"
+  },
+  {
+    "src": "cansancio",
+    "dst": "fáradtság"
+  },
+  {
+    "src": "parecido",
+    "dst": "hasonló"
+  },
+  {
+    "src": "comprar",
+    "dst": "vesz,vásárol"
+  },
+  {
+    "src": "totalmente",
+    "dst": "teljesen"
+  },
+  {
+    "src": "horario",
+    "dst": "1. menetrend, órarend 2. nyitvatartás"
+  },
+  {
+    "src": "con cariño",
+    "dst": "szeretettel (levél végén is)"
+  },
+  {
+    "src": "otros",
+    "dst": "mások, többiek"
+  },
+  {
+    "src": "miel",
+    "dst": "méz"
+  },
+  {
+    "src": "cazo",
+    "dst": "nyeles lábas"
+  },
+  {
+    "src": "compañero",
+    "dst": "társ"
+  },
+  {
+    "src": "real",
+    "dst": "1. valós, reális 2. királyi"
+  },
+  {
+    "src": "tan",
+    "dst": "annyi, annyira"
+  },
+  {
+    "src": "bosque",
+    "dst": "erdő"
+  },
+  {
+    "src": "continuo",
+    "dst": "folyamatos"
+  },
+  {
+    "src": "declarar",
+    "dst": "kinyilvánít"
+  },
+  {
+    "src": "enviar",
+    "dst": "elküld"
+  },
+  {
+    "src": "telefónica",
+    "dst": "telefonkártya"
+  },
+  {
+    "src": "conseguir",
+    "dst": "1. megszerez 2. elér"
+  },
+  {
+    "src": "claro",
+    "dst": "világos"
+  },
+  {
+    "src": "océano atlántico",
+    "dst": "atlanti óceán"
+  },
+  {
+    "src": "internacionalmente",
+    "dst": "nemzetközileg"
+  },
+  {
+    "src": "jazz",
+    "dst": "dzsessz"
+  },
+  {
+    "src": "esponjoso",
+    "dst": "szivacsos, habos"
+  },
+  {
+    "src": "catarro",
+    "dst": "megfázás, meghűlés"
+  },
+  {
+    "src": "cine",
+    "dst": "mozi"
+  },
+  {
+    "src": "profesión",
+    "dst": "foglalkozás"
+  },
+  {
+    "src": "vender",
+    "dst": "elad, árusít"
+  },
+  {
+    "src": "queso",
+    "dst": "sajt"
+  },
+  {
+    "src": "telefonía",
+    "dst": "távbeszélőtechnika"
+  },
+  {
+    "src": "participar",
+    "dst": "részt vesz"
+  },
+  {
+    "src": "tarde",
+    "dst": "későn"
+  },
+  {
+    "src": "definitivamente",
+    "dst": "véglegesen"
+  },
+  {
+    "src": "rallar",
+    "dst": "reszel"
+  },
+  {
+    "src": "clase",
+    "dst": "osztály"
+  },
+  {
+    "src": "hispanidad",
+    "dst": "spanyol nyelvű kultúrák közössége"
+  },
+  {
+    "src": "histórico",
+    "dst": "történelmi"
+  },
+  {
+    "src": "fondo",
+    "dst": "vminek az alja, feneke"
+  },
+  {
+    "src": "terror",
+    "dst": "1. borzalom 2. terror, rémuralom"
+  },
+  {
+    "src": "asumir",
+    "dst": "1. átvesz 2. magára vállal"
+  },
+  {
+    "src": "actividad",
+    "dst": "1.tevékenység 2. aktivitás"
+  },
+  {
+    "src": "permanecer",
+    "dst": "1, tartózkodik vhol 2. marad"
+  },
+  {
+    "src": "cerca de",
+    "dst": "vmihez közel"
+  },
+  {
+    "src": "abuelo",
+    "dst": "nagyapa,nagyanya"
+  },
+  {
+    "src": "novecientos",
+    "dst": "kilencszáz"
+  },
+  {
+    "src": "caprichoso",
+    "dst": "szeszélyes"
+  },
+  {
+    "src": "cámara",
+    "dst": "kamera"
+  },
+  {
+    "src": "antes de + fni",
+    "dst": "mielőtt"
+  },
+  {
+    "src": "idioma",
+    "dst": "nyelv"
+  },
+  {
+    "src": "compañía",
+    "dst": "társaság"
+  },
+  {
+    "src": "sentir",
+    "dst": "1 . érez 2. sajnál"
+  },
+  {
+    "src": "compra-venta",
+    "dst": "adás-vétel"
+  },
+  {
+    "src": "fotógrafo",
+    "dst": "fényképész"
+  },
+  {
+    "src": "cámara fotográfica",
+    "dst": "fényképezőgép"
+  },
+  {
+    "src": "tráfico",
+    "dst": "forgalom"
+  },
+  {
+    "src": "oferta",
+    "dst": "ajánlat, kínálat"
+  },
+  {
+    "src": "al aire libre",
+    "dst": "szabad ég alatt"
+  },
+  {
+    "src": "nada especial",
+    "dst": "semmi különös(et)"
+  },
+  {
+    "src": "confesar a",
+    "dst": "meg/bevall, meggyón vkinek"
+  },
+  {
+    "src": "incaico",
+    "dst": "inka"
+  },
+  {
+    "src": "en el fondo",
+    "dst": "vmi végén (térben)"
+  },
+  {
+    "src": "frecuencia",
+    "dst": "gyakoriság"
+  },
+  {
+    "src": "comer",
+    "dst": "eszik, ebédel"
+  },
+  {
+    "src": "lavar",
+    "dst": "mos, mosogat"
+  },
+  {
+    "src": "anunciar",
+    "dst": "1. bejelent 2. hirdet"
+  },
+  {
+    "src": "hacer",
+    "dst": "csinál"
+  },
+  {
+    "src": "ocho",
+    "dst": "nyolc"
+  },
+  {
+    "src": "oscuro",
+    "dst": "sötét"
+  },
+  {
+    "src": "abanico",
+    "dst": "legyezó"
+  },
+  {
+    "src": "mar cantábrico",
+    "dst": "kantábriai tenger"
+  },
+  {
+    "src": "flora",
+    "dst": "növényvilág, flóra"
+  },
+  {
+    "src": "canario",
+    "dst": "kanári"
+  },
+  {
+    "src": "padre",
+    "dst": "apa"
+  },
+  {
+    "src": "vacaciones",
+    "dst": "szünidő, vakáció"
+  },
+  {
+    "src": "septiembre",
+    "dst": "szeptember"
+  },
+  {
+    "src": "romano",
+    "dst": "római"
+  },
+  {
+    "src": "importante",
+    "dst": "fontos"
+  },
+  {
+    "src": "zurich",
+    "dst": "zürich"
+  },
+  {
+    "src": "hungría",
+    "dst": "magyarország"
+  },
+  {
+    "src": "belleza",
+    "dst": "szépség"
+  },
+  {
+    "src": "cierto",
+    "dst": "biztos, bizonyos"
+  },
+  {
+    "src": "norte",
+    "dst": "észak"
+  },
+  {
+    "src": "me da asco",
+    "dst": "bosszant, dühít"
+  },
+  {
+    "src": "sagrado",
+    "dst": "megszentelt, szent"
+  },
+  {
+    "src": "competición",
+    "dst": "sportverseny"
+  },
+  {
+    "src": "sacar una nota",
+    "dst": "osztályzatot kap"
+  },
+  {
+    "src": "tener en cuenta",
+    "dst": "figyelembe vesz"
+  },
+  {
+    "src": "quedar",
+    "dst": "marad, van még vmiből"
+  },
+  {
+    "src": "sobrino",
+    "dst": "unokaöccs, unokahúg"
+  },
+  {
+    "src": "enfermedad",
+    "dst": "betegség"
+  },
+  {
+    "src": "futbolista",
+    "dst": "focista"
+  },
+  {
+    "src": "flamenco",
+    "dst": "andalúziai ének és tánc"
+  },
+  {
+    "src": "tipo",
+    "dst": "1 . típus, fajta 2. fickó, pasi"
+  },
+  {
+    "src": "hablar",
+    "dst": "beszél"
+  },
+  {
+    "src": "natural",
+    "dst": "természetes"
+  },
+  {
+    "src": "ochenta",
+    "dst": "nyolcvan"
+  },
+  {
+    "src": "cosmográfia",
+    "dst": "kozmográfia, a világegyetem leírása"
+  },
+  {
+    "src": "maya",
+    "dst": "maja"
+  },
+  {
+    "src": "castillo",
+    "dst": "vár"
+  },
+  {
+    "src": "todo",
+    "dst": "összes, egész"
+  },
+  {
+    "src": "estar",
+    "dst": "van (vhol)"
+  },
+  {
+    "src": "descansar",
+    "dst": "pihen"
+  },
+  {
+    "src": "marruecos",
+    "dst": "marokkó"
+  },
+  {
+    "src": "ambulancia",
+    "dst": "mentő"
+  },
+  {
+    "src": "pez espada",
+    "dst": "kardhal"
+  },
+  {
+    "src": "generalmente",
+    "dst": "általában"
+  },
+  {
+    "src": "apartamento",
+    "dst": "lakás"
+  },
+  {
+    "src": "bádminton",
+    "dst": "tollaslabda"
+  },
+  {
+    "src": "perfume",
+    "dst": "illatszer"
+  },
+  {
+    "src": "abundante",
+    "dst": "bőséges"
+  },
+  {
+    "src": "marroquí",
+    "dst": "marokkói"
+  },
+  {
+    "src": "cambio",
+    "dst": "váltás csere"
+  },
+  {
+    "src": "antes",
+    "dst": "azelőtt"
+  },
+  {
+    "src": "heladería",
+    "dst": "fagylaltozó"
+  },
+  {
+    "src": "suroeste",
+    "dst": "délnyugat"
+  },
+  {
+    "src": "origen",
+    "dst": "eredet, származás"
+  },
+  {
+    "src": "planta",
+    "dst": "1. növény 2. szint"
+  },
+  {
+    "src": "roto",
+    "dst": "törött, rossz (nem múködik)"
+  },
+  {
+    "src": "acordarse",
+    "dst": "emlékszik"
+  },
+  {
+    "src": "volver a casa",
+    "dst": "hazamegy"
+  },
+  {
+    "src": "ponerse a + főnévi igenév",
+    "dst": "elkezd vmit csinálni"
+  },
+  {
+    "src": "misterio",
+    "dst": "1. rejtély 2. misztérium"
+  },
+  {
+    "src": "para colmo",
+    "dst": "mindennek a tetejébe"
+  },
+  {
+    "src": "cómo va a estar ... ?",
+    "dst": "már hogy lenne ...?"
+  },
+  {
+    "src": "relámpago",
+    "dst": "villám"
+  },
+  {
+    "src": "antibiótico",
+    "dst": "antibiotikum"
+  },
+  {
+    "src": "comunidad",
+    "dst": "közösség"
+  },
+  {
+    "src": "angustiada",
+    "dst": "szorongó, aggódó"
+  },
+  {
+    "src": "humo",
+    "dst": "füst"
+  },
+  {
+    "src": "imperativo",
+    "dst": "felszólító mód"
+  },
+  {
+    "src": "familiar",
+    "dst": "családtag"
+  },
+  {
+    "src": "verano",
+    "dst": "nyár"
+  },
+  {
+    "src": "exportar",
+    "dst": "exportál"
+  },
+  {
+    "src": "a veces",
+    "dst": "néha, olykor"
+  },
+  {
+    "src": "semana santa",
+    "dst": "nagyhét"
+  },
+  {
+    "src": "ahora",
+    "dst": "most"
+  },
+  {
+    "src": "autoestop",
+    "dst": "autóstop"
+  },
+  {
+    "src": "viajar",
+    "dst": "utazik"
+  },
+  {
+    "src": "de primero año",
+    "dst": "elsős, első éves"
+  },
+  {
+    "src": "bulevar",
+    "dst": "körút"
+  },
+  {
+    "src": "guía",
+    "dst": "idegenvezető"
+  },
+  {
+    "src": "plan",
+    "dst": "terv"
+  },
+  {
+    "src": "despacho",
+    "dst": "dolgozószoba"
+  },
+  {
+    "src": "bastón",
+    "dst": "bot"
+  },
+  {
+    "src": "vasco",
+    "dst": "baszk"
+  },
+  {
+    "src": "invierno",
+    "dst": "tél"
+  },
+  {
+    "src": "azulejo",
+    "dst": "csempe"
+  },
+  {
+    "src": "comercial",
+    "dst": "kereskedelmi"
+  },
+  {
+    "src": "moda",
+    "dst": "divat"
+  },
+  {
+    "src": "viaje",
+    "dst": "út, utazás"
+  },
+  {
+    "src": "reserva",
+    "dst": "természetvédelmi terület"
+  },
+  {
+    "src": "cada",
+    "dst": "minden egyes"
+  },
+  {
+    "src": "kilogramo",
+    "dst": "kilogramm"
+  },
+  {
+    "src": "sencillo",
+    "dst": "egyszerű"
+  },
+  {
+    "src": "fin de semana",
+    "dst": "hétvége"
+  },
+  {
+    "src": "sello",
+    "dst": "bélyeg"
+  },
+  {
+    "src": "tradición",
+    "dst": "hagyomány"
+  },
+  {
+    "src": "tener",
+    "dst": "van neki, birtokol"
+  },
+  {
+    "src": "mazapán",
+    "dst": "marcipán"
+  },
+  {
+    "src": "castillo",
+    "dst": "vár,kastély"
+  },
+  {
+    "src": "punto cardinal",
+    "dst": "égtáj"
+  },
+  {
+    "src": "abierto",
+    "dst": "nyitott, nyílt"
+  },
+  {
+    "src": "isla",
+    "dst": "sziget"
+  },
+  {
+    "src": "merluza",
+    "dst": "tőkehal"
+  },
+  {
+    "src": "vista",
+    "dst": "kilátás, látvány"
+  },
+  {
+    "src": "proponer",
+    "dst": "javasol, ajánl"
+  },
+  {
+    "src": "utensilio",
+    "dst": "eszköz"
+  },
+  {
+    "src": "colmo",
+    "dst": "csúcs"
+  },
+  {
+    "src": "es que ...",
+    "dst": "az a helyzet, hogy .... . arról van szó, hogy ..."
+  },
+  {
+    "src": "suficiente",
+    "dst": "elég, elegendő"
+  },
+  {
+    "src": "nombrar",
+    "dst": "megnevez, kinevez"
+  },
+  {
+    "src": "grandes almacenes",
+    "dst": "áruház"
+  },
+  {
+    "src": "recto",
+    "dst": "egyenes"
+  },
+  {
+    "src": "caerle bien",
+    "dst": "szimpatikus"
+  },
+  {
+    "src": "necesitar",
+    "dst": "szüksége van vmire"
+  },
+  {
+    "src": "producto de belleza",
+    "dst": "piperecikk"
+  },
+  {
+    "src": "cita",
+    "dst": "1. találkozó, randevú 2. időpont"
+  },
+  {
+    "src": "calefacción central",
+    "dst": "központi fűtés"
+  },
+  {
+    "src": "sustituir",
+    "dst": "helyettesít"
+  },
+  {
+    "src": "según",
+    "dst": "szerint, alapján"
+  },
+  {
+    "src": "lugar",
+    "dst": "hely"
+  },
+  {
+    "src": "dígame.",
+    "dst": "1. halló! 2. mondja csak!"
+  },
+  {
+    "src": "restaurante",
+    "dst": "étterem"
+  },
+  {
+    "src": "batir",
+    "dst": "felver (habot, tojást)"
+  },
+  {
+    "src": "protagonista",
+    "dst": "főszereplő"
+  },
+  {
+    "src": "aspirador",
+    "dst": "porszívó"
+  },
+  {
+    "src": "kilómetro",
+    "dst": "kilométer"
+  },
+  {
+    "src": "fruta",
+    "dst": "gyümölcs"
+  },
+  {
+    "src": "playa",
+    "dst": "tengerpart"
+  },
+  {
+    "src": "queso manchego",
+    "dst": "la manchában készülő sajtféle"
+  },
+  {
+    "src": "sexto",
+    "dst": "hatodik"
+  },
+  {
+    "src": "granizado",
+    "dst": "shake, jégkása"
+  },
+  {
+    "src": "feria",
+    "dst": "vásár"
+  },
+  {
+    "src": "carne",
+    "dst": "hús"
+  },
+  {
+    "src": "tan ... como",
+    "dst": "ugyanolyan .., mint"
+  },
+  {
+    "src": "colección",
+    "dst": "1. gyűjtemény 2. kollekció"
+  },
+  {
+    "src": "agotador",
+    "dst": "kimerítő"
+  },
+  {
+    "src": "degustación",
+    "dst": "kóstoló"
+  },
+  {
+    "src": "lavandería",
+    "dst": "mosoda"
+  },
+  {
+    "src": "sin duda",
+    "dst": "kétségkívül"
+  },
+  {
+    "src": "celular",
+    "dst": "mobiltelefon"
+  },
+  {
+    "src": "caerle mal",
+    "dst": "ellenszemves"
+  },
+  {
+    "src": "calidad",
+    "dst": "minőség"
+  },
+  {
+    "src": "motocicleta",
+    "dst": "motorbicikli"
+  },
+  {
+    "src": "agotado",
+    "dst": "kimerült"
+  },
+  {
+    "src": "dibujo",
+    "dst": "rajz"
+  },
+  {
+    "src": "anécdota",
+    "dst": "anekdota; rövid, erdekes történet"
+  },
+  {
+    "src": "buenas tardes",
+    "dst": "jó napot kívánok (délután)"
+  },
+  {
+    "src": "entonces",
+    "dst": "akkor"
+  },
+  {
+    "src": "álbum",
+    "dst": "album"
+  },
+  {
+    "src": "cariño",
+    "dst": "1. kedvesség 2. kedvesem, édesem (megszólításként)"
+  },
+  {
+    "src": "pasillo",
+    "dst": "folyosó"
+  },
+  {
+    "src": "vida",
+    "dst": "élet"
+  },
+  {
+    "src": "cosa",
+    "dst": "dolog"
+  },
+  {
+    "src": "celebración",
+    "dst": "ünneplés"
+  },
+  {
+    "src": "serio",
+    "dst": "komoly"
+  },
+  {
+    "src": "cantábrico",
+    "dst": "kantábriai"
+  },
+  {
+    "src": "práctico",
+    "dst": "praktikus"
+  },
+  {
+    "src": "codo",
+    "dst": "könyök"
+  },
+  {
+    "src": "caramelo",
+    "dst": "cukorka"
+  },
+  {
+    "src": "región",
+    "dst": "tájegység, vidék, régió"
+  },
+  {
+    "src": "contra",
+    "dst": "ellen"
+  },
+  {
+    "src": "a dónde?",
+    "dst": "hová?"
+  },
+  {
+    "src": "tocar",
+    "dst": "1 . érint 2. vmilyen hangszeren játszik"
+  },
+  {
+    "src": "verde",
+    "dst": "zöld"
+  },
+  {
+    "src": "gazpacho",
+    "dst": "hideg zöldségleves"
+  },
+  {
+    "src": "pronóstico",
+    "dst": "időjárásjelentés"
+  },
+  {
+    "src": "hambre",
+    "dst": "éhség"
+  },
+  {
+    "src": "cajero",
+    "dst": "pénztáros"
+  },
+  {
+    "src": "situación",
+    "dst": "helyzet, szituáció"
+  },
+  {
+    "src": "simbolizar",
+    "dst": "jelképez, szimbolizál"
+  },
+  {
+    "src": "aire",
+    "dst": "levegó"
+  },
+  {
+    "src": "siguiente",
+    "dst": "következő"
+  },
+  {
+    "src": "pensión completa",
+    "dst": "teljes ellátás"
+  },
+  {
+    "src": "análisis",
+    "dst": "elemzés"
+  },
+  {
+    "src": "llenarse",
+    "dst": "megtelik"
+  },
+  {
+    "src": "debajo",
+    "dst": "alul, alá"
+  },
+  {
+    "src": "la cara es el espejo del alma.",
+    "dst": "a szem a lélek tükre."
+  },
+  {
+    "src": "mucho",
+    "dst": "sok"
+  },
+  {
+    "src": "juguete",
+    "dst": "játékszer"
+  },
+  {
+    "src": "detrás",
+    "dst": "hátul, mögé"
+  },
+  {
+    "src": "dar la vuelta a",
+    "dst": "megkerül vmit, megfordít"
+  },
+  {
+    "src": "situar",
+    "dst": "elhelyez"
+  },
+  {
+    "src": "calamar",
+    "dst": "tintahal"
+  },
+  {
+    "src": "hacer caso a",
+    "dst": "törődik vmivel, ráhederít"
+  },
+  {
+    "src": "termómetro",
+    "dst": "hőmérő"
+  },
+  {
+    "src": "café con leche",
+    "dst": "tejeskávé"
+  },
+  {
+    "src": "señora",
+    "dst": "hölgy, asszony"
+  },
+  {
+    "src": "cero",
+    "dst": "nulla"
+  },
+  {
+    "src": "celta",
+    "dst": "kelta"
+  },
+  {
+    "src": "medio de transporte",
+    "dst": "közlekedési eszköz"
+  },
+  {
+    "src": "saludar",
+    "dst": "üdvözöl"
+  },
+  {
+    "src": "ventaja",
+    "dst": "előny"
+  },
+  {
+    "src": "bajo",
+    "dst": "alatt"
+  },
+  {
+    "src": "abrigar",
+    "dst": "meleg ruhába öltözetet"
+  },
+  {
+    "src": "colectivo",
+    "dst": "közös, társas"
+  },
+  {
+    "src": "enero",
+    "dst": "január"
+  },
+  {
+    "src": "herirse",
+    "dst": "megsebesül"
+  },
+  {
+    "src": "holanda",
+    "dst": "hollandia"
+  },
+  {
+    "src": "ánimo",
+    "dst": "lélek"
+  },
+  {
+    "src": "componerse",
+    "dst": "áll valamiből"
+  },
+  {
+    "src": "comercial",
+    "dst": "kereskedelmi"
+  },
+  {
+    "src": "común",
+    "dst": "általános, közönséges"
+  },
+  {
+    "src": "cafetera",
+    "dst": "kávéfőző"
+  },
+  {
+    "src": "sofá",
+    "dst": "kanapé"
+  },
+  {
+    "src": "padres",
+    "dst": "szülők"
+  },
+  {
+    "src": "en mi vida",
+    "dst": "soha életemben"
+  },
+  {
+    "src": "acabar de + fni",
+    "dst": "épp most csinált vmit"
+  },
+  {
+    "src": "varios",
+    "dst": "különböző, sokféle"
+  },
+  {
+    "src": "diseño",
+    "dst": "formatervezés, design"
+  },
+  {
+    "src": "oeste",
+    "dst": "nyugat"
+  },
+  {
+    "src": "conventir",
+    "dst": "alakít"
+  },
+  {
+    "src": "julio",
+    "dst": "július"
+  },
+  {
+    "src": "colgar",
+    "dst": "akaszt, függeszt"
+  },
+  {
+    "src": "hacer una excursión",
+    "dst": "kirándul"
+  },
+  {
+    "src": "terrorista",
+    "dst": "terrorista"
+  },
+  {
+    "src": "palacio",
+    "dst": "palota"
+  },
+  {
+    "src": "prepararse",
+    "dst": "felkészül, előkészül"
+  },
+  {
+    "src": "península ibérica",
+    "dst": "ibériai-félsziget"
+  },
+  {
+    "src": "confección",
+    "dst": "készruha"
+  },
+  {
+    "src": "ayudante",
+    "dst": "segéd, háztartási alkalmazott"
+  },
+  {
+    "src": "ejercicio",
+    "dst": "gyakorlat, testgyakorlat"
+  },
+  {
+    "src": "anuncio",
+    "dst": "hirdetés"
+  },
+  {
+    "src": "festividad",
+    "dst": "ünnepség"
+  },
+  {
+    "src": "pagar",
+    "dst": "fizet"
+  },
+  {
+    "src": "poco",
+    "dst": "kevés"
+  },
+  {
+    "src": "apóstol",
+    "dst": "apostol"
+  },
+  {
+    "src": "respectivamente",
+    "dst": "illetve"
+  },
+  {
+    "src": "territorio",
+    "dst": "terület"
+  },
+  {
+    "src": "excesivo",
+    "dst": "túlzott"
+  },
+  {
+    "src": "agresivo",
+    "dst": "erőszakos, agresszív"
+  },
+  {
+    "src": "hacer autoestop",
+    "dst": "stoppol"
+  },
+  {
+    "src": "comparación",
+    "dst": "összehasonlítás"
+  },
+  {
+    "src": "nacional",
+    "dst": "nemzeti, országos, állami"
+  },
+  {
+    "src": "principal",
+    "dst": "fő, legfőbb"
+  },
+  {
+    "src": "producto",
+    "dst": "termék"
+  },
+  {
+    "src": "dirección",
+    "dst": "1. irány 2. lakcím"
+  },
+  {
+    "src": "habitante",
+    "dst": "lakos"
+  },
+  {
+    "src": "animarse",
+    "dst": "megelevenedik, felélénkül"
+  },
+  {
+    "src": "alma",
+    "dst": "lélek"
+  },
+  {
+    "src": "medio de transporte",
+    "dst": "közlekedési eszköz"
+  },
+  {
+    "src": "calor",
+    "dst": "hő,meleg,melegség"
+  },
+  {
+    "src": "ciego",
+    "dst": "vak"
+  },
+  {
+    "src": "comunicación",
+    "dst": "1. közlés, kommunikáció"
+  },
+  {
+    "src": "llevarse bien/mal con",
+    "dst": "jól/rosszul jön ki vkivel"
+  },
+  {
+    "src": "vestirse",
+    "dst": "öltözködik"
+  },
+  {
+    "src": "a base de",
+    "dst": "vmi alapján"
+  },
+  {
+    "src": "público",
+    "dst": "köz-, nyilvános"
+  },
+  {
+    "src": "azteca",
+    "dst": "azték"
+  },
+  {
+    "src": "traductor",
+    "dst": "fordító"
+  },
+  {
+    "src": "consulta",
+    "dst": "itt: orvosi rendelés"
+  },
+  {
+    "src": "consumir",
+    "dst": "fogyaszt"
+  },
+  {
+    "src": "suave",
+    "dst": "enyhe"
+  },
+  {
+    "src": "naranjal",
+    "dst": "narancsliget"
+  },
+  {
+    "src": "avanzado",
+    "dst": "előrehaladott, haladó"
+  },
+  {
+    "src": "caer",
+    "dst": "elesik"
+  },
+  {
+    "src": "condición",
+    "dst": "feltétel"
+  },
+  {
+    "src": "contaminante",
+    "dst": "szennyező"
+  },
+  {
+    "src": "formar",
+    "dst": "alakít"
+  },
+  {
+    "src": "delgado",
+    "dst": "vékony"
+  },
+  {
+    "src": "blanco",
+    "dst": "fehér"
+  },
+  {
+    "src": "comunicar",
+    "dst": "1. közöl, kommunikál 2. összekapcsol"
+  },
+  {
+    "src": "alquilar",
+    "dst": "1. kibérel 2. bérbe ad"
+  },
+  {
+    "src": "consultar",
+    "dst": "megnéz"
+  },
+  {
+    "src": "aplicar",
+    "dst": "1. alkalmaz 2. rátesz"
+  },
+  {
+    "src": "islas canarias",
+    "dst": "kanári szigetek"
+  },
+  {
+    "src": "yogur",
+    "dst": "joghurt"
+  },
+  {
+    "src": "baltasar",
+    "dst": "boldizsár"
+  },
+  {
+    "src": "motivo",
+    "dst": "1. ok 2. motívum"
+  },
+  {
+    "src": "allí",
+    "dst": "ott"
+  },
+  {
+    "src": "ir de viaje",
+    "dst": "elutazik"
+  },
+  {
+    "src": "automóvil",
+    "dst": "kocsi"
+  },
+  {
+    "src": "a través de",
+    "dst": "vmin keresztül"
+  },
+  {
+    "src": "gracias a",
+    "dst": "vminek köszönhetően"
+  },
+  {
+    "src": "ancho",
+    "dst": "széles"
+  },
+  {
+    "src": "casualidad",
+    "dst": "véletlen"
+  },
+  {
+    "src": "excursión",
+    "dst": "kirándulás"
+  },
+  {
+    "src": "ideal",
+    "dst": "ideális, eszményi"
+  },
+  {
+    "src": "calabaza",
+    "dst": "tök"
+  },
+  {
+    "src": "sureste",
+    "dst": "délkelet"
+  },
+  {
+    "src": "visitar",
+    "dst": "meglátogat"
+  },
+  {
+    "src": "aglomeración",
+    "dst": "tömeg"
+  },
+  {
+    "src": "coleccionista",
+    "dst": "gyűjtő"
+  },
+  {
+    "src": "privado",
+    "dst": "magán"
+  },
+  {
+    "src": "acabar con",
+    "dst": "véget vet vminek"
+  },
+  {
+    "src": "fiesta",
+    "dst": "ünnepség, buli"
+  },
+  {
+    "src": "agricultura",
+    "dst": "mezőgazdaság"
+  },
+  {
+    "src": "cada día",
+    "dst": "minden nap"
+  },
+  {
+    "src": "venecia",
+    "dst": "velence"
+  },
+  {
+    "src": "por eso",
+    "dst": "ezért"
+  },
+  {
+    "src": "celoso",
+    "dst": "féltékeny"
+  },
+  {
+    "src": "recopilación",
+    "dst": "gyűjtemény"
+  },
+  {
+    "src": "animar",
+    "dst": "lelkesít, bátorít, biztat"
+  },
+  {
+    "src": "colón",
+    "dst": "kolumbusz"
+  },
+  {
+    "src": "preparar",
+    "dst": "készít, előkészít"
+  },
+  {
+    "src": "trueno",
+    "dst": "mennydörgés"
+  },
+  {
+    "src": "paquete",
+    "dst": "csomag"
+  },
+  {
+    "src": "suavemente",
+    "dst": "lágyan, gyengéden, óvatosan"
+  },
+  {
+    "src": "lista",
+    "dst": "lista"
+  },
+  {
+    "src": "refresco",
+    "dst": "üdítőital"
+  },
+  {
+    "src": "dar a",
+    "dst": "vmerre néz (ablak)"
+  },
+  {
+    "src": "clave",
+    "dst": "kulcs (átvitt értelemben)"
+  },
+  {
+    "src": "costa",
+    "dst": "part"
+  },
+  {
+    "src": "compañero",
+    "dst": "munkatárs"
+  },
+  {
+    "src": "en cabeza",
+    "dst": "élen"
+  },
+  {
+    "src": "química",
+    "dst": "kémia"
+  },
+  {
+    "src": "dar el alto",
+    "dst": "megállít"
+  },
+  {
+    "src": "adicción",
+    "dst": "függóség"
+  },
+  {
+    "src": "patio",
+    "dst": "belső udvar"
+  },
+  {
+    "src": "vídeo",
+    "dst": "video"
+  },
+  {
+    "src": "partir",
+    "dst": "elhagy"
+  },
+  {
+    "src": "alcalde",
+    "dst": "polgármester"
+  },
+  {
+    "src": "abril",
+    "dst": "április"
+  },
+  {
+    "src": "fabada asturiana",
+    "dst": "asturiai egytálétel"
+  },
+  {
+    "src": "italia",
+    "dst": "olaszország"
+  },
+  {
+    "src": "compresa",
+    "dst": "borogatás"
+  },
+  {
+    "src": "luminoso",
+    "dst": "fényes, világos"
+  },
+  {
+    "src": "volumen",
+    "dst": "1 . hangerő 2. térfogat"
+  },
+  {
+    "src": "reducción",
+    "dst": "csökkenés, csökkentés"
+  },
+  {
+    "src": "terminar",
+    "dst": "befejez, befejezódik"
+  },
+  {
+    "src": "caliente",
+    "dst": "meleg"
+  },
+  {
+    "src": "indiscreto",
+    "dst": "indiszkrét"
+  },
+  {
+    "src": "perfeccionar",
+    "dst": "tökéletesít"
+  },
+  {
+    "src": "absurda",
+    "dst": "abszurd"
+  },
+  {
+    "src": "de moda",
+    "dst": "divatos"
+  },
+  {
+    "src": "noveno",
+    "dst": "kilencedik"
+  },
+  {
+    "src": "preposición",
+    "dst": "elöljárószó"
+  },
+  {
+    "src": "patrimonio",
+    "dst": "örökség"
+  },
+  {
+    "src": "nada",
+    "dst": "semmi"
+  },
+  {
+    "src": "prohibir",
+    "dst": "megtilt"
+  },
+  {
+    "src": "exposición universal",
+    "dst": "világkiállítás (1992 sevilla)"
+  },
+  {
+    "src": "basura",
+    "dst": "szemét"
+  },
+  {
+    "src": "reformado",
+    "dst": "felújított, átépített"
+  },
+  {
+    "src": "incluir",
+    "dst": "magában foglal, beleért"
+  },
+  {
+    "src": "admiradora",
+    "dst": "csodáló"
+  },
+  {
+    "src": "clima",
+    "dst": "klíma,éghajlat"
+  },
+  {
+    "src": "chufa",
+    "dst": "horchata alapanyaga (földimandula)"
+  },
+  {
+    "src": "anímate!",
+    "dst": "rajta!"
+  },
+  {
+    "src": "añadir",
+    "dst": "hozzátesz,hozzáad"
+  },
+  {
+    "src": "hijo",
+    "dst": "fia, lánya"
+  },
+  {
+    "src": "destino",
+    "dst": "1. végzet, sors 2. uticél"
+  },
+  {
+    "src": "esperar",
+    "dst": "vár, remél"
+  },
+  {
+    "src": "vela",
+    "dst": "1 . gyertya 2. fátyol, vitorla 3. vitorlázás"
+  },
+  {
+    "src": "quemarse",
+    "dst": "megég, elég"
+  },
+  {
+    "src": "mar mediterráneo",
+    "dst": "földközi tenger"
+  },
+  {
+    "src": "presentar",
+    "dst": "bemutat"
+  },
+  {
+    "src": "estrella",
+    "dst": "csillag, sztár"
+  },
+  {
+    "src": "pareja",
+    "dst": "pár, házaspár"
+  },
+  {
+    "src": "dibujito",
+    "dst": "kis rajz"
+  },
+  {
+    "src": "imaginar",
+    "dst": "elképzel"
+  },
+  {
+    "src": "mochacho",
+    "dst": "kamasz fiú/lány"
+  },
+  {
+    "src": "conejillo de indias",
+    "dst": "tengerimalac"
+  },
+  {
+    "src": "túnez",
+    "dst": "tunézia"
+  },
+  {
+    "src": "extranjero",
+    "dst": "külföldi"
+  },
+  {
+    "src": "banda sonora",
+    "dst": "filmzene"
+  },
+  {
+    "src": "porque",
+    "dst": "mert"
+  },
+  {
+    "src": "haber",
+    "dst": "segédige önálló jelentés nélkül (ld. hay)"
+  },
+  {
+    "src": "avión",
+    "dst": "repülőgép"
+  },
+  {
+    "src": "a la parrilla",
+    "dst": "roston sült"
+  },
+  {
+    "src": "partida",
+    "dst": "játszma"
+  },
+  {
+    "src": "hispanoamerica",
+    "dst": "spanyol-amerika"
+  },
+  {
+    "src": "reunión",
+    "dst": "összejövetel, gyülés, értekezlet"
+  },
+  {
+    "src": "al mismo",
+    "dst": "ugyanakkor"
+  },
+  {
+    "src": "dedicar",
+    "dst": "vminek szán, szentel"
+  },
+  {
+    "src": "ventana",
+    "dst": "ablak"
+  },
+  {
+    "src": "sufrir",
+    "dst": "szenved"
+  },
+  {
+    "src": "ambiente",
+    "dst": "hangulat, légkör, környezet"
+  },
+  {
+    "src": "sombrero",
+    "dst": "kalap"
+  },
+  {
+    "src": "negro",
+    "dst": "fekete"
+  },
+  {
+    "src": "al vino",
+    "dst": "borral készült fogás"
+  },
+  {
+    "src": "alfombra",
+    "dst": "szőnyeg"
+  },
+  {
+    "src": "proceder",
+    "dst": "származik"
+  },
+  {
+    "src": "fantástico",
+    "dst": "fantasztikus"
+  },
+  {
+    "src": "pechuga",
+    "dst": "szárnyas állat melle húsa"
+  },
+  {
+    "src": "adolescencia",
+    "dst": "kamaszkor"
+  },
+  {
+    "src": "pepino",
+    "dst": "uborka"
+  },
+  {
+    "src": "sidra",
+    "dst": "almabor"
+  },
+  {
+    "src": "día festivo",
+    "dst": "ünnepnap"
+  },
+  {
+    "src": "arbitrario",
+    "dst": "önkényes"
+  },
+  {
+    "src": "héroe",
+    "dst": "hős, hősnő"
+  },
+  {
+    "src": "sofocante",
+    "dst": "fullasztó"
+  },
+  {
+    "src": "aburrirse",
+    "dst": "unatkozik"
+  },
+  {
+    "src": "correspondiente",
+    "dst": "megfelelő"
+  },
+  {
+    "src": "apariencia",
+    "dst": "megjelenes, külsó"
+  },
+  {
+    "src": "antifaz",
+    "dst": "itt: arcot takaró kendő"
+  },
+  {
+    "src": "rata",
+    "dst": "patkány"
+  },
+  {
+    "src": "cuidado",
+    "dst": "vigyázat"
+  },
+  {
+    "src": "tarea",
+    "dst": "lecke, házi feladat"
+  },
+  {
+    "src": "flor",
+    "dst": "virág"
+  },
+  {
+    "src": "situarse",
+    "dst": "elhelyezkedik, található vhol"
+  },
+  {
+    "src": "almorzar",
+    "dst": "ebédel"
+  },
+  {
+    "src": "séptimo",
+    "dst": "hetedik"
+  },
+  {
+    "src": "pueblo",
+    "dst": "1. nép, lakosság 2. falu"
+  },
+  {
+    "src": "dorado",
+    "dst": "arany színű"
+  },
+  {
+    "src": "convento",
+    "dst": "zárda"
+  },
+  {
+    "src": "apoyo",
+    "dst": "támasz, segitseg"
+  },
+  {
+    "src": "pasar",
+    "dst": "1. megy, halad 2. időt tölt"
+  },
+  {
+    "src": "civilización",
+    "dst": "civilizáció"
+  },
+  {
+    "src": "desear",
+    "dst": "óhajt, kíván"
+  },
+  {
+    "src": "compañero",
+    "dst": "lakótárs"
+  },
+  {
+    "src": "en voz baja",
+    "dst": "halkan"
+  },
+  {
+    "src": "un",
+    "dst": "egy"
+  },
+  {
+    "src": "producir",
+    "dst": "termel, termeszt"
+  },
+  {
+    "src": "gimnasio",
+    "dst": "tornaterem"
+  },
+  {
+    "src": "hacer las maletas",
+    "dst": "becsomagol"
+  },
+  {
+    "src": "habitación doble",
+    "dst": "kétágyas szoba"
+  },
+  {
+    "src": "fritura",
+    "dst": "serpenyőben sült"
+  },
+  {
+    "src": "recibir",
+    "dst": "kap, fogad"
+  },
+  {
+    "src": "corazón",
+    "dst": "szív"
+  },
+  {
+    "src": "bachillerato",
+    "dst": "érettségi"
+  },
+  {
+    "src": "música de rock",
+    "dst": "rockzene"
+  },
+  {
+    "src": "figurar",
+    "dst": "szerepel (szövegben)"
+  },
+  {
+    "src": "atractivo",
+    "dst": "vonzó"
+  },
+  {
+    "src": "suplemento",
+    "dst": "melléklet"
+  },
+  {
+    "src": "piña",
+    "dst": "ananász"
+  },
+  {
+    "src": "industrial",
+    "dst": "ipari"
+  },
+  {
+    "src": "manera",
+    "dst": "mód"
+  },
+  {
+    "src": "salado",
+    "dst": "sós"
+  },
+  {
+    "src": "inmueble",
+    "dst": "ingatlan"
+  },
+  {
+    "src": "habitación individual",
+    "dst": "egyágyas szoba"
+  },
+  {
+    "src": "convencer",
+    "dst": "meggyóz"
+  },
+  {
+    "src": "persona",
+    "dst": "személy, ember"
+  },
+  {
+    "src": "diccionario",
+    "dst": "szótár"
+  },
+  {
+    "src": "ponerse",
+    "dst": "felvesz (ruhát)"
+  },
+  {
+    "src": "signo de puntuación",
+    "dst": "írásiel"
+  },
+  {
+    "src": "constructor",
+    "dst": "építő, építtető"
+  },
+  {
+    "src": "mujer",
+    "dst": "1. nő, asszony 2. feleség"
+  },
+  {
+    "src": "comunidad",
+    "dst": "közösség"
+  },
+  {
+    "src": "lejos",
+    "dst": "messze"
+  },
+  {
+    "src": "a la derecha",
+    "dst": "jobbra"
+  },
+  {
+    "src": "pensión",
+    "dst": "1. ellátás 2. nyugdíj"
+  },
+  {
+    "src": "falso",
+    "dst": "hamis"
+  },
+  {
+    "src": "junio",
+    "dst": "június"
+  },
+  {
+    "src": "auténtico",
+    "dst": "hiteles, valóságos, valódi"
+  },
+  {
+    "src": "fatal",
+    "dst": "1. végzetes, fatális 2. rémes"
+  },
+  {
+    "src": "contrato",
+    "dst": "szerzódés"
+  },
+  {
+    "src": "los aldededores de",
+    "dst": "vmi környéke"
+  },
+  {
+    "src": "exactamente",
+    "dst": "pontosan"
+  },
+  {
+    "src": "quedarse en casa",
+    "dst": "otthon marad"
+  },
+  {
+    "src": "vendedor",
+    "dst": "árus(nő)"
+  },
+  {
+    "src": "después de + fni",
+    "dst": "miután"
+  },
+  {
+    "src": "gato",
+    "dst": "macska"
+  },
+  {
+    "src": "recién nacido",
+    "dst": "újszülött"
+  },
+  {
+    "src": "banco",
+    "dst": "1. pad 2. bank"
+  },
+  {
+    "src": "bajar",
+    "dst": "leszáll"
+  },
+  {
+    "src": "cuidar",
+    "dst": "vigyáz"
+  },
+  {
+    "src": "compañía aéria",
+    "dst": "légitársaság"
+  },
+  {
+    "src": "octavo",
+    "dst": "nyolcadik"
+  },
+  {
+    "src": "lisboa",
+    "dst": "lisszabon"
+  },
+  {
+    "src": "chistoso",
+    "dst": "vicces"
+  },
+  {
+    "src": "sangría",
+    "dst": "bólé vörösbörból és gyümölcsökből"
+  },
+  {
+    "src": "preocupar",
+    "dst": "aggaszt"
+  },
+  {
+    "src": "normal",
+    "dst": "normális, szokványos"
+  },
+  {
+    "src": "griego",
+    "dst": "görög"
+  },
+  {
+    "src": "pronunciar",
+    "dst": "kiejt (hangot)"
+  },
+  {
+    "src": "aduana",
+    "dst": "vám"
+  },
+  {
+    "src": "lamentar",
+    "dst": "sajnál"
+  },
+  {
+    "src": "resultado",
+    "dst": "eredmény"
+  },
+  {
+    "src": "décimo",
+    "dst": "tizedik"
+  },
+  {
+    "src": "hasta luego",
+    "dst": "viszontlátásra"
+  },
+  {
+    "src": "espacio",
+    "dst": "tér, űr, hely"
+  },
+  {
+    "src": "cebolla",
+    "dst": "hagyma"
+  },
+  {
+    "src": "siesta",
+    "dst": "szieszta"
+  },
+  {
+    "src": "tomate",
+    "dst": "paradicsom"
+  },
+  {
+    "src": "ciudad",
+    "dst": "város"
+  },
+  {
+    "src": "policia",
+    "dst": "rendőrség"
+  },
+  {
+    "src": "hermano",
+    "dst": "testvér"
+  },
+  {
+    "src": "cogida",
+    "dst": "itt: torreádor felöklelése"
+  },
+  {
+    "src": "cansar",
+    "dst": "fáraszt"
+  },
+  {
+    "src": "atracción",
+    "dst": "1. vonzás 2. látványosság"
+  },
+  {
+    "src": "autoridad",
+    "dst": "hatóság"
+  },
+  {
+    "src": "barra",
+    "dst": "bárpult"
+  },
+  {
+    "src": "andes",
+    "dst": "andok"
+  },
+  {
+    "src": "abrazo",
+    "dst": "ölelés"
+  },
+  {
+    "src": "estupendamente",
+    "dst": "remekül"
+  },
+  {
+    "src": "averiguar",
+    "dst": "kiderít,utánajár"
+  },
+  {
+    "src": "a finales de",
+    "dst": "vmi végén (időben)"
+  },
+  {
+    "src": "matar el hambre",
+    "dst": "csillapítja az éhségét"
+  },
+  {
+    "src": "calendario",
+    "dst": "naptár"
+  },
+  {
+    "src": "lunes",
+    "dst": "hétfő"
+  },
+  {
+    "src": "exterior",
+    "dst": "külső"
+  },
+  {
+    "src": "acogedor",
+    "dst": "vendégszeretó, befogadó, barátságos"
+  },
+  {
+    "src": "recipiente",
+    "dst": "edény"
+  },
+  {
+    "src": "poema",
+    "dst": "vers"
+  },
+  {
+    "src": "noviembre",
+    "dst": "november"
+  },
+  {
+    "src": "en punto",
+    "dst": "pontban, pontosan"
+  },
+  {
+    "src": "indio",
+    "dst": "indián"
+  },
+  {
+    "src": "marcar",
+    "dst": "1. jelöl 2. telefonszámot beüt, tárcsáz"
+  },
+  {
+    "src": "cristiano",
+    "dst": "keresztény"
+  },
+  {
+    "src": "cuarto de baño",
+    "dst": "fürdőszoba"
+  },
+  {
+    "src": "tener miedo",
+    "dst": "fél"
+  },
+  {
+    "src": "tablao",
+    "dst": "andalúziai szórakozóhely, ahol flamencót táncolnak"
+  },
+  {
+    "src": "cabeza",
+    "dst": "fej"
+  },
+  {
+    "src": "en frente de",
+    "dst": "szemben vmivel"
+  },
+  {
+    "src": "finalmente",
+    "dst": "végül"
+  },
+  {
+    "src": "bajo",
+    "dst": "alacsony"
+  },
+  {
+    "src": "indígena",
+    "dst": "indián őslakos"
+  },
+  {
+    "src": "agotada",
+    "dst": "kimerült"
+  },
+  {
+    "src": "a ver si",
+    "dst": "hátha"
+  },
+  {
+    "src": "a partir de",
+    "dst": "1. valami alapján 2. vmitől fogva, kezdve"
+  },
+  {
+    "src": "colosal",
+    "dst": "hatalmas, kolosszális"
+  },
+  {
+    "src": "saber",
+    "dst": "tud"
+  },
+  {
+    "src": "saltar",
+    "dst": "ugrik"
+  },
+  {
+    "src": "siempre",
+    "dst": "mindig"
+  },
+  {
+    "src": "cuaresma",
+    "dst": "nagyböjt"
+  },
+  {
+    "src": "francés",
+    "dst": "francia"
+  },
+  {
+    "src": "de hoy",
+    "dst": "mai"
+  },
+  {
+    "src": "cocina de gas",
+    "dst": "gáztűzhely"
+  },
+  {
+    "src": "qué hora es?",
+    "dst": "hány óra van?"
+  },
+  {
+    "src": "castañuelas",
+    "dst": "kasztanyetta"
+  },
+  {
+    "src": "salir con",
+    "dst": "jár valakivel"
+  },
+  {
+    "src": "negociable",
+    "dst": "tárgyalható, lehet róla tárgyalni"
+  },
+  {
+    "src": "radio",
+    "dst": "rádió"
+  },
+  {
+    "src": "bollo",
+    "dst": "kalács"
+  },
+  {
+    "src": "crimen",
+    "dst": "bűntény, bűneset"
+  },
+  {
+    "src": "informático",
+    "dst": "számítástechnikai"
+  },
+  {
+    "src": "barco",
+    "dst": "hajó"
+  },
+  {
+    "src": "gafas",
+    "dst": "szemüveg"
+  },
+  {
+    "src": "alimentarse",
+    "dst": "táplálkozik"
+  },
+  {
+    "src": "viento",
+    "dst": "szél"
+  },
+  {
+    "src": "jefe",
+    "dst": "főnök"
+  },
+  {
+    "src": "raro",
+    "dst": "ritka, furcsa"
+  },
+  {
+    "src": "informática",
+    "dst": "számítástechnika"
+  },
+  {
+    "src": "opinión",
+    "dst": "vélemény"
+  },
+  {
+    "src": "aumentar",
+    "dst": "növel, növekszik"
+  },
+  {
+    "src": "dulces",
+    "dst": "édesség"
+  },
+  {
+    "src": "alcachofa",
+    "dst": "articsóka"
+  },
+  {
+    "src": "cintura",
+    "dst": "derék"
+  },
+  {
+    "src": "aportar",
+    "dst": "hozzájárul, meghoz"
+  },
+  {
+    "src": "existir",
+    "dst": "létezik"
+  },
+  {
+    "src": "cajita",
+    "dst": "kis doboz, dobozka"
+  },
+  {
+    "src": "esquina",
+    "dst": "sarok (utcáé)"
+  },
+  {
+    "src": "cenar",
+    "dst": "vacsorázik"
+  },
+  {
+    "src": "cuadro",
+    "dst": "négyzet"
+  },
+  {
+    "src": "negocio",
+    "dst": "üzlet, vállalkozás"
+  },
+  {
+    "src": "expresión",
+    "dst": "kifejezés"
+  },
+  {
+    "src": "precio",
+    "dst": "ár"
+  },
+  {
+    "src": "aceite",
+    "dst": "olaj"
+  },
+  {
+    "src": "como",
+    "dst": "mint, -ként, ahogy"
+  },
+  {
+    "src": "adecuado",
+    "dst": "megfeleló, alkalmas, odailló"
+  },
+  {
+    "src": "hablador",
+    "dst": "beszédes"
+  },
+  {
+    "src": "tabaco",
+    "dst": "1 . dohány 2. szivar"
+  },
+  {
+    "src": "terminal",
+    "dst": "végállomás"
+  },
+  {
+    "src": "cometer",
+    "dst": "elkövet"
+  },
+  {
+    "src": "por cierto",
+    "dst": "apropó, erről jut eszembe"
+  },
+  {
+    "src": "absoluto",
+    "dst": "abszolút"
+  },
+  {
+    "src": "jabón",
+    "dst": "szappan"
+  },
+  {
+    "src": "mundo",
+    "dst": "világ"
+  },
+  {
+    "src": "abandonar",
+    "dst": "1. elhagy 2. abbahagy"
+  },
+  {
+    "src": "sobre",
+    "dst": "boríték"
+  },
+  {
+    "src": "contaminar",
+    "dst": "szennyez"
+  },
+  {
+    "src": "ataque",
+    "dst": "támadás"
+  },
+  {
+    "src": "reserva natural",
+    "dst": "természetvédelmi terület"
+  },
+  {
+    "src": "correo",
+    "dst": "posta"
+  },
+  {
+    "src": "ducharse",
+    "dst": "zuhanyozik"
+  },
+  {
+    "src": "finés",
+    "dst": "finn"
+  },
+  {
+    "src": "carnal",
+    "dst": "testi"
+  },
+  {
+    "src": "corte",
+    "dst": "szabás,szabászat"
+  },
+  {
+    "src": "ma(g)dalena",
+    "dst": "teasütemény"
+  },
+  {
+    "src": "ama de casa",
+    "dst": "háziasszony"
+  },
+  {
+    "src": "patinar",
+    "dst": "korcsolyázik"
+  },
+  {
+    "src": "costumbre",
+    "dst": "szokás"
+  },
+  {
+    "src": "adulto",
+    "dst": "felnótt"
+  },
+  {
+    "src": "ajena",
+    "dst": "idegen, más"
+  },
+  {
+    "src": "encontrarse",
+    "dst": "1. találkozik 2. található"
+  },
+  {
+    "src": "cuadro",
+    "dst": "1. kép 2. táblázat"
+  },
+  {
+    "src": "conveniente",
+    "dst": "megfelelő"
+  },
+  {
+    "src": "todo recto",
+    "dst": "egyenesen"
+  },
+  {
+    "src": "transporte",
+    "dst": "közlekedés"
+  },
+  {
+    "src": "canasta",
+    "dst": "itt: kosár (kosárlabdához)"
+  },
+  {
+    "src": "viernes",
+    "dst": "péntek"
+  },
+  {
+    "src": "novios",
+    "dst": "jegyespár"
+  },
+  {
+    "src": "teatro",
+    "dst": "színház"
+  },
+  {
+    "src": "circo",
+    "dst": "cirkusz"
+  },
+  {
+    "src": "josé",
+    "dst": "józsef"
+  },
+  {
+    "src": "pelar",
+    "dst": "hámoz"
+  },
+  {
+    "src": "uvas",
+    "dst": "szőlő"
+  },
+  {
+    "src": "atractivo",
+    "dst": "vonzó"
+  },
+  {
+    "src": "euro",
+    "dst": "euró"
+  },
+  {
+    "src": "recoger",
+    "dst": "összeszed"
+  },
+  {
+    "src": "acuerdo",
+    "dst": "egyetértés"
+  },
+  {
+    "src": "literatura",
+    "dst": "irodalom"
+  },
+  {
+    "src": "llueve a cántaros",
+    "dst": "esik mintha dézsából öntenék"
+  },
+  {
+    "src": "vacío",
+    "dst": "üres"
+  },
+  {
+    "src": "asumir un compromiso",
+    "dst": "kötelezettséget vállal"
+  },
+  {
+    "src": "tener una avería",
+    "dst": "lerobban (kocsi)"
+  },
+  {
+    "src": "esquiador",
+    "dst": "síelő"
+  },
+  {
+    "src": "traje",
+    "dst": "1. öltözék 2. öltöny"
+  },
+  {
+    "src": "aspecto físico",
+    "dst": "külső megjelenés"
+  },
+  {
+    "src": "música clásica",
+    "dst": "klasszikus zene"
+  },
+  {
+    "src": "hispanohablante",
+    "dst": "spanyolnyelvű"
+  },
+  {
+    "src": "pasta",
+    "dst": "tészta"
+  },
+  {
+    "src": "absoluto",
+    "dst": "abszolút"
+  },
+  {
+    "src": "puerto",
+    "dst": "kikötő"
+  },
+  {
+    "src": "noroeste",
+    "dst": "északnyugat"
+  },
+  {
+    "src": "autopista de peaje",
+    "dst": "fizetős autópálya"
+  },
+  {
+    "src": "pronombre",
+    "dst": "névmás"
+  },
+  {
+    "src": "bien",
+    "dst": "jól"
+  },
+  {
+    "src": "chachachá",
+    "dst": "csacsacsa tánc"
+  },
+  {
+    "src": "a qué hora?",
+    "dst": "hány órakor?"
+  },
+  {
+    "src": "está bien comunicado",
+    "dst": "könnyen megközelíthető"
+  },
+  {
+    "src": "borde",
+    "dst": "határ"
+  },
+  {
+    "src": "diciembre",
+    "dst": "december"
+  },
+  {
+    "src": "antiséptico",
+    "dst": "fertőtlenítő szer"
+  },
+  {
+    "src": "chili",
+    "dst": "paprikaféle (csili)"
+  },
+  {
+    "src": "patrono",
+    "dst": "védőszent"
+  },
+  {
+    "src": "billete",
+    "dst": "jegy"
+  },
+  {
+    "src": "aguantar",
+    "dst": "elvisel, kibír"
+  },
+  {
+    "src": "bigote",
+    "dst": "bajusz"
+  },
+  {
+    "src": "deseo",
+    "dst": "kívánság, óhaj"
+  },
+  {
+    "src": "medicamento",
+    "dst": "gyógyszer"
+  },
+  {
+    "src": "agresivo",
+    "dst": "erószakos, agresszív"
+  },
+  {
+    "src": "anterior",
+    "dst": "előző"
+  },
+  {
+    "src": "semana",
+    "dst": "hét (időegység)"
+  },
+  {
+    "src": "aspecto",
+    "dst": "arculat, külalak, megjelenési forma"
+  },
+  {
+    "src": "apretar",
+    "dst": "szorít"
+  },
+  {
+    "src": "unidad",
+    "dst": "egység"
+  },
+  {
+    "src": "vegetación",
+    "dst": "növényzet"
+  },
+  {
+    "src": "cita a ciegas",
+    "dst": "vakrandi"
+  },
+  {
+    "src": "cerdo",
+    "dst": "disznó, sertés"
+  },
+  {
+    "src": "delante de",
+    "dst": "vmi előtt"
+  },
+  {
+    "src": "calle",
+    "dst": "utca, út"
+  },
+  {
+    "src": "peinarse",
+    "dst": "fésülködik"
+  },
+  {
+    "src": "comer chucherías",
+    "dst": "nassol"
+  },
+  {
+    "src": "pesquero",
+    "dst": "halász-"
+  },
+  {
+    "src": "pescador",
+    "dst": "halász"
+  },
+  {
+    "src": "fábrica",
+    "dst": "gyár"
+  },
+  {
+    "src": "de cuadros",
+    "dst": "kockás"
+  },
+  {
+    "src": "volar",
+    "dst": "repül"
+  },
+  {
+    "src": "nuestra señora",
+    "dst": "miasszonyunk (szűz mária)"
+  },
+  {
+    "src": "tarántula",
+    "dst": "tarantellapók"
+  },
+  {
+    "src": "heredero",
+    "dst": "örökös"
+  },
+  {
+    "src": "todos los santos",
+    "dst": "mindenszentek"
+  },
+  {
+    "src": "constitución",
+    "dst": "alkotmány"
+  },
+  {
+    "src": "modelo",
+    "dst": "modell"
+  },
+  {
+    "src": "calmar",
+    "dst": "nyugtat"
+  },
+  {
+    "src": "monumento",
+    "dst": "emlékmű"
+  },
+  {
+    "src": "caluroso",
+    "dst": "meleg"
+  },
+  {
+    "src": "ciencias naturales",
+    "dst": "természettudományok"
+  },
+  {
+    "src": "bacalao",
+    "dst": "tőkehal"
+  },
+  {
+    "src": "trópico",
+    "dst": "1. trópus 2. térító"
+  },
+  {
+    "src": "calcetines",
+    "dst": "zokni"
+  },
+  {
+    "src": "temperatura",
+    "dst": "hőmérséklet"
+  },
+  {
+    "src": "cocina",
+    "dst": "konyha"
+  },
+  {
+    "src": "intriga",
+    "dst": "ármány, cselszövés, fondorlat"
+  },
+  {
+    "src": "vaqueros",
+    "dst": "farmernadrág"
+  },
+  {
+    "src": "al lado de",
+    "dst": "vmi mellett"
+  },
+  {
+    "src": "antidoto",
+    "dst": "ellenszer"
+  },
+  {
+    "src": "salir de casa",
+    "dst": "elmegy otthonról"
+  },
+  {
+    "src": "club",
+    "dst": "klub"
+  },
+  {
+    "src": "nevera",
+    "dst": "hűtőszekrény"
+  },
+  {
+    "src": "correo electrónico",
+    "dst": "elektronikus üzenet, e-mail"
+  },
+  {
+    "src": "por aquí",
+    "dst": "erre, errefelé"
+  },
+  {
+    "src": "irse de paseo",
+    "dst": "sétálni megy"
+  },
+  {
+    "src": "encima",
+    "dst": "fölül, fölülre"
+  },
+  {
+    "src": "monarquía",
+    "dst": "királyság"
+  },
+  {
+    "src": "vinagre",
+    "dst": "ecet (borból)"
+  },
+  {
+    "src": "asimismo",
+    "dst": "hasonlóképpen, ugyancsak"
+  },
+  {
+    "src": "concha",
+    "dst": "kagyló"
+  },
+  {
+    "src": "sala",
+    "dst": "terem"
+  },
+  {
+    "src": "sucio",
+    "dst": "piszkos"
+  },
+  {
+    "src": "correos",
+    "dst": "posta"
+  },
+  {
+    "src": "vino",
+    "dst": "bor"
+  },
+  {
+    "src": "pensar + főnévi igenév",
+    "dst": "szándékszik valamit tenni"
+  },
+  {
+    "src": "concurso",
+    "dst": "pályázat"
+  },
+  {
+    "src": "montaña",
+    "dst": "hegy"
+  },
+  {
+    "src": "carril",
+    "dst": "sáv"
+  },
+  {
+    "src": "reino",
+    "dst": "királyság"
+  },
+  {
+    "src": "niño",
+    "dst": "kisgyerek"
+  },
+  {
+    "src": "hallarse",
+    "dst": "elhelyezkedik, található"
+  },
+  {
+    "src": "tarta",
+    "dst": "torta"
+  },
+  {
+    "src": "cucharada",
+    "dst": "evőkanálnyi"
+  },
+  {
+    "src": "de atrás",
+    "dst": "hátsó"
+  },
+  {
+    "src": "física",
+    "dst": "testmozgás"
+  },
+  {
+    "src": "toalla",
+    "dst": "törülközó"
+  },
+  {
+    "src": "hoja",
+    "dst": "1. falevél 2. papírlap"
+  },
+  {
+    "src": "bebida",
+    "dst": "ital"
+  },
+  {
+    "src": "tener que + fni",
+    "dst": "kell"
+  },
+  {
+    "src": "espárrago",
+    "dst": "spárga (zöldség)"
+  },
+  {
+    "src": "frontón",
+    "dst": "baszk fallabda"
+  },
+  {
+    "src": "aspecto",
+    "dst": "1. megjelenés, arculat 2. szempont"
+  },
+  {
+    "src": "arreglar",
+    "dst": "1. elrendez, rendbe tesz 2. megjavít"
+  },
+  {
+    "src": "tener calor",
+    "dst": "melege van"
+  },
+  {
+    "src": "marinero",
+    "dst": "tengerész"
+  },
+  {
+    "src": "variado",
+    "dst": "változatos"
+  },
+  {
+    "src": "a las tantas",
+    "dst": "későn"
+  },
+  {
+    "src": "pireneos",
+    "dst": "pireneusok"
+  },
+  {
+    "src": "consciente",
+    "dst": "tudatos"
+  },
+  {
+    "src": "mapa",
+    "dst": "térkép"
+  },
+  {
+    "src": "acordar",
+    "dst": "emlékeztet"
+  },
+  {
+    "src": "trabajar",
+    "dst": "dolgozik"
+  },
+  {
+    "src": "nochebuena",
+    "dst": "szenteste"
+  },
+  {
+    "src": "confortable",
+    "dst": "kényelmes"
+  },
+  {
+    "src": "algo",
+    "dst": "vmi"
+  },
+  {
+    "src": "portugal",
+    "dst": "portugália"
+  },
+  {
+    "src": "despertarse",
+    "dst": "fölébred"
+  },
+  {
+    "src": "por qué?",
+    "dst": "miért?"
+  },
+  {
+    "src": "desayuno",
+    "dst": "reggeli"
+  },
+  {
+    "src": "frutas del mar",
+    "dst": "tenger gyümölcsei"
+  },
+  {
+    "src": "suegro",
+    "dst": "após, anyós"
+  },
+  {
+    "src": "cansarse de",
+    "dst": "belefárad vmibe"
+  },
+  {
+    "src": "ansia",
+    "dst": "vágy"
+  },
+  {
+    "src": "qué?",
+    "dst": "mi?"
+  },
+  {
+    "src": "talla",
+    "dst": "méret"
+  },
+  {
+    "src": "modelo",
+    "dst": "minta, példa"
+  },
+  {
+    "src": "especial",
+    "dst": "különleges"
+  },
+  {
+    "src": "víspera",
+    "dst": "vmely ünnep/esemény elóestéje"
+  },
+  {
+    "src": "joya",
+    "dst": "ékszer"
+  },
+  {
+    "src": "poder",
+    "dst": "-hat, -het, képes, tud"
+  },
+  {
+    "src": "arrestar",
+    "dst": "letartóztat"
+  },
+  {
+    "src": "baile",
+    "dst": "1. tánc 2. bál"
+  },
+  {
+    "src": "criterio",
+    "dst": "kritérium, ismérv"
+  },
+  {
+    "src": "abusar de",
+    "dst": "visszaél vmivel"
+  },
+  {
+    "src": "acción",
+    "dst": "1. cselekvés, cselekedet 2. hatás"
+  },
+  {
+    "src": "bueno",
+    "dst": "jó"
+  },
+  {
+    "src": "atraer",
+    "dst": "vonz"
+  },
+  {
+    "src": "perdonar",
+    "dst": "megbocsát"
+  },
+  {
+    "src": "en el mundo entero",
+    "dst": "az egész világon"
+  },
+  {
+    "src": "tranvía",
+    "dst": "villamos"
+  },
+  {
+    "src": "agradable",
+    "dst": "kellemes"
+  },
+  {
+    "src": "lata",
+    "dst": "konzervdoboz"
+  },
+  {
+    "src": "atribuir a",
+    "dst": "tulajdonít vminek"
+  },
+  {
+    "src": "inscripción",
+    "dst": "beiratkozás"
+  },
+  {
+    "src": "estado",
+    "dst": "1. állapot 2. állam"
+  },
+  {
+    "src": "creer",
+    "dst": "hisz"
+  },
+  {
+    "src": "postal",
+    "dst": "képeslap"
+  },
+  {
+    "src": "estudiar",
+    "dst": "tanul"
+  },
+  {
+    "src": "a la izquierda",
+    "dst": "balra"
+  },
+  {
+    "src": "aventurero",
+    "dst": "1. kalandos 2. kalandot kedvelő, merész"
+  },
+  {
+    "src": "admirador",
+    "dst": "csodáló"
+  },
+  {
+    "src": "luchar",
+    "dst": "harcol"
+  },
+  {
+    "src": "aumento",
+    "dst": "emelkedés"
+  },
+  {
+    "src": "familia",
+    "dst": "család"
+  },
+  {
+    "src": "día de trabajo",
+    "dst": "munkanap"
+  },
+  {
+    "src": "aventura",
+    "dst": "kaland"
+  },
+  {
+    "src": "mariscos",
+    "dst": "ehető tengeri állatok"
+  },
+  {
+    "src": "aventura",
+    "dst": "kaland"
+  },
+  {
+    "src": "cordial",
+    "dst": "szívélyes"
+  },
+  {
+    "src": "tortilla de patatas",
+    "dst": "burgonyás rántotta (tipikus spanyol étel)"
+  },
+  {
+    "src": "besugo",
+    "dst": "tengeri dubrincs (haléféle)"
+  },
+  {
+    "src": "mucho tráfico",
+    "dst": "nagy forgalom"
+  },
+  {
+    "src": "cancelar",
+    "dst": "lemond, töröl"
+  },
+  {
+    "src": "huevo",
+    "dst": "tojás"
+  },
+  {
+    "src": "girar",
+    "dst": "(be)fordul, kanyarodik"
+  },
+  {
+    "src": "confirmar",
+    "dst": "megerősít"
+  },
+  {
+    "src": "sobre",
+    "dst": "fölött. rajta, -on, -en, -ön"
+  },
+  {
+    "src": "practicar",
+    "dst": "1. gyakorol 2. vmilyen sportot űz"
+  },
+  {
+    "src": "no me digas que ...",
+    "dst": "csak nem azt akarod mondani, hogy"
+  },
+  {
+    "src": "fundación",
+    "dst": "alapítás"
+  },
+  {
+    "src": "asegurar",
+    "dst": "biztosít"
+  },
+  {
+    "src": "acostar",
+    "dst": "lefektet"
+  },
+  {
+    "src": "arte",
+    "dst": "művészet"
+  },
+  {
+    "src": "champán",
+    "dst": "(francia) pezsgő"
+  },
+  {
+    "src": "corporal",
+    "dst": "testi"
+  },
+  {
+    "src": "actuación",
+    "dst": "fellépés"
+  },
+  {
+    "src": "chocolate con churros",
+    "dst": "sűrű kakó olajbban sült patkó alakú édes tésztával"
+  },
+  {
+    "src": "attracción",
+    "dst": "vonzás, vonzerő, attrakció, látványosság"
+  },
+  {
+    "src": "encima de",
+    "dst": "fölül, vmi tetejére"
+  },
+  {
+    "src": "evitar",
+    "dst": "elkerül, kikerül"
+  },
+  {
+    "src": "cualesquiera",
+    "dst": "bármely, bármelyik"
+  },
+  {
+    "src": "vaquero",
+    "dst": "farmer (anyag)"
+  },
+  {
+    "src": "en cuanto a",
+    "dst": "vmit illetően, vmivel kapcsolatban"
+  },
+  {
+    "src": "a qué se dedica?",
+    "dst": "mi a foglalkozása?"
+  },
+  {
+    "src": "pionero",
+    "dst": "úttörő"
+  },
+  {
+    "src": "crónico",
+    "dst": "krónikus, idült"
+  },
+  {
+    "src": "divertido",
+    "dst": "szórakoztató"
+  },
+  {
+    "src": "banda",
+    "dst": "szalag"
+  },
+  {
+    "src": "aceituna",
+    "dst": "olajbogyó"
+  },
+  {
+    "src": "cena",
+    "dst": "vacsora"
+  },
+  {
+    "src": "vainilla",
+    "dst": "vanília"
+  },
+  {
+    "src": "rusia",
+    "dst": "oroszország"
+  },
+  {
+    "src": "venir",
+    "dst": "jön, eljön"
+  },
+  {
+    "src": "coger un reafriado",
+    "dst": "meghűl"
+  },
+  {
+    "src": "elección",
+    "dst": "választás"
+  },
+  {
+    "src": "cambiar",
+    "dst": "1. vált cserél, változtat 2. átszáll járműre"
+  },
+  {
+    "src": "hay de todo",
+    "dst": "van mindenféle"
+  },
+  {
+    "src": "taquilla",
+    "dst": "jegypénztár"
+  },
+  {
+    "src": "alcóholico",
+    "dst": "szeszes, alkoholos"
+  },
+  {
+    "src": "llamar",
+    "dst": "hív"
+  },
+  {
+    "src": "opción",
+    "dst": "választási lehetőség"
+  },
+  {
+    "src": "acogedora",
+    "dst": "vendégszeretó, befogadó, barátságos"
+  },
+  {
+    "src": "cuanto",
+    "dst": "amennyi"
+  },
+  {
+    "src": "abarcar",
+    "dst": "felölel"
+  },
+  {
+    "src": "serie",
+    "dst": "sorozat"
+  },
+  {
+    "src": "antitérmico",
+    "dst": "lázcsillapitó"
+  },
+  {
+    "src": "albergar",
+    "dst": "1. elszállásol 2. helyet ad"
+  },
+  {
+    "src": "madera",
+    "dst": "fa(anyag)"
+  },
+  {
+    "src": "forma de gobierno",
+    "dst": "államforma"
+  },
+  {
+    "src": "chiste",
+    "dst": "vicc"
+  },
+  {
+    "src": "helar",
+    "dst": "fagy"
+  },
+  {
+    "src": "taza",
+    "dst": "csésze"
+  },
+  {
+    "src": "esta tarde",
+    "dst": "ma délután"
+  },
+  {
+    "src": "coleccionar",
+    "dst": "gyűjt"
+  },
+  {
+    "src": "afeitarse",
+    "dst": "borotválkozik"
+  },
+  {
+    "src": "segundo",
+    "dst": "második"
+  },
+  {
+    "src": "cálido",
+    "dst": "meleg"
+  },
+  {
+    "src": "convocar",
+    "dst": "ósszehív, meghirdet"
+  },
+  {
+    "src": "jamón serrano",
+    "dst": "füstölt sonkaféle"
+  },
+  {
+    "src": "calvo",
+    "dst": "kopasz"
+  },
+  {
+    "src": "vegetariano",
+    "dst": "vegetáriánus"
+  },
+  {
+    "src": "zona",
+    "dst": "övezet, negyed"
+  },
+  {
+    "src": "chándal",
+    "dst": "tréningruha"
+  },
+  {
+    "src": "en cambio",
+    "dst": "ezzel szemben, ellenben"
+  },
+  {
+    "src": "producto de belleza",
+    "dst": "piperecikk"
+  },
+  {
+    "src": "¡esto es el colmo!",
+    "dst": "ez már mindennek a teteje!"
+  },
+  {
+    "src": "cristal",
+    "dst": "üveg"
+  },
+  {
+    "src": "cocinar",
+    "dst": "főz"
+  },
+  {
+    "src": "frutería",
+    "dst": "gyümölcsbolt"
+  },
+  {
+    "src": "patrimonio de la humanidad",
+    "dst": "világörökség"
+  },
+  {
+    "src": "hola",
+    "dst": "szia"
+  },
+  {
+    "src": "aire acondicionado",
+    "dst": "légkondicionálás"
+  },
+  {
+    "src": "visita",
+    "dst": "látogatás"
+  },
+  {
+    "src": "administrativo",
+    "dst": "1. közigazgatási 2. adminisztratív"
+  },
+  {
+    "src": "sureño",
+    "dst": "déli"
+  },
+  {
+    "src": "peinar",
+    "dst": "fésül"
+  },
+  {
+    "src": "qué pena!",
+    "dst": "milyen kár"
+  },
+  {
+    "src": "tener sed",
+    "dst": "szomjas"
+  },
+  {
+    "src": "crema solar",
+    "dst": "naptej"
+  },
+  {
+    "src": "rápido",
+    "dst": "gyors"
+  },
+  {
+    "src": "asqueroso",
+    "dst": "undorító, visszataszító, gusztustalan"
+  },
+  {
+    "src": "compartir con",
+    "dst": "(meg)oszt vkivel"
+  },
+  {
+    "src": "pedazo",
+    "dst": "darab vmiből"
+  },
+  {
+    "src": "albergue",
+    "dst": "szállás, menedékház"
+  },
+  {
+    "src": "ciclismo de montaña",
+    "dst": "hegyi kerékpározás"
+  },
+  {
+    "src": "recorrer",
+    "dst": "1. bejár 2. megtesz (utat)"
+  },
+  {
+    "src": "moderno",
+    "dst": "modern"
+  },
+  {
+    "src": "atrevido",
+    "dst": "merész"
+  },
+  {
+    "src": "vino blanco",
+    "dst": "fehér bor"
+  },
+  {
+    "src": "sahara",
+    "dst": "szahara"
+  },
+  {
+    "src": "cerca",
+    "dst": "közel"
+  },
+  {
+    "src": "conductor",
+    "dst": "autóvezető, sofőr"
+  },
+  {
+    "src": "a la carta",
+    "dst": "étlap szerint, á la carte"
+  },
+  {
+    "src": "en casa",
+    "dst": "otthon"
+  },
+  {
+    "src": "hay que + főnévi igenév",
+    "dst": "kell"
+  },
+  {
+    "src": "artículo",
+    "dst": "1. cikk (áru, újság) 2. névelő"
+  },
+  {
+    "src": "repetir",
+    "dst": "ismétel, elismétel"
+  },
+  {
+    "src": "cuarto",
+    "dst": "negyedik"
+  },
+  {
+    "src": "profundo",
+    "dst": "mély"
+  },
+  {
+    "src": "suerte",
+    "dst": "sors, szerencse"
+  },
+  {
+    "src": "esto",
+    "dst": "ez"
+  },
+  {
+    "src": "aunque",
+    "dst": "noha, ámbár"
+  },
+  {
+    "src": "punto de acceso a internet",
+    "dst": "internet-hozzáférés"
+  },
+  {
+    "src": "habitación",
+    "dst": "(lakó)szoba"
+  },
+  {
+    "src": "aquí",
+    "dst": "itt"
+  },
+  {
+    "src": "modo",
+    "dst": "mód"
+  },
+  {
+    "src": "maravilla",
+    "dst": "csoda"
+  },
+  {
+    "src": "echar",
+    "dst": "1. önt, szór 2. eldob, kidob"
+  },
+  {
+    "src": "enorme",
+    "dst": "hatalmas"
+  },
+  {
+    "src": "sábado",
+    "dst": "szombat"
+  },
+  {
+    "src": "seco",
+    "dst": "száraz"
+  },
+  {
+    "src": "telenovela",
+    "dst": "teleregény, szappanopera"
+  },
+  {
+    "src": "lamentablemente",
+    "dst": "sajnos"
+  },
+  {
+    "src": "chismoso",
+    "dst": "pletykás"
+  },
+  {
+    "src": "matemáticas",
+    "dst": "matematika"
+  },
+  {
+    "src": "montar",
+    "dst": "felül vmire"
+  },
+  {
+    "src": "historia",
+    "dst": "1. történelem 2. történet"
+  },
+  {
+    "src": "campo",
+    "dst": "1. mező, föld 2. vidék"
+  },
+  {
+    "src": "amante",
+    "dst": "szerető, kedvelő"
+  },
+  {
+    "src": "taburete",
+    "dst": "bárszék"
+  },
+  {
+    "src": "mundial",
+    "dst": "világ-"
+  },
+  {
+    "src": "relampaguear",
+    "dst": "villámlik"
+  },
+  {
+    "src": "coser",
+    "dst": "varr, össze/megvarr"
+  },
+  {
+    "src": "biología",
+    "dst": "biológia"
+  },
+  {
+    "src": "cruzar",
+    "dst": "keresztez,keresztülmegy"
+  },
+  {
+    "src": "general",
+    "dst": "tábornok"
+  },
+  {
+    "src": "cuenta",
+    "dst": "számla"
+  },
+  {
+    "src": "comportarse",
+    "dst": "viselkedik"
+  },
+  {
+    "src": "pasear",
+    "dst": "sétál"
+  },
+  {
+    "src": "crédito",
+    "dst": "hitel"
+  },
+  {
+    "src": "examen",
+    "dst": "vizsga, vizsgálat"
+  },
+  {
+    "src": "gasolinera",
+    "dst": "benzinkút"
+  },
+  {
+    "src": "angustiado",
+    "dst": "szorongó, aggódó"
+  },
+  {
+    "src": "finlandia",
+    "dst": "finnország"
+  },
+  {
+    "src": "impresionante",
+    "dst": "lenyűgöző"
+  },
+  {
+    "src": "cursiva",
+    "dst": "dőlt betű"
+  },
+  {
+    "src": "rápido",
+    "dst": "gyorsan"
+  },
+  {
+    "src": "bajada",
+    "dst": "ereszkedés, leeresztés"
+  },
+  {
+    "src": "diario",
+    "dst": "napló"
+  },
+  {
+    "src": "reconocer",
+    "dst": "elismer,  beismer"
+  },
+  {
+    "src": "madre",
+    "dst": "anya"
+  },
+  {
+    "src": "cama",
+    "dst": "ágy"
+  },
+  {
+    "src": "compañero",
+    "dst": "osztálytárs"
+  },
+  {
+    "src": "trasladar",
+    "dst": "áttesz, áthelyez, elköltöztet"
+  },
+  {
+    "src": "verse",
+    "dst": "találkozik"
+  },
+  {
+    "src": "simpático",
+    "dst": "rokonszenves, szimpatikus"
+  },
+  {
+    "src": "medio",
+    "dst": "fél"
+  },
+  {
+    "src": "conventirse",
+    "dst": "alakul"
+  },
+  {
+    "src": "remover",
+    "dst": "kever, megkever, felkever"
+  },
+  {
+    "src": "montar en bicicleta",
+    "dst": "biciklizik"
+  },
+  {
+    "src": "de acuerdo",
+    "dst": "rendben"
+  },
+  {
+    "src": "difícil",
+    "dst": "nehéz"
+  },
+  {
+    "src": "combinar con",
+    "dst": "összevegyít, kombinál vmivel"
+  },
+  {
+    "src": "balonmano",
+    "dst": "kézilabda"
+  },
+  {
+    "src": "caseta",
+    "dst": "vásári sátor"
+  },
+  {
+    "src": "indias",
+    "dst": "amerika régies neve"
+  },
+  {
+    "src": "catalán",
+    "dst": "katalán"
+  },
+  {
+    "src": "hacer las compras",
+    "dst": "bevásárol"
+  },
+  {
+    "src": "celebrar",
+    "dst": "1. tart 2. ünnepel"
+  },
+  {
+    "src": "salir cada hora",
+    "dst": "óránként indul"
+  },
+  {
+    "src": "noventa",
+    "dst": "kilencven"
+  },
+  {
+    "src": "final",
+    "dst": "vminek a vége"
+  },
+  {
+    "src": "ensalada",
+    "dst": "saláta"
+  },
+  {
+    "src": "acompañar",
+    "dst": "elkísér"
+  },
+  {
+    "src": "proverbio",
+    "dst": "közmondás"
+  },
+  {
+    "src": "asunción de la virgen",
+    "dst": "nagyboldogasszony napja (szűzmária mennybevétele, aug 15)"
+  },
+  {
+    "src": "bajar",
+    "dst": "1. leemel, levesz 2. lehalkít"
+  },
+  {
+    "src": "llamarse",
+    "dst": "vhogy hívják"
+  },
+  {
+    "src": "salmón",
+    "dst": "lazac"
+  },
+  {
+    "src": "compañía",
+    "dst": "társaság, cég"
+  },
+  {
+    "src": "crecida",
+    "dst": "áradás"
+  },
+  {
+    "src": "preocuparse",
+    "dst": "aggódik"
+  },
+  {
+    "src": "con frequencia",
+    "dst": "gyakran"
+  },
+  {
+    "src": "de media",
+    "dst": "átlag, átlagosan"
+  },
+  {
+    "src": "apartamento",
+    "dst": "1. lakas 2. apartman"
+  },
+  {
+    "src": "detrás de",
+    "dst": "vmi mögött"
+  },
+  {
+    "src": "audaz",
+    "dst": "merész, vakmerő"
+  },
+  {
+    "src": "alimentar",
+    "dst": "táplál"
+  },
+  {
+    "src": "libre",
+    "dst": "szabad"
+  },
+  {
+    "src": "cazadora",
+    "dst": "bőrdzseki"
+  },
+  {
+    "src": "cadena de música",
+    "dst": "hifi-torony"
+  },
+  {
+    "src": "refrescante",
+    "dst": "üdítő, frissítő"
+  },
+  {
+    "src": "director",
+    "dst": "igazgató(nő)"
+  },
+  {
+    "src": "medio ambiente",
+    "dst": "természetes környezet"
+  },
+  {
+    "src": "luego",
+    "dst": "aztán"
+  },
+  {
+    "src": "parque zoológico",
+    "dst": "állatkert"
+  },
+  {
+    "src": "tener frío",
+    "dst": "fázik"
+  },
+  {
+    "src": "confesión",
+    "dst": "1. vallomás 2. gyónás"
+  },
+  {
+    "src": "balonmano",
+    "dst": "kézilabda"
+  },
+  {
+    "src": "calefacción por suelo",
+    "dst": "padlófűtés"
+  },
+  {
+    "src": "belén",
+    "dst": "1. betlehem (város) 2. spanyol női név"
+  },
+  {
+    "src": "columna",
+    "dst": "1. oszlop 2. gerinc"
+  },
+  {
+    "src": "tapas",
+    "dst": "vegyes izelitő falatok"
+  },
+  {
+    "src": "estación",
+    "dst": "1. állomás 2. évszak"
+  },
+  {
+    "src": "pasar por",
+    "dst": "jár, megy vmerre"
+  },
+  {
+    "src": "móvil",
+    "dst": "mobiltelefon"
+  },
+  {
+    "src": "extenso",
+    "dst": "kiterjedt, terjedelmes"
+  },
+  {
+    "src": "juguetería",
+    "dst": "játékbolt"
+  },
+  {
+    "src": "funcionar",
+    "dst": "működik"
+  },
+  {
+    "src": "gallina",
+    "dst": "tyúk"
+  },
+  {
+    "src": "multinacional",
+    "dst": "multinacionális cég"
+  },
+  {
+    "src": "exótico",
+    "dst": "egzotikus"
+  },
+  {
+    "src": "hacerse cargo de",
+    "dst": "gondoskodik vmiről, magára vállal"
+  },
+  {
+    "src": "abanico",
+    "dst": "legyező"
+  },
+  {
+    "src": "ropa",
+    "dst": "ruha, ruházat"
+  },
+  {
+    "src": "aceite de oliva",
+    "dst": "olivaolaj"
+  },
+  {
+    "src": "asco",
+    "dst": "undor"
+  },
+  {
+    "src": "instrucción",
+    "dst": "utasítás"
+  },
+  {
+    "src": "attracción turística",
+    "dst": "idegenforgalmi látványosság"
+  },
+  {
+    "src": "afeitar",
+    "dst": "borotvál"
+  },
+  {
+    "src": "barra de pan",
+    "dst": "vekni (kenyér)"
+  },
+  {
+    "src": "humanidad",
+    "dst": "emberiség"
+  },
+  {
+    "src": "casero",
+    "dst": "házi"
+  },
+  {
+    "src": "instituto",
+    "dst": "1. intézet 2. gimnázium"
+  },
+  {
+    "src": "bailar",
+    "dst": "táncol"
+  },
+  {
+    "src": "santiago",
+    "dst": "szent jakab"
+  },
+  {
+    "src": "receta",
+    "dst": "recept"
+  },
+  {
+    "src": "hacer el camino",
+    "dst": "végigjárja/megjárja a compostelai zarándokutat"
+  },
+  {
+    "src": "supermercado",
+    "dst": "szupermarket"
+  },
+  {
+    "src": "compaginar",
+    "dst": "összeegyeztet, összehangol"
+  },
+  {
+    "src": "pastelería",
+    "dst": "édességbolt"
+  },
+  {
+    "src": "periódico",
+    "dst": "napilap, újság"
+  },
+  {
+    "src": "portugués",
+    "dst": "portugál"
+  },
+  {
+    "src": "partido",
+    "dst": "mérkőzés, meccs"
+  },
+  {
+    "src": "¿qué tiempo hace?",
+    "dst": "milyen idő van?"
+  },
+  {
+    "src": "muñeco de cartón",
+    "dst": "papírmasé figura"
+  },
+  {
+    "src": "capitán",
+    "dst": "kapitány"
+  },
+  {
+    "src": "torero",
+    "dst": "torreádor"
+  },
+  {
+    "src": "bailes latinas",
+    "dst": "latin táncok"
+  },
+  {
+    "src": "usted",
+    "dst": "ön"
+  },
+  {
+    "src": "albergue",
+    "dst": "szállás"
+  },
+  {
+    "src": "escayolado",
+    "dst": "begipszelt"
+  },
+  {
+    "src": "árabe",
+    "dst": "arab"
+  },
+  {
+    "src": "divorciado",
+    "dst": "elvált"
+  },
+  {
+    "src": "equipo",
+    "dst": "csapat"
+  },
+  {
+    "src": "contradecir",
+    "dst": "ellentmond"
+  },
+  {
+    "src": "a la plancha",
+    "dst": "vaslapon sült"
+  },
+  {
+    "src": "creyente",
+    "dst": "hívő"
+  },
+  {
+    "src": "exagerar",
+    "dst": "túloz"
+  },
+  {
+    "src": "lado",
+    "dst": "oldal"
+  },
+  {
+    "src": "autonómico",
+    "dst": "autonóm"
+  },
+  {
+    "src": "parque",
+    "dst": "park"
+  },
+  {
+    "src": "barrio",
+    "dst": "városrész,negyed"
+  },
+  {
+    "src": "suficiente",
+    "dst": "elég, elegendó"
+  },
+  {
+    "src": "horno",
+    "dst": "sütő"
+  },
+  {
+    "src": "alemania",
+    "dst": "németország"
+  },
+  {
+    "src": "alimento",
+    "dst": "élelmiszer"
+  },
+  {
+    "src": "vino tinto",
+    "dst": "vörösbor"
+  },
+  {
+    "src": "fuerte",
+    "dst": "erős"
+  },
+  {
+    "src": "de todas maneras",
+    "dst": "mindenképp"
+  },
+  {
+    "src": "vuelta a españa",
+    "dst": "kerékpáros körverseny spanyolországban"
+  },
+  {
+    "src": "lavaplatos",
+    "dst": "mosogatógép"
+  },
+  {
+    "src": "taxi",
+    "dst": "taxi"
+  },
+  {
+    "src": "signo",
+    "dst": "jel"
+  },
+  {
+    "src": "imposible",
+    "dst": "lehetetlen"
+  },
+  {
+    "src": "crema",
+    "dst": "krém"
+  },
+  {
+    "src": "toledano",
+    "dst": "toledói"
+  },
+  {
+    "src": "echar la culpa",
+    "dst": "hibáztat"
+  },
+  {
+    "src": "pedir",
+    "dst": "kér vkitől"
+  },
+  {
+    "src": "cámara",
+    "dst": "kamera"
+  },
+  {
+    "src": "adorar",
+    "dst": "imád"
+  },
+  {
+    "src": "cuello",
+    "dst": "nyak"
+  },
+  {
+    "src": "popular",
+    "dst": "1. népi 2. népszerű"
+  },
+  {
+    "src": "película de acción",
+    "dst": "akciófilm"
+  },
+  {
+    "src": "bádminton",
+    "dst": "tollaslabda"
+  },
+  {
+    "src": "de postre",
+    "dst": "desszertként"
+  },
+  {
+    "src": "visita guiada",
+    "dst": "idegenvezetó által vezetett látogatás"
+  },
+  {
+    "src": "zumo",
+    "dst": "gyümölcslé"
+  },
+  {
+    "src": "folleto",
+    "dst": "prospektus"
+  },
+  {
+    "src": "cumple",
+    "dst": "szülinap (diáknyelv)"
+  },
+  {
+    "src": "pecera",
+    "dst": "akvárium"
+  },
+  {
+    "src": "solamente",
+    "dst": "csak"
+  },
+  {
+    "src": "jersey",
+    "dst": "pulóver"
+  },
+  {
+    "src": "duro",
+    "dst": "kemény"
+  },
+  {
+    "src": "despertar",
+    "dst": "(föl)ébreszt"
+  },
+  {
+    "src": "monasterio",
+    "dst": "kolostor"
+  },
+  {
+    "src": "gotear",
+    "dst": "1. csöpög, 2. csepereg"
+  },
+  {
+    "src": "arbolado",
+    "dst": "fásított"
+  },
+  {
+    "src": "complejo",
+    "dst": "épületegyüttes, komplexum"
+  },
+  {
+    "src": "asignatura",
+    "dst": "tantárgy"
+  },
+  {
+    "src": "capricho",
+    "dst": "szeszély"
+  },
+  {
+    "src": "alquilar",
+    "dst": "1.bérbe ad 2. kibérel"
+  },
+  {
+    "src": "cuidar de",
+    "dst": "őriz vmit, vigyáz vmire"
+  },
+  {
+    "src": "agujero",
+    "dst": "lyuk"
+  },
+  {
+    "src": "poder",
+    "dst": "1. hatalom 2. képesség"
+  },
+  {
+    "src": "cesta",
+    "dst": "kosár"
+  },
+  {
+    "src": "que bien!",
+    "dst": "de jó!"
+  },
+  {
+    "src": "probador",
+    "dst": "próbafülke"
+  },
+  {
+    "src": "personal",
+    "dst": "személyes"
+  },
+  {
+    "src": "muse de bellas artes",
+    "dst": "szépművészeti múzeum"
+  },
+  {
+    "src": "construcción",
+    "dst": "építés, építkezés"
+  },
+  {
+    "src": "inundación",
+    "dst": "áradás"
+  },
+  {
+    "src": "gigante",
+    "dst": "óriás, óriási"
+  },
+  {
+    "src": "adivinanza",
+    "dst": "találós kérdés"
+  },
+  {
+    "src": "nosotros",
+    "dst": "mi (t/1)"
+  },
+  {
+    "src": "tener la culpa",
+    "dst": "hibás"
+  },
+  {
+    "src": "cementerio",
+    "dst": "temető"
+  },
+  {
+    "src": "algún",
+    "dst": "1.vmelyik 2.vmilyen"
+  },
+  {
+    "src": "relativo",
+    "dst": "viszonylagos, relatív"
+  },
+  {
+    "src": "demasiado",
+    "dst": "túl sok"
+  },
+  {
+    "src": "contraer",
+    "dst": "ósszehúz"
+  },
+  {
+    "src": "acoger",
+    "dst": "fogad"
+  },
+  {
+    "src": "en voz alta",
+    "dst": "hangosan"
+  },
+  {
+    "src": "contable",
+    "dst": "könyvelő"
+  },
+  {
+    "src": "nunca",
+    "dst": "soha"
+  },
+  {
+    "src": "avenida",
+    "dst": "sugárút"
+  },
+  {
+    "src": "eléctrico",
+    "dst": "elektromos"
+  },
+  {
+    "src": "principalmente",
+    "dst": "főleg, főképp"
+  },
+  {
+    "src": "agresiva",
+    "dst": "erószakos, agresszív"
+  },
+  {
+    "src": "servir para + fni",
+    "dst": "vmire való"
+  },
+  {
+    "src": "circulación",
+    "dst": "közlekedés"
+  },
+  {
+    "src": "marzo",
+    "dst": "március"
+  },
+  {
+    "src": "visigodo",
+    "dst": "vizigót, nyugati gót"
+  },
+  {
+    "src": "productor",
+    "dst": "termelő"
+  },
+  {
+    "src": "maravilloso",
+    "dst": "csodálatos"
+  },
+  {
+    "src": "apadtarse a",
+    "dst": "alkalmazkodik vmihez, beilleszkedik vhová"
+  },
+  {
+    "src": "vino rosado",
+    "dst": "rosé"
+  },
+  {
+    "src": "texto",
+    "dst": "szöveg"
+  },
+  {
+    "src": "tener hambre",
+    "dst": "éhes"
+  },
+  {
+    "src": "aburrir",
+    "dst": "untat"
+  },
+  {
+    "src": "preelección",
+    "dst": "selejtező"
+  },
+  {
+    "src": "conmemorar",
+    "dst": "megemlékezik vmiről"
+  },
+  {
+    "src": "único",
+    "dst": "egyetlen, egyedi"
+  },
+  {
+    "src": "cónico",
+    "dst": "kúp alakú"
+  },
+  {
+    "src": "buscar",
+    "dst": "(meg)keres"
+  },
+  {
+    "src": "verbo",
+    "dst": "ige"
+  },
+  {
+    "src": "película",
+    "dst": "film"
+  },
+  {
+    "src": "tranquilo",
+    "dst": "nyugodt"
+  },
+  {
+    "src": "cataluña",
+    "dst": "katalónia"
+  },
+  {
+    "src": "símbolo",
+    "dst": "jelkép, szimbólum"
+  },
+  {
+    "src": "cartón",
+    "dst": "kartonpapír"
+  },
+  {
+    "src": "conquistador",
+    "dst": "1. hódító 2. konkvisztádor"
+  },
+  {
+    "src": "salvador",
+    "dst": "1 . megváltó 2. salvador (ország)"
+  },
+  {
+    "src": "consumo",
+    "dst": "fogyasztás"
+  },
+  {
+    "src": "armmario empotrado",
+    "dst": "beépített szekrény"
+  },
+  {
+    "src": "barrer",
+    "dst": "söpör"
+  },
+  {
+    "src": "¡tenga!",
+    "dst": "tessék! itt van."
+  },
+  {
+    "src": "reconquista",
+    "dst": "visszahódítás"
+  },
+  {
+    "src": "ferrocarril",
+    "dst": "vasút"
+  },
+  {
+    "src": "deportista",
+    "dst": "sportoló"
+  },
+  {
+    "src": "lavabo",
+    "dst": "mosdó, wc"
+  },
+  {
+    "src": "algodón",
+    "dst": "1. pamut 2. vatta"
+  },
+  {
+    "src": "vivienda",
+    "dst": "lakás"
+  },
+  {
+    "src": "violento",
+    "dst": "kegyetlen"
+  },
+  {
+    "src": "piso",
+    "dst": "1. emelet 2. lakás"
+  },
+  {
+    "src": "esto me queda bien",
+    "dst": "ez jó rám"
+  },
+  {
+    "src": "superficie",
+    "dst": "terület, felület"
+  },
+  {
+    "src": "hermano",
+    "dst": "fiatalabb testvér"
+  },
+  {
+    "src": "qué asco!",
+    "dst": "fúj de undorító!"
+  },
+  {
+    "src": "conocido",
+    "dst": "ismert"
+  },
+  {
+    "src": "bañador",
+    "dst": "fürdőruha"
+  },
+  {
+    "src": "aunque",
+    "dst": "noha, ámbár"
+  },
+  {
+    "src": "medioambiente",
+    "dst": "természetes környezet"
+  },
+  {
+    "src": "posibilidad",
+    "dst": "lehetőség"
+  },
+  {
+    "src": "horrible",
+    "dst": "rettenetes"
+  },
+  {
+    "src": "preparación",
+    "dst": "elkészítés"
+  },
+  {
+    "src": "brillar",
+    "dst": "csillog, ragyog, süt (a nap)"
+  },
+  {
+    "src": "pimiento",
+    "dst": "paprika"
+  },
+  {
+    "src": "aburrido",
+    "dst": "unalmas"
+  },
+  {
+    "src": "letra",
+    "dst": "betű"
+  },
+  {
+    "src": "jugar",
+    "dst": "játszik"
+  },
+  {
+    "src": "jubilado",
+    "dst": "nyugdíjas"
+  },
+  {
+    "src": "completar",
+    "dst": "kiegészít"
+  },
+  {
+    "src": "medio",
+    "dst": "eszköz"
+  },
+  {
+    "src": "campeón",
+    "dst": "bajnok"
+  },
+  {
+    "src": "armadura",
+    "dst": "páncél"
+  },
+  {
+    "src": "conquistar",
+    "dst": "meghódít"
+  },
+  {
+    "src": "coche",
+    "dst": "kocsi, autó"
+  },
+  {
+    "src": "lámpara",
+    "dst": "lámpa"
+  },
+  {
+    "src": "molestar",
+    "dst": "zavar"
+  },
+  {
+    "src": "ascensor",
+    "dst": "felvonó, lift"
+  },
+  {
+    "src": "tinto",
+    "dst": "vörösbor"
+  },
+  {
+    "src": "curiosidad",
+    "dst": "kivancsiság"
+  },
+  {
+    "src": "piano",
+    "dst": "zongora"
+  },
+  {
+    "src": "consola",
+    "dst": "videójáték"
+  },
+  {
+    "src": "camello",
+    "dst": "(kétpúpú) teve"
+  },
+  {
+    "src": "construir",
+    "dst": "épít"
+  },
+  {
+    "src": "epifanía",
+    "dst": "vízkereszt (jan 6.)"
+  },
+  {
+    "src": "zoológico",
+    "dst": "állatkert"
+  },
+  {
+    "src": "superar",
+    "dst": "meghalad, túllép"
+  },
+  {
+    "src": "cadena",
+    "dst": "lánc"
+  },
+  {
+    "src": "confianza",
+    "dst": "bizalom"
+  },
+  {
+    "src": "verbal",
+    "dst": "1. igei 2. szóbeli"
+  },
+  {
+    "src": "cajero automático",
+    "dst": "bankautomata"
+  },
+  {
+    "src": "poner la mesa",
+    "dst": "megterít"
+  },
+  {
+    "src": "beca",
+    "dst": "ösztöndíj"
+  },
+  {
+    "src": "encantar",
+    "dst": "elbűvöl, lenyűgöz"
+  },
+  {
+    "src": "sagrada familia",
+    "dst": "szent család"
+  },
+  {
+    "src": "capital",
+    "dst": "főváros"
+  },
+  {
+    "src": "pastel",
+    "dst": "sütemény"
+  },
+  {
+    "src": "sala de estar",
+    "dst": "nappali"
+  },
+  {
+    "src": "cerámica",
+    "dst": "kerámia"
+  },
+  {
+    "src": "cucharada",
+    "dst": "evőkanálnyi"
+  },
+  {
+    "src": "música",
+    "dst": "zene"
+  },
+  {
+    "src": "madre mía!",
+    "dst": "szűzanyám!"
+  },
+  {
+    "src": "caderas",
+    "dst": "csípő"
+  },
+  {
+    "src": "jamón",
+    "dst": "sonka"
+  },
+  {
+    "src": "cereales",
+    "dst": "müzli"
+  },
+  {
+    "src": "significar",
+    "dst": "jelent"
+  },
+  {
+    "src": "postal",
+    "dst": "képeslap"
+  },
+  {
+    "src": "pues",
+    "dst": "nos, hát"
+  },
+  {
+    "src": "hace calor",
+    "dst": "meleg van"
+  },
+  {
+    "src": "tener prisa",
+    "dst": "siet"
+  },
+  {
+    "src": "conservar",
+    "dst": "megőriz, konzervál"
+  },
+  {
+    "src": "ferrocarril de cercanías",
+    "dst": "hév"
+  },
+  {
+    "src": "mueble",
+    "dst": "bútor"
+  },
+  {
+    "src": "quedar con alguien en algo",
+    "dst": "vkivel megbeszél vmit"
+  },
+  {
+    "src": "incorporar",
+    "dst": "beletesz,beleilleszt"
+  },
+  {
+    "src": "leer",
+    "dst": "olvas"
+  },
+  {
+    "src": "compromiso",
+    "dst": "megegyezés"
+  },
+  {
+    "src": "tren",
+    "dst": "vonat"
+  },
+  {
+    "src": "pintura",
+    "dst": "1. festmény 2. festészet"
+  },
+  {
+    "src": "botella",
+    "dst": "üveg, palack"
+  },
+  {
+    "src": "terminación",
+    "dst": "végződés"
+  },
+  {
+    "src": "toro",
+    "dst": "bika"
+  },
+  {
+    "src": "aguileño",
+    "dst": "hajlott, sas- (pl. orr)"
+  },
+  {
+    "src": "vivir",
+    "dst": "él, lakik"
+  },
+  {
+    "src": "aseado",
+    "dst": "ápolt, tiszta"
+  },
+  {
+    "src": "cumplir",
+    "dst": "1. teljesít 2. betölt (életkort)"
+  },
+  {
+    "src": "aerolínea",
+    "dst": "légitársaság"
+  },
+  {
+    "src": "terraza",
+    "dst": "terasz"
+  },
+  {
+    "src": "contenedor",
+    "dst": "tartály, konténer"
+  },
+  {
+    "src": "carácter",
+    "dst": "természet,jellem"
+  },
+  {
+    "src": "intercontinental",
+    "dst": "földrészek közötti"
+  },
+  {
+    "src": "sacar dinero",
+    "dst": "pénzt vesz ki"
+  },
+  {
+    "src": "peloquería",
+    "dst": "fodrászat"
+  },
+  {
+    "src": "calefacción individual",
+    "dst": "egyedi fűtés"
+  },
+  {
+    "src": "húngaro",
+    "dst": "magyar"
+  },
+  {
+    "src": "añorar",
+    "dst": "visszasir"
+  },
+  {
+    "src": "ciencias ficción",
+    "dst": "sci-fi"
+  },
+  {
+    "src": "locutor",
+    "dst": "bemondó(nő)"
+  },
+  {
+    "src": "onda",
+    "dst": "hullám"
+  },
+  {
+    "src": "lujo",
+    "dst": "luxus"
+  },
+  {
+    "src": "buenos días",
+    "dst": "jó napot kívánok (délelőtt)"
+  },
+  {
+    "src": "squash",
+    "dst": "squash, fallabda"
+  },
+  {
+    "src": "terreno",
+    "dst": "terep, terület"
+  },
+  {
+    "src": "celebrar",
+    "dst": "ünnepel"
+  },
+  {
+    "src": "urgente",
+    "dst": "sürgős"
+  },
+  {
+    "src": "norteño",
+    "dst": "északi"
+  },
+  {
+    "src": "noche",
+    "dst": "este"
+  },
+  {
+    "src": "adelantar",
+    "dst": "(meg)elóz"
+  },
+  {
+    "src": "consejo",
+    "dst": "tanács"
+  },
+  {
+    "src": "aeróbic",
+    "dst": "aerobik"
+  },
+  {
+    "src": "estupendo",
+    "dst": "remek"
+  },
+  {
+    "src": "frontera",
+    "dst": "határ"
+  },
+  {
+    "src": "oiga.",
+    "dst": "1. halló 2. figyeljen ide!"
+  },
+  {
+    "src": "caballero",
+    "dst": "lovag"
+  },
+  {
+    "src": "vocabulario",
+    "dst": "szószedet"
+  },
+  {
+    "src": "hasta mañana",
+    "dst": "a holnapi viszontlátásra"
+  },
+  {
+    "src": "curioso",
+    "dst": "kíváncsi"
+  },
+  {
+    "src": "centro",
+    "dst": "központ, centrum"
+  },
+  {
+    "src": "formar parte de",
+    "dst": "vmi része, vmihez tartozik"
+  },
+  {
+    "src": "lavarse",
+    "dst": "mosakszik, megmosdik"
+  },
+  {
+    "src": "sacar",
+    "dst": "kivesz"
+  },
+  {
+    "src": "boda",
+    "dst": "esküvő"
+  },
+  {
+    "src": "cien",
+    "dst": "száz"
+  },
+  {
+    "src": "darse cuenta de",
+    "dst": "észrevesz vmit, rájön vmire"
+  },
+  {
+    "src": "armónico",
+    "dst": "harmonikus"
+  },
+  {
+    "src": "vestíbulo",
+    "dst": "előszoba"
+  },
+  {
+    "src": "el camino de santiago",
+    "dst": "a santiago de compostelába vezető zarándokút"
+  },
+  {
+    "src": "suelo",
+    "dst": "padló, talaj"
+  },
+  {
+    "src": "antónima",
+    "dst": "ellentétes értelmű"
+  },
+  {
+    "src": "a la vez",
+    "dst": "egyszerre, ugyanakkor"
+  },
+  {
+    "src": "entregar",
+    "dst": "átad, odaad"
+  },
+  {
+    "src": "cualquiera",
+    "dst": "bármely, bármelyik"
+  },
+  {
+    "src": "asco",
+    "dst": "undorító dolog, gusztustalanság"
+  },
+  {
+    "src": "reunir",
+    "dst": "összegyűjt"
+  },
+  {
+    "src": "netamente",
+    "dst": "tisztán, teljesen"
+  },
+  {
+    "src": "desde cuándo?",
+    "dst": "mióta?"
+  },
+  {
+    "src": "de una parte",
+    "dst": "egyfelől, egyrészt"
+  },
+  {
+    "src": "volcán",
+    "dst": "tűzhányó, vulkán"
+  },
+  {
+    "src": "pelota",
+    "dst": "labda"
+  },
+  {
+    "src": "canguro",
+    "dst": "1. kenguru 2. bébiszitter"
+  },
+  {
+    "src": "casar",
+    "dst": "házasít, férjhez ad"
+  },
+  {
+    "src": "doctor",
+    "dst": "doktor(nő)"
+  },
+  {
+    "src": "alemán",
+    "dst": "német"
+  },
+  {
+    "src": "frase",
+    "dst": "mondat"
+  },
+  {
+    "src": "media",
+    "dst": "átlag"
+  },
+  {
+    "src": "arroyo",
+    "dst": "patak"
+  },
+  {
+    "src": "en el centro de",
+    "dst": "vmi közepén"
+  },
+  {
+    "src": "parte",
+    "dst": "rész"
+  },
+  {
+    "src": "carta",
+    "dst": "1. levél 2. étlap"
+  },
+  {
+    "src": "marido",
+    "dst": "férj"
+  },
+  {
+    "src": "alucinante",
+    "dst": "lenyúgözó, elképesztóen jó, hihetetlen (diáknyelv)"
+  },
+  {
+    "src": "cuando",
+    "dst": "amikor"
+  },
+  {
+    "src": "noochevieja",
+    "dst": "szilveszter"
+  },
+  {
+    "src": "parrilla",
+    "dst": "rostély"
+  },
+  {
+    "src": "subir",
+    "dst": "1 . fölmegy 2. fölszáll (járműre)"
+  },
+  {
+    "src": "cortesía",
+    "dst": "udvariasság"
+  },
+  {
+    "src": "traducir",
+    "dst": "fordít"
+  },
+  {
+    "src": "escuela primaria",
+    "dst": "általános iskola"
+  },
+  {
+    "src": "desventaja",
+    "dst": "hátrány"
+  },
+  {
+    "src": "escribir",
+    "dst": "ír"
+  },
+  {
+    "src": "donde",
+    "dst": "ahol"
+  },
+  {
+    "src": "catedral",
+    "dst": "katedrális"
+  },
+  {
+    "src": "cruce",
+    "dst": "kereszteződés"
+  },
+  {
+    "src": "fruta del tiempo",
+    "dst": "idény szerinti gyümölcs"
+  },
+  {
+    "src": "galleta",
+    "dst": "keksz"
+  },
+  {
+    "src": "entrada",
+    "dst": "bejárat"
+  },
+  {
+    "src": "traslado",
+    "dst": "átköltöztetés, áthelyezés"
+  },
+  {
+    "src": "urbanización",
+    "dst": "nagyváros körüli lakónegyed"
+  },
+  {
+    "src": "triste",
+    "dst": "szomorú"
+  },
+  {
+    "src": "intruso",
+    "dst": "1. betolakodó 2. kakukktojás"
+  },
+  {
+    "src": "bautismo",
+    "dst": "keresztség, keresztelő"
+  },
+  {
+    "src": "patata",
+    "dst": "burgonya"
+  },
+  {
+    "src": "regresar",
+    "dst": "visszatér"
+  },
+  {
+    "src": "grupo",
+    "dst": "csoport"
+  },
+  {
+    "src": "caer",
+    "dst": "esik"
+  },
+  {
+    "src": "entrenamiento",
+    "dst": "edzés"
+  },
+  {
+    "src": "primo",
+    "dst": "unokatestvér"
+  },
+  {
+    "src": "tomar",
+    "dst": "1. eszik, iszik 2. vmilyen jármüre száll"
+  },
+  {
+    "src": "árbol",
+    "dst": "fa"
+  },
+  {
+    "src": "bocacalle",
+    "dst": "keresztutca"
+  },
+  {
+    "src": "los reyes",
+    "dst": "a királyi pár"
+  },
+  {
+    "src": "genealógico",
+    "dst": "származási"
+  },
+  {
+    "src": "aproximadamente",
+    "dst": "megközelítőleg"
+  },
+  {
+    "src": "puerta",
+    "dst": "ajtó"
+  },
+  {
+    "src": "puma",
+    "dst": "puma"
+  },
+  {
+    "src": "acabar",
+    "dst": "befejez"
+  },
+  {
+    "src": "pasar el aspirador por",
+    "dst": "porszívóz vmit"
+  },
+  {
+    "src": "cursi",
+    "dst": "1. izléstelen, gicoses 2. ciki"
+  },
+  {
+    "src": "capacidad",
+    "dst": "képesség"
+  },
+  {
+    "src": "conjunto",
+    "dst": "1. együttes, összesség 2. kosztüm"
+  },
+  {
+    "src": "notoriedad",
+    "dst": "hírnév"
+  },
+  {
+    "src": "arroz con leche",
+    "dst": "tejberizs"
+  },
+  {
+    "src": "gusto",
+    "dst": "ízlés"
+  },
+  {
+    "src": "zapatería",
+    "dst": "cipőbolt"
+  },
+  {
+    "src": "gafas de sol",
+    "dst": "napszemüveg"
+  },
+  {
+    "src": "comunidad de madrid",
+    "dst": "madrid és a környező települések által alkotott közigazgatási egység"
+  },
+  {
+    "src": "más bien",
+    "dst": "inkább"
+  },
+  {
+    "src": "peaje",
+    "dst": "útdíj"
+  },
+  {
+    "src": "cardiovascular",
+    "dst": "szív- és érrendszeri"
+  },
+  {
+    "src": "conferencia",
+    "dst": "konferencia"
+  },
+  {
+    "src": "niebla",
+    "dst": "köd"
+  },
+  {
+    "src": "postre",
+    "dst": "desszert"
+  },
+  {
+    "src": "asegurarse de",
+    "dst": "megbizonyosodik vmiről"
+  },
+  {
+    "src": "levantar",
+    "dst": "fölemel"
+  },
+  {
+    "src": "reina",
+    "dst": "királynő, királyné"
+  },
+  {
+    "src": "salón",
+    "dst": "nappali"
+  },
+  {
+    "src": "tío",
+    "dst": "nagybácsi, nagynéni"
+  },
+  {
+    "src": "rollo",
+    "dst": "tekercs"
+  },
+  {
+    "src": "contemplar",
+    "dst": "(meg)szemlél"
+  },
+  {
+    "src": "grado centigrado",
+    "dst": "celsius-fok"
+  },
+  {
+    "src": "preparado",
+    "dst": "kész, elkészült"
+  },
+  {
+    "src": "qué va!",
+    "dst": "dehogyis"
+  },
+  {
+    "src": "deletrear",
+    "dst": "betűz"
+  },
+  {
+    "src": "soledad",
+    "dst": "magány, egyedüllét"
+  },
+  {
+    "src": "nevar",
+    "dst": "havazik"
+  },
+  {
+    "src": "por suerte",
+    "dst": "szerencsére"
+  },
+  {
+    "src": "caradura",
+    "dst": "pimasz alak"
+  },
+  {
+    "src": "revuelto",
+    "dst": "rántotta"
+  },
+  {
+    "src": "muñeca",
+    "dst": "játékbaba"
+  },
+  {
+    "src": "chino",
+    "dst": "kínai"
+  },
+  {
+    "src": "gasolina",
+    "dst": "benzin"
+  },
+  {
+    "src": "física",
+    "dst": "fizika"
+  },
+  {
+    "src": "museo",
+    "dst": "múzeum"
+  },
+  {
+    "src": "solucionar",
+    "dst": "megold"
+  },
+  {
+    "src": "subrayar",
+    "dst": "aláhúz"
+  },
+  {
+    "src": "caerse",
+    "dst": "leesik"
+  },
+  {
+    "src": "deporte",
+    "dst": "sport"
+  },
+  {
+    "src": "sueño",
+    "dst": "álom"
+  },
+  {
+    "src": "gallego",
+    "dst": "gallíciai"
+  },
+  {
+    "src": "a pie",
+    "dst": "gyalog"
+  },
+  {
+    "src": "bolsillo",
+    "dst": "zseb"
+  },
+  {
+    "src": "contaminación",
+    "dst": "környezetszennyezés"
+  },
+  {
+    "src": "biblioteca",
+    "dst": "könyvtár"
+  },
+  {
+    "src": "nueva york",
+    "dst": "new york"
+  },
+  {
+    "src": "cansarse",
+    "dst": "(el)fárad"
+  },
+  {
+    "src": "hora",
+    "dst": "óra"
+  },
+  {
+    "src": "océano pacífico",
+    "dst": "csendes óceán"
+  },
+  {
+    "src": "novio",
+    "dst": "vőlegény, menyasszony"
+  },
+  {
+    "src": "embargo",
+    "dst": "embargó kereskedelmi tilalom"
+  },
+  {
+    "src": "posible",
+    "dst": "lehetséges"
+  },
+  {
+    "src": "enseñar",
+    "dst": "tanít"
+  },
+  {
+    "src": "árbol genealógico",
+    "dst": "családfa"
+  },
+  {
+    "src": "bastante",
+    "dst": "elég, eléggé"
+  },
+  {
+    "src": "asignatura",
+    "dst": "tantárgy"
+  },
+  {
+    "src": "juntos",
+    "dst": "együtt"
+  },
+  {
+    "src": "calentar",
+    "dst": "melegít, bemelegít"
+  },
+  {
+    "src": "creación",
+    "dst": "1. teremtés 2. alkotás"
+  },
+  {
+    "src": "reconocimiento",
+    "dst": "elismerés, elismertség"
+  },
+  {
+    "src": "cerrar",
+    "dst": "bezár"
+  },
+  {
+    "src": "entre",
+    "dst": "között, közé"
+  },
+  {
+    "src": "acontecimiento",
+    "dst": "esemény"
+  },
+  {
+    "src": "cansar",
+    "dst": "fáraszt"
+  },
+  {
+    "src": "premio nobel",
+    "dst": "nobel-díj"
+  },
+  {
+    "src": "céntrico",
+    "dst": "központi"
+  },
+  {
+    "src": "quitarse",
+    "dst": "levesz (ruhadarabot)"
+  },
+  {
+    "src": "endivia",
+    "dst": "endívia (növény)"
+  },
+  {
+    "src": "relato",
+    "dst": "elbeszélés"
+  },
+  {
+    "src": "bolsa",
+    "dst": "zacskó,zsák"
+  },
+  {
+    "src": "de norte a sur",
+    "dst": "északtól délre haladva"
+  },
+  {
+    "src": "espada",
+    "dst": "kard"
+  },
+  {
+    "src": "cucharadita",
+    "dst": "teáskanálnyi"
+  },
+  {
+    "src": "hallar",
+    "dst": "talál"
+  },
+  {
+    "src": "abono",
+    "dst": "bérlet"
+  },
+  {
+    "src": "de bolsillo",
+    "dst": "zseb-"
+  },
+  {
+    "src": "hasta cuándo?",
+    "dst": "meddig?"
+  },
+  {
+    "src": "rumanía",
+    "dst": "románia"
+  },
+  {
+    "src": "gente",
+    "dst": "emberek"
+  },
+  {
+    "src": "archipiélago",
+    "dst": "szigetcsoport"
+  },
+  {
+    "src": "sillón",
+    "dst": "fotel"
+  },
+  {
+    "src": "cargo",
+    "dst": "1. teher 2. beosztás"
+  },
+  {
+    "src": "típico",
+    "dst": "jellegzetes, tipikus"
+  },
+  {
+    "src": "terrible",
+    "dst": "szörnyü"
+  },
+  {
+    "src": "tortuga",
+    "dst": "teknős"
+  },
+  {
+    "src": "sonido",
+    "dst": "hang"
+  },
+  {
+    "src": "completo",
+    "dst": "teljes"
+  },
+  {
+    "src": "junto",
+    "dst": "vmi mellett"
+  },
+  {
+    "src": "jarra",
+    "dst": "kancsó"
+  },
+  {
+    "src": "durar",
+    "dst": "tart vmeddig"
+  },
+  {
+    "src": "italiano",
+    "dst": "olasz"
+  },
+  {
+    "src": "época",
+    "dst": "korszak"
+  },
+  {
+    "src": "nublado",
+    "dst": "ködös"
+  },
+  {
+    "src": "efectivo",
+    "dst": "készpénz"
+  },
+  {
+    "src": "cuenta",
+    "dst": "számla"
+  },
+  {
+    "src": "ofrecer",
+    "dst": "(fel)ajánl, (meg)kínál, nyújt"
+  },
+  {
+    "src": "cristóbal",
+    "dst": "kristóf"
+  },
+  {
+    "src": "llevar",
+    "dst": "1. visz, cipel 2. visel (ruhát)"
+  },
+  {
+    "src": "agosto",
+    "dst": "augusztus"
+  },
+  {
+    "src": "gracias",
+    "dst": "1. köszönöm, 2. köszönet"
+  },
+  {
+    "src": "conseguir",
+    "dst": "szerez, hozzájut"
+  },
+  {
+    "src": "india",
+    "dst": "india"
+  },
+  {
+    "src": "tostada",
+    "dst": "piritós"
+  },
+  {
+    "src": "adornar",
+    "dst": "(fel)díszit"
+  },
+  {
+    "src": "danubio",
+    "dst": "duna"
+  },
+  {
+    "src": "ojo!",
+    "dst": "figyelem, vigyázat!"
+  },
+  {
+    "src": "tortilla",
+    "dst": "rántotta"
+  },
+  {
+    "src": "tirar",
+    "dst": "eldob, kidob"
+  },
+  {
+    "src": "asturiano",
+    "dst": "asturiasból való, asztúriai"
+  },
+  {
+    "src": "tener sueño",
+    "dst": "almos"
+  },
+  {
+    "src": "cortar",
+    "dst": "(el/le/össze)vág"
+  },
+  {
+    "src": "almuerzo",
+    "dst": "ebéd"
+  },
+  {
+    "src": "contar",
+    "dst": "1. elmond, elmesél 2. számol"
+  },
+  {
+    "src": "mayo",
+    "dst": "május"
+  },
+  {
+    "src": "ahorrar",
+    "dst": "takarékoskodik, megtakarit, spórol"
+  },
+  {
+    "src": "restante",
+    "dst": "a többi, a maradék"
+  },
+  {
+    "src": "además",
+    "dst": "ráadásul"
+  },
+  {
+    "src": "pregunta",
+    "dst": "kérdés"
+  },
+  {
+    "src": "en general",
+    "dst": "általában"
+  },
+  {
+    "src": "así que",
+    "dst": "szóval, nos, tehát"
+  },
+  {
+    "src": "adecuado",
+    "dst": "megfeleló, alkalmas, odailló"
+  },
+  {
+    "src": "traje de baño",
+    "dst": "fürdóruha"
+  },
+  {
+    "src": "pelo",
+    "dst": "haj"
+  },
+  {
+    "src": "comunidad autónoma",
+    "dst": "spanyolországot alkotó közigazgatási egység"
+  },
+  {
+    "src": "tomar en consideración",
+    "dst": "figyelembe vesz"
+  },
+  {
+    "src": "traer",
+    "dst": "hoz"
+  },
+  {
+    "src": "camino",
+    "dst": "út"
+  },
+  {
+    "src": "geografía",
+    "dst": "földrajz"
+  },
+  {
+    "src": "placer",
+    "dst": "élvezet"
+  },
+  {
+    "src": "cortés",
+    "dst": "udvarias"
+  },
+  {
+    "src": "titular",
+    "dst": "újságcikk címe, szalagcím"
+  },
+  {
+    "src": "cosmético",
+    "dst": "kozmetikum"
+  },
+  {
+    "src": "afición",
+    "dst": "hobby"
+  },
+  {
+    "src": "consejo",
+    "dst": "tanács"
+  },
+  {
+    "src": "agua benedita",
+    "dst": "szentelt viz"
+  },
+  {
+    "src": "torre",
+    "dst": "torony"
+  },
+  {
+    "src": "estado de ánimo",
+    "dst": "lelki állapot"
+  },
+  {
+    "src": "alcoholismo",
+    "dst": "alkoholizmus"
+  },
+  {
+    "src": "artes",
+    "dst": "művészetek"
+  },
+  {
+    "src": "todos",
+    "dst": "mind, mindenki, mindnyájan"
+  },
+  {
+    "src": "alquiler",
+    "dst": "1. bérlés 2. bérbe adás 3. bérleti díj"
+  },
+  {
+    "src": "identificar",
+    "dst": "azonosít"
+  },
+  {
+    "src": "en cursiva",
+    "dst": "dőlt betűvel"
+  },
+  {
+    "src": "agencia",
+    "dst": "ügynökség"
+  },
+  {
+    "src": "preparados",
+    "dst": "felkészülni, vigyázz, rajt!"
+  },
+  {
+    "src": "impedir",
+    "dst": "megakadályoz"
+  },
+  {
+    "src": "permitir",
+    "dst": "megenged, engedélyez"
+  },
+  {
+    "src": "corbata",
+    "dst": "nyakkendő"
+  },
+  {
+    "src": "armario",
+    "dst": "szekrény"
+  },
+  {
+    "src": "grecia",
+    "dst": "görögország"
+  },
+  {
+    "src": "llave",
+    "dst": "kulcs"
+  },
+  {
+    "src": "noreste",
+    "dst": "északkelet"
+  },
+  {
+    "src": "artesanía",
+    "dst": "kézműipar, kézművesség"
+  },
+  {
+    "src": "plano",
+    "dst": "alaprajz"
+  },
+  {
+    "src": "escuchar",
+    "dst": "hallgat"
+  },
+  {
+    "src": "ruido",
+    "dst": "zaj"
+  },
+  {
+    "src": "decir",
+    "dst": "mond"
+  },
+  {
+    "src": "me ha salido una ampolla en el pie",
+    "dst": "vizhólyag nőtt a lábamon"
+  },
+  {
+    "src": "doble",
+    "dst": "dupla, kettős"
+  },
+  {
+    "src": "música ligera",
+    "dst": "könnyűzene"
+  },
+  {
+    "src": "agencia de viajes",
+    "dst": "utazási iroda"
+  },
+  {
+    "src": "cara",
+    "dst": "arc"
+  },
+  {
+    "src": "grado",
+    "dst": "1. fok, fokozat 2. osztály, évfolyam"
+  },
+  {
+    "src": "quedar con alguien a las 7",
+    "dst": "7 órában marad valakivel"
+  },
+  {
+    "src": "moto",
+    "dst": "motorbicikli röv."
+  },
+  {
+    "src": "gobierno",
+    "dst": "kormány, kormányzás"
+  },
+  {
+    "src": "información",
+    "dst": "információ, adat"
+  },
+  {
+    "src": "esquiar",
+    "dst": "síel"
+  },
+  {
+    "src": "currículum",
+    "dst": "életraiz"
+  },
+  {
+    "src": "marítimo",
+    "dst": "tengerészeti"
+  },
+  {
+    "src": "consideración",
+    "dst": "megfontolás"
+  },
+  {
+    "src": "actividad",
+    "dst": "tevékenység"
+  },
+  {
+    "src": "primavera",
+    "dst": "tavasz"
+  },
+  {
+    "src": "jaguar",
+    "dst": "jaguár"
+  },
+  {
+    "src": "de primero",
+    "dst": "első fogásként"
+  },
+  {
+    "src": "pollo",
+    "dst": "csirke"
+  },
+  {
+    "src": "precioso",
+    "dst": "csodálatos"
+  },
+  {
+    "src": "curso escolar",
+    "dst": "tanév"
+  },
+  {
+    "src": "hipopótamo",
+    "dst": "viziló"
+  },
+  {
+    "src": "almmendra",
+    "dst": "mandula"
+  },
+  {
+    "src": "nieto",
+    "dst": "unoka"
+  },
+  {
+    "src": "en efectivo",
+    "dst": "készpénzzel"
+  },
+  {
+    "src": "guía turística",
+    "dst": "útikönyv"
+  },
+  {
+    "src": "gamba",
+    "dst": "rák"
+  },
+  {
+    "src": "estados unidos de américa",
+    "dst": "usa"
+  },
+  {
+    "src": "escocia",
+    "dst": "skócia"
+  },
+  {
+    "src": "magnifico",
+    "dst": "kiváló, kitűnő"
+  },
+  {
+    "src": "sufrir hambre",
+    "dst": "éhezik"
+  },
+  {
+    "src": "cuidadoso",
+    "dst": "gondos, óvatos"
+  },
+  {
+    "src": "delante",
+    "dst": "elöl, előre"
+  },
+  {
+    "src": "llegar",
+    "dst": "érkezik"
+  },
+  {
+    "src": "escritorio",
+    "dst": "íróasztal"
+  },
+  {
+    "src": "nervioso",
+    "dst": "ideges"
+  },
+  {
+    "src": "departamento",
+    "dst": "osztály,áruház"
+  },
+  {
+    "src": "arroz",
+    "dst": "rizs"
+  },
+  {
+    "src": "infinitivo",
+    "dst": "főnévi igenév"
+  },
+  {
+    "src": "tribunal",
+    "dst": "bíróság"
+  },
+  {
+    "src": "absurdo",
+    "dst": "abszurd"
+  },
+  {
+    "src": "sopa",
+    "dst": "leves"
+  },
+  {
+    "src": "agotado",
+    "dst": "kimerült"
+  },
+  {
+    "src": "pescado",
+    "dst": "hal(étel)"
+  },
+  {
+    "src": "alojamiento",
+    "dst": "szálláshely"
+  },
+  {
+    "src": "dónde?",
+    "dst": "hol?"
+  },
+  {
+    "src": "armada",
+    "dst": "hajóhad"
+  },
+  {
+    "src": "sólo",
+    "dst": "csak"
+  },
+  {
+    "src": "hasta dónde?",
+    "dst": "meddig?"
+  },
+  {
+    "src": "derecho",
+    "dst": "jobb"
+  },
+  {
+    "src": "ocurrir",
+    "dst": "történik"
+  },
+  {
+    "src": "constar",
+    "dst": "nyilvánvaló vki számára"
+  },
+  {
+    "src": "dormir",
+    "dst": "alszik"
+  },
+  {
+    "src": "localización",
+    "dst": "elhelyezkedés, fekvés (lakásé, épületé)"
+  },
+  {
+    "src": "tronar",
+    "dst": "dörög"
+  },
+  {
+    "src": "relativo a",
+    "dst": "valamire vonatkozik"
+  },
+  {
+    "src": "limitar",
+    "dst": "határos vmivel"
+  },
+  {
+    "src": "soso",
+    "dst": "sótlan"
+  },
+  {
+    "src": "local",
+    "dst": "helyiség"
+  },
+  {
+    "src": "maleta",
+    "dst": "bőrönd"
+  },
+  {
+    "src": "consistir en",
+    "dst": "vmiből áll"
+  },
+  {
+    "src": "unión europea",
+    "dst": "európai unió"
+  },
+  {
+    "src": "afueras",
+    "dst": "külső kerületek"
+  },
+  {
+    "src": "zorro",
+    "dst": "róka"
+  },
+  {
+    "src": "más que",
+    "dst": "több mint"
+  },
+  {
+    "src": "preferir",
+    "dst": "jobban szeret"
+  },
+  {
+    "src": "pobreza",
+    "dst": "szegénység"
+  },
+  {
+    "src": "hospital",
+    "dst": "kórház"
+  },
+  {
+    "src": "reducir",
+    "dst": "csökkent"
+  },
+  {
+    "src": "editorial",
+    "dst": "kiadó"
+  },
+  {
+    "src": "plato fuerte",
+    "dst": "főétel"
+  },
+  {
+    "src": "hervir",
+    "dst": "forral, forr"
+  },
+  {
+    "src": "abdominal",
+    "dst": "hasi"
+  },
+  {
+    "src": "hacía",
+    "dst": "felé"
+  },
+  {
+    "src": "unión",
+    "dst": "egyesülés"
+  },
+  {
+    "src": "gramo",
+    "dst": "gramm"
+  },
+  {
+    "src": "aconsejable",
+    "dst": "tanácsos"
+  },
+  {
+    "src": "pierna",
+    "dst": "láb(szár)"
+  },
+  {
+    "src": "estantería",
+    "dst": "polc"
+  },
+  {
+    "src": "solo",
+    "dst": "egyedül"
+  },
+  {
+    "src": "escalera",
+    "dst": "lépcső"
+  },
+  {
+    "src": "contraer matrimonio",
+    "dst": "házasságot kót"
+  },
+  {
+    "src": "batería",
+    "dst": "akkumulátor"
+  },
+  {
+    "src": "por dónde?",
+    "dst": "merre?"
+  },
+  {
+    "src": "un poco de",
+    "dst": "egy kicsit"
+  },
+  {
+    "src": "amígdala",
+    "dst": "mandula (torokban)"
+  },
+  {
+    "src": "angina",
+    "dst": "torogyulladas"
+  },
+  {
+    "src": "escuela secundaria",
+    "dst": "középiskola"
+  },
+  {
+    "src": "cuñado",
+    "dst": "sógor,-nő"
+  },
+  {
+    "src": "queja",
+    "dst": "panasz"
+  },
+  {
+    "src": "tango",
+    "dst": "tangó"
+  },
+  {
+    "src": "algúnos",
+    "dst": "néhány,néhányan"
+  },
+  {
+    "src": "debido a",
+    "dst": "vmi miatt"
+  },
+  {
+    "src": "dormitorio",
+    "dst": "hálószoba"
+  },
+  {
+    "src": "pulsera",
+    "dst": "karkötő"
+  },
+  {
+    "src": "piel",
+    "dst": "1. bőr 2. gyümölcshéj"
+  },
+  {
+    "src": "hipermercado",
+    "dst": "hipermarket"
+  },
+  {
+    "src": "chico",
+    "dst": "fiú, lány"
+  },
+  {
+    "src": "cuadrar con",
+    "dst": "illik vmihez"
+  },
+  {
+    "src": "pobre",
+    "dst": "szegény"
+  },
+  {
+    "src": "rehabilitado",
+    "dst": "újjáépített, renovált"
+  },
+  {
+    "src": "charlar",
+    "dst": "beszélget"
+  },
+  {
+    "src": "limón",
+    "dst": "citrom"
+  },
+  {
+    "src": "desayunar",
+    "dst": "reggelizik"
+  },
+  {
+    "src": "especialidad",
+    "dst": "különlegesség, specialitás"
+  },
+  {
+    "src": "chalé",
+    "dst": "villa, nyaraló"
+  },
+  {
+    "src": "ajeno",
+    "dst": "idegen, más"
+  },
+  {
+    "src": "chubasco",
+    "dst": "záporeső"
+  },
+  {
+    "src": "hielo",
+    "dst": "jég"
+  },
+  {
+    "src": "de dónde?",
+    "dst": "honnan"
+  },
+  {
+    "src": "contribuir a",
+    "dst": "hozzájárul vmihez"
+  },
+  {
+    "src": "último",
+    "dst": "utolsó"
+  },
+  {
+    "src": "especie",
+    "dst": "faj, fajta"
+  },
+  {
+    "src": "mantel",
+    "dst": "terítő, abrosz"
+  },
+  {
+    "src": "activamente",
+    "dst": "aktívan"
+  },
+  {
+    "src": "piscina",
+    "dst": "1. medence 2. uszoda"
+  },
+  {
+    "src": "químico",
+    "dst": "vegyi"
+  },
+  {
+    "src": "caerse",
+    "dst": "leesik, eldől"
+  },
+  {
+    "src": "deber",
+    "dst": "kell"
+  },
+  {
+    "src": "poner",
+    "dst": "tesz, rak, helyez"
+  },
+  {
+    "src": "turístico",
+    "dst": "idegenforgalmi, turisztikai"
+  },
+  {
+    "src": "universidad",
+    "dst": "egyetem"
+  },
+  {
+    "src": "artista",
+    "dst": "művész"
+  },
+  {
+    "src": "moneda",
+    "dst": "pénz"
+  },
+  {
+    "src": "derretir",
+    "dst": "olvaszt"
+  },
+  {
+    "src": "higiene",
+    "dst": "higiénia"
+  },
+  {
+    "src": "ambas",
+    "dst": "mindkettő"
+  },
+  {
+    "src": "cuestión",
+    "dst": "kérdés (átvitt értelemben is)"
+  },
+  {
+    "src": "nacer",
+    "dst": "születik"
+  },
+  {
+    "src": "querer",
+    "dst": "1. akar 2. szeret"
+  },
+  {
+    "src": "ecuador",
+    "dst": "1. egyenlítői 2. ecuador"
+  },
+  {
+    "src": "desde",
+    "dst": "-tól, -től (időben és térben), óta"
+  },
+  {
+    "src": "hermano",
+    "dst": "idősebb testvér"
+  },
+  {
+    "src": "todo el mundo",
+    "dst": "mindenki"
+  },
+  {
+    "src": "característica",
+    "dst": "jellegzetesség, jellemvonás"
+  },
+  {
+    "src": "debajo de",
+    "dst": "vmi alatt"
+  },
+  {
+    "src": "en honor de",
+    "dst": "vki tiszteletére"
+  },
+  {
+    "src": "caña",
+    "dst": "1. nád 2. pecabot 3. egy pohár sór"
+  },
+  {
+    "src": "casa",
+    "dst": "1. ház 2. cég"
+  },
+  {
+    "src": "abrigarse",
+    "dst": "melegen öltözik"
+  },
+  {
+    "src": "horchata",
+    "dst": "valenciai üdítőital chufából készül"
+  },
+  {
+    "src": "hierro",
+    "dst": "vas"
+  },
+  {
+    "src": "occidental",
+    "dst": "nyugati"
+  },
+  {
+    "src": "trolebús",
+    "dst": "trolibusz"
+  },
+  {
+    "src": "piedra",
+    "dst": "kő"
+  },
+  {
+    "src": "campanada",
+    "dst": "harangütés"
+  },
+  {
+    "src": "san",
+    "dst": "szent"
+  },
+  {
+    "src": "regular",
+    "dst": "szabályos"
+  },
+  {
+    "src": "mediodía",
+    "dst": "dél"
+  },
+  {
+    "src": "entusiasmado",
+    "dst": "lelkes"
+  },
+  {
+    "src": "seguir",
+    "dst": "követ"
+  },
+  {
+    "src": "caballeroso",
+    "dst": "lovagias"
+  },
+  {
+    "src": "viernes santo",
+    "dst": "nagypéntek"
+  },
+  {
+    "src": "cutis",
+    "dst": "arcbőr"
+  },
+  {
+    "src": "chorizo",
+    "dst": "kolbász"
+  },
+  {
+    "src": "hogar",
+    "dst": "otthon, háztartás"
+  },
+  {
+    "src": "islas baleares",
+    "dst": "baleári szigetek"
+  },
+  {
+    "src": "alfonso el sabio",
+    "dst": "bölcs alfonz"
+  },
+  {
+    "src": "ecuatoriano",
+    "dst": "ecuadori"
+  },
+  {
+    "src": "ejemplo",
+    "dst": "példa"
+  },
+  {
+    "src": "húmedo",
+    "dst": "nedves, nyirkos"
+  },
+  {
+    "src": "duda",
+    "dst": "kétség, kétely"
+  },
+  {
+    "src": "hacer ejercicio",
+    "dst": "tornászik"
+  },
+  {
+    "src": "ubicarse",
+    "dst": "található vhol"
+  },
+  {
+    "src": "idea",
+    "dst": "ötlet, elképzelés"
+  },
+  {
+    "src": "mucho gusto",
+    "dst": "nagyon örvendek"
+  },
+  {
+    "src": "unos",
+    "dst": "néhány, néhányan"
+  },
+  {
+    "src": "curso",
+    "dst": "tanfolyam, kurzus"
+  },
+  {
+    "src": "alerta",
+    "dst": "riasztás, riadó"
+  },
+  {
+    "src": "¿me sigues?",
+    "dst": "követed, amit mondok?"
+  },
+  {
+    "src": "chimenea",
+    "dst": "1. kémény 2. kandalló"
+  },
+  {
+    "src": "rechazar",
+    "dst": "elutasít"
+  },
+  {
+    "src": "sazonar",
+    "dst": "ízesít"
+  },
+  {
+    "src": "revista",
+    "dst": "képesújság, folyóirat"
+  },
+  {
+    "src": "educación física",
+    "dst": "testnevelés"
+  },
+  {
+    "src": "redondo",
+    "dst": "kerek"
+  },
+  {
+    "src": "fundar",
+    "dst": "alapít"
+  },
+  {
+    "src": "tres",
+    "dst": "három"
+  },
+  {
+    "src": "ruso",
+    "dst": "orosz"
+  },
+  {
+    "src": "director de cine",
+    "dst": "filmrendező"
+  },
+  {
+    "src": "chuleta",
+    "dst": "karaj"
+  },
+  {
+    "src": "alergia",
+    "dst": "allergia"
+  },
+  {
+    "src": "dama",
+    "dst": "hölgy"
+  },
+  {
+    "src": "sábado santo",
+    "dst": "nagyszombat"
+  },
+  {
+    "src": "chocolate",
+    "dst": "csokoládé, kakaó"
+  },
+  {
+    "src": "trono",
+    "dst": "trón"
+  },
+  {
+    "src": "imperio",
+    "dst": "birodalom"
+  },
+  {
+    "src": "útil",
+    "dst": "hasznos"
+  },
+  {
+    "src": "infante",
+    "dst": "infáns, infánsnő"
+  },
+  {
+    "src": "isabel",
+    "dst": "izabella, erzsébet"
+  },
+  {
+    "src": "chocolatina",
+    "dst": "kis szelet csololádé"
+  },
+  {
+    "src": "cúpula",
+    "dst": "kupola"
+  },
+  {
+    "src": "cielo",
+    "dst": "égbolt, menny"
+  },
+  {
+    "src": "tradicional",
+    "dst": "hagyományos"
+  },
+  {
+    "src": "chaqueta",
+    "dst": "zakó"
+  },
+  {
+    "src": "al borde de",
+    "dst": "vmi határán, szélén"
+  },
+  {
+    "src": "ambos",
+    "dst": "mindkettő"
+  },
+  {
+    "src": "lindar",
+    "dst": "határos vmivel"
+  },
+  {
+    "src": "quisiera",
+    "dst": "szeretnék"
+  }
 ]
