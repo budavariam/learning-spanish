@@ -17,7 +17,7 @@ A magyar nyelvben "hivatalosan" nincs kötőmód, azonban előfordul ez a szerke
 
 ## Képzési szabály
 
-Az igék 3 csoporjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
+Az igék 3 csoportjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
 
 &nbsp;|-ar|-er|-ir
 ----|----|----|----

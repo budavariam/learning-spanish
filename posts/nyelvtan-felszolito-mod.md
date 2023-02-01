@@ -10,7 +10,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-Az igék 3 csoporjára amik nem rendhagyóak:
+Az igék 3 csoportjára amik nem rendhagyóak:
 
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
