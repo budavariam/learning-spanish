@@ -5,12 +5,172 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2023-01-16T00:00:00Z</updated>
+	<updated>2023-02-05T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Függő beszéd (Estilo Indirecto)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/"/>
+		<updated>2023-02-05T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/</id>
+		<content type="html">&lt;p&gt;Valaki más mondandóját átadni anélkül, hogy szó szerint idéznénk.&lt;/p&gt;
+&lt;p&gt;Egyeztetni kell:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;személyes névmásokat&lt;/li&gt;
+&lt;li&gt;birtokos névmásokat&lt;/li&gt;
+&lt;li&gt;hely/idő hivatkozásokat&lt;/li&gt;
+&lt;li&gt;nyelvtani időket&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gyakran-hasznalt-igek&quot; tabindex=&quot;-1&quot;&gt;Gyakran használt igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/#gyakran-hasznalt-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;decir, afirmar, contar, exclamar, explicar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;szemelyes-nevmasok-valtozasa&quot; tabindex=&quot;-1&quot;&gt;Személyes névmások változása &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/#szemelyes-nevmasok-valtozasa&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Estilo directo&lt;/th&gt;
+&lt;th&gt;Estilo indirecto&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;E/1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;E/3&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;E/2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;E/1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;E/3&lt;/td&gt;
+&lt;td&gt;E/3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;T/1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;T/3&lt;/code&gt; (&lt;code&gt;T/1&lt;/code&gt; ha én is benne vagyok)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;T/2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;T/1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T/3&lt;/td&gt;
+&lt;td&gt;T/3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;igeidok-valtoztatasa&quot; tabindex=&quot;-1&quot;&gt;Igeidők változtatása &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/#igeidok-valtoztatasa&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Estilo directo&lt;/th&gt;
+&lt;th&gt;Estilo indirecto&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jelen&lt;/td&gt;
+&lt;td&gt;Pretérito imperfecto&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pretérito indefinido&lt;/td&gt;
+&lt;td&gt;Pretérito pluscuamperfecto&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pretérito perfecto&lt;/td&gt;
+&lt;td&gt;Pretérito pluscuamperfecto&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Pretérito pluscuamperfecto&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Pretérito pluscuamperfecto&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Pretérito imperfecto&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Pretérito imperfecto&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Egyszerű jövő&lt;/td&gt;
+&lt;td&gt;Condicional Simple&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Condicional Simple&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Condicional Simple&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Futuro Compuesto&lt;/td&gt;
+&lt;td&gt;Condicional Compuesto&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Felszólító mód&lt;/td&gt;
+&lt;td&gt;Kötőmód Pretérito Imperfecto alakja&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kötőmód jelen idő&lt;/td&gt;
+&lt;td&gt;Kötőmód Pretérito Imperfecto alakja&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Kötőmód Pretérito Imperfecto alakja&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Kötőmód Pretérito Imperfecto alakja&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kötőmód Pretérito Perfecto alakja&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Kötőmód Pretérito Pluscuamperfecto alakja&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Pretérito perfecto&lt;/strong&gt; nem változik&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;hely-es-ido-valtozasai&quot; tabindex=&quot;-1&quot;&gt;Hely és idő változásai &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/#hely-es-ido-valtozasai&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Estilo directo&lt;/th&gt;
+&lt;th&gt;Estilo indirecto&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;hoy&lt;/td&gt;
+&lt;td&gt;aquel día&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ahora&lt;/td&gt;
+&lt;td&gt;entonces&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ayer&lt;/td&gt;
+&lt;td&gt;el día anterior&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;la semana pasada&lt;/td&gt;
+&lt;td&gt;la semana anterior&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;el próximo año&lt;/td&gt;
+&lt;td&gt;al año siguiente&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mañana&lt;/td&gt;
+&lt;td&gt;al día siguiente&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;aquí&lt;/td&gt;
+&lt;td&gt;allí&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;este/a ...&lt;/td&gt;
+&lt;td&gt;aquello/a ...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Kötőmód Jelen időben (Subjuntivo)</title>
