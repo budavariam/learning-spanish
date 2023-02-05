@@ -51,7 +51,7 @@ Futuro Compuesto|Condicional Compuesto
 Felszólító mód|Kötőmód Pretérito Imperfecto alakja
 Kötőmód jelen idő|Kötőmód Pretérito Imperfecto alakja
 *Kötőmód Pretérito Imperfecto alakja*|*Kötőmód Pretérito Imperfecto alakja*
-Kötőmód Pretérito Perfecto alakja|*Kötőmód Pretérito Pluscuamperfecto alakja*
+Kötőmód Pretérito Perfecto alakja|Kötőmód Pretérito Pluscuamperfecto alakja
 
 > **Pretérito imperfecto** nem változik
 
