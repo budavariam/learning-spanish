@@ -10,6 +10,12 @@
     "url": "https://budavariam.github.io/learning-spanish/about-me/"
   },
   "items": [{
+      "id": "https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-kozelmult/",
+      "url": "https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-kozelmult/",
+      "title": "Kötőmód Közelmúltban (Subjuntivo en Pretérito Perfecto)",
+      "content_html": "<h2 id=\"kepzesi-szabaly\" tabindex=\"-1\">Képzési szabály <a class=\"direct-link\" href=\"https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-kozelmult/#kepzesi-szabaly\" aria-hidden=\"true\">#</a></h2>\n<p>A <strong>haber</strong> segédige kötőmódbeli jelenidejű ragozott alakját követi az ige melléknévi igeneve.</p>\n<table>\n<thead>\n<tr>\n<th> </th>\n<th>haber</th>\n<th>múlt idejű igenév</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>yo</td>\n<td><strong>haya</strong></td>\n<td>ar:<strong>-ado</strong>, er:<strong>-ido</strong>, ir:<strong>-ido</strong></td>\n</tr>\n<tr>\n<td>tú</td>\n<td><strong>hayas</strong></td>\n<td></td>\n</tr>\n<tr>\n<td>él/ella/usted</td>\n<td><strong>haya</strong></td>\n<td></td>\n</tr>\n<tr>\n<td>nosotros/nosotras</td>\n<td><strong>hayamos</strong></td>\n<td></td>\n</tr>\n<tr>\n<td>vosotros</td>\n<td><strong>hayáis</strong></td>\n<td></td>\n</tr>\n<tr>\n<td>ellos/ellas/ustedes</td>\n<td><strong>hayan</strong></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"mikor-hasznaljuk\" tabindex=\"-1\">Mikor használjuk <a class=\"direct-link\" href=\"https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-kozelmult/#mikor-hasznaljuk\" aria-hidden=\"true\">#</a></h2>\n<p>Akkor használjuk, amikor az adott beszédhelyzetben a <code>Pretérito Perfecto</code> használata szükséges, a szerkezet pedig kötőmódot kíván.</p>\n",
+      "date_published": "2023-02-05T00:00:00Z"
+    },{
       "id": "https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/",
       "url": "https://budavariam.github.io/learning-spanish/posts/nyelvtan-fuggo-beszed/",
       "title": "Függő beszéd (Estilo Indirecto)",
