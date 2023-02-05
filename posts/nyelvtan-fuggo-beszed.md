@@ -4,6 +4,7 @@ description: Függő beszéd
 date: 2023-02-05
 tags:
   - nyelvtan
+  - függőbeszéd
 layout: layouts/post.njk
 ---
 
