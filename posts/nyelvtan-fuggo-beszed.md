@@ -53,7 +53,7 @@ Kötőmód jelen idő|Kötőmód Pretérito Imperfecto alakja
 *Kötőmód Pretérito Imperfecto alakja*|*Kötőmód Pretérito Imperfecto alakja*
 Kötőmód Pretérito Perfecto alakja|*Kötőmód Pretérito Pluscuamperfecto alakja*
 
-> **Pretérito perfecto** nem változik
+> **Pretérito imperfecto** nem változik
 
 ## Hely és idő változásai
 
