@@ -33,6 +33,11 @@ T/3|T/3
 
 ## Igeidők változtatása
 
+Ha a főmondat **Jelen** vagy **jövő** idejű,
+akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal. 
+
+Ha a főmondat múlt idejű, akkor a mellékmondat az alábbi táblázat szerint változik:
+
 Estilo directo|Estilo indirecto
 ---- | ----
 Jelen|Pretérito imperfecto
