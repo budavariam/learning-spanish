@@ -40,7 +40,7 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
   - **kérés, kívánság**: aconsejar, decir, desear, pedir, proponer, querer, ordenar
   - **szükségesség**: es importante, es necesario, es preciso, es urgente, ya es hora de
   - **értékítélet**: está bien, está mal, es mejor, es lógico, es natural, qué bien, qué pena
-  - **valószínúség**: es posible, es imposible, es probable, puede (ser)
+  - **valószínűség**: es posible, es imposible, es probable, puede (ser)
 - Bizonytalanság kifejezésére
 
 ## Rendhagyó igék
