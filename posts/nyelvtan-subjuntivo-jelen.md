@@ -41,6 +41,9 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
   - **szükségesség**: es importante, es necesario, es preciso, es urgente, ya es hora de
   - **értékítélet**: está bien, está mal, es mejor, es lógico, es natural, qué bien, qué pena
   - **valószínűség**: es posible, es imposible, es probable, puede (ser)
+  - **érzelmek kifejezése**: alegrarse de, lamentar, esperar, sorprenderse de, (no) soportar, (no) aguantar
+  - jövőre utaló, `cuando`-val kezdődő időhatározói mellékmondatban
+  - jövőre vonatkozó időhatározószók, célt kifejező határozószók után: hasta, para, a fin de, sin, antes de, después de, con tal, a condición de
 - Bizonytalanság kifejezésére
 
 ## Rendhagyó igék
