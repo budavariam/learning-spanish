@@ -34,7 +34,7 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
 ## Mikor használjuk
 
 - A kötőmód egy ragozási forma
-- Felszólító módban (T/1 és a 2 magázó) illetve az összes tiltó alakban
+- Felszólító módban (T/1 és a 2 magázó) illetve az összes tiltó alakban ezt a formát használjuk
 - Az *ojalá* után
 - `kifejezés` + que + kötőmód. ahol a `kifejezés` a következők szerint lehet:
   - **kérés, kívánság**: aconsejar, decir, desear, pedir, proponer, querer, ordenar
@@ -44,7 +44,13 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
   - **érzelmek kifejezése**: alegrarse de, lamentar, esperar, sorprenderse de, (no) soportar, (no) aguantar
   - jövőre utaló, `cuando`-val kezdődő időhatározói mellékmondatban
   - jövőre vonatkozó időhatározószók, célt kifejező határozószók után: hasta, para, a fin de, sin, antes de, después de, con tal, a condición de
-- Bizonytalanság kifejezésére
+- Bizonytalanság, kételkedés, kétség kifejezésére
+  - "fej-igék" (gondolkodás, vélekedés, közlés, észlelés, érzékelés) tagadásánál úgy fordítjuk, hogy kételkedünk bennük. KIVÉTEL: kérdés, tiltás tagadás esetén nem kötőmód
+    - creer, pensar, opinar, suponer, reconocer, considerar, estar seguro de, ...
+    - decir, escribir, explicar, afirmar, asegurar, ...
+    - ver, notar, darse cuenta de, oír, sentir, ...
+
+> figyelj arra, hogy főmondatban és mellékmondatban külön képződhet a fenti szabályok mentén
 
 ## Rendhagyó igék
 
