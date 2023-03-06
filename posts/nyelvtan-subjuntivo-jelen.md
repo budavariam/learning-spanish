@@ -49,6 +49,10 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
     - creer, pensar, opinar, suponer, reconocer, considerar, estar seguro de, ...
     - decir, escribir, explicar, afirmar, asegurar, ...
     - ver, notar, darse cuenta de, oír, sentir, ...
+- `aunque` után állhat:
+  - kijelentő mód ha **tény**ről van szó
+  - kötőmód ha **nem ismert dolog**ról van szó, csak **lehetséges**nek vélt. Leggyakrabban jövő idő, felszólító mód illetve igei körülírás szerepel a jövőre (pl. `tener que`, `hay que`, `deber`)
+
 
 > figyelj arra, hogy főmondatban és mellékmondatban külön képződhet a fenti szabályok mentén
 
