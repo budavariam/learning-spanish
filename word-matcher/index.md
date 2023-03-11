@@ -13,6 +13,7 @@ eleventyNavigation:
 <!-- upgrade: npm install --save webcomponent-word-matcher@X.X.X -->
 
 <webcomponent-word-matcher
+  showScore="showScore"
   href="{{ '/public/spanish-hungarian.json' | url }}">
 </webcomponent-word-matcher>
 
