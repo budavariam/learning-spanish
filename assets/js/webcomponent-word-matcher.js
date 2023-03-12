@@ -92,7 +92,7 @@ const et=1;class ot{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,i,s)
                 class="info-reset"
                 title="Reset"
                 @click=${this._onClickResetScore}
-              >${e}x</span>)`:T``}
+              >${e}pt</span>)`:T``}
         </span>
       </div>
       `:T``}};at.styles=((t,...i)=>{const e=1===t.length?t[0]:i.reduce(((i,s,e)=>i+(t=>{if(!0===t._$cssResult$)return t.cssText;if("number"==typeof t)return t;throw Error("Value passed to 'css' function must be a 'css' function result: "+t+". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.")})(s)+t[e+1]),t[0]);return new o(e,t,s)})`
