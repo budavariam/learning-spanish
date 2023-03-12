@@ -36,7 +36,7 @@
     "terser": "^5.14.2",
     "webcomponent-crossword": "0.0.13",
     "webcomponent-word-matcher": "0.0.7",
-    "webcomponent-wordlist": "0.0.2"
+    "webcomponent-wordlist": "0.0.3"
   },
   "devDependencies": {
     "chalk": "^4.1.2",
