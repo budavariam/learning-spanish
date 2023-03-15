@@ -11,6 +11,15 @@ A starter repository showing how to build a blog with the [Eleventy](https://git
 
 [![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
 
+## Dev Notes
+
+```bash
+npm install --save webcomponent-word-matcher@0.0.0
+npm install --save webcomponent-wordlist@0.0.0
+npm install --save webcomponent-crossword@0.0.0
+```
+
+
 ## Demos
 
 - [Netlify](https://eleventy-base-blog.netlify.com/)
