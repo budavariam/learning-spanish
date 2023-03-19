@@ -190,6 +190,7 @@ code {
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
+  white-space: nowrap;
 }
 .postlist-date,
 .postlist-item:before {
@@ -308,8 +309,10 @@ webcomponent-crossword {
 
 p:has(> webcomponent-crossword) {
   max-width:100%;
+  overflow: scroll;
 }
 
 p:has(> webcomponent-word-matcher) {
   max-width:100%;
+  overflow: scroll;
 }
