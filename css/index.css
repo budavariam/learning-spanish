@@ -105,6 +105,9 @@ header:after {
 table {
   margin: 1em 0;
   border-collapse: collapse;
+  overflow: scroll;
+  display: inline-block;
+  width: 100%;
 }
 table td,
 table th {

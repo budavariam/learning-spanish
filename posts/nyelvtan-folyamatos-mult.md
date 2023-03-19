@@ -28,7 +28,7 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 > A történet egy pontján *megállunk* és szétnézünk: ábrázoljuk a helyszínt, a jelenlevőket, elmondjuk az éppen zajló eseményeket.
 
 - A múltban szokásos, rendszeresen **ismétlődő** cselekmény kifejezése
-- Személyek, tárgya, helyzetek múltbéli **leírása**, történet hátterének bemutatása
+- Személyek, tárgyak, helyzetek múltbéli **leírása**, történet hátterének bemutatása
 - Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mondjuk meg konkrétan mikor történt, **hosszan tartó történés** kifejezése
 - A múltban több esemény (*Pretérito Imperfecto*) történik párhuzamosan
 - A múltban folyamatban levő eseményt (*Pretérito Imperfecto*) egy másik esemény megszakítja (*Pretérito Indefinido*)
