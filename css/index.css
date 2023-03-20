@@ -105,6 +105,9 @@ header:after {
 table {
   margin: 1em 0;
   border-collapse: collapse;
+  overflow: scroll;
+  display: inline-block;
+  width: 100%;
 }
 table td,
 table th {
@@ -181,16 +184,18 @@ code {
   counter-increment: start-from -1;
   line-height: 1.8;
 }
-.postlist-item:before {
+.postlist-item a:before {
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
+  padding-right: 0.3em;
 }
 .postlist-date,
-.postlist-item:before {
-  font-size: 0.8125em; /* 13px /16 */
+.postlist-item a:before {
+  font-size: 0.6842em; /* 13px / 19 */
+  font-weight: normal;
   color: var(--color-gray-90);
 }
 .postlist-date {
@@ -305,8 +310,10 @@ webcomponent-crossword {
 
 p:has(> webcomponent-crossword) {
   max-width:100%;
+  overflow: scroll;
 }
 
 p:has(> webcomponent-word-matcher) {
   max-width:100%;
+  overflow: scroll;
 }
