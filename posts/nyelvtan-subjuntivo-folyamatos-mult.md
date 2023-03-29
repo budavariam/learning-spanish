@@ -12,7 +12,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-A T/3 idejű indefinido-ból indulunk ki, ezért az [Indefinido]({{'/posts/nyelvtan-folyamatos-mult/' | url}}) `rendhagyóságai` az imperfecto de subjuntivo alakjainál is megjelennek.
+A T/3 idejű indefinido-ból indulunk ki, ezért az [Indefinido]({{'/posts/nyelvtan-elbeszelo-mult/' | url}}) `rendhagyóságai` az imperfecto de subjuntivo alakjainál is megjelennek.
 
 Két alakja van. (`-ra`, `-se`)
 
