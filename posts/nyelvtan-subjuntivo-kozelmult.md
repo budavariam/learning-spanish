@@ -26,3 +26,5 @@ ellos/ellas/ustedes|**hayan**|
 ## Mikor használjuk
 
 Akkor használjuk, amikor az adott beszédhelyzetben a `Pretérito Perfecto` használata szükséges, a szerkezet pedig kötőmódot kíván.
+
+Jelenben vagyunk, de múltra vonatkozóan beszélünk.
