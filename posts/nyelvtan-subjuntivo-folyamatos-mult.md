@@ -18,7 +18,7 @@ Két alakja van. (`-ra`, `-se`)
 
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
-&nbsp;|hablar -> habla(ron)|comer -> comie(ron)|vivie(ron)
+&nbsp;|hablar &rarr; habla(ron)|comer &rarr; comie(ron)|vivie(ron)
 yo|habla**ra** / habla**se** | comie**ra** / comie**se** | vivie**ra** / vivie**se**
 tú|habla**ras** / habla**ses** | comie**ras** / comie**ses** | vivie**ras** / vivie**ses**
 él/ella/usted|habla**ra** / habla**se** | comie**ra** / comie**se** | vivie**ra** / vivie**se**
@@ -41,21 +41,21 @@ Illetve feltételes módban és a mellékmondatban ha a főmondat múlt időben 
 
 ### Magánhangzó tövű, -er és -ir végű igék
 
-- leer -> le**y**e(ron): leyera, leyeras, leyera, ley**é**ramos, leyerais, leyeran
+- leer &rarr; le**y**e(ron): leyera, leyeras, leyera, ley**é**ramos, leyerais, leyeran
 - construir
 - oir
 - creer
 
 ### -ir végű tőhangváltós igék
 
-- sentir -> s**i**ntie(ron): sintiera, sintieras, sintiera, sintiéramos, sintierais, sintieran
+- sentir &rarr; s**i**ntie(ron): sintiera, sintieras, sintiera, sintiéramos, sintierais, sintieran
 - pedir
 - dormir
 - morir
 
 ### Keménytövű (u, uv, i, j tövű) igék
 
-- poner -> p**u**sie(ron): pusiera, pusieras, pusiera, pusiéramos, pusierais, pusieran
+- poner &rarr; p**u**sie(ron): pusiera, pusieras, pusiera, pusiéramos, pusierais, pusieran
 - `-u-`: caber, haber, poder, saber
 - `-uv-`: andar, estar, tener
 - `-i-`: hacer, querer, venir
@@ -63,6 +63,6 @@ Illetve feltételes módban és a mellékmondatban ha a főmondat múlt időben 
 
 ### Teljesen rendhagyó igék
 
-- ser -> fue(ron): fuera, fueras, fuera, fuéramos, fuerais, fueran
+- ser &rarr; fue(ron): fuera, fueras, fuera, fuéramos, fuerais, fueran
 - ir
 - dar
