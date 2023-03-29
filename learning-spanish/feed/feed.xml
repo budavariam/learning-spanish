@@ -5,12 +5,116 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2023-02-05T00:00:00Z</updated>
+	<updated>2023-03-27T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Kötőmód Folyamatos múltja (Pretérito Imperfecto de Subjuntivo)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/"/>
+		<updated>2023-03-27T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/</id>
+		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A T/3 idejű indefinido-ból indulunk ki, ezért az &lt;a href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-folyamatos-mult/&quot;&gt;Indefinido&lt;/a&gt; &lt;code&gt;rendhagyóságai&lt;/code&gt; az imperfecto de subjuntivo alakjainál is megjelennek.&lt;/p&gt;
+&lt;p&gt;Két alakja van. (&lt;code&gt;-ra&lt;/code&gt;, &lt;code&gt;-se&lt;/code&gt;)&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;-ar&lt;/th&gt;
+&lt;th&gt;-er&lt;/th&gt;
+&lt;th&gt;-ir&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;hablar -&amp;gt; habla(ron)&lt;/td&gt;
+&lt;td&gt;comer -&amp;gt; comie(ron)&lt;/td&gt;
+&lt;td&gt;vivie(ron)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;habla&lt;strong&gt;ra&lt;/strong&gt; / habla&lt;strong&gt;se&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comie&lt;strong&gt;ra&lt;/strong&gt; / comie&lt;strong&gt;se&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivie&lt;strong&gt;ra&lt;/strong&gt; / vivie&lt;strong&gt;se&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;habla&lt;strong&gt;ras&lt;/strong&gt; / habla&lt;strong&gt;ses&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comie&lt;strong&gt;ras&lt;/strong&gt; / comie&lt;strong&gt;ses&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivie&lt;strong&gt;ras&lt;/strong&gt; / vivie&lt;strong&gt;ses&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;habla&lt;strong&gt;ra&lt;/strong&gt; / habla&lt;strong&gt;se&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comie&lt;strong&gt;ra&lt;/strong&gt; / comie&lt;strong&gt;se&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivie&lt;strong&gt;ra&lt;/strong&gt; / vivie&lt;strong&gt;se&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;habla&lt;strong&gt;ramos&lt;/strong&gt; / habla&lt;strong&gt;semos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comie&lt;strong&gt;ramos&lt;/strong&gt; / comie&lt;strong&gt;semos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivie&lt;strong&gt;ramos&lt;/strong&gt; / vivie&lt;strong&gt;semos&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;habla&lt;strong&gt;rais&lt;/strong&gt; / habla&lt;strong&gt;seis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comie&lt;strong&gt;rais&lt;/strong&gt; / comie&lt;strong&gt;seis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivie&lt;strong&gt;rais&lt;/strong&gt; / vivie&lt;strong&gt;seis&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;habla&lt;strong&gt;ran&lt;/strong&gt; / habla&lt;strong&gt;sen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;comie&lt;strong&gt;ran&lt;/strong&gt; / comie&lt;strong&gt;sen&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;vivie&lt;strong&gt;ran&lt;/strong&gt; / vivie&lt;strong&gt;sen&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Akkor használjuk, ha a kijelentő mód múlt ideje elbeszélő vagy folyamatos lenne.
+Illetve feltételes módban és a mellékmondatban ha a főmondat múlt időben van.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;múlt idejű akaratot, érzelmet, kétséget kifejező igék&lt;/li&gt;
+&lt;li&gt;múlt idejű, egyéni értékítéletet kifejező személytelen szerkezetek&lt;/li&gt;
+&lt;li&gt;műlt idejű vonatkozói mellékmondatokban is, amelyekben feltétel, igény, kívánság, választási lehetőség fogalmazódik meg&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;como si&lt;/strong&gt; (pl. fuera verdadero - mintha igaz lenne)&lt;/li&gt;
+&lt;li&gt;ojalá (subjuntivo közelmúltnál is)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;maganhangzo-toevu-er-es-ir-vegu-igek&quot; tabindex=&quot;-1&quot;&gt;Magánhangzó tövű, -er és -ir végű igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#maganhangzo-toevu-er-es-ir-vegu-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;leer -&amp;gt; le&lt;strong&gt;y&lt;/strong&gt;e(ron): leyera, leyeras, leyera, ley&lt;strong&gt;é&lt;/strong&gt;ramos, leyerais, leyeran&lt;/li&gt;
+&lt;li&gt;construir&lt;/li&gt;
+&lt;li&gt;oir&lt;/li&gt;
+&lt;li&gt;creer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;ir-vegu-tohangvaltos-igek&quot; tabindex=&quot;-1&quot;&gt;-ir végű tőhangváltós igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#ir-vegu-tohangvaltos-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;sentir -&amp;gt; s&lt;strong&gt;i&lt;/strong&gt;ntie(ron): sintiera, sintieras, sintiera, sintiéramos, sintierais, sintieran&lt;/li&gt;
+&lt;li&gt;pedir&lt;/li&gt;
+&lt;li&gt;dormir&lt;/li&gt;
+&lt;li&gt;morir&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;kemenytoevu-u-uv-i-j-toevu-igek&quot; tabindex=&quot;-1&quot;&gt;Keménytövű (u, uv, i, j tövű) igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#kemenytoevu-u-uv-i-j-toevu-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;poner -&amp;gt; p&lt;strong&gt;u&lt;/strong&gt;sie(ron): pusiera, pusieras, pusiera, pusiéramos, pusierais, pusieran&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-u-&lt;/code&gt;: caber, haber, poder, saber&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-uv-&lt;/code&gt;: andar, estar, tener&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-i-&lt;/code&gt;: hacer, querer, venir&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-j-&lt;/code&gt;: decir, traer, conducir&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;teljesen-rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Teljesen rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/#teljesen-rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ser -&amp;gt; fue(ron): fuera, fueras, fuera, fuéramos, fuerais, fueran&lt;/li&gt;
+&lt;li&gt;ir&lt;/li&gt;
+&lt;li&gt;dar&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Kötőmód Közelmúltban (Subjuntivo en Pretérito Perfecto)</title>
@@ -62,6 +166,7 @@
 &lt;/table&gt;
 &lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-kozelmult/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Akkor használjuk, amikor az adott beszédhelyzetben a &lt;code&gt;Pretérito Perfecto&lt;/code&gt; használata szükséges, a szerkezet pedig kötőmódot kíván.&lt;/p&gt;
+&lt;p&gt;Jelenben vagyunk, de múltra vonatkozóan beszélünk.&lt;/p&gt;
 </content>
 	</entry>
 	
