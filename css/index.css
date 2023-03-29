@@ -184,7 +184,7 @@ code {
   counter-increment: start-from -1;
   line-height: 1.8;
 }
-.postlist-item a:before {
+.postlist-item a.postlist-link:before {
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
