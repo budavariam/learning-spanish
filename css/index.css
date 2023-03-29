@@ -193,7 +193,7 @@ code {
   padding-right: 0.3em;
 }
 .postlist-date,
-.postlist-item a.postlist-link:before {
+.postlist-item a:before {
   font-size: 0.6842em; /* 13px / 19 */
   font-weight: normal;
   color: var(--color-gray-90);
