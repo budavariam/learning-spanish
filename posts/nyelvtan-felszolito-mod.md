@@ -14,7 +14,7 @@ Az igék 3 csoportjára amik nem rendhagyóak:
 
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
-&nbsp;|hablar| comer|vivir
+&nbsp;|hablar|comer|vivir
 yo|-|-|-
 tú|habl**a** - no habl**es**|com**e** - no com**as**|viv**e** - no viv**as**
 él/ella/usted|habl**e** - no habl**e**|com**a** - no com**a**|viv**a** - no viv**a**
