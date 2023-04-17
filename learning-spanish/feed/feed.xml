@@ -5,12 +5,69 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2023-03-27T00:00:00Z</updated>
+	<updated>2023-04-17T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Kötőmód a régmúltban (Pluscuamperfecto del subjuntivo)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/"/>
+		<updated>2023-04-17T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/</id>
+		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige &lt;a href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/nyelvtan-subjuntivo-folyamatos-mult.md&quot;&gt;kötőmódbeli folyamatos múltbeli&lt;/a&gt; ragozott alakját követi az ige melléknévi igeneve (&lt;code&gt;el participio pasado&lt;/code&gt;).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;haber&lt;/th&gt;
+&lt;th&gt;múlt idejű igenév&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;hubiera&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;ar:&lt;strong&gt;-ado&lt;/strong&gt;, er:&lt;strong&gt;-ido&lt;/strong&gt;, ir:&lt;strong&gt;-ido&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;hubieras&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;hubiera&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;hubiéramos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;hubierais&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;hubieran&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;code&gt;si&lt;/code&gt; feltételes kötőszóval bevezetett &lt;strong&gt;mellékmondatok&lt;/strong&gt;ban használjuk ha a feltétel a &lt;code&gt;múlthoz&lt;/code&gt; kapcsolódik.
+Ebben az esetben magyarra múlt idejű feltételes módként fordítjuk.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;tener que&lt;/strong&gt;, &lt;strong&gt;deber&lt;/strong&gt;, &lt;strong&gt;poder&lt;/strong&gt; + főnévi igeneves szerkezetekben a feltételes mód múlt ideje HELYETT a &lt;strong&gt;feltételes mód jelen ideje&lt;/strong&gt; és a &lt;strong&gt;főige főnévi igenevének összegett&lt;/strong&gt; (múlt idejű) &lt;strong&gt;alakja&lt;/strong&gt; használatos.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;hangsúlytalan névmások&lt;/strong&gt;at mindig a haber segédige &lt;strong&gt;után&lt;/strong&gt; és vele &lt;strong&gt;egybe&lt;/strong&gt; írjuk.&lt;/p&gt;
+&lt;p&gt;A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Kötőmód Folyamatos múltja (Pretérito Imperfecto de Subjuntivo)</title>
