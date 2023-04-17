@@ -7,7 +7,7 @@ tags:
   - igemód
   - múlt
   - participio
-  - si-feltétel
+  - si-feltételes
 layout: layouts/post.njk
 ---
 
