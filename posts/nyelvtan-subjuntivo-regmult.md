@@ -14,7 +14,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-A **haber** segédige [kötőmódbeli folyamatos múltbeli](./nyelvtan-subjuntivo-folyamatos-mult.md) ragozott alakját követi az ige melléknévi igeneve (`el participio pasado`).
+A **haber** segédige [kötőmódbeli folyamatos múltbeli]({{'/posts/nyelvtan-subjuntivo-folyamatos-mult/' | url }}) ragozott alakját követi az ige melléknévi igeneve (`el participio pasado`).
 
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
