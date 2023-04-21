@@ -1,5 +1,7 @@
 const fs = require("fs");
 const csvParse = require("csv-parse/sync");
+const lunr = require("lunr");
+const cheerio = require("cheerio");
 
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
@@ -107,7 +109,34 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addJavaScriptFunction("useLunr", function (cb) {
+    return lunr(cb)
+  });
 
+  eleventyConfig.addJavaScriptFunction("splitHTMLIntoSections", function (htmlContent) {
+    const $ = cheerio.load(htmlContent);
+    const sections = [];
+    $('h1, h2, h3, h4, h5, h6').each((i, el) => {
+      const tagName = el.tagName.toLowerCase();
+      const $el = $(el);
+      const title = $el.text();
+      const content = [];
+      // Add all following sibling elements until the next header tag
+      let $next = $el.next();
+      while ($next.length && !$next.is(`h1, h2, h3, h4, h5, h6`)) {
+        content.push($next.html());
+        $next = $next.next();
+      }
+
+      sections.push({
+        tag: tagName,
+        id: $el.attr('id'),
+        title,
+        content: content.join(" "),
+      });
+    });
+    return sections
+  });
   // later in my .eleventy.js file...
   // https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
   // function extractExcerpt(article) {
