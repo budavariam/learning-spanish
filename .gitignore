@@ -4,3 +4,4 @@ tmp/
 
 # development
 js/webcomponent-crossword.js
+debug-*
