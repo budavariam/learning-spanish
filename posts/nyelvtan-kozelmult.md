@@ -42,7 +42,7 @@ ellos/ellas/ustedes|h**an**|
 
 ## Rendhagyó igék
 
-&nbsp;|`Participado pasado` alak
+&nbsp;|`Participio` alak
 ----|----
 abrir|abier**to**
 cubrir|cubier**to**
@@ -51,6 +51,7 @@ escribir|escri**to**
 hacer|he**cho**
 morir|muer**to**
 poner|pues**to**
+resolver|resuel**to**
 romper|ro**to**
 ver|vis**to**
 volver|vuel**to**

@@ -37,7 +37,7 @@ ellos/ellas/ustedes|h**abían**|
 
 Megegyeznek a [Pretérito Perfecto]({{'/posts/nyelvtan-kozelmult/' | url}})nál megismert rendhagyó alakokkal.
 
-&nbsp;| `Participado pasado` alak
+&nbsp;| `Participio` alak
 ----|----
 decir|di**cho**
 hacer|he**cho**
@@ -46,6 +46,7 @@ escribir|escri**to**
 morir|muer**to**
 poner|pues**to**
 romper|ro**to**
+resolver|resuel**to**
 ver|vis**to**
 volver|vuel**to**
 cubrir|cubier**to**
