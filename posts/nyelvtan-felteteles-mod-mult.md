@@ -32,3 +32,13 @@ Múltbeli feltételes cselekményt fejez ki, feltételes mondatokban használjuk
 **Főmondat**ban használjuk, **feltételhez kötött**, **múlt idejű** cselekvést vagy történést fejez ki.
 
 > Főleg az ujságírásban használjuk találgatások, feltételezések, nem megerősített információk kifejezésére. Gyakran elítélik mint egy franciából átvett tükörkifejezést.
+
+A **tener que**, **deber**, **poder** + főnévi igeneves szerkezetekben a feltételes mód múlt ideje HELYETT a **feltételes mód jelen ideje** és a **főige főnévi igenevének összegett** (múlt idejű) **alakja** használatos.
+
+- `habría tenido` &rarr; `tendría que haber`
+- `habría podido` &rarr; `podría que haber`
+- `habría deberido` &rarr; `debería que haber`
+
+A **hangsúlytalan névmások**at mindig a haber segédige **után** és vele **egybe** írjuk.
+
+A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.
