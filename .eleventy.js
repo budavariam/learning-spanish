@@ -28,34 +28,34 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(cache, {
-	/**
-	 * Options that will be passed to
-	 * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
-	 */
-	generateSWOptions: {
-    modifyURLPrefix: {
-      '': '/learning-spanish/',
+    /**
+     * Options that will be passed to
+     * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
+     */
+    generateSWOptions: {
+      modifyURLPrefix: {
+        '': '/learning-spanish/',
+      },
     },
-  },
-	/**
-	 * Directory inside _output_ folder to be used as place for
-	 * service worker.
-	 */
-	// publicDirectory?: string;
-	/**
-	 * Scope for service worker.
-	 * Default `/`.
-	 */
-	scope: "./"
-	/**
-	 * Tells if plugin should generate service worker.
-	 * Useful for situations when there is a need to test service worker,
-	 * especially in development process.
-	 *
-	 * By default, it is enabled if `NODE_ENV === 'production'`.
-	 */
-	// enabled?: boolean;
-	});
+    /**
+     * Directory inside _output_ folder to be used as place for
+     * service worker.
+     */
+    // publicDirectory?: string;
+    /**
+     * Scope for service worker.
+     * Default `/`.
+     */
+    scope: "./"
+    /**
+     * Tells if plugin should generate service worker.
+     * Useful for situations when there is a need to test service worker,
+     * especially in development process.
+     *
+     * By default, it is enabled if `NODE_ENV === 'production'`.
+     */
+    // enabled?: boolean;
+  });
 
 
   eleventyConfig.addFilter("readableDate", dateObj => {
