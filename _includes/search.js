@@ -27,7 +27,7 @@ async function initSearch() {
     } catch (e) {
         console.error(e)
     }
-// }
+}
 
 document.addEventListener('DOMContentLoaded', init, false);
 async function init() {
@@ -35,4 +35,3 @@ async function init() {
     console.log("DOM fully loaded and parsed");
     initSearch()
 };
-
