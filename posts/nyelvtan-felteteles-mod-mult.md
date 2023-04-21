@@ -13,6 +13,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
+
 A **haber** segédige [jelenidejű feltételes módbeli ragozott alakját]({{'/posts/nyelvtan-felteteles-mod-jelen/' | url }}) követi az ige melléknévi igeneve (`participio pasado`).
 
 &nbsp;|haber|melléknévi igenév
