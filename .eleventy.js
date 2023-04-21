@@ -100,6 +100,84 @@ module.exports = function (eleventyConfig) {
     return filterTagList([...tagSet]);
   });
 
+  // searchIndex
+  eleventyConfig.addCollection("grammar", function (collection) {
+    return collection.getFilteredByGlob("posts/*.md").sort((a, b) => {
+      return (a.data.title).localeCompare(b.data.title)
+    });
+  });
+
+
+  // eleventyConfig.on('afterBuild', () => {
+  //   const pages = eleventyConfig.getFilteredCollection('pages');
+
+  //   const index = lunr(function () {
+  //     this.ref('id');
+  //     this.field('title');
+  //     this.field('content');
+  //     this.field('url');
+
+  //     pages.forEach((page) => {
+  //       if (!page.data.search_exclude) {
+  //         this.add({
+  //           id: page.url,
+  //           title: page.data.title,
+  //           content: page.template.frontMatter.content,
+  //           url: page.url,
+  //         });
+  //       }
+  //     });
+  //   });
+
+  //   const indexFile = './dist/search-index.json';
+
+  //   fs.writeFileSync(indexFile, JSON.stringify({ docs: index.toJSON() }));
+  // });
+
+  // eleventyConfig.addCollection("xposts", function (collectionApi) {
+  //   return [2]//collectionApi.getFilteredByGlob("posts/**/*.md")
+  // });
+  // let i = 0
+  // eleventyConfig.on('eleventy.after', async (x) => {
+
+  //   i++
+  //   fs.writeFileSync(`/Users/budavariam/project/personal/learning-spanish/asd${i}`, JSON.stringify({ x, l: eleventyConfig.logger, eleventyConfig: Object.keys({}) }));
+
+  //   console.log("XX", Object.values(eleventyConfig.collection.xposts))
+  // });
+
+  // later in my .eleventy.js file...
+  // https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
+  function extractExcerpt(article) {
+    if (!article.hasOwnProperty('templateContent')) {
+      console.warn('Failed to extract excerpt: Document has no property "templateContent".');
+      return null;
+    }
+
+    let excerpt = null;
+    const content = article.templateContent;
+    console.log(content)
+
+    // The start and end separators to try and match to extract the excerpt
+    const separatorsList = [
+      { start: '<!-- Excerpt Start -->', end: '<!-- Excerpt End -->' },
+      { start: '<p>', end: '</p>' }
+    ];
+
+    separatorsList.some(separators => {
+      const startPosition = content.indexOf(separators.start);
+      const endPosition = content.indexOf(separators.end);
+
+      if (startPosition !== -1 && endPosition !== -1) {
+        excerpt = content.substring(startPosition + separators.start.length, endPosition).trim();
+        return true; // Exit out of array loop on first match
+      }
+    });
+    // return excerpt;
+    return content
+  }
+  eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
+
   eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
     code,
     callback
