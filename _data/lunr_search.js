@@ -28,3 +28,7 @@
 //   }
   
 //   module.exports = () => new LunrIndex();
+
+// module.exports = function(data) {
+//     return JSON.stringify({a:1})
+// }

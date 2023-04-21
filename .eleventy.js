@@ -108,44 +108,6 @@ module.exports = function (eleventyConfig) {
   });
 
 
-  // eleventyConfig.on('afterBuild', () => {
-  //   const pages = eleventyConfig.getFilteredCollection('pages');
-
-  //   const index = lunr(function () {
-  //     this.ref('id');
-  //     this.field('title');
-  //     this.field('content');
-  //     this.field('url');
-
-  //     pages.forEach((page) => {
-  //       if (!page.data.search_exclude) {
-  //         this.add({
-  //           id: page.url,
-  //           title: page.data.title,
-  //           content: page.template.frontMatter.content,
-  //           url: page.url,
-  //         });
-  //       }
-  //     });
-  //   });
-
-  //   const indexFile = './dist/search-index.json';
-
-  //   fs.writeFileSync(indexFile, JSON.stringify({ docs: index.toJSON() }));
-  // });
-
-  // eleventyConfig.addCollection("xposts", function (collectionApi) {
-  //   return [2]//collectionApi.getFilteredByGlob("posts/**/*.md")
-  // });
-  // let i = 0
-  // eleventyConfig.on('eleventy.after', async (x) => {
-
-  //   i++
-  //   fs.writeFileSync(`/Users/budavariam/project/personal/learning-spanish/asd${i}`, JSON.stringify({ x, l: eleventyConfig.logger, eleventyConfig: Object.keys({}) }));
-
-  //   console.log("XX", Object.values(eleventyConfig.collection.xposts))
-  // });
-
   // later in my .eleventy.js file...
   // https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
   function extractExcerpt(article) {
@@ -245,7 +207,8 @@ module.exports = function (eleventyConfig) {
       "md",
       "njk",
       "html",
-      "liquid"
+      "liquid",
+      // "js",
     ],
 
     // Pre-process *.md files with: (default: `liquid`)
