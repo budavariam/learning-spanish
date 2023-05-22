@@ -5,12 +5,132 @@
 	
 	<link href="https://budavariam.github.io/learning-spanish/learning-spanish/feed/feed.xml" rel="self"/>
 	<link href="https://budavariam.github.io/learning-spanish/"/>
-	<updated>2023-05-03T00:00:00Z</updated>
+	<updated>2023-05-22T00:00:00Z</updated>
 	<id>https://budavariam.github.io/learning-spanish/</id>
 	<author>
 		<name>Budavári Mátyás</name>
 		<email>budavariam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Befejezett jövő (Futuro Perfecto)</title>
+		<link href="https://budavariam.github.io/learning-spanish/posts/nyelvtan-befejezett-jovo/"/>
+		<updated>2023-05-22T00:00:00Z</updated>
+		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-befejezett-jovo/</id>
+		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-befejezett-jovo/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige jövő idejű alakjaiból és az ige múlt idejű igenévi alakjával (&lt;code&gt;el participio pasado&lt;/code&gt;) képezzük.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;haber&lt;/th&gt;
+&lt;th&gt;múlt idejű igenév&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;yo&lt;/td&gt;
+&lt;td&gt;habr&lt;strong&gt;é&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;ar:&lt;strong&gt;-ado&lt;/strong&gt;, er:&lt;strong&gt;-ido&lt;/strong&gt;, ir:&lt;strong&gt;-ido&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tú&lt;/td&gt;
+&lt;td&gt;habr&lt;strong&gt;ás&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;él/ella/usted&lt;/td&gt;
+&lt;td&gt;habr&lt;strong&gt;á&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;nosotros/nosotras&lt;/td&gt;
+&lt;td&gt;habr&lt;strong&gt;emos&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;vosotros&lt;/td&gt;
+&lt;td&gt;habr&lt;strong&gt;éis&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ellos/ellas/ustedes&lt;/td&gt;
+&lt;td&gt;habr&lt;strong&gt;án&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;mikor-hasznaljuk&quot; tabindex=&quot;-1&quot;&gt;Mikor használjuk &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-befejezett-jovo/#mikor-hasznaljuk&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nevével ellentétben: csaknem kizárólag valószínűség kifejezésére használjuk Perfecto beszédhelyzetben&lt;/li&gt;
+&lt;li&gt;Nevével össhangban: Kifejezheti, hogy egy jövő idejű cselekvés egy jelzett időpontra már befejezett lesz (nem túl gyakori beszédhelyzet). Ekkor nem állhat mellékmondatban, ha van mellékmondat ott kötőmód áll.
+&lt;blockquote&gt;
+&lt;p&gt;A mellékmondathoz képest &amp;quot;előreszaladtunk&amp;quot; és onnan néztünk vissza a főmondatra, mely így a jelenhez képest jövő, de a kijelölt időpontból visszatekintve múlt.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-befejezett-jovo/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;&lt;code&gt;Participio&lt;/code&gt; alak&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;abrir&lt;/td&gt;
+&lt;td&gt;abier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cubrir&lt;/td&gt;
+&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;escribir&lt;/td&gt;
+&lt;td&gt;escri&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;morir&lt;/td&gt;
+&lt;td&gt;muer&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;pues&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;resolver&lt;/td&gt;
+&lt;td&gt;resuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;romper&lt;/td&gt;
+&lt;td&gt;ro&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ver&lt;/td&gt;
+&lt;td&gt;vis&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;volver&lt;/td&gt;
+&lt;td&gt;vuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Továbbá des&lt;strong&gt;cubrir&lt;/strong&gt;, pre&lt;strong&gt;decir&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
+&lt;h2 id=&quot;gyakorlo-feladatok&quot; tabindex=&quot;-1&quot;&gt;Gyakorló feladatok &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-befejezett-jovo/#gyakorlo-feladatok&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.spanishunicorn.com/futuro-perfecto-compuesto-o-antefuturo/&quot;&gt;spanishunicorn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Cosmopolitan Nyelviskola B2 kurzus elindult</title>
@@ -30,7 +150,7 @@
 		<updated>2023-04-17T00:00:00Z</updated>
 		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/</id>
 		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige &lt;a href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/&quot;&gt;kötőmódbeli folyamatos múltbeli&lt;/a&gt; ragozott alakját követi az ige melléknévi igeneve (&lt;code&gt;el participio pasado&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige &lt;a href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-folyamatos-mult/&quot;&gt;kötőmódbeli folyamatos múltbeli&lt;/a&gt; ragozott alakját követi az ige múlt idejű melléknévi igeneve (&lt;code&gt;el participio pasado&lt;/code&gt;).&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -78,6 +198,62 @@ Ebben az esetben magyarra múlt idejű feltételes módként fordítjuk.&lt;/p&g
 &lt;p&gt;A &lt;strong&gt;tener que&lt;/strong&gt;, &lt;strong&gt;deber&lt;/strong&gt;, &lt;strong&gt;poder&lt;/strong&gt; + főnévi igeneves szerkezetekben a feltételes mód múlt ideje HELYETT a &lt;strong&gt;feltételes mód jelen ideje&lt;/strong&gt; és a &lt;strong&gt;főige főnévi igenevének összegett&lt;/strong&gt; (múlt idejű) &lt;strong&gt;alakja&lt;/strong&gt; használatos.&lt;/p&gt;
 &lt;p&gt;A &lt;strong&gt;hangsúlytalan névmások&lt;/strong&gt;at mindig a haber segédige &lt;strong&gt;után&lt;/strong&gt; és vele &lt;strong&gt;egybe&lt;/strong&gt; írjuk.&lt;/p&gt;
 &lt;p&gt;A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.&lt;/p&gt;
+&lt;h2 id=&quot;rendhagyo-igek&quot; tabindex=&quot;-1&quot;&gt;Rendhagyó igék &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-subjuntivo-regmult/#rendhagyo-igek&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; &lt;/th&gt;
+&lt;th&gt;&lt;code&gt;Participio&lt;/code&gt; alak&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;abrir&lt;/td&gt;
+&lt;td&gt;abier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cubrir&lt;/td&gt;
+&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;escribir&lt;/td&gt;
+&lt;td&gt;escri&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;morir&lt;/td&gt;
+&lt;td&gt;muer&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poner&lt;/td&gt;
+&lt;td&gt;pues&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;resolver&lt;/td&gt;
+&lt;td&gt;resuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;romper&lt;/td&gt;
+&lt;td&gt;ro&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ver&lt;/td&gt;
+&lt;td&gt;vis&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;volver&lt;/td&gt;
+&lt;td&gt;vuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Továbbá des&lt;strong&gt;cubrir&lt;/strong&gt;, pre&lt;strong&gt;decir&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -1369,25 +1545,29 @@ akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal.&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt; &lt;/th&gt;
-&lt;th&gt;&lt;code&gt;Participado pasado&lt;/code&gt; alak&lt;/th&gt;
+&lt;th&gt;&lt;code&gt;Participio&lt;/code&gt; alak&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;decir&lt;/td&gt;
-&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;hacer&lt;/td&gt;
-&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;abrir&lt;/td&gt;
 &lt;td&gt;abier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;cubrir&lt;/td&gt;
+&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decir&lt;/td&gt;
+&lt;td&gt;di&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;escribir&lt;/td&gt;
 &lt;td&gt;escri&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hacer&lt;/td&gt;
+&lt;td&gt;he&lt;strong&gt;cho&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;morir&lt;/td&gt;
@@ -1396,6 +1576,10 @@ akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal.&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;poner&lt;/td&gt;
 &lt;td&gt;pues&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;resolver&lt;/td&gt;
+&lt;td&gt;resuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;romper&lt;/td&gt;
@@ -1409,13 +1593,9 @@ akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal.&lt;/p&gt;
 &lt;td&gt;volver&lt;/td&gt;
 &lt;td&gt;vuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;cubrir&lt;/td&gt;
-&lt;td&gt;cubier&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Továbbá pre&lt;strong&gt;decir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, des&lt;strong&gt;cubrir&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
+&lt;p&gt;Továbbá des&lt;strong&gt;cubrir&lt;/strong&gt;, pre&lt;strong&gt;decir&lt;/strong&gt;, d&lt;strong&gt;escribir&lt;/strong&gt;, des&lt;strong&gt;hacer&lt;/strong&gt;, pro&lt;strong&gt;poner&lt;/strong&gt;, de&lt;strong&gt;volver&lt;/strong&gt;, stb. ugyanígy viselkedik.&lt;/p&gt;
 &lt;h2 id=&quot;gyakorlo-feladatok&quot; tabindex=&quot;-1&quot;&gt;Gyakorló feladatok &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-regmult/#gyakorlo-feladatok&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.spanishunicorn.com/preterito-pluscuamperfecto-ejercicios/&quot;&gt;spanishunicorn&lt;/a&gt;&lt;/li&gt;
@@ -2239,7 +2419,7 @@ akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal.&lt;/p&gt;
 		<updated>2022-04-10T00:00:00Z</updated>
 		<id>https://budavariam.github.io/learning-spanish/posts/nyelvtan-kozelmult/</id>
 		<content type="html">&lt;h2 id=&quot;kepzesi-szabaly&quot; tabindex=&quot;-1&quot;&gt;Képzési szabály &lt;a class=&quot;direct-link&quot; href=&quot;https://budavariam.github.io/learning-spanish/posts/nyelvtan-kozelmult/#kepzesi-szabaly&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige alábbi alakjaiból és az ige múlt idejű alakjával (&lt;code&gt;el participio pasado&lt;/code&gt;) képezzük.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;haber&lt;/strong&gt; segédige alábbi alakjaiból és az ige múlt idejű igenévi alakjával (&lt;code&gt;el participio pasado&lt;/code&gt;) képezzük.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2304,7 +2484,7 @@ akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal.&lt;/p&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt; &lt;/th&gt;
-&lt;th&gt;&lt;code&gt;Participado pasado&lt;/code&gt; alak&lt;/th&gt;
+&lt;th&gt;&lt;code&gt;Participio&lt;/code&gt; alak&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -2335,6 +2515,10 @@ akkor a mellékmondat igeideje megegyezik az eredetileg elhangzottal.&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;poner&lt;/td&gt;
 &lt;td&gt;pues&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;resolver&lt;/td&gt;
+&lt;td&gt;resuel&lt;strong&gt;to&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;romper&lt;/td&gt;
