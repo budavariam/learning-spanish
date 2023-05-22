@@ -14,7 +14,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-A **haber** segédige [kötőmódbeli folyamatos múltbeli]({{'/posts/nyelvtan-subjuntivo-folyamatos-mult/' | url }}) ragozott alakját követi az ige melléknévi igeneve (`el participio pasado`).
+A **haber** segédige [kötőmódbeli folyamatos múltbeli]({{'/posts/nyelvtan-subjuntivo-folyamatos-mult/' | url }}) ragozott alakját követi az ige múlt idejű melléknévi igeneve (`el participio pasado`).
 
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
@@ -35,3 +35,9 @@ A **tener que**, **deber**, **poder** + főnévi igeneves szerkezetekben a felt�
 A **hangsúlytalan névmások**at mindig a haber segédige **után** és vele **egybe** írjuk.
 
 A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.
+
+## Rendhagyó igék
+
+{% markdown %}
+  {%- include "_includes/posts/rendhagyo_participio.md" -%}
+{% endmarkdown %}

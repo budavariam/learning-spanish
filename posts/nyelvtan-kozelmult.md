@@ -12,7 +12,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-A **haber** segédige alábbi alakjaiból és az ige múlt idejű alakjával (`el participio pasado`) képezzük.
+A **haber** segédige alábbi alakjaiból és az ige múlt idejű igenévi alakjával (`el participio pasado`) képezzük.
 
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
@@ -42,20 +42,9 @@ ellos/ellas/ustedes|h**an**|
 
 ## Rendhagyó igék
 
-&nbsp;|`Participado pasado` alak
-----|----
-abrir|abier**to**
-cubrir|cubier**to**
-decir|di**cho**
-escribir|escri**to**
-hacer|he**cho**
-morir|muer**to**
-poner|pues**to**
-romper|ro**to**
-ver|vis**to**
-volver|vuel**to**
-
-Továbbá des**cubrir**, pre**decir**, d**escribir**, des**hacer**, pro**poner**, de**volver**, stb. ugyanígy viselkedik.
+{% markdown %}
+  {%- include "_includes/posts/rendhagyo_participio.md" -%}
+{% endmarkdown %}
 
 ## Gyakorló feladatok
 
