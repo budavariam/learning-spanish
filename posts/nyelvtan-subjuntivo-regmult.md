@@ -14,7 +14,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-A **haber** segédige [kötőmódbeli folyamatos múltbeli]({{'/posts/nyelvtan-subjuntivo-folyamatos-mult/' | url }}) ragozott alakját követi az ige melléknévi igeneve (`el participio pasado`).
+A **haber** segédige [kötőmódbeli folyamatos múltbeli]({{'/posts/nyelvtan-subjuntivo-folyamatos-mult/' | url }}) ragozott alakját követi az ige múlt idejű melléknévi igeneve (`el participio pasado`).
 
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
@@ -29,3 +29,9 @@ ellos/ellas/ustedes|**hubieran**|
 
 A `si` feltételes kötőszóval bevezetett **mellékmondatok**ban használjuk ha a feltétel a `múlthoz` kapcsolódik.
 Ebben az esetben magyarra múlt idejű feltételes módként fordítjuk.
+
+## Rendhagyó igék
+
+{% markdown %}
+  {%- include "_includes/posts/rendhagyo_participio.md" -%}
+{% endmarkdown %}
