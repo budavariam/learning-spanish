@@ -35,7 +35,7 @@
     "markdown-it-anchor": "^8.6.4",
     "terser": "^5.14.2",
     "webcomponent-crossword": "0.0.10",
-    "webcomponent-wordlist": "0.0.2",
-    "webcomponent-flashcard": "0.0.1"
+    "webcomponent-flashcard": "^0.0.2",
+    "webcomponent-wordlist": "0.0.2"
   }
 }

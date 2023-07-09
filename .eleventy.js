@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "./node_modules/webcomponent-crossword/build/webcomponent-crossword.js": "/assets/js/webcomponent-crossword.js",
     "./node_modules/webcomponent-wordlist/webcomponent-wordlist.bundled.js": "/assets/js/webcomponent-wordlist.js",
-    "./node_modules/webcomponent-flashcard/dist/js/webcomponent-flashcard.js": "/assets/js/webcomponent-flashcard.js",
+    "./node_modules/webcomponent-flashcard/webcomponent-flashcard.udm.js": "/assets/js/webcomponent-flashcard.js",
   });
 
   // Add plugins
