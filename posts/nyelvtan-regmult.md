@@ -37,20 +37,9 @@ ellos/ellas/ustedes|h**abían**|
 
 Megegyeznek a [Pretérito Perfecto]({{'/posts/nyelvtan-kozelmult/' | url}})nál megismert rendhagyó alakokkal.
 
-&nbsp;| `Participado pasado` alak
-----|----
-decir|di**cho**
-hacer|he**cho**
-abrir|abier**to**
-escribir|escri**to**
-morir|muer**to**
-poner|pues**to**
-romper|ro**to**
-ver|vis**to**
-volver|vuel**to**
-cubrir|cubier**to**
-
-Továbbá pre**decir**, des**hacer**, d**escribir**, pro**poner**, de**volver**, des**cubrir**, stb. ugyanígy viselkedik.
+{% markdown %}
+  {%- include "_includes/posts/rendhagyo_participio.md" -%}
+{% endmarkdown %}
 
 ## Gyakorló feladatok
 

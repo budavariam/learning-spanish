@@ -11,7 +11,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-Az igék 3 csoporjára amik nem rendhagyóak:
+Az igék 3 csoportjára amik nem rendhagyóak:
 
 &nbsp; | -ar | -er | -ir
 ----|----|----|----
@@ -28,7 +28,7 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 > A történet egy pontján *megállunk* és szétnézünk: ábrázoljuk a helyszínt, a jelenlevőket, elmondjuk az éppen zajló eseményeket.
 
 - A múltban szokásos, rendszeresen **ismétlődő** cselekmény kifejezése
-- Személyek, tárgya, helyzetek múltbéli **leírása**, történet hátteránek bemutatása
+- Személyek, tárgyak, helyzetek múltbéli **leírása**, történet hátterének bemutatása
 - Olyan **folyamatos** múltban történt cselekvés vagy esemény, amiről nem mondjuk meg konkrétan mikor történt, **hosszan tartó történés** kifejezése
 - A múltban több esemény (*Pretérito Imperfecto*) történik párhuzamosan
 - A múltban folyamatban levő eseményt (*Pretérito Imperfecto*) egy másik esemény megszakítja (*Pretérito Indefinido*)

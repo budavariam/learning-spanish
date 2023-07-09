@@ -10,7 +10,6 @@
   --color-gray-50: #C0C0C0;
   --color-gray-80: #798dac;
   --color-gray-90: #333;
-
   --background-color: #fff;
   
   --text-color: var(--color-gray-90);
@@ -19,8 +18,12 @@
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(146, 75, 0);
   --text-color-code: rgb(195, 101, 1);
+  --highlight-shadow-10: rgba(0,0,0, 0.1);
+  --highlight-shadow-20: rgba(0,0,0, 0.2);
+
   --text-background-hover: var(--color-gray-20);
   --text-background: var(--color-gray-80);
+  --bckg-normal: #eee;
 }
 
 :root .dark-mode {
@@ -29,17 +32,21 @@
   --color-gray-50: #C0C0C0;
   --color-gray-80: #798dac;
   --color-gray-90: #dad8d8;
+  --background-color: #1d1e20;
+
+  /* --text-color is assigned to --color-gray-_ above */
+  --text-color: #dad8d8;
+  --text-color-link: rgba(255, 255, 255, 0.84);
+  --text-color-link-visited: rgba(255, 255, 255, 0.84);
   --text-color-strong: rgb(255, 132, 0);
   --text-color-em: rgb(255, 188, 117);
   --text-color-code: rgb(253, 165, 71);
+  --highlight-shadow-10: rgba(255,255,255, 0.1);
+  --highlight-shadow-20: rgba(255,255,255, 0.2);
 
-  /* --text-color is assigned to --color-gray-_ above */
-  --text-color-link: rgba(255, 255, 255, 0.84);
-  --text-color-link-visited: rgba(255, 255, 255, 0.84);
-  --text-color: #dad8d8;
-  --background-color: #1d1e20;
   --text-background-hover: #4a4a4a;
   --text-background: var(--color-gray-80);
+  --bckg-normal: #242424;
 }
 
 /* Global stylesheet */
@@ -98,6 +105,9 @@ header:after {
 table {
   margin: 1em 0;
   border-collapse: collapse;
+  overflow: scroll;
+  display: inline-block;
+  width: 100%;
 }
 table td,
 table th {
@@ -174,16 +184,18 @@ code {
   counter-increment: start-from -1;
   line-height: 1.8;
 }
-.postlist-item:before {
+.postlist-item a.postlist-link:before {
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
+  padding-right: 0.3em;
 }
 .postlist-date,
-.postlist-item:before {
-  font-size: 0.8125em; /* 13px /16 */
+.postlist-item a.postlist-link:before {
+  font-size: 0.6842em; /* 13px / 19 */
+  font-weight: normal;
   color: var(--color-gray-90);
 }
 .postlist-date {
@@ -298,4 +310,10 @@ webcomponent-crossword {
 
 p:has(> webcomponent-crossword) {
   max-width:100%;
+  overflow: scroll;
+}
+
+p:has(> webcomponent-word-matcher) {
+  max-width:100%;
+  overflow: scroll;
 }

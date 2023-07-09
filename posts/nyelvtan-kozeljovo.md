@@ -11,7 +11,7 @@ layout: layouts/post.njk
 
 ## Képzési szabály
 
-Az igék 3 csoporjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
+Az igék 3 csoportjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
 
 A **ir** ige jelen idejű alakjaiból + `a` + az ige főnévi igenévi formájával képezzük.
 
