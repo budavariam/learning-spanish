@@ -12,4 +12,4 @@ eleventyNavigation:
 
 <!-- upgrade: npm install --save webcomponent-flashcard@X.X.X -->
 
-<webcomponent-flashcard url="{{ '/public/spanish-hungarian.json' | url }}"></webcomponent-flashcard>
+<webcomponent-flashcard href="{{ '/public/spanish-hungarian.json' | url }}"></webcomponent-flashcard>
