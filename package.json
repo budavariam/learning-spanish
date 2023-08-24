@@ -34,7 +34,7 @@
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "terser": "^5.14.2",
-    "webcomponent-crossword": "0.0.14",
+    "webcomponent-crossword": "^0.0.16",
     "webcomponent-flashcard": "^0.0.16",
     "webcomponent-word-matcher": "0.0.9",
     "webcomponent-wordlist": "0.0.5"
