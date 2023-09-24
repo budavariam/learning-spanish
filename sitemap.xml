@@ -112,7 +112,12 @@
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/about/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/</loc>
+    <lastmod>2023-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://budavariam.github.io/learning-spanish/pages/about-me/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
@@ -122,37 +127,32 @@
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/crossword/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/pages/game-crossword/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/flashcard/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/pages/game-flashcard/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/pages/game-wordmatcher/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/page-list/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/pages/search/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/search/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/pages/tagbrowser/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
   <url>
-    <loc>https://budavariam.github.io/learning-spanish/szavak/</loc>
-    <lastmod>2023-09-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://budavariam.github.io/learning-spanish/tagbrowser/</loc>
+    <loc>https://budavariam.github.io/learning-spanish/pages/word-list/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
   
@@ -228,11 +228,6 @@
   
   <url>
     <loc>https://budavariam.github.io/learning-spanish/tags/szamok/</loc>
-    <lastmod>2023-09-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://budavariam.github.io/learning-spanish/word-matcher/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
 </urlset>

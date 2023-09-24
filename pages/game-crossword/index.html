@@ -10,7 +10,7 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Spanish Rólam</title>
+    <title>Learning Spanish Keresztrejtvény</title>
     <meta name="description" content="Bolyongásaim a spanyol nyelv rejtelmeiben">
 
     <link rel="manifest" href="/learning-spanish/manifest.json">
@@ -39,13 +39,13 @@
       <ul class="nav">
         <li class="nav-item"><a href="/learning-spanish/">Kezdőlap</a></li>
         <li class="nav-item"><a href="/learning-spanish/posts/">Archívum</a></li>
-        <li class="nav-item"><a href="/learning-spanish/tagbrowser/">Címkék</a></li>
-        <li class="nav-item"><a href="/learning-spanish/szavak/">Szavak</a></li>
-        <li class="nav-item"><a href="/learning-spanish/crossword/">Keresztrejtvény</a></li>
-        <li class="nav-item"><a href="/learning-spanish/flashcard/">Szókártya</a></li>
-        <li class="nav-item"><a href="/learning-spanish/word-matcher/">Szópárosító</a></li>
-        <li class="nav-item nav-item-active"><a href="/learning-spanish/about/">Rólam</a></li>
-        <li class="nav-item"><a href="/learning-spanish/search/">Keresés</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/tagbrowser/">Címkék</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/word-list/">Szavak</a></li>
+        <li class="nav-item nav-item-active"><a href="/learning-spanish/pages/game-crossword/">Keresztrejtvény</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/game-flashcard/">Szókártya</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/game-wordmatcher/">Szópárosító</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/about-me/">Rólam</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/search/">Keresés</a></li>
       <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
@@ -53,14 +53,24 @@
     <main class="tmpl-home" data-pagefind-body>
       
 <div data-pagefind-ignore="all">
-    <p>Szia!</p>
-<p><a href="https://budavariam.github.io/?utm_source=learning-spanish-blog&amp;utm_medium=referral&amp;utm_campaign=learning-spanish">Budavári Mátyás</a> vagyok, az egyetem után éltem <a href="https://en.wikipedia.org/wiki/Alicante">Alicantében</a> programozó gyakornokként. Akkor a csekély spanyol tudásom elég volt a munkához és a mindennapi élethez, viszont később elhatároztam, hogy jobban megtanulom a nyelvet.</p>
-<p>Erre az oldalra gyűjtök jegyzeteket melyek segíthetnek nekem a későbbi felidézésben, illetve a gyakorlásban.</p>
-<p>Előfordulhat hogy bizonyos anyagok angolul kerülnek fel.</p>
-<p>Ha ismerem a forrását az anyagoknak igyekszem megosztani.</p>
-<p>Kizárólag olyan forrásokat igyekszem megosztani, amik fellelhetőek az interneten szabályosan, illetve szótárból kikereshetőek.</p>
-<p>Az oldal <a href="https://www.11ty.dev/">11ty</a> statikus weboldal generátorral készül, a forrását felleled <a href="https://github.com/budavariam/learning-spanish">githubon</a>.</p>
-<p>Szép napot és jó tanulást!</p>
+    <script src="/learning-spanish/assets/js/webcomponent-crossword.js" async="async"></script>
+<!-- <script src="/learning-spanish/js/webcomponent-crossword.js" async="async">DEVELOPMENT</script> -->
+<!-- upgrade: npm install --save webcomponent-crossword@X.X.X -->
+<p><webcomponent-crossword
+  characters="ñ,á,é,í,ó,ú,¿,?,¡,!"
+  href="/learning-spanish/public/spanish-hungarian.json">
+</webcomponent-crossword></p>
+<h2 id="hogyan-mukoedik" tabindex="-1">Hogyan működik <a class="direct-link" href="#hogyan-mukoedik" aria-hidden="true">#</a></h2>
+<ul>
+<li>Billentyűzeten az irány nyilakkal (←, ↓, ↑, →) navigálhatsz a mezők között</li>
+<li>Minden mezőbe egy karakter kerülhet, kis és nagybetű ugyan annak számít</li>
+<li>A rejtvény mellett megjelenik a magyar szó lista, amit be kell írnod spanyolul a megfelelő helyre.</li>
+<li>Előfordulhatnak ékezetek illetve <code>ñ</code> betű is.</li>
+<li>A szavak melletti nyíl jelzi a szó irányát a keresztrejtvényben, rá kattintva odaugrik a megfelelő szó első betűjére</li>
+<li>A szavak utolsó betűjét beírva a vezérlés tovább ugrik a következőnek ítélt szó első betűjének helyére</li>
+<li>Betű beírása után egy következő mezőre ugrik, sajnos még nem tud gondolatot olvasni és nem mindig tudja mi számít következőnek</li>
+<li>A szó lista környékén egy mérő jelzi a helyesnek ítélt kitöltöttség állapotát</li>
+</ul>
 
 </div>
 
@@ -68,7 +78,7 @@
 
     <footer></footer>
 
-    <!-- Current page: /learning-spanish/about/ -->
+    <!-- Current page: /learning-spanish/pages/game-crossword/ -->
 
     <!-- capture the JS content as a Nunjucks variable -->
     

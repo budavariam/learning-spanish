@@ -10,7 +10,7 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Spanish Keresés...</title>
+    <title>Learning Spanish Szópárosító</title>
     <meta name="description" content="Bolyongásaim a spanyol nyelv rejtelmeiben">
 
     <link rel="manifest" href="/learning-spanish/manifest.json">
@@ -39,13 +39,13 @@
       <ul class="nav">
         <li class="nav-item"><a href="/learning-spanish/">Kezdőlap</a></li>
         <li class="nav-item"><a href="/learning-spanish/posts/">Archívum</a></li>
-        <li class="nav-item"><a href="/learning-spanish/tagbrowser/">Címkék</a></li>
-        <li class="nav-item"><a href="/learning-spanish/szavak/">Szavak</a></li>
-        <li class="nav-item"><a href="/learning-spanish/crossword/">Keresztrejtvény</a></li>
-        <li class="nav-item"><a href="/learning-spanish/flashcard/">Szókártya</a></li>
-        <li class="nav-item"><a href="/learning-spanish/word-matcher/">Szópárosító</a></li>
-        <li class="nav-item"><a href="/learning-spanish/about/">Rólam</a></li>
-        <li class="nav-item nav-item-active"><a href="/learning-spanish/search/">Keresés</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/tagbrowser/">Címkék</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/word-list/">Szavak</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/game-crossword/">Keresztrejtvény</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/game-flashcard/">Szókártya</a></li>
+        <li class="nav-item nav-item-active"><a href="/learning-spanish/pages/game-wordmatcher/">Szópárosító</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/about-me/">Rólam</a></li>
+        <li class="nav-item"><a href="/learning-spanish/pages/search/">Keresés</a></li>
       <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
@@ -53,14 +53,28 @@
     <main class="tmpl-home" data-pagefind-body>
       
 <div data-pagefind-ignore="all">
-    <div id="search" class="search"></div>
+    <script type="module" src="/learning-spanish/assets/js/webcomponent-word-matcher.js" async="async"></script>
+<!-- <script src="/learning-spanish/js/webcomponent-word-matcher.js" async="async">DEVELOPMENT</script> -->
+<!-- upgrade: npm install --save webcomponent-word-matcher@X.X.X -->
+<p><webcomponent-word-matcher
+  showScore="showScore"
+  href="/learning-spanish/public/spanish-hungarian.json">
+</webcomponent-word-matcher></p>
+<h2 id="hogyan-mukoedik" tabindex="-1">Hogyan működik <a class="direct-link" href="#hogyan-mukoedik" aria-hidden="true">#</a></h2>
+<ul>
+<li>Keresd meg a szavak párját</li>
+<li>Kattints a bal oldalon egy dobozban levő szóra, és a jobb oldalon is egy dobozban levő szóra</li>
+<li>Ha eltaláltad új szót kapsz helyette</li>
+<li>Ha nem találtad el büntetésből egy rövid ideig nem kattinthatóak a kiválasztott szavak</li>
+</ul>
+
 </div>
 
     </main>
 
     <footer></footer>
 
-    <!-- Current page: /learning-spanish/search/ -->
+    <!-- Current page: /learning-spanish/pages/game-wordmatcher/ -->
 
     <!-- capture the JS content as a Nunjucks variable -->
     
