@@ -1,7 +1,6 @@
 ---
-layout: layouts/post.njk
 title: Rólam
-templateClass: tmpl-home
+layout: layouts/home.njk
 eleventyNavigation:
   key: Rólam
   order: 7
