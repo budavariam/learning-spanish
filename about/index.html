@@ -13,10 +13,11 @@
     <title>Learning Spanish Rólam</title>
     <meta name="description" content="Bolyongásaim a spanyol nyelv rejtelmeiben">
 
-    <link rel="manifest" href="/learning-spanish/manifest.json" />
+    <link rel="manifest" href="/learning-spanish/manifest.json">
     <link rel="stylesheet" href="/learning-spanish/css/index.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-diff.css">
+    <link rel="stylesheet" href="/learning-spanish/pagefind/pagefind-ui.css">
     <link rel="alternate" href="/learning-spanish/learning-spanish/feed/feed.xml" type="application/atom+xml" title="Learning Spanish">
     <link rel="alternate" href="/learning-spanish/feed/feed.json" type="application/json" title="Learning Spanish">
     <link rel="icon" type="image/x-icon" href="/learning-spanish/img/favicon/favicon.ico">
@@ -44,16 +45,15 @@
         <li class="nav-item"><a href="/learning-spanish/flashcard/">Szókártya</a></li>
         <li class="nav-item"><a href="/learning-spanish/word-matcher/">Szópárosító</a></li>
         <li class="nav-item nav-item-active"><a href="/learning-spanish/about/">Rólam</a></li>
+        <li class="nav-item"><a href="/learning-spanish/search/">Keresés</a></li>
       <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
 
-    <main class="tmpl-post">
-      <h1>Rólam</h1>
-
-
-
-<p>Szia!</p>
+    <main class="tmpl-home" data-pagefind-body>
+      
+<div data-pagefind-ignore="all">
+    <p>Szia!</p>
 <p><a href="https://budavariam.github.io/?utm_source=learning-spanish-blog&amp;utm_medium=referral&amp;utm_campaign=learning-spanish">Budavári Mátyás</a> vagyok, az egyetem után éltem <a href="https://en.wikipedia.org/wiki/Alicante">Alicantében</a> programozó gyakornokként. Akkor a csekély spanyol tudásom elég volt a munkához és a mindennapi élethez, viszont később elhatároztam, hogy jobban megtanulom a nyelvet.</p>
 <p>Erre az oldalra gyűjtök jegyzeteket melyek segíthetnek nekem a későbbi felidézésben, illetve a gyakorlásban.</p>
 <p>Előfordulhat hogy bizonyos anyagok angolul kerülnek fel.</p>
@@ -62,6 +62,7 @@
 <p>Az oldal <a href="https://www.11ty.dev/">11ty</a> statikus weboldal generátorral készül, a forrását felleled <a href="https://github.com/budavariam/learning-spanish">githubon</a>.</p>
 <p>Szép napot és jó tanulást!</p>
 
+</div>
 
     </main>
 
@@ -84,6 +85,10 @@
         })
         .catch(console.error);
     }
+  </script>
+  <script 
+    src="/learning-spanish/pagefind/pagefind-ui.js" 
+    onload="new PagefindUI({ element: '#search', showImages: false });">
   </script>
   </body>
 </html>

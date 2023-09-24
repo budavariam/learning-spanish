@@ -13,10 +13,11 @@
     <title>Learning Spanish Számnevek</title>
     <meta name="description" content="Számnevek">
 
-    <link rel="manifest" href="/learning-spanish/manifest.json" />
+    <link rel="manifest" href="/learning-spanish/manifest.json">
     <link rel="stylesheet" href="/learning-spanish/css/index.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-diff.css">
+    <link rel="stylesheet" href="/learning-spanish/pagefind/pagefind-ui.css">
     <link rel="alternate" href="/learning-spanish/learning-spanish/feed/feed.xml" type="application/atom+xml" title="Learning Spanish">
     <link rel="alternate" href="/learning-spanish/feed/feed.json" type="application/json" title="Learning Spanish">
     <link rel="icon" type="image/x-icon" href="/learning-spanish/img/favicon/favicon.ico">
@@ -44,12 +45,13 @@
         <li class="nav-item"><a href="/learning-spanish/flashcard/">Szókártya</a></li>
         <li class="nav-item"><a href="/learning-spanish/word-matcher/">Szópárosító</a></li>
         <li class="nav-item"><a href="/learning-spanish/about/">Rólam</a></li>
+        <li class="nav-item"><a href="/learning-spanish/search/">Keresés</a></li>
       <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
 
-    <main class="tmpl-post">
-      <h1>Számnevek</h1>
+    <main class="tmpl-post" data-pagefind-body>
+      <h1 data-pagefind-meta="title">Számnevek</h1>
 
 
 <a href="/learning-spanish/tags/szamok/" class="post-tag">számok</a>
@@ -254,10 +256,10 @@
 </ul>
 
 <hr>
-<small>Van egy ötletem! Szeretnék <a href="https://github.com/budavariam/learning-spanish/blob/main//posts/szamok.md" class="github-url">javítani ezen az oldalon</a> githubon keresztül!</small>
+<small data-pagefind-ignore="all">Van egy ötletem! Szeretnék <a href="https://github.com/budavariam/learning-spanish/blob/main//posts/szamok.md" class="github-url">javítani ezen az oldalon</a> githubon keresztül!</small>
 <hr>
 
-<ul><li>Következő: <a href="/learning-spanish/posts/nyelvtan-regmult/">Régmúlt (Pretérito Pluscuamperfecto)</a></li><li>Előző: <a href="/learning-spanish/posts/nyelvtan-folyamatos-mult/">Folyamatos múlt (Pretérito Imperfecto)</a></li>
+<ul><li data-pagefind-ignore="all">Következő: <a href="/learning-spanish/posts/nyelvtan-regmult/">Régmúlt (Pretérito Pluscuamperfecto)</a></li><li data-pagefind-ignore="all">Előző: <a href="/learning-spanish/posts/nyelvtan-folyamatos-mult/">Folyamatos múlt (Pretérito Imperfecto)</a></li>
 </ul>
 
     </main>
@@ -281,6 +283,10 @@
         })
         .catch(console.error);
     }
+  </script>
+  <script 
+    src="/learning-spanish/pagefind/pagefind-ui.js" 
+    onload="new PagefindUI({ element: '#search', showImages: false });">
   </script>
   </body>
 </html>

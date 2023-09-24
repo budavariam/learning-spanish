@@ -13,10 +13,11 @@
     <title>Learning Spanish befejezett</title>
     <meta name="description" content="Bolyongásaim a spanyol nyelv rejtelmeiben">
 
-    <link rel="manifest" href="/learning-spanish/manifest.json" />
+    <link rel="manifest" href="/learning-spanish/manifest.json">
     <link rel="stylesheet" href="/learning-spanish/css/index.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/learning-spanish/css/prism-diff.css">
+    <link rel="stylesheet" href="/learning-spanish/pagefind/pagefind-ui.css">
     <link rel="alternate" href="/learning-spanish/learning-spanish/feed/feed.xml" type="application/atom+xml" title="Learning Spanish">
     <link rel="alternate" href="/learning-spanish/feed/feed.json" type="application/json" title="Learning Spanish">
     <link rel="icon" type="image/x-icon" href="/learning-spanish/img/favicon/favicon.ico">
@@ -44,12 +45,15 @@
         <li class="nav-item"><a href="/learning-spanish/flashcard/">Szókártya</a></li>
         <li class="nav-item"><a href="/learning-spanish/word-matcher/">Szópárosító</a></li>
         <li class="nav-item"><a href="/learning-spanish/about/">Rólam</a></li>
+        <li class="nav-item"><a href="/learning-spanish/search/">Keresés</a></li>
       <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
 
-    <main class="tmpl-home">
-      <h1>"befejezett" címkéjű</h1>
+    <main class="tmpl-home" data-pagefind-body>
+      
+<div data-pagefind-ignore="all">
+    <h1>"befejezett" címkéjű</h1>
 
 
 <ol reversed class="postlist" style="counter-reset: start-from 2">
@@ -79,6 +83,7 @@
 
 <p><a href="/learning-spanish/tags/">Összes címke</a> megtekintése.</p>
 
+</div>
 
     </main>
 
@@ -101,6 +106,10 @@
         })
         .catch(console.error);
     }
+  </script>
+  <script 
+    src="/learning-spanish/pagefind/pagefind-ui.js" 
+    onload="new PagefindUI({ element: '#search', showImages: false });">
   </script>
   </body>
 </html>
