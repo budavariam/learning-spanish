@@ -29,6 +29,7 @@
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "child_process": "^1.0.2",
     "csv-parse": "^5.3.0",
     "luxon": "^2.5.2",
     "markdown-it": "^13.0.1",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "chalk": "^4.1.2",
     "eleventy-plugin-workbox": "^1.4.0",
+    "pagefind": "^1.0.3",
     "workbox-build": "^6.5.4"
   }
 }

@@ -16,10 +16,11 @@
     {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
     {#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 
-    <link rel="manifest" href="{{ '/manifest.json' | url }}" />
+    <link rel="manifest" href="{{ '/manifest.json' | url }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
+    <link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" type="image/x-icon" href="{{ '/img/favicon/favicon.ico' | url }}">
@@ -41,7 +42,7 @@
       </ul>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %} data-pagefind-body>
       {{ content | safe }}
     </main>
 
@@ -51,7 +52,7 @@
 
     <!-- capture the JS content as a Nunjucks variable -->
     {% set js %}
-      {% include "preferred-color-scheme.js" %}
+      {% include "lib/preferred-color-scheme.js" %}
     {% endset %}
     <!-- feed it through our jsmin filter to minify -->
     <script>
@@ -66,6 +67,10 @@
         })
         .catch(console.error);
     }
+  </script>
+  <script 
+    src="{{ '/pagefind/pagefind-ui.js' | url }}" 
+    onload="new PagefindUI({ element: '#search', showImages: false });">
   </script>
   </body>
 </html>

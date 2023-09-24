@@ -10,6 +10,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { minify } = require("terser");
 const { cache } = require('eleventy-plugin-workbox');
+const { execSync } = require('child_process')
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -161,6 +162,11 @@ module.exports = function (eleventyConfig) {
     ghostMode: false
   });
 
+  eleventyConfig.on('eleventy.after', () => {
+    console.log("Start pageIndex generation...")
+    execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  })
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
@@ -179,9 +185,9 @@ module.exports = function (eleventyConfig) {
 
     // -----------------------------------------------------------------
     // If your site deploys to a subdirectory, change `pathPrefix`.
-    // Don’t worry about leading and trailing slashes, we normalize these.
+    // Don't worry about leading and trailing slashes, we normalize these.
 
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
+    // If you don't have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for link URLs (it does not affect your file structure)
     // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
 
