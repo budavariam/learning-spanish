@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 title: Szókártya
+permalink: /flashcard/
 eleventyNavigation:
   key: Szókártya
   order: 6

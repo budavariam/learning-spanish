@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 title: Szavak
+permalink: /word-list/
 eleventyNavigation:
   key: Szavak
   order: 4

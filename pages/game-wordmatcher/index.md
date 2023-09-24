@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 title: Szópárosító
+permalink: /wordmatcher/
 eleventyNavigation:
   key: Szópárosító
   order: 6

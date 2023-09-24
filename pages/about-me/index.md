@@ -1,5 +1,6 @@
 ---
 title: Rólam
+permalink: /about-me/
 layout: layouts/home.njk
 eleventyNavigation:
   key: Rólam

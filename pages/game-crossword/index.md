@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 title: Keresztrejtvény
+permalink: /crossword/
 eleventyNavigation:
   key: Keresztrejtvény
   order: 5
