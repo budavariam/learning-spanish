@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Szópárosító
-templateClass: tmpl-post
+templateClass: tmpl-home
 eleventyNavigation:
   key: Szópárosító
   order: 6

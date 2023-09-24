@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Keresztrejtvény
-templateClass: tmpl-post
+templateClass: tmpl-home
 eleventyNavigation:
   key: Keresztrejtvény
   order: 5

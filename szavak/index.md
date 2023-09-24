@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Szavak
-templateClass: tmpl-post
+templateClass: tmpl-home
 eleventyNavigation:
   key: Szavak
   order: 4

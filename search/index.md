@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Keresés...
-templateClass: tmpl-post
+templateClass: tmpl-home
 eleventyNavigation:
   key: Keresés
   order: 9
