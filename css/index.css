@@ -47,6 +47,13 @@
   --text-background-hover: #4a4a4a;
   --text-background: var(--color-gray-80);
   --bckg-normal: #242424;
+
+  /* Support dark mode in pagefind */
+  --pagefind-ui-primary: #eeeeee;
+  --pagefind-ui-text: #eeeeee;
+  --pagefind-ui-background: #152028;
+  --pagefind-ui-border: #152028;
+  --pagefind-ui-tag: #152028;
 }
 
 /* Global stylesheet */

@@ -1,7 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: layouts/home.njk
 title: Szókártya
-templateClass: tmpl-post
 eleventyNavigation:
   key: Szókártya
   order: 6

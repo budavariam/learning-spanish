@@ -10,6 +10,14 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { minify } = require("terser");
 const { cache } = require('eleventy-plugin-workbox');
+const { execSync } = require('child_process')
+
+/** List of extensions that must be cached by service worker. */
+const IMAGE_FORMATS = ['jpg', 'png', 'gif', 'ico', 'svg', 'jpeg', 'avif', 'webp'];
+const FONT_FORMATS = ['eot', 'ttf', 'otf', 'ttc', 'woff', 'woff2'];
+const DYNAMIC_FORMATS = ['js', 'css', 'mjs', 'html', 'json'];
+const PAGEFIND_FORMATS = ['pf_meta', 'pf_index', 'pf_fragment', 'pagefind']
+const EXTENSIONS = [...DYNAMIC_FORMATS, ...IMAGE_FORMATS, ...FONT_FORMATS, ...PAGEFIND_FORMATS];
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -29,34 +37,37 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(cache, {
-	/**
-	 * Options that will be passed to
-	 * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
-	 */
-	generateSWOptions: {
-    modifyURLPrefix: {
-      '': '/learning-spanish/',
+    /**
+     * Options that will be passed to
+     * [`generateSW` function](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW).
+     * https://developer.chrome.com/docs/workbox/reference/workbox-build/#type-WebpackGenerateSWOptions
+     * creates: service-worker.js
+     */
+    generateSWOptions: {
+      modifyURLPrefix: {
+        '': '/learning-spanish/',
+      },
+      globPatterns: [`*.{${EXTENSIONS}}`, `**/*.{${EXTENSIONS}}`],
     },
-  },
-	/**
-	 * Directory inside _output_ folder to be used as place for
-	 * service worker.
-	 */
-	// publicDirectory?: string;
-	/**
-	 * Scope for service worker.
-	 * Default `/`.
-	 */
-	scope: "./"
-	/**
-	 * Tells if plugin should generate service worker.
-	 * Useful for situations when there is a need to test service worker,
-	 * especially in development process.
-	 *
-	 * By default, it is enabled if `NODE_ENV === 'production'`.
-	 */
-	// enabled?: boolean;
-	});
+    /**
+     * Directory inside _output_ folder to be used as place for
+     * service worker.
+     */
+    // publicDirectory?: string;
+    /**
+     * Scope for service worker.
+     * Default `/`.
+     */
+    scope: "./"
+    /**
+     * Tells if plugin should generate service worker.
+     * Useful for situations when there is a need to test service worker,
+     * especially in development process.
+     *
+     * By default, it is enabled if `NODE_ENV === 'production'`.
+     */
+    // enabled?: boolean;
+  });
 
 
   eleventyConfig.addFilter("readableDate", dateObj => {
@@ -161,6 +172,11 @@ module.exports = function (eleventyConfig) {
     ghostMode: false
   });
 
+  eleventyConfig.on('eleventy.after', () => {
+    console.log("Start pageIndex generation...")
+    execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  })
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
@@ -179,9 +195,9 @@ module.exports = function (eleventyConfig) {
 
     // -----------------------------------------------------------------
     // If your site deploys to a subdirectory, change `pathPrefix`.
-    // Don’t worry about leading and trailing slashes, we normalize these.
+    // Don't worry about leading and trailing slashes, we normalize these.
 
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
+    // If you don't have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for link URLs (it does not affect your file structure)
     // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
 

@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<h1 data-pagefind-meta="title">{{ title }}</h1>
 
 {# <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> #}
 {%- for tag in tags | filterTagList %}
@@ -18,12 +18,12 @@ templateClass: tmpl-post
 {%- if nextPost or previousPost %}
 <hr>
 {%- set githubUrl %}https://github.com/budavariam/learning-spanish/blob/main/{{ page.filePathStem }}.md{% endset %}
-<small>Van egy ötletem! Szeretnék <a href="{{ githubUrl }}" class="github-url">javítani ezen az oldalon</a> githubon keresztül!</small>
+<small data-pagefind-ignore="all">Van egy ötletem! Szeretnék <a href="{{ githubUrl }}" class="github-url">javítani ezen az oldalon</a> githubon keresztül!</small>
 <hr>
 
 <ul>
-  {%- if nextPost %}<li>Következő: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Előző: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+  {%- if nextPost %}<li data-pagefind-ignore="all">Következő: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+  {%- if previousPost %}<li data-pagefind-ignore="all">Előző: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}
 {%- endif %}
