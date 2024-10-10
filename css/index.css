@@ -317,10 +317,10 @@ webcomponent-crossword {
 
 p:has(> webcomponent-crossword) {
   max-width:100%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 p:has(> webcomponent-word-matcher) {
   max-width:100%;
-  overflow: scroll;
+  overflow: auto;
 }
