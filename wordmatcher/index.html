@@ -13,49 +13,52 @@
     <title>Learning Spanish Szópárosító</title>
     <meta name="description" content="Bolyongásaim a spanyol nyelv rejtelmeiben">
 
-    <link rel="manifest" href="/learning-spanish/learning-spanish/manifest.json">
-    <link rel="stylesheet" href="/learning-spanish/learning-spanish/css/index.css">
-    <link rel="stylesheet" href="/learning-spanish/learning-spanish/css/prism-base16-monokai.dark.css">
-    <link rel="stylesheet" href="/learning-spanish/learning-spanish/css/prism-diff.css">
-    <link rel="stylesheet" href="/learning-spanish/learning-spanish/pagefind/pagefind-ui.css">
-    <link rel="alternate" href="/learning-spanish/learning-spanish/learning-spanish/feed/feed.xml" type="application/atom+xml" title="Learning Spanish">
-    <link rel="alternate" href="/learning-spanish/learning-spanish/feed/feed.json" type="application/json" title="Learning Spanish">
-    <link rel="icon" type="image/x-icon" href="/learning-spanish/learning-spanish/img/favicon/favicon.ico">
+    <link rel="manifest" href="/learning-spanish/manifest.json">
+    <link rel="stylesheet" href="/learning-spanish/css/index.css">
+    <link rel="stylesheet" href="/learning-spanish/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/learning-spanish/css/prism-diff.css">
+    <link rel="stylesheet" href="/learning-spanish/pagefind/pagefind-ui.css">
+    <link rel="alternate" href="/learning-spanish/feed/feed.xml" type="application/atom+xml" title="Learning Spanish">
+    <link rel="alternate" href="/learning-spanish/feed/feed.json" type="application/json" title="Learning Spanish">
+    <link rel="icon" type="image/x-icon" href="/learning-spanish/img/favicon/favicon.ico">
   <!-- Register service worker for PWA offline mode support. -->
       <script>
         if ("serviceWorker" in window.navigator) {
           window.addEventListener("load", () =>
-            window.navigator.serviceWorker.register("/service-worker.js", { scope: "./" }),
+            window.navigator.serviceWorker.register("/service-worker.js", { scope: "/learning-spanish/" }),
           );
         }
       </script></head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB9Q2MT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB9Q2MT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header>
-      <h1 class="home"><a href="/learning-spanish/learning-spanish/">Learning Spanish</a></h1>
+      <h1 class="home"><a href="/learning-spanish/">Learning Spanish</a></h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/">Kezdőlap</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/posts/">Archívum</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/tagbrowser/">Címkék</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/word-list/">Szavak</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/crossword/">Keresztrejtvény</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/flashcard/">Szókártya</a></li>
-        <li class="nav-item nav-item-active"><a href="/learning-spanish/learning-spanish/wordmatcher/">Szópárosító</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/about-me/">Rólam</a></li>
-        <li class="nav-item"><a href="/learning-spanish/learning-spanish/search/">Keresés</a></li>
-      <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/learning-spanish/img/color-scheme-dark.svg"></li>
+        <li class="nav-item"><a href="/learning-spanish/">Kezdőlap</a></li>
+        <li class="nav-item"><a href="/learning-spanish/posts/">Archívum</a></li>
+        <li class="nav-item"><a href="/learning-spanish/tagbrowser/">Címkék</a></li>
+        <li class="nav-item"><a href="/learning-spanish/word-list/">Szavak</a></li>
+        <li class="nav-item"><a href="/learning-spanish/crossword/">Keresztrejtvény</a></li>
+        <li class="nav-item"><a href="/learning-spanish/flashcard/">Szókártya</a></li>
+        <li class="nav-item nav-item-active"><a href="/learning-spanish/wordmatcher/">Szópárosító</a></li>
+        <li class="nav-item"><a href="/learning-spanish/about-me/">Rólam</a></li>
+        <li class="nav-item"><a href="/learning-spanish/search/">Keresés</a></li>
+      <li class="nav-item"><img id="color-scheme-toggle" alt="light" src="/learning-spanish/img/color-scheme-dark.svg"/></li>
       </ul>
     </header>
 
-    <main class="tmpl-home" data-pagefind-body="">
+    <main class="tmpl-home" data-pagefind-body>
       
 <div data-pagefind-ignore="all">
-    <script type="module" src="/learning-spanish/learning-spanish/assets/js/webcomponent-word-matcher.js" async="async"></script>
+    <script type="module" src="/learning-spanish/assets/js/webcomponent-word-matcher.js" async="async"></script>
 <!-- <script src="/learning-spanish/js/webcomponent-word-matcher.js" async="async">DEVELOPMENT</script> -->
 <!-- upgrade: npm install --save webcomponent-word-matcher@X.X.X -->
-<p><webcomponent-word-matcher showScore="showScore" href="/learning-spanish/public/spanish-hungarian.json">
+<p><webcomponent-word-matcher
+  showScore="showScore"
+  href="/learning-spanish/public/spanish-hungarian.json">
 </webcomponent-word-matcher></p>
 <h2 id="hogyan-mukoedik" tabindex="-1">Hogyan működik <a class="direct-link" href="#hogyan-mukoedik" aria-hidden="true">#</a></h2>
 <ul>
@@ -89,7 +92,9 @@
         .catch(console.error);
     }
   </script>
-  <script src="/learning-spanish/learning-spanish/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });">
+  <script 
+    src="/learning-spanish/pagefind/pagefind-ui.js" 
+    onload="new PagefindUI({ element: '#search', showImages: false });">
   </script>
   </body>
 </html>
