@@ -50,6 +50,10 @@ module.exports = function (eleventyConfig) {
       }
     },
     /**
+     * Service worker destination path with prefix.
+     */
+    swDest: "/learning-spanish/service-worker.js",
+    /**
      * Scope for service worker.
      * Default `/`.
      */
@@ -167,7 +171,38 @@ module.exports = function (eleventyConfig) {
     ghostMode: false
   });
 
+  // Remove workbox auto-injected service worker registration (we have our own in base.njk)
+  eleventyConfig.addTransform("removeWorkboxInjection", function(content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      // Remove the workbox-injected service worker registration script
+      // It uses the wrong path (/service-worker.js instead of /learning-spanish/service-worker.js)
+      return content.replace(
+        /<!-- Register service worker for PWA offline mode support\. -->\s*<script>[\s\S]*?window\.navigator\.serviceWorker\.register\("\/service-worker\.js"[\s\S]*?<\/script>/,
+        ''
+      );
+    }
+    return content;
+  });
+
   eleventyConfig.on('eleventy.after', () => {
+    // Remove workbox auto-injected service worker registration from all HTML files
+    // It uses the wrong path (/service-worker.js instead of /learning-spanish/service-worker.js)
+    // We have our own correct registration in base.njk
+    const glob = require('glob');
+    const path = require('path');
+
+    const htmlFiles = glob.sync('_site/**/*.html');
+    htmlFiles.forEach(file => {
+      let content = fs.readFileSync(file, 'utf8');
+      const updated = content.replace(
+        /<!-- Register service worker for PWA offline mode support\. -->\s*<script>[\s\S]*?window\.navigator\.serviceWorker\.register\("\/service-worker\.js"[\s\S]*?<\/script>/,
+        ''
+      );
+      if (updated !== content) {
+        fs.writeFileSync(file, updated, 'utf8');
+      }
+    });
+
     console.log("Start pageIndex generation...")
     execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
   })
