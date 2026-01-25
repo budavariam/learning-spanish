@@ -20,21 +20,25 @@
     "url": "https://zachleat.com/"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "bugs": {
     "url": "https://github.com/11ty/eleventy-base-blog/issues"
   },
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-navigation": "^0.3.3",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "child_process": "^1.0.2",
-    "csv-parse": "^5.3.0",
-    "luxon": "^2.5.2",
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.4",
-    "terser": "^5.14.2",
+    "csv-parse": "^6.1.0",
+    "luxon": "^3.7.2",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "terser": "^5.46.0",
     "webcomponent-crossword": "^0.0.18",
     "webcomponent-flashcard": "^0.0.16",
     "webcomponent-word-matcher": "0.0.9",
@@ -43,7 +47,7 @@
   "devDependencies": {
     "chalk": "^4.1.2",
     "eleventy-plugin-workbox": "^1.4.0",
-    "pagefind": "^1.0.3",
-    "workbox-build": "^6.5.4"
+    "pagefind": "^1.4.0",
+    "workbox-build": "^6.6.0"
   }
 }
