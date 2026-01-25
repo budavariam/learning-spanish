@@ -6,7 +6,7 @@
   "feed": {
     "subtitle": "Bolyongásaim a spanyol nyelv rejtelmeiben",
     "filename": "feed.xml",
-    "path": "/learning-spanish/feed/feed.xml",
+    "path": "/feed/feed.xml",
     "id": "https://budavariam.github.io/learning-spanish/"
   },
   "jsonfeed": {

@@ -44,21 +44,13 @@ module.exports = function (eleventyConfig) {
      * creates: service-worker.js
      */
     generateSWOptions: {
-      modifyURLPrefix: {
-        '': '/learning-spanish/',
-      },
       globPatterns: [`*.{${EXTENSIONS}}`, `**/*.{${EXTENSIONS}}`],
     },
-    /**
-     * Directory inside _output_ folder to be used as place for
-     * service worker.
-     */
-    // publicDirectory?: string;
     /**
      * Scope for service worker.
      * Default `/`.
      */
-    scope: "./"
+    scope: "/learning-spanish/"
     /**
      * Tells if plugin should generate service worker.
      * Useful for situations when there is a need to test service worker,
@@ -204,7 +196,7 @@ module.exports = function (eleventyConfig) {
     // You can also pass this in on the command line using `--pathprefix`
 
     // Optional (default is shown)
-    pathPrefix: "/",
+    pathPrefix: "/learning-spanish/",
     // -----------------------------------------------------------------
 
     // These are all optional (defaults are shown):

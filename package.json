@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "My journey on learning spanish",
   "scripts": {
-    "build": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'learning-spanish'",
+    "build": "env NODE_ENV=production npx @11ty/eleventy",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",
@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "child_process": "^1.0.2",
     "csv-parse": "^6.1.0",
     "luxon": "^3.7.2",
