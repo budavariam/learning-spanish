@@ -45,6 +45,9 @@ module.exports = function (eleventyConfig) {
      */
     generateSWOptions: {
       globPatterns: [`*.{${EXTENSIONS}}`, `**/*.{${EXTENSIONS}}`],
+      modifyURLPrefix: {
+        '': '/learning-spanish/'
+      }
     },
     /**
      * Scope for service worker.
