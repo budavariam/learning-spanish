@@ -33,6 +33,19 @@ ellos/ellas/ustedes|habl**en** - no habl**en**|com**an** - no com**an**|viv**an*
 
 - Felszólítunk valakit valamilyen cselekvésre
 
+## Példamondatok
+
+- *¡Habla español con tus amigos!* - Beszélj spanyolul a barátaiddal!
+- *Come en casa, es más saludable.* - Egyél otthon, egészségesebb.
+- *Ve al trabajo temprano mañana.* - Menj dolgozni korán holnap.
+- *Chicos, vivid en Madrid si tenéis oportunidad.* - Fiúk, éljetek Madridban, ha van rá lehetőségetek.
+- *Estudia español todos los días.* - Tanulj spanyolul minden nap.
+- *Señora, trabaje menos, por favor.* - Asszonyom, dolgozzon kevesebbet, kérem.
+- *No hables inglés en clase, solo español.* - Ne beszélj angolul az órán, csak spanyolul.
+- *Niños, haced ejercicio cada día.* - Gyerekek, sportoljatok minden nap.
+- *Ten paciencia y tendrás tiempo.* - Legyen türelmed és lesz időd.
+- *Aprended todo lo que podáis.* - Tanuljatok mindent, amit tudtok.
+
 ## Rendhagyó igék
 
 &nbsp;|E/2|E/3|T/1|T/2|T/3

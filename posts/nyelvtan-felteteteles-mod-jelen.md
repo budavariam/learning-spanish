@@ -33,6 +33,40 @@ ellos/ellas/ustedes|hablar**ían**|comer**ían**|vivir**ían**
 - kétség vagy bizonytalanság pillanatnyi múltbeli kifejezése
 - a cselekvés kiindulópontjának a múltba helyezésével fejezze ki a jövővel kapcsolatos feltételezését
 
+## Példamondatok
+
+- *Hablaría español.* - Beszélnék spanyolul.
+- *Comería en casa.* - Otthon ennék.
+- *Iría al trabajo.* - Elmennék dolgozni.
+- *Viviríamos en Madrid.* - Madridban élnénk.
+- *¿Estudiarías español?* - Tanulnál spanyolul?
+- *Ella trabajaría más.* - Többet dolgozna.
+- *Me gustaría viajar a España.* - Szeretnék Spanyolországba utazni.
+- *Harían ejercicio.* - Sportolnának.
+- *No tendría tiempo.* - Nem lenne időm.
+- *Aprendería más.* - Többet tanulnék.
+
+`Udvarias meghívás:`
+- *¿Te gustaría venir con nosotros?* - Szeretnél velünk jönni?
+
+`Udvarias kérés:`
+- *¿Podrías ayudarme?* - Tudnál segíteni?
+
+`Kívánság:`
+- *Me encantaría vivir en España.* - Nagyon szeretnék Spanyolországban élni.
+
+`Javaslat:`
+- *Deberías estudiar más.* - Kellene többet tanulnod.
+
+`Hipotézis, feltevés:`
+- *Con más tiempo, hablaría mejor.* - Több idővel jobban beszélnék.
+
+`Kétség múltbeli:`
+- *Serían las tres cuando llegó.* - Biztos három óra volt, amikor megérkezett.
+
+`Jövő a múltból:`
+- *Dijo que vendría mañana.* - Azt mondta, hogy holnap jön.
+
 ## Rendhagyó igék
 
 ### Szótövi változások

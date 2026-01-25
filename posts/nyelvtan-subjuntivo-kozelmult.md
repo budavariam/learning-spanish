@@ -28,3 +28,20 @@ ellos/ellas/ustedes|**hayan**|
 Akkor használjuk, amikor az adott beszédhelyzetben a `Pretérito Perfecto` használata szükséges, a szerkezet pedig kötőmódot kíván.
 
 Jelenben vagyunk, de múltra vonatkozóan beszélünk.
+
+## Példamondatok
+
+- *Espero que hayas hablado español.* - Remélem beszéltél spanyolul.
+- *Dudo que hayas comido en casa.* - Kétlem, hogy otthon ettél.
+- *No creo que hayas ido al trabajo.* - Nem hiszem, hogy elmentél dolgozni.
+- *Es posible que hayamos vivido allí.* - Lehetséges, hogy ott éltünk.
+- *Ojalá hayas estudiado español.* - Bárcsak tanultál volna spanyolul.
+- *Dudo que ella haya trabajado.* - Kétlem, hogy dolgozott.
+- *Es bueno que hayas viajado.* - Jó, hogy utaztál.
+- *No pienso que hayan hecho ejercicio.* - Nem gondolom, hogy sportoltak.
+- *Espero que hayas tenido tiempo.* - Remélem volt időd.
+- *Dudo que hayas aprendido mucho.* - Kétlem, hogy sokat tanultál.
+
+`Múltra vonatkozó kötőmód jelenben:`
+- *Me alegro de que hayas venido.* - Örülök, hogy eljöttél.
+- *Es una pena que no haya estudiado.* - Kár, hogy nem tanult.

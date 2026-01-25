@@ -30,6 +30,31 @@ ellos/ellas/ustedes |habl**an**|com**en**|viv**en**
 - képességek, állandó tulajdonságok
 - általánosan érvényes valóság kifejezésére
 
+## Példamondatok
+
+- *Yo hablo español.* - Beszélek spanyolul.
+- *Como en casa todos los días.* - Otthon eszem minden nap.
+- *Voy al trabajo cada mañana.* - Minden reggel dolgozni megyek.
+- *Vivimos en Madrid.* - Madridban élünk.
+- *¿Estudias español?* - Tanulsz spanyolul?
+- *Ella trabaja en una oficina.* - Egy irodában dolgozik.
+- *¿Dónde vives?* - Hol élsz?
+- *Hacen ejercicio.* - Sportolnak.
+- *No tengo tiempo.* - Nincs időm.
+- *Quiero aprender más.* - Többet akarok tanulni.
+
+`Éppen történő cselekvés:`
+- *Ahora hablo por teléfono.* - Most telefonálok.
+
+`Általános, ismétlődő cselekvés:`
+- *Siempre como a las 2.* - Mindig kettőkor eszem.
+
+`Képességek, állandó tulajdonságok:`
+- *Sé hablar tres idiomas.* - Tudok három nyelven beszélni.
+
+`Általánosan érvényes valóság:`
+- *El agua hierve a 100 grados.* - A víz 100 fokon forr.
+
 ## Rendhagyó igék
 
 ### Verbos Botas

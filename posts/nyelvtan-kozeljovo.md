@@ -30,6 +30,23 @@ ellos/ellas/ustedes|van|
 
 - Jövőben történő cselekvést fejez ki, kifejezi, hogy a cselekvő a cselekvésre már fizikailag és/vagy érzelmileg már készül
 
+## Példamondatok
+
+- *Voy a hablar español.* - Spanyolul fogok beszélni.
+- *Voy a comer en casa.* - Otthon fogok enni.
+- *Voy a ir al trabajo.* - El fogok menni dolgozni.
+- *Vamos a vivir en Madrid.* - Madridban fogunk élni.
+- *¿Vas a estudiar español?* - Tanulni fogsz spanyolul?
+- *Ella va a trabajar mañana.* - Holnap fog dolgozni.
+- *Voy a viajar a España.* - Spanyolországba fogok utazni.
+- *Van a hacer ejercicio.* - Sportolni fognak.
+- *No voy a tener tiempo.* - Nem lesz időm.
+- *Voy a aprender más.* - Többet fogok tanulni.
+
+`Közeli jövő, már készülés:`
+- *Voy a salir ahora mismo.* - Épp most megyek.
+- *Vamos a comer en cinco minutos.* - Öt perc múlva eszünk.
+
 ## Gyakran előforduló időhatározói
 
 - *mañana*: holnap

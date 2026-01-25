@@ -27,6 +27,31 @@ vivir|viv**iendo**
 - címekben, leírásokban fordulhat elő
 - estar segítségével **folyamatos idő** kifejezésére használatos
 
+## Példamondatok
+
+- *Ahora mismo estoy hablando español con mi amigo.* - Épp most spanyolul beszélek a barátommal.
+- *No puedo salir, estoy comiendo en casa.* - Nem tudok kimenni, otthon eszem.
+- *No me llames, estoy yendo al trabajo.* - Ne hívj, dolgozni megyek.
+- *Este año estamos viviendo en Madrid.* - Idén Madridban élünk.
+- *¿Qué estás haciendo? Estoy estudiando español.* - Mit csinálsz? Spanyolul tanulok.
+- *Ella no puede hablar, está trabajando ahora.* - Nem tud beszélni, most dolgozik.
+- *Sigo aprendiendo cada día.* - Minden nap tovább tanulok.
+- *En este momento están haciendo ejercicio en el gimnasio.* - Ebben a pillanatban az edzőteremben sportolnak.
+- *Perdón, estoy corriendo, no tengo tiempo.* - Bocsánat, rohanok, nincs időm.
+- *Este mes estoy aprendiendo más gramática.* - Ebben a hónapban több nyelvtant tanulok.
+
+`Aktuális cselekmény:`
+- *Estoy leyendo un libro ahora.* - Most egy könyvet olvasok.
+
+`Mód kifejezése:`
+- *Corriendo llegarás más rápido.* - Futva gyorsabban érkezel.
+
+`Folyamatos idő:`
+- *Estamos estudiando español.* - Spanyolul tanulunk.
+
+`Címekben, leírásokban:`
+- *Niño jugando en el parque.* - Gyerek játszik a parkban.
+
 ## Rendhagyó alakok
 
 csoport|főnévi igenév|gerundio

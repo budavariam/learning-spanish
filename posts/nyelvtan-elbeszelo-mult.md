@@ -31,6 +31,28 @@ ellos/ellas/ustedes|habl**aron**|com**ieron**|viv**ieron**
 - Behatárolt időszak jelölésére
 - Egyszeri, valamint meghatározott számú cselekvést vagy eseményt is kifejezhet
 
+## Példamondatok
+
+- *Ayer hablé español.* - Tegnap spanyolul beszéltem.
+- *Comí en casa.* - Otthon ettem.
+- *Fui al trabajo.* - Elmentem dolgozni.
+- *Vivimos en Madrid dos años.* - Két évig Madridban éltünk.
+- *¿Estudiaste español?* - Tanultál spanyolul?
+- *Ella trabajó ayer.* - Tegnap dolgozott.
+- *El año pasado viajé a España.* - Tavaly Spanyolországba utaztam.
+- *Hicieron ejercicio.* - Sportoltak.
+- *No tuve tiempo.* - Nem volt időm.
+- *Aprendí mucho.* - Sokat tanultam.
+
+`Lezárult időszak:`
+- *El lunes pasado hablé con él.* - Múlt hétfőn beszéltem vele.
+
+`Behatárolt időszak:`
+- *Viví en Madrid de 2015 a 2017.* - 2015-től 2017-ig Madridban éltem.
+
+`Egyszeri/meghatározott számú cselekvés:`
+- *Fui a España tres veces.* - Háromszor voltam Spanyolországban.
+
 ## Gyakran előforduló időhatározói
 
 - *el (semana/mes/año) pasado*: régebbi nem meghatározott időpont

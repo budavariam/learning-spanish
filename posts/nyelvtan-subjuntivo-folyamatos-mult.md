@@ -37,6 +37,35 @@ Illetve feltételes módban és a mellékmondatban ha a főmondat múlt időben 
 1. **como si** (pl. fuera verdadero - mintha igaz lenne)
 1. ojalá (subjuntivo közelmúltnál is)
 
+## Példamondatok
+
+- *Quería que hablaras español.* - Azt akartam, hogy spanyolul beszélj.
+- *Era importante que comieras en casa.* - Fontos volt, hogy otthon egyél.
+- *Esperaba que fueras al trabajo.* - Vártam, hogy elmész dolgozni.
+- *Dudaba que viviéramos en Madrid.* - Kételkedtem, hogy Madridban élünk.
+- *No creía que estudiaras español.* - Nem hittem, hogy spanyolul tanulsz.
+- *Ojalá ella trabajara más.* - Bárcsak többet dolgozna.
+- *Si yo viviera en España...* - Ha Spanyolországban élnék...
+- *Querían que hicieran ejercicio.* - Azt akarták, hogy sportoljanak.
+- *No pensaba que tuvieras tiempo.* - Nem gondoltam, hogy van időd.
+- *Era necesario que aprendieras más.* - Szükséges volt, hogy többet tanulj.
+
+`Múlt idejű akarat, érzelem, kétség:`
+- *Me pidió que lo ayudara.* - Megkért, hogy segítsek neki.
+- *Temía que no vinieras.* - Féltem, hogy nem jössz.
+
+`Múlt idejű értékítélet:`
+- *Era mejor que estudiaras más.* - Jobb lett volna, ha többet tanulsz.
+
+`Feltételes mellékmondatban:`
+- *Buscaba un trabajo que fuera interesante.* - Olyan munkát kerestem, ami érdekes lenne.
+
+`Como si:`
+- *Habla como si supiera todo.* - Úgy beszél, mintha mindent tudna.
+
+`Ojalá:`
+- *Ojalá tuviera más tiempo.* - Bárcsak lenne több időm.
+
 ## Rendhagyó igék
 
 ### Magánhangzó tövű, -er és -ir végű igék

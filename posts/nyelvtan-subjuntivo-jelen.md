@@ -56,6 +56,49 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
 
 > figyelj arra, hogy főmondatban és mellékmondatban külön képződhet a fenti szabályok mentén
 
+## Példamondatok
+
+- *Quiero que hables español.* - Azt akarom, hogy spanyolul beszélj.
+- *Es importante que comas en casa.* - Fontos, hogy otthon egyél.
+- *Espero que vayas al trabajo.* - Remélem elmész dolgozni.
+- *Dudo que vivamos en Madrid.* - Kétlem, hogy Madridban élünk.
+- *No creo que estudies español.* - Nem hiszem, hogy spanyolul tanulsz.
+- *Ojalá ella trabaje mañana.* - Bárcsak holnap dolgozna.
+- *Es posible que viaje a España.* - Lehetséges, hogy Spanyolországba utazik.
+- *Quiero que hagan ejercicio.* - Azt akarom, hogy sportoljanak.
+- *No creo que tengas tiempo.* - Nem hiszem, hogy van időd.
+- *Es necesario que aprendas más.* - Szükséges, hogy többet tanulj.
+
+`Kérés, kívánság:`
+- *Te pido que me ayudes.* - Arra kérlek, hogy segíts.
+- *Deseo que hables español.* - Azt kívánom, hogy spanyolul beszélj.
+
+`Szükségesség:`
+- *Es urgente que vayas al médico.* - Sürgős, hogy elmenj az orvoshoz.
+
+`Értékítélet:`
+- *Está bien que estudies mucho.* - Jó, hogy sokat tanulsz.
+- *Es lógico que trabajes.* - Logikus, hogy dolgozol.
+
+`Valószínűség:`
+- *Es probable que llueva mañana.* - Valószínű, hogy holnap esni fog.
+
+`Érzelmek:`
+- *Me alegro de que estés aquí.* - Örülök, hogy itt vagy.
+- *Espero que aprendas rápido.* - Remélem gyorsan tanulsz.
+
+`Cuando + jövő:`
+- *Cuando llegues, empezaremos.* - Amikor megérkezel, kezdjük.
+
+`Célt kifejező:`
+- *Estudio para que entiendas.* - Tanulok, hogy megértsd.
+
+`Kételkedés tagadással:`
+- *No pienso que sea verdad.* - Nem gondolom, hogy igaz.
+
+`Aunque + lehetőség:`
+- *Aunque llueva, iré.* - Még ha esik is, megyek.
+
 ## Rendhagyó igék
 
 ### Szótövi változások

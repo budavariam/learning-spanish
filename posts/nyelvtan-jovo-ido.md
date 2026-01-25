@@ -31,6 +31,28 @@ ellos/ellas/ustedes|hablar**án**|comer**án**|vivir**án**
 - Valószínűséget, kétséget, vagy feltételezést is kifejezhet
 - Felszólítás, figyelmeztetés vagy fenyegetés kifejezésére is használható
 
+## Példamondatok
+
+- *Hablaré español.* - Spanyolul fogok beszélni.
+- *Comeré en casa.* - Otthon fogok enni.
+- *Iré al trabajo.* - El fogok menni dolgozni.
+- *Viviremos en Madrid.* - Madridban fogunk élni.
+- *¿Estudiarás español?* - Tanulni fogsz spanyolul?
+- *Ella trabajará mañana.* - Holnap fog dolgozni.
+- *El próximo año viajaré a España.* - Jövőre Spanyolországba utazom.
+- *Harán ejercicio.* - Sportolni fognak.
+- *No tendré tiempo.* - Nem lesz időm.
+- *Aprenderé más.* - Többet fogok tanulni.
+
+`Jövőbeli cselekvés:`
+- *Mañana hablaré con mi jefe.* - Holnap beszélni fogok a főnökömmel.
+
+`Valószínűség, feltételezés:`
+- *Serán las tres ahora.* - Biztos most három óra van.
+
+`Felszólítás, figyelmeztetés:`
+- *¡No hablarás así!* - Nem fogsz így beszélni!
+
 ### Összehasonlítás
 
 Árnyalatnyi a különbség a már megismert [közeljövővel (ir a)]({{'/posts/nyelvtan-kozeljovo/' | url }}).

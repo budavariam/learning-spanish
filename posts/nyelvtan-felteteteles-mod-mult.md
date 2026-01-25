@@ -31,3 +31,22 @@ Múltbeli feltételes cselekményt fejez ki, feltételes mondatokban használjuk
 **Főmondat**ban használjuk, **feltételhez kötött**, **múlt idejű** cselekvést vagy történést fejez ki.
 
 > Főleg az ujságírásban használjuk találgatások, feltételezések, nem megerősített információk kifejezésére. Gyakran elítélik mint egy franciából átvett tükörkifejezést.
+
+## Példamondatok
+
+- *Habría hablado español.* - Beszéltem volna spanyolul.
+- *Habría comido en casa.* - Otthon ettem volna.
+- *Habría ido al trabajo.* - Elmentem volna dolgozni.
+- *Habríamos vivido en Madrid.* - Madridban éltünk volna.
+- *¿Habrías estudiado español?* - Tanultál volna spanyolul?
+- *Ella habría trabajado más.* - Többet dolgozott volna.
+- *Habría viajado a España.* - Spanyolországba utaztam volna.
+- *Habrían hecho ejercicio.* - Sportoltak volna.
+- *No habría tenido tiempo.* - Nem lett volna időm.
+- *Habría aprendido más.* - Többet tanultam volna.
+
+`Feltételhez kötött múlt idejű cselekvés:`
+- *Si hubiera tenido dinero, habría viajado.* - Ha lett volna pénzem, utaztam volna.
+
+`Feltételezés múltban:`
+- *Según las noticias, habría sido un accidente.* - A hírek szerint baleset lehetett.

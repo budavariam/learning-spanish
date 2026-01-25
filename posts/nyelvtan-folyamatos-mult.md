@@ -35,6 +35,34 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 > Hasonlít az angolból ismert Past continuous-ra, illetve az angolban használt `used to` szerkezetre.
 
+## Példamondatok
+
+- *Hablaba español todos los días.* - Minden nap spanyolul beszéltem.
+- *Comía en casa siempre.* - Mindig otthon ettem.
+- *Iba al trabajo cada mañana.* - Minden reggel mentem dolgozni.
+- *Vivíamos en Madrid.* - Madridban éltünk.
+- *Estudiaba español.* - Spanyolul tanultam.
+- *Ella trabajaba mucho.* - Sokat dolgozott.
+- *Cuando era niño, jugaba en el parque.* - Amikor gyerek voltam, a parkban játszottam.
+- *Hacían ejercicio todos los días.* - Minden nap sportoltak.
+- *No tenía tiempo.* - Nem volt időm.
+- *Aprendía mucho.* - Sokat tanultam.
+
+`Szokásos, ismétlődő cselekmény:`
+- *Siempre hablaba con mis amigos.* - Mindig beszéltem a barátaimmal.
+
+`Leírás, történet háttere:`
+- *Era una casa grande y bonita.* - Nagy és szép ház volt.
+
+`Hosszan tartó történés:`
+- *Vivía allí muchos años.* - Sok évig éltem ott.
+
+`Párhuzamos események:`
+- *Mientras estudiaba, ella trabajaba.* - Miközben tanultam, ő dolgozott.
+
+`Folyamatos eseményt megszakítja egy másik:`
+- *Comía cuando sonó el teléfono.* - Ettem, amikor megszólalt a telefon.
+
 ## Gyakran előforduló időhatározói
 
 - antes, siempre, generalmente, con frecuencia

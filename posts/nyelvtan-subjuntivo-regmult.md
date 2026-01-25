@@ -36,6 +36,25 @@ A **hangsúlytalan névmások**at mindig a haber segédige **után** és vele **
 
 A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.
 
+## Példamondatok
+
+- *Si hubiera hablado español...* - Ha beszéltem volna spanyolul...
+- *Ojalá hubiera comido en casa.* - Bárcsak otthon ettem volna.
+- *Si hubiera ido al trabajo...* - Ha elmentem volna dolgozni...
+- *Dudaba que hubiéramos vivido allí.* - Kételkedtem, hogy ott éltünk.
+- *Si hubieras estudiado español...* - Ha tanultál volna spanyolul...
+- *Ojalá ella hubiera trabajado más.* - Bárcsak többet dolgozott volna.
+- *Si hubiera viajado a España...* - Ha Spanyolországba utaztam volna...
+- *Si hubieran hecho ejercicio...* - Ha sportoltak volna...
+- *Si hubiera tenido tiempo...* - Ha lett volna időm...
+- *Ojalá hubiera aprendido más.* - Bárcsak többet tanultam volna.
+
+`Si feltételes múltban:`
+- *Si hubiera sabido, habría venido.* - Ha tudtam volna, eljöttem volna.
+
+`Ojalá múlt időben:`
+- *Ojalá hubiera estudiado más.* - Bárcsak többet tanultam volna.
+
 ## Rendhagyó igék
 
 {% markdown %}
