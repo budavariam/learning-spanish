@@ -3,12 +3,14 @@
   "version": "0.2.0",
   "description": "My journey on learning spanish",
   "scripts": {
-    "build": "env NODE_ENV=production npx @11ty/eleventy",
+    "build:ts": "esbuild src/webcomponent-practice.ts --bundle --format=iife --target=es2019 --outfile=js/webcomponent-practice.js",
+    "build": "npm run build:ts && env NODE_ENV=production npx @11ty/eleventy",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "watch": "npm run build:ts && npx @11ty/eleventy --watch",
+    "serve": "npm run build:ts && npx @11ty/eleventy --serve",
+    "start": "npm run build:ts && npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -45,9 +47,15 @@
     "webcomponent-wordlist": "0.0.5"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "chalk": "^4.1.2",
     "eleventy-plugin-workbox": "^1.4.0",
+    "esbuild": "^0.28.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "pagefind": "^1.4.0",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3",
     "workbox-build": "^6.6.0"
   }
 }

@@ -10,12 +10,14 @@ tags:
   - participio
   - si-feltételes
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 A **haber** segédige [kötőmódbeli folyamatos múltbeli]({{'/posts/nyelvtan-subjuntivo-folyamatos-mult/' | url }}) ragozott alakját követi az ige múlt idejű melléknévi igeneve (`el participio pasado`).
 
+{% practicetable %}
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
 yo|**hubiera**| ar:**-ado**, er:**-ido**, ir:**-ido**
@@ -24,6 +26,7 @@ tú|**hubieras**|
 nosotros/nosotras|**hubiéramos**|
 vosotros|**hubierais**|
 ellos/ellas/ustedes|**hubieran**|
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -38,6 +41,7 @@ A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.
 
 ## Példamondatok
 
+{% practicesent %}
 - *Si hubiera hablado español...* - Ha beszéltem volna spanyolul...
 - *Ojalá hubiera comido en casa.* - Bárcsak otthon ettem volna.
 - *Si hubiera ido al trabajo...* - Ha elmentem volna dolgozni...
@@ -55,8 +59,21 @@ A főnévi igenév múlt ideje a főmondathoz képest előidejűséget fejez ki.
 `Ojalá múlt időben:`
 - *Ojalá hubiera estudiado más.* - Bárcsak többet tanultam volna.
 
+<!-- extras -->
+- *Ojalá hubiera leído ese libro antes.* - Bárcsak előbb olvastam volna el azt a könyvet.
+- *Si hubiéramos bebido menos, no nos habríamos sentido mal.* - Ha kevesebbet ittunk volna, nem éreztük volna rosszul magunkat.
+- *¿Qué habrías hecho si hubiera escrito antes?* - Mit tettél volna, ha előbb írtam volna?
+- *Si hubiera corrido más, habría llegado a tiempo.* - Ha gyorsabban futottam volna, időben érkeztem volna.
+- *Dudaba que hubieran vendido todos los billetes.* - Kételkedtem, hogy eladták az összes jegyet.
+- *Me habría gustado que hubieras escuchado mi explicación.* - Szerettem volna, ha meghallgattad volna a magyarázatomat.
+- *Si hubieran abierto la tienda antes, habríamos comprado todo.* - Ha korábban nyitották volna ki a boltot, mindent megvettünk volna.
+- *Ojalá ella hubiera recibido ayuda a tiempo.* - Bárcsak időben kapott volna segítséget.
+- *Si los niños hubieran dormido bien, estarían descansados.* - Ha a gyerekek jól aludtak volna, pihentek lennének.
+- *No pensaba que hubieras comprendido tan rápido.* - Nem gondoltam, hogy olyan gyorsan megértetted volna.
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
-{% markdown %}
+{% practicetable %}
   {%- include "_includes/posts/rendhagyo_participio.md" -%}
-{% endmarkdown %}
+{% endpracticetable %}

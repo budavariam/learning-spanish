@@ -7,12 +7,14 @@ tags:
   - igeidő
   - múlt
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 Az igék 3 csoportjára amik nem rendhagyóak:
 
+{% practicetable %}
 &nbsp; | -ar | -er | -ir
 ----|----|----|----
 &nbsp;|hablar|comer|vivir
@@ -22,6 +24,7 @@ tú|habl**abas**|com**ías**|viv**ías**
 nosotros/nosotras|habl**ábamos**|com**íamos**|viv**íamos**
 vosotros|habl**abais**|com**íais**|viv**íais**
 ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -37,6 +40,7 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 ## Példamondatok
 
+{% practicesent %}
 - *Hablaba español todos los días.* - Minden nap spanyolul beszéltem.
 - *Comía en casa siempre.* - Mindig otthon ettem.
 - *Iba al trabajo cada mañana.* - Minden reggel mentem dolgozni.
@@ -63,6 +67,19 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 `Folyamatos eseményt megszakítja egy másik:`
 - *Comía cuando sonó el teléfono.* - Ettem, amikor megszólalt a telefon.
 
+<!-- extras -->
+- *Mi hermana leía libros cada tarde.* - A nővérem minden délután könyveket olvasott.
+- *Bebíamos leche cuando éramos pequeños.* - Tejet ittunk, amikor kicsik voltunk.
+- *¿Escribías un diario cuando eras joven?* - Írtál naplót, amikor fiatal voltál?
+- *El perro corría por el jardín cada mañana.* - A kutya minden reggel futott a kertben.
+- *Ellos vendían verduras en el mercado.* - Zöldségeket árultak a piacon.
+- *Escuchaba la radio mientras conducía.* - Rádiót hallgattam, miközben vezettem.
+- *Abríamos las ventanas cuando hacía calor.* - Kinyitottuk az ablakokat, amikor meleg volt.
+- *Ella recibía cartas de su familia todos los meses.* - Minden hónapban leveleket kapott a családjától.
+- *Los niños dormían la siesta después de comer.* - A gyerekek ebéd után szunyókáltak.
+- *¿Comprendías el español cuando vivías allí?* - Értettél spanyolul, amikor ott éltél?
+{% endpracticesent %}
+
 ## Gyakran előforduló időhatározói
 
 - antes, siempre, generalmente, con frecuencia
@@ -72,11 +89,13 @@ ellos/ellas/ustedes|habl**aban**|com**ían**|viv**ían**
 
 ## Rendhagyó igék
 
+{% practicetable %}
 &nbsp;| E/1| E/2| E/3| T/1| T/2| T/3
 ----|----|----|----|----|----|----
 ir|iba|ibas|iba|**í**bamos|ibais|iban
 ser|era|eras|era|**é**ramos|ereais|eran
 ver|**ve**ía|**ve**ías|**ve**ía|**ve**íamos|**ve**íais|**ve**ían
+{% endpracticetable %}
 
 hay &rarr; había
 

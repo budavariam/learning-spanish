@@ -8,17 +8,20 @@ tags:
   - jelen
   - gerundio
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Gerundio képzési szabálya
 
 Az igék 3 csoportjára amik nem rendhagyóak. Az -ar, -er, -ir végződést elhagyjuk és -ando/-iendo/-iendo végződést írunk a helyére.
 
+{% practicetable %}
 főnévi igenév|gerundio
 ----|----
 hablar|habl**ando**
 comer|com**iendo**
 vivir|viv**iendo**
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -29,6 +32,7 @@ vivir|viv**iendo**
 
 ## Példamondatok
 
+{% practicesent %}
 - *Ahora mismo estoy hablando español con mi amigo.* - Épp most spanyolul beszélek a barátommal.
 - *No puedo salir, estoy comiendo en casa.* - Nem tudok kimenni, otthon eszem.
 - *No me llames, estoy yendo al trabajo.* - Ne hívj, dolgozni megyek.
@@ -52,8 +56,22 @@ vivir|viv**iendo**
 `Címekben, leírásokban:`
 - *Niño jugando en el parque.* - Gyerek játszik a parkban.
 
+<!-- extras -->
+- *Mi hermana está leyendo una novela en su habitación.* - A nővérem egy regényt olvas a szobájában.
+- *Estamos bebiendo té mientras esperamos.* - Teát iszunk, miközben várunk.
+- *¿Estás escribiendo el informe ahora mismo?* - Épp most írod a jelentést?
+- *El perro sigue corriendo aunque está cansado.* - A kutya tovább fut, bár fáradt.
+- *Ellos están vendiendo sus cosas antes de mudarse.* - A holmijaikat árulják, mielőtt elköltöznek.
+- *Llevo horas escuchando esta canción.* - Órák óta hallgatom ezt a dalt.
+- *Estamos abriendo una nueva sucursal este mes.* - Ebben a hónapban új fiókot nyitunk.
+- *Ella está recibiendo clases de español.* - Spanyol órákat vesz.
+- *Los niños llevan todo el día durmiendo.* - A gyerekek egész nap alszanak.
+- *Sigo comprendiendo cada vez mejor el español.* - Egyre jobban értem a spanyolt.
+{% endpracticesent %}
+
 ## Rendhagyó alakok
 
+{% practicetable %}
 csoport|főnévi igenév|gerundio
 ----|----|----
 **e&rarr;i**|pedir|p**i**diendo
@@ -68,3 +86,4 @@ i&rarr;y|leer|le**y**endo
 **o&rarr;u**|dormir|d**u**rmiendo
 o&rarr;u|morir|m**u**riendo
 o&rarr;u|poder|p**u**diendo
+{% endpracticetable %}

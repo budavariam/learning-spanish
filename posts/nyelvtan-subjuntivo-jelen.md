@@ -8,6 +8,7 @@ tags:
   - kötőmód
   - jelen
 layout: layouts/post.njk
+practice: true
 ---
 
 A magyar nyelvben "hivatalosan" nincs kötőmód, azonban előfordul ez a szerkezet.
@@ -19,6 +20,7 @@ A magyar nyelvben "hivatalosan" nincs kötőmód, azonban előfordul ez a szerke
 
 Az igék 3 csoportjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
 
+{% practicetable %}
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar|comer|vivir
@@ -28,6 +30,7 @@ tú|habl**es**|com**as**|viv**as**
 nosotros/nosotras|habl**amos**|com**emos**|viv**amos**
 vosotros|habl**éis**|com**áis**|viv**áis**
 ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
+{% endpracticetable %}
 
 > A végződések magánhangzói kicserélődnek a jelen időhöz képest
 
@@ -58,6 +61,7 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
 
 ## Példamondatok
 
+{% practicesent %}
 - *Quiero que hables español.* - Azt akarom, hogy spanyolul beszélj.
 - *Es importante que comas en casa.* - Fontos, hogy otthon egyél.
 - *Espero que vayas al trabajo.* - Remélem elmész dolgozni.
@@ -99,12 +103,26 @@ ellos/ellas/ustedes|habl**en**|com**an**|viv**an**
 `Aunque + lehetőség:`
 - *Aunque llueva, iré.* - Még ha esik is, megyek.
 
+<!-- extras -->
+- *Quiero que leas este artículo antes de la reunión.* - Azt akarom, hogy olvasd el ezt a cikket a találkozó előtt.
+- *Es importante que bebáis suficiente agua cada día.* - Fontos, hogy minden nap elég vizet igyatok.
+- *Espero que escribas pronto.* - Remélem hamarosan írsz.
+- *No creo que el perro corra tan rápido.* - Nem hiszem, hogy a kutya olyan gyorsan fut.
+- *Ojalá vendan la casa a buen precio.* - Bárcsak jó áron adják el a házat.
+- *Es posible que escuchen nuestra propuesta.* - Lehetséges, hogy meghallgatják a javaslatunkat.
+- *Necesito que abráis la tienda a las ocho.* - Szükségem van arra, hogy nyolckor nyissátok ki a boltot.
+- *Me sorprende que reciba tan pocas respuestas.* - Meglep, hogy olyan kevés választ kap.
+- *Es mejor que los niños duerman antes de las diez.* - Jobb, ha a gyerekek tíz előtt alszanak.
+- *Dudo que comprendas todo sin estudiar.* - Kétlem, hogy tanulás nélkül mindent megérts.
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
 ### Szótövi változások
 
 A kötőmód jelen idejének minden személyét a **kijelentő mód E/1-éből** képezzük a `-o` végződés kötőmódbeli végződésének helyettesítésével
 
+{% practicetable %}
 Infinitivo|E/1 jelen|E/1 kötőmód
 ----|----|----
 construir|construyo|construy**a**
@@ -123,6 +141,7 @@ traer|traigo|traig**a**
 venir|vengo|veng**a**
 vestir|visto|vist**a**
 ver|veo|ve**a**
+{% endpracticetable %}
 
 ### Verbos Botas
 
@@ -130,26 +149,33 @@ A szótőbeli magánhangzó kettőshangzóvá változása ugyanúgy bekövetkezi
 
 Hangsúly változására ugyanez érvényes.
 
+{% practicetable %}
 csoport|ige|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----|----
 **o&rarr;ue**|contar|c**ue**nte|c**ue**ntes|c**ue**nte|contemos|contéis|c**ue**nten
 **e&rarr;ie**|querer|qu**ie**ra|qu**ie**ras|qu**ie**ra|queramos|queráis|qu**ie**ran
 **u&rarr;ú**|actuar|act**ú**e|act**ú**es|act**ú**e|actuemos|actuéis|act**ú**en
+{% endpracticetable %}
 
 > az `-ir`-végű igéknél T/1, T/2-ben az `-e`, `-i`-re változik
 
+{% practicetable %}
 ige|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----
 sentir|s**ie**nta|s**ie**ntas|s**ie**nta|s**i**ntamos|s**i**ntáis|s**ie**ntan
+{% endpracticetable %}
 
 > az `-ir`-végű igéknél amikben a szótő `-e`, `-i`-re változna, minden alakja a kijelentő mód E/1éből képződik, *mind rendhagyó*
 
+{% practicetable %}
 csoport|ige|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----|----
 **e&rarr;i**|pedir|p**i**da|p**i**das|p**i**da|p**i**damos|p**i**dáis|p**i**dan
+{% endpracticetable %}
 
 ### Egyéb rendhagyó igék
 
+{% practicetable %}
 &nbsp;|E/1|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----|----
 dar|dé|des|dé|demos|deis|den
@@ -159,5 +185,6 @@ haber|haya|hayas|haya|hayamos|hayáis|hayan
 ir|vaya|vayas|vaya|vayamos|vayais|vayan
 saber|sepa|sepas|sepa|sepamos|sepáis|sepan
 ser|sea|seas|sea|seamos|seais|sean
+{% endpracticetable %}
 
 - hay&rarr;haya

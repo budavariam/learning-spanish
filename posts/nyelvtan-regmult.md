@@ -8,12 +8,14 @@ tags:
   - múlt
   - participio
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 A **haber** segédige [Imperfecto]({{'/posts/nyelvtan-folyamatos-mult/' | url }}) alakjából és az ige melléknévi igenévi alakjából alakjával (`participio`) képezzük.
 
+{% practicetable %}
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
 yo|h**abía**| ar:**-ado**, er:**-ido**, ir:**-ido**
@@ -22,6 +24,7 @@ tú|h**abías**|
 nosotros/nosotras|h**abíamos**|
 vosotros|h**abíais**|
 ellos/ellas/ustedes|h**abían**|
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -35,6 +38,7 @@ ellos/ellas/ustedes|h**abían**|
 
 ## Példamondatok
 
+{% practicesent %}
 - *Cuando llegaste, ya había hablado español.* - Amikor megérkeztél, már beszéltem spanyolul.
 - *Cuando llamaste, ya había comido en casa.* - Amikor hívtál, már otthon ettem.
 - *A las 9, ya había ido al trabajo.* - Kilenckor már elmentem dolgozni.
@@ -55,13 +59,26 @@ ellos/ellas/ustedes|h**abían**|
 `Túl hamar történt valami:`
 - *Apenas había llegado cuando empezó la reunión.* - Alig érkeztem meg, amikor elkezdődött az ülés.
 
+<!-- extras -->
+- *Cuando llegué a casa, mi hermana ya había leído el libro.* - Amikor hazaértem, a nővérem már elolvasta a könyvet.
+- *Antes de cenar, ya habíamos bebido todo el vino.* - Vacsoraelőtt már megitta az összes bort.
+- *¿Habías escrito la tarea antes de ir al cine?* - Megírtad a házi feladatot, mielőtt moziba mentél?
+- *El perro ya había corrido cuando empezó a llover.* - A kutya már futott, amikor elkezdett esni.
+- *Cuando abrimos la tienda, ellos ya habían vendido todo.* - Amikor kinyitottuk a boltot, ők már mindent eladtak.
+- *Nunca antes había escuchado esa música.* - Azelőtt soha nem hallottam azt a zenét.
+- *Cuando llegaron los invitados, ya habíamos abierto el restaurante.* - Amikor megérkeztek a vendégek, már kinyitottuk az éttermet.
+- *Ella ya había recibido la noticia cuando la llamé.* - Amikor felhívtam, már megkapta a hírt.
+- *Los niños ya habían dormido cuando volvieron sus padres.* - A gyerekek már aludtak, amikor visszajöttek a szüleik.
+- *Antes del examen, ya había comprendido toda la gramática.* - A vizsga előtt már megértettem az összes nyelvtant.
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
 Megegyeznek a [Pretérito Perfecto]({{'/posts/nyelvtan-kozelmult/' | url}})nál megismert rendhagyó alakokkal.
 
-{% markdown %}
+{% practicetable %}
   {%- include "_includes/posts/rendhagyo_participio.md" -%}
-{% endmarkdown %}
+{% endpracticetable %}
 
 ## Gyakorló feladatok
 

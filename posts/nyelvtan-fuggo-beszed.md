@@ -6,6 +6,7 @@ tags:
   - nyelvtan
   - függőbeszéd
 layout: layouts/post.njk
+practice: true
 ---
 
 Valaki más mondandóját átadni anélkül, hogy szó szerint idéznénk.

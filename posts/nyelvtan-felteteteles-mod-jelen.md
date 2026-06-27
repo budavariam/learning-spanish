@@ -7,12 +7,14 @@ tags:
   - igemód
   - jelen
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 Az igék 3 csoportjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
 
+{% practicetable %}
 &nbsp; | -ar | -er | -ir
 ----|----|----|----
 &nbsp;|hablar|comer|vivir
@@ -22,6 +24,7 @@ tú|hablar**ías**|comer**ías**|vivir**ías**
 nosotros/nosotras|hablar**íamos**|comer**íamos**|vivir**íamos**
 vosotros|hablar**íais**|comer**íais**|vivir**íais**
 ellos/ellas/ustedes|hablar**ían**|comer**ían**|vivir**ían**
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -35,6 +38,7 @@ ellos/ellas/ustedes|hablar**ían**|comer**ían**|vivir**ían**
 
 ## Példamondatok
 
+{% practicesent %}
 - *Hablaría español.* - Beszélnék spanyolul.
 - *Comería en casa.* - Otthon ennék.
 - *Iría al trabajo.* - Elmennék dolgozni.
@@ -67,12 +71,26 @@ ellos/ellas/ustedes|hablar**ían**|comer**ían**|vivir**ían**
 `Jövő a múltból:`
 - *Dijo que vendría mañana.* - Azt mondta, hogy holnap jön.
 
+<!-- extras -->
+- *Mi hermana leería más si tuviera tiempo.* - A nővérem többet olvasna, ha lenne ideje.
+- *Beberíamos agua fría en este calor.* - Hideg vizet innánk ebben a melegben.
+- *¿Escribirías una novela si pudieras?* - Írnál egy regényt, ha tudnád?
+- *El perro correría más rápido con buenas zapatillas.* - A kutya gyorsabban futna jó cipővel.
+- *Ellos venderían la casa por un buen precio.* - Jó áron eladnák a házat.
+- *Escucharía más música si tuviera auriculares nuevos.* - Több zenét hallgatnék, ha új fülesem lenne.
+- *Abriríamos un restaurante si tuviéramos dinero suficiente.* - Éttermet nyitnánk, ha elég pénzünk lenne.
+- *Ella recibiría mejor sueldo con más experiencia.* - Több tapasztalattal jobb fizetést kapna.
+- *Los niños dormirían mejor con menos ruido.* - A gyerekek jobban aludnának kevesebb zajjal.
+- *¿Comprenderías el texto sin diccionario?* - Szótár nélkül megértenéd a szöveget?
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
 ### Szótövi változások
 
 - Hasonlóan a [jövő időhöz]({{'/posts/nyelvtan-jovo-ido/' | url }})
 
+{% practicetable %}
 &nbsp;| &nbsp;
 ----|----
 caber|**cabr-**
@@ -87,3 +105,4 @@ salir|**saldr-**
 tener|**tendr-**
 valer|**valdr-**
 venir|**vendr-**
+{% endpracticetable %}

@@ -30,6 +30,7 @@ module.exports = function (eleventyConfig) {
     "./node_modules/webcomponent-wordlist/webcomponent-wordlist.bundled.js": "/assets/js/webcomponent-wordlist.js",
     "./node_modules/webcomponent-word-matcher/webcomponent-word-matcher.bundled.js": "/assets/js/webcomponent-word-matcher.js",
     "./node_modules/webcomponent-flashcard/dist/webcomponent-flashcard.umd.js": "/assets/js/webcomponent-flashcard.js",
+    "./js/webcomponent-practice.js": "/assets/js/webcomponent-practice.js",
   });
 
   // Add plugins
@@ -151,6 +152,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPairedShortcode("markdown", (content) => {
     return markdownLibrary.render(content);
+  });
+
+  eleventyConfig.addPairedShortcode("practicetable", (content) => {
+    return "<div><practice-table>" + markdownLibrary.render(content) + "</practice-table></div>";
+  });
+
+  eleventyConfig.addPairedShortcode("practicesent", (content) => {
+    const [main, extras] = content.split("<!-- extras -->");
+    const mainHtml   = markdownLibrary.render(main);
+    const extrasHtml = extras
+      ? markdownLibrary.render(extras).replace(/<ul>/g, '<ul data-extras="true">')
+      : "";
+    return "<div><practice-sentences>" + mainHtml + extrasHtml + "</practice-sentences></div>";
   });
 
   // Override Browsersync defaults (used only with --serve)

@@ -9,12 +9,14 @@ tags:
   - befejezett
   - participio
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 A **haber** segédige jövő idejű alakjaiból és az ige múlt idejű igenévi alakjával (`el participio pasado`) képezzük.
 
+{% practicetable %}
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
 yo|habr**é**| ar:**-ado**, er:**-ido**, ir:**-ido**
@@ -23,6 +25,7 @@ tú|habr**ás**|
 nosotros/nosotras|habr**emos**|
 vosotros|habr**éis**|
 ellos/ellas/ustedes|habr**án**|
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -32,6 +35,7 @@ ellos/ellas/ustedes|habr**án**|
 
 ## Példamondatok
 
+{% practicesent %}
 - *Para mañana habré hablado español con el cliente.* - Holnapra beszéltem a ügyféllel spanyolul.
 - *A las 8, ya habré comido en casa.* - Nyolcra már otthon ettem.
 - *Cuando llegues, ya habré ido al trabajo.* - Mire megérkezel, már elmentem dolgozni.
@@ -51,11 +55,24 @@ ellos/ellas/ustedes|habr**án**|
 - *Cuando vuelvas, habré terminado el trabajo.* - Mire visszajössz, befejezem a munkát.
 - *Para las cinco ya habré comido.* - Ötre már megeszem.
 
+<!-- extras -->
+- *Para el domingo mi hermana habrá leído todo el libro.* - Vasárnapra a nővérem el fogja olvasni az egész könyvet.
+- *Cuando llegues, ya habremos bebido el café.* - Mire megérkezel, már megiszszuk a kávét.
+- *¿Para cuándo habrás escrito el informe?* - Mire fogod megírni a jelentést?
+- *El perro habrá corrido cinco kilómetros para mediodía.* - A kutya délig öt kilométert fut.
+- *Para fin de mes habrán vendido todos los coches.* - A hónap végére eladják az összes autót.
+- *Para mañana habré escuchado toda la conferencia.* - Holnapra meghallgatom az egész előadást.
+- *Cuando abran la tienda, ya habremos llegado.* - Mire kinyitják a boltot, már megérkezünk.
+- *Ella habrá recibido tu mensaje antes de medianoche.* - Éjfél előtt megkapja az üzeneted.
+- *Los niños habrán dormido diez horas para mañana por la mañana.* - A gyerekek holnap reggelig tíz órát alszanak.
+- *Para el final del curso habremos comprendido toda la gramática.* - A tanfolyam végére megértjük az összes nyelvtant.
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
-{% markdown %}
+{% practicetable %}
   {%- include "_includes/posts/rendhagyo_participio.md" -%}
-{% endmarkdown %}
+{% endpracticetable %}
 
 ## Gyakorló feladatok
 

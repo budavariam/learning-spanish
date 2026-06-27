@@ -7,12 +7,14 @@ tags:
   - igeidő
   - jövő
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 Az igék 3 csoportjára amik nem rendhagyóak csatoljuk az `azonos` ragokat:
 
+{% practicetable %}
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar|comer|vivir
@@ -22,6 +24,7 @@ tú|hablar**ás**|comer**ás**|vivir**ás**
 nosotros/nosotras|hablar**emos**|comer**emos**|vivir**emos**
 vosotros|hablar**éis**|comer**éis**|vivir**éis**
 ellos/ellas/ustedes|hablar**án**|comer**án**|vivir**án**
+{% endpracticetable %}
 
 > Hangsúly nélkül csak T/1-et használjuk
 
@@ -33,6 +36,7 @@ ellos/ellas/ustedes|hablar**án**|comer**án**|vivir**án**
 
 ## Példamondatok
 
+{% practicesent %}
 - *Hablaré español.* - Spanyolul fogok beszélni.
 - *Comeré en casa.* - Otthon fogok enni.
 - *Iré al trabajo.* - El fogok menni dolgozni.
@@ -62,10 +66,24 @@ ellos/ellas/ustedes|hablar**án**|comer**án**|vivir**án**
 
 > A beszélt nyelv szivesebben használja a *Közeljövő* alakjait
 
+<!-- extras -->
+- *Mi hermana leerá un libro esta noche.* - A nővérem ma este könyvet fog olvasni.
+- *Beberemos agua después del ejercicio.* - Edzés után vizet fogunk inni.
+- *¿Escribirás una carta mañana?* - Holnap fogsz levelet írni?
+- *El perro correrá en el parque por la tarde.* - A kutya délután a parkban fut.
+- *Ellos venderán su casa el año que viene.* - Jövőre eladják a házukat.
+- *Tú escucharás la explicación atentamente.* - Figyelmesen fogod hallgatni a magyarázatot.
+- *Abriremos la ventana si hace calor.* - Kinyitjuk az ablakot, ha meleg lesz.
+- *Ella recibirá los resultados mañana.* - Holnap megkapja az eredményeket.
+- *Los estudiantes dormirán bien antes del examen.* - A diákok jól fognak aludni a vizsga előtt.
+- *¿Comprenderás el texto sin ayuda?* - Segítség nélkül fogod érteni a szöveget?
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
 ### Szótövi változások
 
+{% practicetable %}
 &nbsp;|&nbsp;
 ----|----
 caber|**cabr-**
@@ -80,3 +98,4 @@ salir|**saldr-**
 tener|**tendr-**
 valer|**valdr-**
 venir|**vendr-**
+{% endpracticetable %}

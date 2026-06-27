@@ -8,12 +8,14 @@ tags:
   - múlt
   - participio
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 A **haber** segédige alábbi alakjaiból és az ige múlt idejű igenévi alakjával (`el participio pasado`) képezzük.
 
+{% practicetable %}
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
 yo|h**e**| ar:**-ado**, er:**-ido**, ir:**-ido**
@@ -22,6 +24,7 @@ tú|h**as**|
 nosotros/nosotras|h**emos**|
 vosotros|h**abéis**|
 ellos/ellas/ustedes|h**an**|
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -34,6 +37,7 @@ ellos/ellas/ustedes|h**an**|
 
 ## Példamondatok
 
+{% practicesent %}
 - *Hoy he hablado español y estoy cansado.* - Ma spanyolul beszéltem és fáradt vagyok.
 - *He comido en casa, por eso no tengo hambre.* - Otthon ettem, ezért nem vagyok éhes.
 - *He ido al trabajo esta mañana.* - Ma reggel elmentem dolgozni.
@@ -57,6 +61,19 @@ ellos/ellas/ustedes|h**an**|
 `Sosem történt, de még megtörténhet:`
 - *Nunca he vivido en el extranjero.* - Soha nem éltem külföldön.
 
+<!-- extras -->
+- *Mi hermana ha leído tres libros este mes.* - A nővérem három könyvet olvasott el ebben a hónapban.
+- *Hemos bebido mucha agua hoy.* - Ma sok vizet ittunk.
+- *¿Has escrito la carta que te pedí?* - Megírtad a levelet, amit kértem?
+- *El perro ha corrido mucho esta mañana.* - A kutya sokat futott ma reggel.
+- *Ellos han vendido su coche viejo.* - Eladták a régi autójukat.
+- *He escuchado esa canción muchas veces.* - Sokszor hallottam azt a dalt.
+- *Hemos abierto una cuenta nueva en el banco.* - Új bankszámlát nyitottunk.
+- *Ella ha recibido buenas noticias hoy.* - Ma jó híreket kapott.
+- *Los niños han dormido bien esta noche.* - A gyerekek jól aludtak ma éjjel.
+- *¿Has comprendido la lección de hoy?* - Megértetted a mai leckét?
+{% endpracticesent %}
+
 ## Gyakran előforduló időhatározói
 
 - *hoy*: ma
@@ -67,9 +84,9 @@ ellos/ellas/ustedes|h**an**|
 
 ## Rendhagyó igék
 
-{% markdown %}
+{% practicetable %}
   {%- include "_includes/posts/rendhagyo_participio.md" -%}
-{% endmarkdown %}
+{% endpracticetable %}
 
 ## Gyakorló feladatok
 

@@ -8,6 +8,7 @@ tags:
   - kötőmód
   - múlt
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
@@ -16,6 +17,7 @@ A T/3 idejű indefinido-ból indulunk ki, ezért az [Indefinido]({{'/posts/nyelv
 
 Két alakja van. (`-ra`, `-se`)
 
+{% practicetable %}
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar &rarr; habla(ron)|comer &rarr; comie(ron)|vivie(ron)
@@ -25,6 +27,7 @@ tú|habla**ras** / habla**ses** | comie**ras** / comie**ses** | vivie**ras** / v
 nosotros/nosotras|habla**ramos** / habla**semos** | comie**ramos** / comie**semos** | vivie**ramos** / vivie**semos**
 vosotros|habla**rais** / habla**seis** | comie**rais** / comie**seis** | vivie**rais** / vivie**seis**
 ellos/ellas/ustedes|habla**ran** / habla**sen** | comie**ran** / comie**sen** | vivie**ran** / vivie**sen**
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -39,6 +42,7 @@ Illetve feltételes módban és a mellékmondatban ha a főmondat múlt időben 
 
 ## Példamondatok
 
+{% practicesent %}
 - *Quería que hablaras español.* - Azt akartam, hogy spanyolul beszélj.
 - *Era importante que comieras en casa.* - Fontos volt, hogy otthon egyél.
 - *Esperaba que fueras al trabajo.* - Vártam, hogy elmész dolgozni.
@@ -65,6 +69,19 @@ Illetve feltételes módban és a mellékmondatban ha a főmondat múlt időben 
 
 `Ojalá:`
 - *Ojalá tuviera más tiempo.* - Bárcsak lenne több időm.
+
+<!-- extras -->
+- *Quería que leyeras el libro antes del examen.* - Azt akartam, hogy olvasd el a könyvet a vizsga előtt.
+- *Era importante que bebieras agua después del ejercicio.* - Fontos volt, hogy vizet igyál edzés után.
+- *Me pidió que escribiera un informe detallado.* - Megkért, hogy írjak egy részletes jelentést.
+- *No creía que el perro corriera tan lejos.* - Nem hittem, hogy a kutya olyan messzire fut.
+- *Esperaba que vendieran la casa antes del invierno.* - Azt vártam, hogy a tél előtt eladják a házat.
+- *Era necesario que escucharas al médico.* - Szükséges volt, hogy hallgass az orvosra.
+- *Dudaba que abrieran la tienda en domingo.* - Kételkedtem, hogy vasárnap kinyitják a boltot.
+- *Me sorprendía que recibiera tan pocas cartas.* - Meglepett, hogy olyan kevés levelet kapott.
+- *Era mejor que los niños durmieran temprano.* - Jobb lett volna, ha a gyerekek korán alszanak.
+- *No pensaba que comprendieras el texto sin ayuda.* - Nem gondoltam, hogy segítség nélkül megérted a szöveget.
+{% endpracticesent %}
 
 ## Rendhagyó igék
 

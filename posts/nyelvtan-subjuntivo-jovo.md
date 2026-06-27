@@ -9,6 +9,7 @@ tags:
   - jövő
   - ritka
 layout: layouts/post.njk
+practice: true
 ---
 
 > **FIGYELEM:** Ez az igeidő a modern spanyolban gyakorlatilag már nem használatos. Főleg jogi szövegekben, régi közmondásokban és klasszikus irodalmi művekben fordul elő.
@@ -17,6 +18,7 @@ layout: layouts/post.njk
 
 Az igék 3 csoportjára amik nem rendhagyóak. A [Pretérito Indefinido]({{'/posts/nyelvtan-elbeszelo-mult/' | url }}) T/3 alakjából indulunk ki, a `-ron` végződést elhagyjuk és az alábbi végződéseket tesszük helyette:
 
+{% practicetable %}
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar → habla(ron)|comer → comie(ron)|vivir → vivie(ron)
@@ -26,11 +28,13 @@ tú|habla**res**|comie**res**|vivie**res**
 nosotros/nosotras|habla**remos**|comie**remos**|vivie**remos**
 vosotros|habla**reis**|comie**reis**|vivie**reis**
 ellos/ellas/ustedes|habla**ren**|comie**ren**|vivie**ren**
+{% endpracticetable %}
 
 ## Futuro Compuesto de Subjuntivo
 
 A **haber** segédige jövő idejű kötőmódbeli alakjaiból és az ige múlt idejű igenévi alakjával (`el participio pasado`) képezzük.
 
+{% practicetable %}
 &nbsp;|haber|múlt idejű igenév
 ----|----|----
 yo|hub**iere**| ar:**-ado**, er:**-ido**, ir:**-ido**
@@ -39,6 +43,7 @@ tú|hub**ieres**|
 nosotros/nosotras|hub**iéremos**|
 vosotros|hub**iereis**|
 ellos/ellas/ustedes|hub**ieren**|
+{% endpracticetable %}
 
 ## Mikor használjuk
 
@@ -53,6 +58,7 @@ Modern spanyolban **szinte soha**. Történetileg a következő esetekben haszn�
 
 ## Példamondatok
 
+{% practicesent %}
 - *Si hablare español...* - Ha spanyolul fogok beszélni... (ma: si hablo/hablara)
 - *Cuando comiere...* - Amikor enni fogok... (ma: cuando coma)
 - *Si fuere al trabajo...* - Ha dolgozni fogok menni... (ma: si voy/fuera)
@@ -73,10 +79,24 @@ Modern spanyolban **szinte soha**. Történetileg a következő esetekben haszn�
 `Általános érvényű kijelentés:`
 - *El que quisiere trabajar, que trabaje.* - Aki dolgozni akar, dolgozzon. (ma: el que quiera)
 
+<!-- extras -->
+- *El que leyere estas palabras...* - Aki ezeket a szavakat olvassa... (ma: el que lea)
+- *Cuando bebiere en exceso...* - Amikor túl sokat iszik majd... (ma: cuando beba)
+- *Si escribiere la verdad...* - Ha az igazságot írja... (ma: si escribe/escribiera)
+- *Adondequiera que corriere...* - Bárhova fut majd... (ma: adondequiera que corra)
+- *El que vendiere bienes robados...* - Aki lopott árut árusít... (ma: el que venda)
+- *Si escuchare con atención...* - Ha figyelmesen hallgat majd... (ma: si escucha/escuchara)
+- *Cuando abriere la puerta...* - Amikor kinyitja majd az ajtót... (ma: cuando abra)
+- *El que recibiere la notificación...* - Aki megkapja az értesítést... (ma: el que reciba)
+- *Si durmiere bien esa noche...* - Ha jól alszik majd azon az éjjelen... (ma: si duerme/durmiera)
+- *El que comprendiere la ley...* - Aki érti a törvényt... (ma: el que comprenda)
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
 A rendhagyó alakok megegyeznek a **Pretérito Indefinido** T/3 alakjaival, mivel az ebből a formából képződik:
 
+{% practicetable %}
 &nbsp;|Indefinido T/3|Futuro de Subjuntivo yo
 ----|----|----
 ser/ir|fueron|fue**re**
@@ -90,15 +110,18 @@ venir|vinieron|vin**iere**
 querer|quisieron|quis**iere**
 saber|supieron|sup**iere**
 traer|trajeron|traj**ere**
+{% endpracticetable %}
 
 ## Megjegyzés
 
 A spanyol nyelvtanulók túlnyomó többsége soha nem fogja használni ezt az igeidőt. Modern kontextusban a következő helyettesítések használatosak:
 
+{% practicetable %}
 Futuro de Subjuntivo (régi)|Modern helyettesítés
 ----|----
 Si yo **hablare**|Si yo **hablo** / Si yo **hablara**
 Cuando **llegares**|Cuando **llegues**
 Donde **fuere**|Donde **vaya** / Donde **sea**
+{% endpracticetable %}
 
 > Csak akkor foglalkozz ezzel az igeidővel, ha jogi spanyolt tanulsz, vagy klasszikus irodalmat olvasol.

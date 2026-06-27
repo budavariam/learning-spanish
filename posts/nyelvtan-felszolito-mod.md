@@ -6,12 +6,14 @@ tags:
   - nyelvtan
   - igemód
 layout: layouts/post.njk
+practice: true
 ---
 
 ## Képzési szabály
 
 Az igék 3 csoportjára amik nem rendhagyóak:
 
+{% practicetable %}
 &nbsp;|-ar|-er|-ir
 ----|----|----|----
 &nbsp;|hablar|comer|vivir
@@ -21,6 +23,7 @@ tú|habl**a** - no habl**es**|com**e** - no com**as**|viv**e** - no viv**as**
 nosotros/nosotras|habl**emos** - no habl**emos**|com**amos** - no com**amos**|viv**amos** - no viv**amos**
 vosotros|habl**ad** - no habl**éis**|com**ed** - no com**áis**|viv**id** - no viv**áis**
 ellos/ellas/ustedes|habl**en** - no habl**en**|com**an** - no com**an**|viv**an** - no viv**an**
+{% endpracticetable %}
 
 - E/1-ben nem értelmezett
 - E/2 esetén a [kijelentő mód]({{'/posts/nyelvtan-jelen-ido/' | url }}) E/3 alakjával történik
@@ -35,6 +38,7 @@ ellos/ellas/ustedes|habl**en** - no habl**en**|com**an** - no com**an**|viv**an*
 
 ## Példamondatok
 
+{% practicesent %}
 - *¡Habla español con tus amigos!* - Beszélj spanyolul a barátaiddal!
 - *Come en casa, es más saludable.* - Egyél otthon, egészségesebb.
 - *Ve al trabajo temprano mañana.* - Menj dolgozni korán holnap.
@@ -46,8 +50,22 @@ ellos/ellas/ustedes|habl**en** - no habl**en**|com**an** - no com**an**|viv**an*
 - *Ten paciencia y tendrás tiempo.* - Legyen türelmed és lesz időd.
 - *Aprended todo lo que podáis.* - Tanuljatok mindent, amit tudtok.
 
+<!-- extras -->
+- *¡Lee este libro, te gustará!* - Olvasd el ezt a könyvet, tetszeni fog!
+- *Bebed agua, no refrescos.* - Igyatok vizet, ne üdítőt.
+- *Escribe tu nombre aquí, por favor.* - Írd ide a neved, kérem.
+- *¡Corre más rápido, vamos a llegar tarde!* - Fuss gyorsabban, elkésünk!
+- *Vended el coche si no lo necesitáis.* - Adjátok el az autót, ha nem kell.
+- *Escucha bien las instrucciones.* - Hallgasd meg jól az utasításokat.
+- *¡Abrid las ventanas, hace calor!* - Nyissátok ki az ablakokat, meleg van!
+- *Reciba este regalo con nuestro agradecimiento.* - Fogadja ezt az ajándékot köszönetünk jeléül.
+- *Duerme ocho horas cada noche.* - Aludj nyolc órát minden éjjel.
+- *Comprende bien antes de responder.* - Értsd meg jól, mielőtt válaszolsz.
+{% endpracticesent %}
+
 ## Rendhagyó igék
 
+{% practicetable %}
 &nbsp;|E/2|E/3|T/1|T/2|T/3
 ----|----|----|----|----|----
 cerrar|c**ie**rra|c**ie**rre|cerremos|cerrad|c**ie**rren
@@ -59,3 +77,4 @@ salir|sal|salga|salgamos|salid|salgan
 ser|sé|sea|seamos|sed|sean
 tener|ten|tenga|tengamos|tened|tengan
 venir|ven|venga|vengamos|venid|vengan
+{% endpracticetable %}
