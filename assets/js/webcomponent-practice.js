@@ -59,7 +59,7 @@
       if (!toBlank.has(i)) {
         return token.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
       }
-      const w = Math.max(token.length * 0.8, 2).toFixed(1);
+      const w = Math.max(token.length * 1.1, 2).toFixed(1);
       return `<input class="practice-input" type="text" data-answer="${token.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151 sz\xF3"${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
     }).join("");
   }
@@ -78,11 +78,35 @@
   function applyBlank(cell) {
     var _a, _b, _c, _d;
     const answer = ((_a = cell.textContent) != null ? _a : "").replace(/ /g, " ").trim();
-    const w = Math.max(answer.length * 0.8, 3).toFixed(1);
+    const w = Math.max(answer.length * 1.1, 3).toFixed(1);
     const th = (_c = (_b = cell.closest("table")) == null ? void 0 : _b.querySelector("thead tr")) == null ? void 0 : _c.querySelectorAll("th")[cell.cellIndex];
     const lang = (_d = th == null ? void 0 : th.getAttribute("lang")) != null ? _d : "";
     const langAttr = lang ? ` lang="${lang}"` : "";
     cell.innerHTML = `<input class="practice-input" type="text" data-answer="${answer.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151"${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
+  }
+  function removeRevealBtn(input) {
+    const next = input.nextElementSibling;
+    if (next == null ? void 0 : next.classList.contains("practice-reveal")) next.remove();
+  }
+  function addRevealBtn(input) {
+    var _a;
+    removeRevealBtn(input);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "practice-reveal";
+    btn.textContent = "\u2192";
+    btn.title = (_a = input.dataset.answer) != null ? _a : "";
+    btn.addEventListener("click", () => {
+      var _a2;
+      input.value = (_a2 = input.dataset.answer) != null ? _a2 : "";
+      input.classList.remove("practice-input--wrong");
+      input.classList.add("practice-input--correct");
+      input.setAttribute("aria-invalid", "false");
+      input.setAttribute("aria-label", "Kit\xF6ltend\u0151");
+      delete input.dataset.checkedValue;
+      btn.remove();
+    });
+    input.insertAdjacentElement("afterend", btn);
   }
   function checkInputs(container) {
     const inputs = container.querySelectorAll(".practice-input");
@@ -96,14 +120,17 @@
       if (!ok) {
         input.setAttribute("aria-label", `Helytelen - helyes: ${(_b = input.dataset.answer) != null ? _b : ""}`);
         input.dataset.checkedValue = input.value;
+        addRevealBtn(input);
       } else {
         delete input.dataset.checkedValue;
+        removeRevealBtn(input);
       }
       if (ok) correct++;
       if (!input.dataset.listenerAttached) {
         input.dataset.listenerAttached = "1";
         input.addEventListener("input", () => {
           document.dispatchEvent(new CustomEvent(QUIZ_ANSWER_CHANGED));
+          removeRevealBtn(input);
           const isRepeatWrong = "checkedValue" in input.dataset && input.value === input.dataset.checkedValue;
           input.classList.toggle("practice-input--wrong", isRepeatWrong);
           input.classList.remove("practice-input--correct");
@@ -281,7 +308,7 @@
       const uid = String(this._id);
       const ctrl = document.createElement("div");
       ctrl.className = "psent-controls";
-      ctrl.innerHTML = `<details class="psent-details"><summary class="psent-summary">\u270F \xD6nellen\u0151rz\xE9s</summary><div class="psent-panel"><label class="psent-check-label"><input type="checkbox" class="psent-randomize" checked>V\xE9letlenszer\u0171 sorrend</label><div class="psent-direction" role="radiogroup" aria-label="Gyakorl\xE1s ir\xE1nya"><label><input type="radio" name="psent-dir-${uid}" value="tgt" checked> Spanyol \u2192 Magyar</label><label><input type="radio" name="psent-dir-${uid}" value="src"> Magyar \u2192 Spanyol</label></div><label class="psent-label">Er\u0151ss\xE9g: <input class="psent-slider" type="range" min="0" max="100" value="${pct}"><output class="psent-output">${pct}</output>%</label><button class="psent-start">\u25B6 Ind\xEDt\xE1s</button></div></details><div class="psent-status" hidden aria-live="polite"><span class="psent-status-label">\u270F akt\xEDv</span><button class="psent-reset">\u21BA Vissza\xE1ll\xEDt\xE1s</button></div>`;
+      ctrl.innerHTML = `<details class="psent-details"><summary class="psent-summary">\u270F \xD6nellen\u0151rz\xE9s</summary><div class="psent-panel"><label class="psent-check-label"><input type="checkbox" class="psent-randomize" checked>V\xE9letlenszer\u0171 sorrend</label><div class="psent-direction" role="radiogroup" aria-label="Gyakorl\xE1s ir\xE1nya"><label><input type="radio" name="psent-dir-${uid}" value="tgt"> Spanyol \u2192 Magyar</label><label><input type="radio" name="psent-dir-${uid}" value="src" checked> Magyar \u2192 Spanyol</label></div><label class="psent-label">Er\u0151ss\xE9g: <input class="psent-slider" type="range" min="0" max="100" value="${pct}"><output class="psent-output">${pct}</output>%</label><button class="psent-start">\u25B6 Ind\xEDt\xE1s</button></div></details><div class="psent-status" hidden aria-live="polite"><span class="psent-status-label">\u270F akt\xEDv</span><button class="psent-reset">\u21BA Vissza\xE1ll\xEDt\xE1s</button></div>`;
       this.append(ctrl);
       const slider = ctrl.querySelector(".psent-slider");
       const output = ctrl.querySelector(".psent-output");
