@@ -124,7 +124,7 @@ export function renderWordBlanks(text: string, percent: number, rng: () => numbe
     if (!toBlank.has(i)) {
       return token.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
-    const w = Math.max(token.length * 0.8, 2).toFixed(1);
+    const w = Math.max(token.length * 1.1, 2).toFixed(1);
     return `<input class="practice-input" type="text"` +
       ` data-answer="${token.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` +
       ` aria-label="Kitöltendő szó"` +
@@ -157,7 +157,7 @@ function generateSeed(): number {
 
 function applyBlank(cell: HTMLTableCellElement): void {
   const answer = (cell.textContent ?? '').replace(/ /g, ' ').trim();
-  const w = Math.max(answer.length * 0.8, 3).toFixed(1);
+  const w = Math.max(answer.length * 1.1, 3).toFixed(1);
   const th = cell.closest('table')?.querySelector('thead tr')
     ?.querySelectorAll('th')[cell.cellIndex];
   const lang = th?.getAttribute('lang') ?? '';
@@ -167,6 +167,30 @@ function applyBlank(cell: HTMLTableCellElement): void {
     ` data-answer="${answer.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` +
     ` aria-label="Kitöltendő"` +
     `${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
+}
+
+function removeRevealBtn(input: HTMLInputElement): void {
+  const next = input.nextElementSibling;
+  if (next?.classList.contains('practice-reveal')) next.remove();
+}
+
+function addRevealBtn(input: HTMLInputElement): void {
+  removeRevealBtn(input);
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'practice-reveal';
+  btn.textContent = '→';
+  btn.title = input.dataset.answer ?? '';
+  btn.addEventListener('click', () => {
+    input.value = input.dataset.answer ?? '';
+    input.classList.remove('practice-input--wrong');
+    input.classList.add('practice-input--correct');
+    input.setAttribute('aria-invalid', 'false');
+    input.setAttribute('aria-label', 'Kitöltendő');
+    delete input.dataset.checkedValue;
+    btn.remove();
+  });
+  input.insertAdjacentElement('afterend', btn);
 }
 
 function checkInputs(container: HTMLElement): void {
@@ -179,10 +203,11 @@ function checkInputs(container: HTMLElement): void {
     input.setAttribute('aria-invalid', ok ? 'false' : 'true');
     if (!ok) {
       input.setAttribute('aria-label', `Helytelen - helyes: ${input.dataset.answer ?? ''}`);
-      /* Remember the exact wrong value so we can re-highlight it on re-type. */
       input.dataset.checkedValue = input.value;
+      addRevealBtn(input);
     } else {
       delete input.dataset.checkedValue;
+      removeRevealBtn(input);
     }
     if (ok) correct++;
 
@@ -192,6 +217,7 @@ function checkInputs(container: HTMLElement): void {
       input.dataset.listenerAttached = '1';
       input.addEventListener('input', () => {
         document.dispatchEvent(new CustomEvent(QUIZ_ANSWER_CHANGED));
+        removeRevealBtn(input);
         const isRepeatWrong =
           'checkedValue' in input.dataset && input.value === input.dataset.checkedValue;
         input.classList.toggle('practice-input--wrong', isRepeatWrong);
@@ -421,8 +447,8 @@ class PracticeSentences extends HTMLElement {
             `Véletlenszerű sorrend` +
           `</label>` +
           `<div class="psent-direction" role="radiogroup" aria-label="Gyakorlás iránya">` +
-            `<label><input type="radio" name="psent-dir-${uid}" value="tgt" checked> Spanyol → Magyar</label>` +
-            `<label><input type="radio" name="psent-dir-${uid}" value="src"> Magyar → Spanyol</label>` +
+            `<label><input type="radio" name="psent-dir-${uid}" value="tgt"> Spanyol → Magyar</label>` +
+            `<label><input type="radio" name="psent-dir-${uid}" value="src" checked> Magyar → Spanyol</label>` +
           `</div>` +
           `<label class="psent-label">` +
             `Erősség: <input class="psent-slider" type="range" min="0" max="100" value="${pct}">` +

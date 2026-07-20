@@ -478,6 +478,20 @@ practice-pair[hidden] {
   background-color: rgba(200, 0, 0, 0.15);
   border-bottom-color: crimson;
 }
+.practice-reveal {
+  font-size: 0.75em;
+  padding: 0 5px;
+  margin-left: 2px;
+  cursor: pointer;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  background: transparent;
+  color: inherit;
+  opacity: 0.55;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+.practice-reveal:hover { opacity: 1; }
 
 /* per-table controls (embedded inside <practice-table>) */
 .ptable-controls {

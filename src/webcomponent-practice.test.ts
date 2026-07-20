@@ -316,6 +316,61 @@ describe('practice-table', () => {
     if (inputs[1]) expect(inputs[1].classList.contains('practice-input--wrong')).toBe(true);
   });
 
+  test('reveal button appears next to wrong inputs after quiz:check', () => {
+    startTable(el, 100, SEED);
+    const inputs = Array.from(el.querySelectorAll<HTMLInputElement>('.practice-input'));
+    inputs.forEach(i => { i.value = ''; });
+    dispatch('quiz:check');
+    inputs.forEach(i => {
+      const btn = i.nextElementSibling;
+      expect(btn?.classList.contains('practice-reveal')).toBe(true);
+    });
+  });
+
+  test('no reveal button appears next to correct inputs after quiz:check', () => {
+    startTable(el, 100, SEED);
+    const inputs = Array.from(el.querySelectorAll<HTMLInputElement>('.practice-input'));
+    inputs.forEach(i => { i.value = i.dataset.answer!; });
+    dispatch('quiz:check');
+    inputs.forEach(i => {
+      expect(i.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+    });
+  });
+
+  test('clicking reveal button fills the correct answer and marks input correct', () => {
+    startTable(el, 100, SEED);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    const btn = inp.nextElementSibling as HTMLButtonElement;
+    expect(btn?.classList.contains('practice-reveal')).toBe(true);
+    btn.click();
+    expect(inp.value).toBe(inp.dataset.answer);
+    expect(inp.classList.contains('practice-input--correct')).toBe(true);
+    expect(inp.classList.contains('practice-input--wrong')).toBe(false);
+  });
+
+  test('clicking reveal button removes the reveal button', () => {
+    startTable(el, 100, SEED);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    const btn = inp.nextElementSibling as HTMLButtonElement;
+    btn.click();
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+  });
+
+  test('typing in wrong input removes the reveal button', () => {
+    startTable(el, 100, SEED);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
+    inp.value = 'something';
+    inp.dispatchEvent(new Event('input'));
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+  });
+
   test('case-insensitive answer comparison', () => {
     startTable(el, 100, SEED);
     const inp = el.querySelector<HTMLInputElement>('.practice-input');
@@ -423,6 +478,55 @@ describe('practice-pair', () => {
     inp.dispatchEvent(new Event('input'));
     document.removeEventListener('quiz:answer-changed', l);
     expect(events).toHaveLength(1);
+  });
+
+  test('reveal button appears next to wrong input after quiz:check', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
+  });
+
+  test('no reveal button next to correct input after quiz:check', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = inp.dataset.answer!;
+    dispatch('quiz:check');
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+  });
+
+  test('clicking reveal button fills the answer, marks correct, removes button', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    const btn = inp.nextElementSibling as HTMLButtonElement;
+    btn.click();
+    expect(inp.value).toBe(inp.dataset.answer);
+    expect(inp.classList.contains('practice-input--correct')).toBe(true);
+    expect(inp.classList.contains('practice-input--wrong')).toBe(false);
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+  });
+
+  test('typing after check removes the reveal button', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
+    inp.value = 'something';
+    inp.dispatchEvent(new Event('input'));
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+  });
+
+  test('reveal button title shows the correct answer', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    const btn = inp.nextElementSibling as HTMLButtonElement;
+    expect(btn.title).toBe(inp.dataset.answer);
   });
 });
 
