@@ -45,7 +45,7 @@
     }
     return result;
   }
-  function renderWordBlanks(text, percent, rng) {
+  function renderWordBlanks(text, percent, rng, lang = "") {
     const tokens = text.trim().split(/(\s+)/);
     const wordIdxs = tokens.reduce((acc, t, i) => {
       if (t.trim().length > 0) acc.push(i);
@@ -54,12 +54,13 @@
     const target = percent === 0 ? 0 : Math.max(Math.round(wordIdxs.length * percent / 100), 1);
     const shuffled = shuffleIndices(wordIdxs.length, rng);
     const toBlank = new Set(shuffled.slice(0, target).map((si) => wordIdxs[si]));
+    const langAttr = lang ? ` lang="${lang}"` : "";
     return tokens.map((token, i) => {
       if (!toBlank.has(i)) {
         return token.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
       }
       const w = Math.max(token.length * 0.8, 2).toFixed(1);
-      return `<input class="practice-input" type="text" data-answer="${token.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151 sz\xF3" style="width:${w}em" autocomplete="off" spellcheck="false">`;
+      return `<input class="practice-input" type="text" data-answer="${token.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151 sz\xF3"${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
     }).join("");
   }
   var QUIZ_START = "quiz:start";
@@ -75,10 +76,13 @@
     return (typeof performance !== "undefined" ? Math.floor(performance.now() * 1e3) : Date.now()) >>> 0;
   }
   function applyBlank(cell) {
-    var _a;
+    var _a, _b, _c, _d;
     const answer = ((_a = cell.textContent) != null ? _a : "").replace(/ /g, " ").trim();
     const w = Math.max(answer.length * 0.8, 3).toFixed(1);
-    cell.innerHTML = `<input class="practice-input" type="text" data-answer="${answer.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151" style="width:${w}em" autocomplete="off" spellcheck="false">`;
+    const th = (_c = (_b = cell.closest("table")) == null ? void 0 : _b.querySelector("thead tr")) == null ? void 0 : _c.querySelectorAll("th")[cell.cellIndex];
+    const lang = (_d = th == null ? void 0 : th.getAttribute("lang")) != null ? _d : "";
+    const langAttr = lang ? ` lang="${lang}"` : "";
+    cell.innerHTML = `<input class="practice-input" type="text" data-answer="${answer.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151"${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
   }
   function checkInputs(container) {
     const inputs = container.querySelectorAll(".practice-input");
@@ -248,8 +252,9 @@
       const tgt = (_b = this.getAttribute("tgt")) != null ? _b : "";
       const shown = direction === "tgt" ? src : tgt;
       const blanked = direction === "tgt" ? tgt : src;
+      const lang = direction === "tgt" ? "hu" : "es";
       const rng = createRng(seed >>> 0);
-      this.innerHTML = `<span class="practice-pair practice-pair--active"><em>${shown}</em> - ` + renderWordBlanks(blanked, percent, rng) + `</span>`;
+      this.innerHTML = `<span class="practice-pair practice-pair--active"><em>${shown}</em> - ` + renderWordBlanks(blanked, percent, rng, lang) + `</span>`;
     }
     deactivate() {
       this._renderNormal();
