@@ -108,7 +108,7 @@ export function selectCellsToBlank(
  * inline inputs, keep the rest as plain text. Returns an HTML string.
  * At percent=0 returns escaped text; at percent=100 all words are inputs.
  */
-export function renderWordBlanks(text: string, percent: number, rng: () => number): string {
+export function renderWordBlanks(text: string, percent: number, rng: () => number, lang = ''): string {
   const tokens = text.trim().split(/(\s+)/);
   const wordIdxs = tokens.reduce<number[]>((acc, t, i) => {
     if (t.trim().length > 0) acc.push(i);
@@ -118,6 +118,7 @@ export function renderWordBlanks(text: string, percent: number, rng: () => numbe
   const target  = percent === 0 ? 0 : Math.max(Math.round(wordIdxs.length * percent / 100), 1);
   const shuffled = shuffleIndices(wordIdxs.length, rng);
   const toBlank  = new Set(shuffled.slice(0, target).map(si => wordIdxs[si]));
+  const langAttr = lang ? ` lang="${lang}"` : '';
 
   return tokens.map((token, i) => {
     if (!toBlank.has(i)) {
@@ -127,7 +128,7 @@ export function renderWordBlanks(text: string, percent: number, rng: () => numbe
     return `<input class="practice-input" type="text"` +
       ` data-answer="${token.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` +
       ` aria-label="Kitöltendő szó"` +
-      ` style="width:${w}em" autocomplete="off" spellcheck="false">`;
+      `${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
   }).join('');
 }
 
@@ -157,11 +158,15 @@ function generateSeed(): number {
 function applyBlank(cell: HTMLTableCellElement): void {
   const answer = (cell.textContent ?? '').replace(/ /g, ' ').trim();
   const w = Math.max(answer.length * 0.8, 3).toFixed(1);
+  const th = cell.closest('table')?.querySelector('thead tr')
+    ?.querySelectorAll('th')[cell.cellIndex];
+  const lang = th?.getAttribute('lang') ?? '';
+  const langAttr = lang ? ` lang="${lang}"` : '';
   cell.innerHTML =
     `<input class="practice-input" type="text"` +
     ` data-answer="${answer.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` +
     ` aria-label="Kitöltendő"` +
-    ` style="width:${w}em" autocomplete="off" spellcheck="false">`;
+    `${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
 }
 
 function checkInputs(container: HTMLElement): void {
@@ -371,11 +376,12 @@ class PracticePair extends HTMLElement {
     const tgt     = this.getAttribute('tgt') ?? '';
     const shown   = direction === 'tgt' ? src : tgt;
     const blanked = direction === 'tgt' ? tgt : src;
+    const lang    = direction === 'tgt' ? 'hu' : 'es';
     const rng     = createRng(seed >>> 0);
     this.innerHTML =
       `<span class="practice-pair practice-pair--active">` +
         `<em>${shown}</em> - ` +
-        renderWordBlanks(blanked, percent, rng) +
+        renderWordBlanks(blanked, percent, rng, lang) +
       `</span>`;
   }
 
