@@ -59,8 +59,8 @@
       if (!toBlank.has(i)) {
         return token.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
       }
-      const w = (Math.max(token.length * 1.1, 2) + 1.8).toFixed(1);
-      return `<span class="practice-input-wrap" style="width:${w}em"><input class="practice-input" type="text" data-answer="${token.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151 sz\xF3"${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none"></span>`;
+      const w = `calc(${token.length}ch + 1.4em)`;
+      return `<span class="practice-input-wrap" style="width:${w}"><input class="practice-input" type="text" data-answer="${token.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151 sz\xF3"${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none"></span>`;
     }).join("");
   }
   var QUIZ_START = "quiz:start";
@@ -78,11 +78,11 @@
   function applyBlank(cell) {
     var _a, _b, _c, _d;
     const answer = ((_a = cell.textContent) != null ? _a : "").replace(/ /g, " ").trim();
-    const w = (Math.max(answer.length * 1.1, 2) + 1.8).toFixed(1);
+    const w = `calc(${answer.length}ch + 1.4em)`;
     const th = (_c = (_b = cell.closest("table")) == null ? void 0 : _b.querySelector("thead tr")) == null ? void 0 : _c.querySelectorAll("th")[cell.cellIndex];
     const lang = (_d = th == null ? void 0 : th.getAttribute("lang")) != null ? _d : "";
     const langAttr = lang ? ` lang="${lang}"` : "";
-    cell.innerHTML = `<span class="practice-input-wrap" style="width:${w}em"><input class="practice-input" type="text" data-answer="${answer.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151"${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none"></span>`;
+    cell.innerHTML = `<span class="practice-input-wrap" style="width:${w}"><input class="practice-input" type="text" data-answer="${answer.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151"${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none"></span>`;
   }
   var EYE_OPEN = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`;
   var EYE_CLOSED = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>`;
