@@ -498,7 +498,7 @@ practice-pair[hidden] {
 }
 .practice-reveal {
   position: absolute;
-  right: 0;
+  right: var(--practice-reveal-gap);
   top: 50%;
   transform: translateY(-50%);
   width: var(--practice-reveal-width);
