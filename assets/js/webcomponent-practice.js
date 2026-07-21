@@ -59,7 +59,8 @@
       if (!toBlank.has(i)) {
         return token.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
       }
-      const w = `calc(${token.length}ch + 1.4em)`;
+      const extraCh = Math.max(Math.ceil(token.length * 0.2), 1);
+      const w = `calc(${token.length + extraCh}ch + var(--practice-input-pad-right) + var(--practice-input-pad-left))`;
       return `<span class="practice-input-wrap" style="width:${w}"><input class="practice-input" type="text" data-answer="${token.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}" aria-label="Kit\xF6ltend\u0151 sz\xF3"${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none"></span>`;
     }).join("");
   }
@@ -78,7 +79,8 @@
   function applyBlank(cell) {
     var _a, _b, _c, _d;
     const answer = ((_a = cell.textContent) != null ? _a : "").replace(/ /g, " ").trim();
-    const w = `calc(${answer.length}ch + 1.4em)`;
+    const extraCh = Math.max(Math.ceil(answer.length * 0.2), 1);
+    const w = `calc(${answer.length + extraCh}ch + var(--practice-input-pad-right) + var(--practice-input-pad-left))`;
     const th = (_c = (_b = cell.closest("table")) == null ? void 0 : _b.querySelector("thead tr")) == null ? void 0 : _c.querySelectorAll("th")[cell.cellIndex];
     const lang = (_d = th == null ? void 0 : th.getAttribute("lang")) != null ? _d : "";
     const langAttr = lang ? ` lang="${lang}"` : "";
