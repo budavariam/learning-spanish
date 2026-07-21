@@ -134,7 +134,7 @@ describe('renderWordBlanks', () => {
 
   test('percent=100 blanks all words', () => {
     const out = renderWordBlanks('Yo hablo español.', 100, createRng(1));
-    const inputs = (out.match(/practice-input/g) ?? []).length;
+    const inputs = (out.match(/class="practice-input"/g) ?? []).length;
     expect(inputs).toBe(3); // "Yo", "hablo", "español."
   });
 
@@ -322,8 +322,7 @@ describe('practice-table', () => {
     inputs.forEach(i => { i.value = ''; });
     dispatch('quiz:check');
     inputs.forEach(i => {
-      const btn = i.nextElementSibling;
-      expect(btn?.classList.contains('practice-reveal')).toBe(true);
+      expect(i.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
     });
   });
 
@@ -337,38 +336,63 @@ describe('practice-table', () => {
     });
   });
 
-  test('clicking reveal button fills the correct answer and marks input correct', () => {
+  test('reveal button starts with closed-eye aria-label', () => {
     startTable(el, 100, SEED);
     const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
     inp.value = 'wrong';
     dispatch('quiz:check');
     const btn = inp.nextElementSibling as HTMLButtonElement;
-    expect(btn?.classList.contains('practice-reveal')).toBe(true);
+    expect(btn.getAttribute('aria-label')).toBe('Megoldás megmutatása');
+  });
+
+  test('clicking closed-eye shows correct answer, disables input, switches to open-eye', () => {
+    startTable(el, 100, SEED);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    const btn = inp.nextElementSibling as HTMLButtonElement;
     btn.click();
     expect(inp.value).toBe(inp.dataset.answer);
-    expect(inp.classList.contains('practice-input--correct')).toBe(true);
-    expect(inp.classList.contains('practice-input--wrong')).toBe(false);
+    expect(inp.readOnly).toBe(true);
+    expect(inp.classList.contains('practice-input--peeking')).toBe(true);
+    expect(btn.getAttribute('aria-label')).toBe('Megoldás elrejtése');
   });
 
-  test('clicking reveal button removes the reveal button', () => {
+  test('clicking open-eye restores wrong value and makes input writable', () => {
     startTable(el, 100, SEED);
     const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
     inp.value = 'wrong';
     dispatch('quiz:check');
     const btn = inp.nextElementSibling as HTMLButtonElement;
-    btn.click();
-    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+    btn.click(); // open eye
+    btn.click(); // close eye
+    expect(inp.value).toBe('wrong');
+    expect(inp.readOnly).toBe(false);
+    expect(inp.classList.contains('practice-input--peeking')).toBe(false);
+    expect(btn.getAttribute('aria-label')).toBe('Megoldás megmutatása');
   });
 
-  test('typing in wrong input removes the reveal button', () => {
+  test('re-checking while peeking closes peek and keeps input marked wrong', () => {
     startTable(el, 100, SEED);
     const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
     inp.value = 'wrong';
     dispatch('quiz:check');
-    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
+    (inp.nextElementSibling as HTMLButtonElement).click(); // open peek
+    expect(inp.classList.contains('practice-input--peeking')).toBe(true);
+    dispatch('quiz:check');
+    expect(inp.classList.contains('practice-input--peeking')).toBe(false);
+    expect(inp.value).toBe('wrong');
+    expect(inp.classList.contains('practice-input--wrong')).toBe(true);
+  });
+
+  test('typing after check keeps the reveal button visible', () => {
+    startTable(el, 100, SEED);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
     inp.value = 'something';
     inp.dispatchEvent(new Event('input'));
-    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
   });
 
   test('case-insensitive answer comparison', () => {
@@ -427,7 +451,7 @@ describe('practice-pair', () => {
     // some words blanked, some plain
     expect(html).toContain('<input');
     // not all 3 words blanked (span should have some plain text too)
-    const inputCount = (html.match(/practice-input/g) ?? []).length;
+    const inputCount = (html.match(/class="practice-input"/g) ?? []).length;
     expect(inputCount).toBeGreaterThan(0);
     expect(inputCount).toBeLessThan(3); // "Én spanyolul beszélek." = 3 words
   });
@@ -496,7 +520,15 @@ describe('practice-pair', () => {
     expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
   });
 
-  test('clicking reveal button fills the answer, marks correct, removes button', () => {
+  test('reveal button starts with closed-eye aria-label', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    expect(inp.nextElementSibling?.getAttribute('aria-label')).toBe('Megoldás megmutatása');
+  });
+
+  test('clicking closed-eye shows correct answer, disables input, switches to open-eye', () => {
     (el as any).activate(100, 'tgt', 1);
     const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
     inp.value = 'wrong';
@@ -504,29 +536,56 @@ describe('practice-pair', () => {
     const btn = inp.nextElementSibling as HTMLButtonElement;
     btn.click();
     expect(inp.value).toBe(inp.dataset.answer);
-    expect(inp.classList.contains('practice-input--correct')).toBe(true);
-    expect(inp.classList.contains('practice-input--wrong')).toBe(false);
-    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
+    expect(inp.readOnly).toBe(true);
+    expect(inp.classList.contains('practice-input--peeking')).toBe(true);
+    expect(btn.getAttribute('aria-label')).toBe('Megoldás elrejtése');
   });
 
-  test('typing after check removes the reveal button', () => {
-    (el as any).activate(100, 'tgt', 1);
-    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
-    inp.value = 'wrong';
-    dispatch('quiz:check');
-    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
-    inp.value = 'something';
-    inp.dispatchEvent(new Event('input'));
-    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBeFalsy();
-  });
-
-  test('reveal button title shows the correct answer', () => {
+  test('clicking open-eye restores wrong value and makes input writable', () => {
     (el as any).activate(100, 'tgt', 1);
     const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
     inp.value = 'wrong';
     dispatch('quiz:check');
     const btn = inp.nextElementSibling as HTMLButtonElement;
-    expect(btn.title).toBe(inp.dataset.answer);
+    btn.click(); // open eye
+    btn.click(); // close eye
+    expect(inp.value).toBe('wrong');
+    expect(inp.readOnly).toBe(false);
+    expect(inp.classList.contains('practice-input--peeking')).toBe(false);
+    expect(btn.getAttribute('aria-label')).toBe('Megoldás megmutatása');
+  });
+
+  test('peeking preserves the users typed value for restore', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'partial';
+    dispatch('quiz:check');
+    const btn = inp.nextElementSibling as HTMLButtonElement;
+    btn.click(); // open — captures 'partial'
+    btn.click(); // close — restores 'partial'
+    expect(inp.value).toBe('partial');
+  });
+
+  test('re-checking while peeking closes peek and keeps input marked wrong', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    (inp.nextElementSibling as HTMLButtonElement).click(); // open peek
+    dispatch('quiz:check');
+    expect(inp.classList.contains('practice-input--peeking')).toBe(false);
+    expect(inp.value).toBe('wrong');
+    expect(inp.classList.contains('practice-input--wrong')).toBe(true);
+  });
+
+  test('typing after check keeps the reveal button visible', () => {
+    (el as any).activate(100, 'tgt', 1);
+    const inp = el.querySelector<HTMLInputElement>('.practice-input')!;
+    inp.value = 'wrong';
+    dispatch('quiz:check');
+    inp.value = 'something';
+    inp.dispatchEvent(new Event('input'));
+    expect(inp.nextElementSibling?.classList.contains('practice-reveal')).toBe(true);
   });
 });
 

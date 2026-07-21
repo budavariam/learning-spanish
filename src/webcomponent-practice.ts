@@ -124,11 +124,14 @@ export function renderWordBlanks(text: string, percent: number, rng: () => numbe
     if (!toBlank.has(i)) {
       return token.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
-    const w = Math.max(token.length * 1.1, 2).toFixed(1);
-    return `<input class="practice-input" type="text"` +
+    const extraCh = Math.max(Math.ceil(token.length * 0.2), 1);
+    const w = `calc(${token.length + extraCh}ch + var(--practice-input-pad-right) + var(--practice-input-pad-left))`;
+    return `<span class="practice-input-wrap" style="width:${w}">` +
+      `<input class="practice-input" type="text"` +
       ` data-answer="${token.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` +
       ` aria-label="Kitöltendő szó"` +
-      `${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
+      `${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">` +
+      `</span>`;
   }).join('');
 }
 
@@ -157,21 +160,41 @@ function generateSeed(): number {
 
 function applyBlank(cell: HTMLTableCellElement): void {
   const answer = (cell.textContent ?? '').replace(/ /g, ' ').trim();
-  const w = Math.max(answer.length * 1.1, 3).toFixed(1);
+  const extraCh = Math.max(Math.ceil(answer.length * 0.2), 1);
+  const w = `calc(${answer.length + extraCh}ch + var(--practice-input-pad-right) + var(--practice-input-pad-left))`;
   const th = cell.closest('table')?.querySelector('thead tr')
     ?.querySelectorAll('th')[cell.cellIndex];
   const lang = th?.getAttribute('lang') ?? '';
   const langAttr = lang ? ` lang="${lang}"` : '';
   cell.innerHTML =
+    `<span class="practice-input-wrap" style="width:${w}">` +
     `<input class="practice-input" type="text"` +
     ` data-answer="${answer.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}"` +
     ` aria-label="Kitöltendő"` +
-    `${langAttr} style="width:${w}em" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">`;
+    `${langAttr} autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">` +
+    `</span>`;
 }
+
+const EYE_OPEN = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>`;
+const EYE_CLOSED = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>`;
 
 function removeRevealBtn(input: HTMLInputElement): void {
   const next = input.nextElementSibling;
   if (next?.classList.contains('practice-reveal')) next.remove();
+}
+
+function closePeek(input: HTMLInputElement): void {
+  if (!('peeking' in input.dataset)) return;
+  input.value = input.dataset.peekRestore ?? '';
+  input.readOnly = false;
+  input.classList.remove('practice-input--peeking');
+  delete input.dataset.peeking;
+  delete input.dataset.peekRestore;
+  const btn = input.nextElementSibling;
+  if (btn?.classList.contains('practice-reveal')) {
+    (btn as HTMLElement).innerHTML = EYE_CLOSED;
+    btn.setAttribute('aria-label', 'Megoldás megmutatása');
+  }
 }
 
 function addRevealBtn(input: HTMLInputElement): void {
@@ -179,16 +202,20 @@ function addRevealBtn(input: HTMLInputElement): void {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'practice-reveal';
-  btn.textContent = '→';
-  btn.title = input.dataset.answer ?? '';
+  btn.innerHTML = EYE_CLOSED;
+  btn.setAttribute('aria-label', 'Megoldás megmutatása');
   btn.addEventListener('click', () => {
-    input.value = input.dataset.answer ?? '';
-    input.classList.remove('practice-input--wrong');
-    input.classList.add('practice-input--correct');
-    input.setAttribute('aria-invalid', 'false');
-    input.setAttribute('aria-label', 'Kitöltendő');
-    delete input.dataset.checkedValue;
-    btn.remove();
+    if ('peeking' in input.dataset) {
+      closePeek(input);
+    } else {
+      input.dataset.peekRestore = input.value;
+      input.dataset.peeking = '1';
+      input.value = input.dataset.answer ?? '';
+      input.readOnly = true;
+      input.classList.add('practice-input--peeking');
+      btn.innerHTML = EYE_OPEN;
+      btn.setAttribute('aria-label', 'Megoldás elrejtése');
+    }
   });
   input.insertAdjacentElement('afterend', btn);
 }
@@ -197,6 +224,7 @@ function checkInputs(container: HTMLElement): void {
   const inputs = container.querySelectorAll<HTMLInputElement>('.practice-input');
   let correct = 0;
   inputs.forEach(input => {
+    closePeek(input);
     const ok = normalizeAnswer(input.value) === normalizeAnswer(input.dataset.answer ?? '');
     input.classList.toggle('practice-input--correct', ok);
     input.classList.toggle('practice-input--wrong',   !ok);
@@ -217,7 +245,6 @@ function checkInputs(container: HTMLElement): void {
       input.dataset.listenerAttached = '1';
       input.addEventListener('input', () => {
         document.dispatchEvent(new CustomEvent(QUIZ_ANSWER_CHANGED));
-        removeRevealBtn(input);
         const isRepeatWrong =
           'checkedValue' in input.dataset && input.value === input.dataset.checkedValue;
         input.classList.toggle('practice-input--wrong', isRepeatWrong);

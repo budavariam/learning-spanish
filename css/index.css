@@ -458,6 +458,18 @@ practice-pair[hidden] {
 }
 .psent-reset:hover { background: var(--text-background-hover); opacity: 1; }
 
+:root {
+  --practice-reveal-width: 1.2em;
+  --practice-reveal-gap: 0.2em;
+  --practice-input-pad-right: calc(var(--practice-reveal-width) + var(--practice-reveal-gap));
+  --practice-input-pad-left: 3px;
+}
+
+.practice-input-wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
 .practice-input {
   border: none;
   border-bottom: 2px solid currentColor;
@@ -465,8 +477,10 @@ practice-pair[hidden] {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  text-align: center;
-  padding: 0 2px;
+  text-align: left;
+  padding: 0 var(--practice-input-pad-right) 0 var(--practice-input-pad-left);
+  box-sizing: border-box;
+  width: 100%;
   outline: none;
   border-radius: 0;
 }
@@ -478,19 +492,28 @@ practice-pair[hidden] {
   background-color: rgba(200, 0, 0, 0.15);
   border-bottom-color: crimson;
 }
+.practice-input--peeking {
+  color: var(--text-color);
+  border-bottom-color: var(--color-gray-50);
+}
 .practice-reveal {
-  font-size: 0.75em;
-  padding: 0 5px;
-  margin-left: 2px;
+  position: absolute;
+  right: var(--practice-reveal-gap);
+  top: 50%;
+  transform: translateY(-50%);
+  width: var(--practice-reveal-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   cursor: pointer;
-  border: 1px solid currentColor;
-  border-radius: 3px;
+  border: none;
   background: transparent;
   color: inherit;
-  opacity: 0.55;
-  vertical-align: middle;
-  line-height: 1.4;
+  opacity: 0.45;
+  line-height: 1;
 }
+.practice-reveal svg { display: block; flex-shrink: 0; }
 .practice-reveal:hover { opacity: 1; }
 
 /* per-table controls (embedded inside <practice-table>) */
