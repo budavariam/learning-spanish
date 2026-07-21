@@ -478,6 +478,10 @@ practice-pair[hidden] {
   background-color: rgba(200, 0, 0, 0.15);
   border-bottom-color: crimson;
 }
+.practice-input--peeking {
+  color: var(--color-gray-50);
+  border-bottom-color: var(--color-gray-50);
+}
 .practice-reveal {
   font-size: 0.75em;
   padding: 0 5px;
@@ -491,6 +495,7 @@ practice-pair[hidden] {
   vertical-align: middle;
   line-height: 1.4;
 }
+.practice-reveal svg { display: inline-block; vertical-align: middle; }
 .practice-reveal:hover { opacity: 1; }
 
 /* per-table controls (embedded inside <practice-table>) */
