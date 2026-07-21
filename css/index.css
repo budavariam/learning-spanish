@@ -505,6 +505,7 @@ practice-pair[hidden] {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
   cursor: pointer;
   border: none;
   background: transparent;
@@ -512,7 +513,7 @@ practice-pair[hidden] {
   opacity: 0.45;
   line-height: 1;
 }
-.practice-reveal svg { display: block; }
+.practice-reveal svg { display: block; flex-shrink: 0; }
 .practice-reveal:hover { opacity: 1; }
 
 /* per-table controls (embedded inside <practice-table>) */
