@@ -458,6 +458,11 @@ practice-pair[hidden] {
 }
 .psent-reset:hover { background: var(--text-background-hover); opacity: 1; }
 
+.practice-input-wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
 .practice-input {
   border: none;
   border-bottom: 2px solid currentColor;
@@ -465,8 +470,10 @@ practice-pair[hidden] {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  text-align: center;
-  padding: 0 2px;
+  text-align: left;
+  padding: 0 1.8em 0 3px;
+  box-sizing: border-box;
+  width: 100%;
   outline: none;
   border-radius: 0;
 }
@@ -483,19 +490,19 @@ practice-pair[hidden] {
   border-bottom-color: var(--color-gray-50);
 }
 .practice-reveal {
-  font-size: 0.75em;
-  padding: 0 5px;
-  margin-left: 2px;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
-  border: 1px solid currentColor;
-  border-radius: 3px;
+  border: none;
   background: transparent;
   color: inherit;
-  opacity: 0.55;
-  vertical-align: middle;
-  line-height: 1.4;
+  opacity: 0.45;
+  padding: 0 1px;
+  line-height: 1;
 }
-.practice-reveal svg { display: inline-block; vertical-align: middle; }
+.practice-reveal svg { display: block; }
 .practice-reveal:hover { opacity: 1; }
 
 /* per-table controls (embedded inside <practice-table>) */
